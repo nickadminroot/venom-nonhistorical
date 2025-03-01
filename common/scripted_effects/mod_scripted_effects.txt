@@ -1,0 +1,23 @@
+startup_events = {
+	every_country = { 
+		# limit = {
+		# 	NOT = {
+		# 		OR = {
+		# 			tag = GER
+		# 			tag = USA
+		# 			tag = JAP
+		# 			tag = ENG
+		# 			tag = ITA
+		# 			tag = SOV
+		# 		}
+		# 	}
+		# }
+		country_event = { id = countrystartup.1 }
+	}
+	ENG = { country_event = { id = countrystartup.2 }  }
+	USA = { country_event = { id = countrystartup.3 }  }
+	# SOV = { country_event = { id = countrystartup.4 }  }
+	GER = { country_event = { id = countrystartup.5 }  }
+	# ITA = { country_event = { id = countrystartup.6 }  }
+	# JAP = { country_event = { id = countrystartup.7 }  }
+}

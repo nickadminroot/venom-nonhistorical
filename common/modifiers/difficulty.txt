@@ -1,0 +1,61 @@
+diff_very_easy_player = {
+	no_supply_grace = 36
+	# equipment_upgrade_xp_cost = -1
+}
+
+diff_easy_player = {
+	no_supply_grace = 36
+	# equipment_upgrade_xp_cost = -1
+}
+
+diff_normal_player = {
+	no_supply_grace = 36
+	# equipment_upgrade_xp_cost = -1
+	# reassignment_duration_factor = -1 #не работпет
+}
+
+diff_hard_player = {
+	no_supply_grace = 36
+	# equipment_upgrade_xp_cost = -1
+}
+
+diff_very_hard_player = {
+	no_supply_grace = 36
+	# equipment_upgrade_xp_cost = -1
+}
+
+
+diff_very_easy_ai = {
+	peace_score_ratio_transferred_to_players = 0.25
+	equipment_upgrade_xp_cost = -1
+}
+
+diff_easy_ai = {
+	no_supply_grace = 24
+	peace_score_ratio_transferred_to_players = 0.1
+	equipment_upgrade_xp_cost = -1
+	reassignment_duration_factor = -1
+}
+
+diff_normal_ai = {
+	no_supply_grace = 36
+	equipment_upgrade_xp_cost = -1
+	reassignment_duration_factor = -1 
+	unit_leader_as_advisor_cp_cost_factor = -1
+}
+
+diff_hard_ai = {
+	army_fuel_consumption_factor = -0.25
+	air_fuel_consumption_factor = -0.25
+ 	navy_fuel_consumption_factor = -0.25
+	no_supply_grace = 48
+	equipment_upgrade_xp_cost = -1
+}
+
+diff_very_hard_ai = {
+	army_fuel_consumption_factor = -0.5
+	air_fuel_consumption_factor = -0.5
+ 	navy_fuel_consumption_factor = -0.5
+	no_supply_grace = 72
+	equipment_upgrade_xp_cost = -1
+}

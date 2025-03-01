@@ -1,0 +1,150 @@
+﻿l_russian:
+ ################################### TRAITS                      \n      §H§! 
+  ##### 
+  
+  ##### ADVISORS 
+  
+  ##### ARMY CHIEF 
+  
+  ##### NAVY CHIEF 
+  
+  ##### AIR CHIEF 
+  
+  ##### HIGH COMMAND 
+  
+  ##### ARMOR DESIGNER 
+  
+  ##### AIRCRAFT DESIGNER 
+  
+  ##### SHIP DESIGNER 
+  
+  ##### MATERIAL DESIGNER 
+  
+  ##### INDUSTRIAL CONCERN 
+  
+  ##### THEORIST 
+  
+ ################################### OPINION MODIFIERS           \n      §H§! 
+  
+  
+  
+  
+ ################################### FOCUSES                     \n      §H§! 
+  
+ Contract_With_Ford: "Контракт с Фордом" #NT!
+ Contract_With_Ford_desc: ""
+  
+ Contract_With_Henschel: "Контракт с Henschel" #NT!
+ Contract_With_Henschel_desc: ""
+  
+ Contract_With_OKMO: "Контракт с ОКМО" #NT!
+ Contract_With_OKMO_desc: ""
+  
+ Contract_With_Supermarine: "Контракт с Supermarine" #NT!
+ Contract_With_Supermarine_desc: ""
+  
+  
+ Open_Foreign_Office: "Открытие офиса иностранных дел" #NT!
+ Open_Foreign_Office_desc: "Нам следует открыть Министерство иностранных дел и решить, как мы хотим относиться к миру." #NT!
+  
+ Affirm_Neutrality: "Подтверждаем нейтралитет" #NT!
+ Affirm_Neutrality_desc: "Мы должны держать нашу страну в стороне от мировых дел, чтобы защитить наш народ." #NT!
+  
+ International_Relations: "Международные отношения" #NT!
+ International_Relations_desc: "Мир становится все более глобализированным, и мы должны в этом участвовать." #NT!
+  
+ American_Embassy: "Посольство США" #NT!
+ American_Embassy_desc: "Нам следует обратиться к американцам с просьбой открыть посольство. Это укрепит наши отношения." #NT!
+  
+ Purchase_American_Fighters: "Купить американские истребители" #NT!
+ Purchase_American_Fighters_desc: ""
+  
+ Purchase_American_Bombers: "Купить американские бомбардировщики" #NT!
+ Purchase_American_Bombers_desc: ""
+  
+ Study_American_Battleships: "Изучите американские линкоры" #NT!
+ Study_American_Battleships_desc: ""
+  
+ Study_American_Carriers: "Изучите американских перевозчиков" #NT!
+ Study_American_Carriers_desc: ""
+  
+ German_Embassy: "Посольство Германии" #NT!
+ German_Embassy_desc: "Нам следует обратиться к немцам с просьбой открыть посольство. Это укрепит наши отношения." #NT!
+  
+ Join_the_Schachtplan: "Присоединяйтесь к Schachtplan" #NT!
+ Join_the_Schachtplan_desc: "Детище немецкого экономиста Яльмара Шахта, «Шахтплан» гарантирует доступ на немецкие рынки в обмен на увеличение импорта сырья из нашей страны." #NT!
+  
+ Purchase_German_Tanks: "Купить немецкие танки" #NT!
+ Purchase_German_Tanks_desc: ""
+  
+ Study_German_Submarines: "Изучайте немецкие подводные лодки" #NT!
+ Study_German_Submarines_desc: ""
+  
+ Soviet_Embassy: "Советское посольство" #NT!
+ Soviet_Embassy_desc: "Нам следует обратиться к русским с просьбой открыть посольство. Это укрепит наши отношения." #NT!
+  
+ Purchase_Soviet_Arms: "Покупка советского оружия" #NT!
+ Purchase_Soviet_Arms_desc: ""
+  
+ Purchase_Soviet_Tanks: "Купить советские танки" #NT!
+ Purchase_Soviet_Tanks_desc: ""
+  
+ Soviet_Economics: "Советская Экономика" #NT!
+ Soviet_Economics_desc: ""
+  
+ British_Embassy: "Посольство Великобритании" #NT!
+ British_Embassy_desc: "Нам следует обратиться к британцам с просьбой открыть посольство. Это укрепит наши отношения." #NT!
+  
+ Purchase_British_Artillery: "Купить британскую артиллерию" #NT!
+ Purchase_British_Artillery_desc: ""
+  
+ Purchase_British_Trucks: "Покупка британских грузовиков" #NT!
+ Purchase_British_Trucks_desc: ""
+  
+ Study_British_Ships: "Изучайте британские корабли" #NT!
+ Study_British_Ships_desc: ""
+  
+ Study_British_Marines: "Изучайте британскую морскую пехоту" #NT!
+ Study_British_Marines_desc: ""
+  
+ Arms_Dealing: "Торговля оружием" #NT!
+ Arms_Dealing_desc: "У нас есть потенциал принести большую пользу нашей экономике, присоединившись к международной торговле оружием." #NT!
+  
+ Growing_Arms_Industry: "Растущая военная промышленность" #NT!
+ Growing_Arms_Industry_desc: "Военный сектор нашей экономики процветает за счет торговли оружием." #NT!
+  
+ Growing_Arms_Industry_II: "Растущая военная промышленность II" #NT!
+ Growing_Arms_Industry_II_desc: "Военный сектор нашей экономики процветает за счет торговли оружием." #NT!
+  
+ Growing_Arms_Industry_III: "Растущая военная промышленность III" #NT!
+ Growing_Arms_Industry_III_desc: "Военный сектор нашей экономики процветает за счет торговли оружием." #NT!
+  
+ True_Neutrality: "Истинный нейтралитет" #NT!
+ True_Neutrality_desc: "Мы будем избегать вмешательства в мировые дела любой ценой и сосредоточимся на развитии наших собственных стран." #NT!
+  
+ Growing_Civilian_Economy: "Растущая гражданская экономика" #NT!
+ Growing_Civilian_Economy_desc: "Наша гражданская экономика развивается благодаря нашей внутренней ориентации." #NT!
+  
+ Growing_Civilian_Economy_II: "Рост гражданской экономики II" #NT!
+ Growing_Civilian_Economy_II_desc: "Наша гражданская экономика развивается благодаря нашей внутренней ориентации." #NT!
+  
+ Growing_Civilian_Economy_III: "Рост гражданской экономики III" #NT!
+ Growing_Civilian_Economy_III_desc: "Наша гражданская экономика развивается благодаря нашей внутренней ориентации." #NT!
+  
+  
+  
+  
+ ################################### Ideas                   \n      §H§! 
+  
+ Arms_Trader: "Международный торговец оружием" #NT!
+ Arms_Trader_desc: "Хотя мы не хотим напрямую участвовать в войнах, мы не против поддержать одну из сторон ради возврата наших инвестиций." #NT!
+  
+ Schachtplan: "Шахтплан" #NT!
+ Schachtplan_desc: "Детище немецкого экономиста Яльмара Шахта, Шахтплан гарантирует доступ на немецкие рынки в обмен на увеличение импорта сырья из нашей страны." #NT!
+  
+  ################################### MIOS                   \n      §H§! 
+  
+ foreign_ford_motor_company_organization: "Ford Motor Company" #NT!
+ foreign_okmo_organization: "ОКМО" #NT!
+ foreign_supermarine_organization: "Супермарин" #NT!
+ foreign_henschel_organization: "Хеншель" #NT!

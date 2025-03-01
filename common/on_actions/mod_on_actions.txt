@@ -1,0 +1,121 @@
+on_actions = {
+	on_startup = {
+        effect = { # NEVER FORGET! Important to include this line to distinguish it from random_events = { ... }
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+				send_embargo = USA
+            }
+			every_country = {
+				every_army_leader = {
+					if = {
+						limit = {
+							NOT = { has_trait = unit_limit }
+						}
+						add_unit_leader_trait = unit_limit
+					}
+				}
+				startup_events = yes
+            }
+        }
+    }
+
+	on_startup = {
+        effect = {
+			CAN = {
+				set_major = yes
+				# add_manpower = 1000000
+			}
+		}
+	}
+
+	on_capitulation_immediate = {
+		effect = { 
+			if = {
+				limit = {
+					ROOT = { tag = ENG }
+					CAN = {
+						is_in_faction_with = ENG
+					}
+				}
+				CAN = {
+					set_major = yes
+					set_faction_leader = yes
+				}
+			}
+		}
+	}
+
+	on_army_leader_promoted = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_trait = unit_limit }
+				}
+				add_unit_leader_trait = unit_limit
+			}
+		}
+	}
+
+	on_unit_leader_created = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_trait = unit_limit }
+				}
+				add_unit_leader_trait = unit_limit
+			}
+		}
+	}
+
+	on_army_leader_daily = {
+		effect = {
+			if = {
+				limit = {
+					NOT = { has_trait = unit_limit }
+				}
+				add_unit_leader_trait = unit_limit
+			}
+		}
+	}
+
+
+	on_monthly = {
+		effect = { # NEVER FORGET! Important to include this line to distinguish it from random_events = { ... }
+			if = {
+				limit = {	
+					date > 1938.11.1
+					date < 1939.2.1
+				}
+				every_country = {
+					limit = {
+			 			is_embargoing = USA
+			 		}
+			 		break_embargo = USA
+				}
+			 }
+        }
+	}
+
+	# on_army_leader_daily = {
+	# 	effect = {
+	# 		if = {
+	# 			limit = {
+	# 				check_variable = { random < 0.02 }
+	# 				NOT = { has_trait = sick }
+	# 				set_temp_variable = { temp = sum_unit_terrain_modifier@sickness_chance }
+	# 				divide_temp_variable = { temp = num_units }
+	# 				check_variable = { temp > 0.75 }
+	# 				NOT = { has_unit_leader_flag = recently_sick }
+	# 			}
+	# 			add_timed_unit_leader_trait = {
+	# 				trait = sick
+	# 				days = 1
+	# 			}
+	# 			unit_leader_event = { id = generic.17 }
+	# 		}
+	# 	}
+	# }
+
+}

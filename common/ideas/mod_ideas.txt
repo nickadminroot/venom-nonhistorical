@@ -1,0 +1,83 @@
+ideas = {
+    country = {
+        civil_war_m = {
+			modifier = {
+				experience_gain_army = 1
+				experience_gain_air = 1
+				industrial_capacity_factory = -0.50
+				industrial_capacity_dockyard = -0.50
+				consumer_goods_expected_value = 0.50
+				war_support_factor = 0.2
+				stability_factor = -0.4
+			}
+			picture = tot_economic_mobilisation
+        }
+        war_in_china_m = {
+			modifier = {
+				experience_gain_army = 2
+				experience_gain_air = 2
+				industrial_capacity_factory = -0.50
+				#industrial_capacity_dockyard = -0.50
+				#consumer_goods_expected_value = 0.50
+				war_support_factor = -0.2
+				stability_factor = -0.2
+			}
+			picture = tot_economic_mobilisation
+        }
+		british_influence_me = {
+			targeted_modifier = {
+				tag = ENG
+				cic_to_target_factor = 0.25
+				mic_to_target_factor = 0.25
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+                has_war_with = ENG
+            }
+			picture = eng_guided_by_britain
+        }
+		japan_exploitation = {
+			targeted_modifier = {
+				tag = JAP
+				cic_to_target_factor = 0.25
+				mic_to_target_factor = 0.25
+			}
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+                has_war_with = JAP
+            }
+			picture = jap_manchurian_project
+		}
+		armyandnavy_idea = { 
+			picture = generic_army_war_college
+			allowed = { always = no }
+			allowed_civil_war = {
+				always = no
+			}
+			# available = { has_war = no  }
+			removal_cost = -1
+			modifier = {
+				# experience_gain_navy_unit_factor = 10
+				training_time_factor = -0.99
+				# attrition = -1
+				# truck_attrition_factor = -1
+				# air_training_xp_gain_factor = 3
+			}
+			cancel = {
+                has_war = yes
+            }
+		}
+    }
+}

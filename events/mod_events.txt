@@ -1,0 +1,94 @@
+add_namespace = countrystartup
+
+country_event = {
+	id = countrystartup.1
+	title = countrystartup.1.t
+	desc = countrystartup.1.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"
+	}
+}
+
+country_event = {
+	id = countrystartup.2
+	title = countrystartup.2.t
+	desc = countrystartup.2.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.3
+	title = countrystartup.3.t
+	desc = countrystartup.3.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.4
+	title = countrystartup.4.t
+	desc = countrystartup.4.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.5
+	title = countrystartup.5.t
+	desc = countrystartup.5.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.6
+	title = countrystartup.6.t
+	desc = countrystartup.6.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}
+country_event = {
+	id = countrystartup.7
+	title = countrystartup.7.t
+	desc = countrystartup.7.desc
+ 
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Good to know"	
+	}
+}

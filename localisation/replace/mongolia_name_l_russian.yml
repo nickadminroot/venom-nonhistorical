@@ -1,0 +1,36 @@
+﻿l_russian:
+  #Replace Folder for Communist Country Name 
+ MON_fascism: "Монголия" #NT!
+ MON_fascism_DEF: "Монголия" #NT!
+ MON_democratic: "Монголия" #NT!
+ MON_democratic_DEF: "Монголия" #NT!
+ MON_neutrality: "Монголия" #NT!
+ MON_neutrality_DEF: "Монголия" #NT!
+ MON_communism: "Монгольская Народная Республика"
+ MON_communism_DEF: "Монгольская Народная Республика"
+ MON_fascism_ADJ: "Монгольск"
+ MON_democratic_ADJ: "Монгольск"
+ MON_neutrality_ADJ: "Монгольск"
+ MON_communism_ADJ: "Монгольск"
+ MON: "Монголия"
+ MON_DEF: "Монголия"
+ MON_ADJ: "Монгольск"
+  
+ MEN_fascism: "Чахар" #NT!
+ MEN_fascism_DEF: "Чахар" #NT!
+ MEN_democratic: "Чахар" #NT!
+ MEN_democratic_DEF: "Чахар" #NT!
+ MEN_neutrality: "Чахар" #NT!
+ MEN_neutrality_DEF: "Чахар" #NT!
+ MEN_communism: "Чахар" #NT!
+ MEN_communism_DEF: "Чахар" #NT!
+ MEN_fascism_ADJ: "Внутренняя Монголия" #NT!
+ MEN_democratic_ADJ: "Внутренняя Монголия" #NT!
+ MEN_neutrality_ADJ: "Внутренняя Монголия" #NT!
+ MEN_communism_ADJ: "Внутренняя Монголия" #NT!
+ MEN: "Чахар" #NT!
+ MEN_DEF: "Чахар" #NT!
+ MEN_ADJ: "Внутренняя Монголия" #NT!
+  
+  #Also City Names 
+ VICTORY_POINTS_11752: "Калган" #NT!

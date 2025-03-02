@@ -74,11 +74,11 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Hesehn Tiemei"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_1"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_army_asia_1"
+		# 	}
+		# }
 	}
 	MEN_guan_xingde={
 		advisor={
@@ -99,11 +99,11 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Guan Xingde"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_4"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_army_asia_4"
+		# 	}
+		# }
 	}
 	MEN_kyoiji_tomonaga={
 		advisor={
@@ -125,11 +125,11 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Kyoiji Tomonaga"
-		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_2"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_air_asia_2"
+		# 	}
+		# }
 	}
 	MEN_deng_linge={
 		advisor={
@@ -148,11 +148,11 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Deng Linge"
-		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_2"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_air_asia_2"
+		# 	}
+		# }
 	}
 	MEN_hung_zhehuang={
 		advisor={
@@ -171,11 +171,11 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Hung Zhehuang"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_1"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_army_asia_1"
+		# 	}
+		# }
 	}
 	MEN_nakajima_kesago={
 		advisor={
@@ -196,11 +196,11 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Nakajima Kesago"
-		portraits={
-			army={
-				small="GFX_idea_generic_air_asia_3"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_air_asia_3"
+		# 	}
+		# }
 	}
 	MEN_yonimitsu_kasahara={
 		advisor={
@@ -222,11 +222,11 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Yonimitsu Kasahara"
-		portraits={
-			army={
-				small="GFX_idea_generic_army_asia_3"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_army_asia_3"
+		# 	}
+		# }
 	}
 	MEN_nalan_kang_an={
 		advisor={
@@ -241,11 +241,11 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Nalan Kang'an"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_asia_3"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_political_advisor_asia_3"
+		# 	}
+		# }
 	}
 	MEN_songgotu_zhanshan={
 		advisor={
@@ -260,11 +260,11 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Songgotu Zhanshan"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_asia_1"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_political_advisor_asia_1"
+		# 	}
+		# }
 	}
 	MEN_megata_toshiro={
 		advisor={
@@ -279,10 +279,10 @@ characters={
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
 		name="Megata Toshiro"
-		portraits={
-			army={
-				small="GFX_idea_generic_political_advisor_asia_2"
-			}
-		}
+		# portraits={
+		# 	army={
+		# 		small="GFX_idea_generic_political_advisor_asia_2"
+		# 	}
+		# }
 	}
 }

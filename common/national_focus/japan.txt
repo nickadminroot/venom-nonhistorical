@@ -1529,7 +1529,7 @@
 	focus = {
 		id = JAP_strike_on_the_southern_resource_area
 		icon = GFX_focus_jap_strike_south
-		prerequisite = { focus = JAP_secure_the_philippines focus = JAP_bypass_the_philippines }
+		prerequisite = { focus = JAP_bypass_the_philippines }
 		x = 1
 		y = 1
 		relative_position_id = JAP_bypass_the_philippines
@@ -1825,16 +1825,16 @@
 				}
 				#no ownership triggers: nonfactor
 				289 = {
-					set_compliance = 100
+					set_compliance = 20
 				}
 				724 = {
-					set_compliance = 100
+					set_compliance = 20
 				}
 				868 = {
-					set_compliance = 100
+					set_compliance = 20
 				}
 				869 = {
-					set_compliance = 100
+					set_compliance = 20
 				}
 			}
 			add_ai_strategy = {

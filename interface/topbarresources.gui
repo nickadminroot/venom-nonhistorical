@@ -59,7 +59,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "aluminium_value"
 			position = { x = 14 y = 4 }#x = 995
-			textureFile = ""
+			# textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text= [aluminium_text]
@@ -94,7 +94,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "rubber_value"
 			position = { x = 14 y = 4 }#x = 995
-			textureFile = ""
+			# textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text= [rubber_text]
@@ -128,7 +128,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "tungsten_value"
 			position = { x = 14 y = 4 }#x = 995
-			textureFile = ""
+			# textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text= [tungsten_text]
@@ -163,7 +163,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "steel_value"
 			position = { x = 14 y = 4 }#x = 995
-			textureFile = ""
+			# textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text= [steel_text]
@@ -197,7 +197,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "chromium_value"
 			position = { x = 14 y = 4 }#x = 995
-			textureFile = ""
+			# textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text= [chromium_text]

@@ -404,9 +404,9 @@ characters = {
 				original_tag = SIA
 			}
 			available = {
-				NOT = {
-					has_idea = SIA_thawan_thamrongnawasawat_minister
-				}
+				# NOT = {
+				# 	has_idea = SIA_thawan_thamrongnawasawat_minister
+				# }
 			}
 			traits = {
 				navy_chief_maneuver_2
@@ -442,9 +442,9 @@ characters = {
 				original_tag = SIA
 			}
 			available = {
-				NOT = {
-					has_idea = SIA_sindhu_kamalanavin_minister
-				}
+				# NOT = {
+				# 	has_idea = SIA_sindhu_kamalanavin_minister
+				# }
 			}
 			traits = {
 				air_naval_strike_2
@@ -480,9 +480,9 @@ characters = {
 				original_tag = SIA
 			}
 			available = {
-				NOT = {
-					has_idea = SIA_mangkorn_phromyothi_minister
-				}
+				# NOT = {
+				# 	has_idea = SIA_mangkorn_phromyothi_minister
+				# }
 			}
 			traits = {
 				army_infantry_2

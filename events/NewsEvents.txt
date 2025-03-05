@@ -1,0 +1,24 @@
+add_namespace = mod_news
+
+news_event = {
+	id = news.ita.1
+	title = news.ita.1.t
+	desc = news.ita.1.d
+	
+	major = yes
+	
+trigger = {
+		country_exists = ENG
+		country_exists = ITA
+	    country_exists = GER
+   ITA = {
+	  has_war_with = ENG
+   }
+}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+	}
+}

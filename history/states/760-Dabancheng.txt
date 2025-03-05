@@ -4,18 +4,19 @@ state={
 	provinces={
 		1838 4704 4843 7732 10839 12524 12598 12671 
 	}
-	manpower=700000
+	manpower=70000
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = wasteland
+	impassable = yes
 	history={
 		owner = SIK
 		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
-		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-		}
+		# buildings = {
+		# 	infrastructure = 2
+		# 	# arms_factory = 1
+		# }
 	}
 
 	local_supplies=0.0 

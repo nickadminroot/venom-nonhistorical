@@ -3,7 +3,7 @@ state={
 	id=394
 	name="STATE_394"
 	manpower = 2939004
-	state_category = city
+	state_category = metropolis
 	
 	resources={
 		steel=53 # was: 84
@@ -11,9 +11,10 @@ state={
 
 	history={
 		owner = USA
+		add_extra_state_shared_building_slots = 4
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 3
+			industrial_complex = 1
 		}
 		add_core_of = USA
 		victory_points = {

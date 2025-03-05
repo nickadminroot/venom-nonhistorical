@@ -7,7 +7,7 @@ state = {
 		aluminium = 14 # was: 24
 	}
 	
-	state_category = metropolis
+	state_category = megalopolis
 
 	history = {
 
@@ -34,7 +34,7 @@ state = {
 
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
+			industrial_complex = 7
 		}
 	
 		set_demilitarized_zone = yes

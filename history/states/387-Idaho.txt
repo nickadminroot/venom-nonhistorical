@@ -4,7 +4,7 @@ state={
 	name="STATE_387"
 	manpower = 445031
 	
-	state_category = rural
+	state_category = town
 	
 	resources={
 		steel=18 # was: 32
@@ -14,6 +14,7 @@ state={
 
 	history={
 		owner = USA
+		add_extra_state_shared_building_slots = 4
 		buildings = {
 			infrastructure = 2
 		}

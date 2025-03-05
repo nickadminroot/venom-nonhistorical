@@ -7,10 +7,11 @@ state={
 
 	history={
 		owner = USA
+		add_extra_state_shared_building_slots = 4
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 1
-			industrial_complex = 11
+			industrial_complex = 2
 			air_base = 3
 		}
 		add_core_of = USA

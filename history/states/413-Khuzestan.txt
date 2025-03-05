@@ -7,7 +7,7 @@ state={
 		oil=28 # was: 42
 	}
 	
-	state_category = city
+	state_category = rural
 	
 
 	history={

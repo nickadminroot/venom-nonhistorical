@@ -4,8 +4,7 @@ state= {
 	manpower = 3607919
 	resources={
 		steel=3 # was: 4
-		chromium=300 # was: 160
-		rubber = 10
+		chromium=90 # was: 160
 	}
 	
 	state_category = town
@@ -14,8 +13,8 @@ state= {
 		owner = CUB
 		buildings = {
 			infrastructure = 2
-			# arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 3
 			air_base = 1
 			7622 = {
 				naval_base = 3

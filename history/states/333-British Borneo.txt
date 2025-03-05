@@ -4,15 +4,15 @@ state=
 	name="STATE_333"
 	manpower = 889800
 	resources={
-		rubber=72 # was: 72
-		oil=25 # was: 18
+		rubber=40 # was: 72
+		oil=12 # was: 18
 	}
 	
 	state_category = rural
 
 	history=
 	{
-		owner = ENG
+		owner = MAL
 		victory_points = {
 			7371 1
 		}
@@ -28,7 +28,7 @@ state=
 				naval_base = 2
 			}
 		}
-		add_core_of = ENG
+		add_core_of = MAL
 	}
 
 	provinces={

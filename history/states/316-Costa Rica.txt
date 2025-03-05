@@ -11,10 +11,10 @@ state={
 	
 
 	history={
-		owner = HON
+		owner = COS
 		buildings = {
 			infrastructure = 2
-			# arms_factory = 1
+			arms_factory = 1
 			industrial_complex = 2 
 			air_base = 1
 			13087 = {
@@ -22,7 +22,6 @@ state={
 			}
 		}
 		add_core_of = COS
-		add_core_of = HON
 		victory_points = {
 			13087 3
 		}

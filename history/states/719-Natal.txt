@@ -6,7 +6,7 @@ state={
 		chromium=60 # was: 116
 	}
 	
-	state_category = metropolis
+	state_category = city
 
 
 	history={

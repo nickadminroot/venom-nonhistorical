@@ -3,10 +3,10 @@ state = {
 	name = "STATE_468" # Saint Lawrence
 	manpower = 2432754
 	
-	state_category = megalopolis
+	state_category = city
 	
 	resources = {
-		aluminium = 15 # was: 4
+		aluminium = 3 # was: 4
 	}
 
 	history = {

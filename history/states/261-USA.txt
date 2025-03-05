@@ -6,15 +6,14 @@ state={
 		aluminium=9 # was: 16.000
 	}
 	
-	state_category = megalopolis
+	state_category = metropolis
 
 	history={
 		owner = USA
-		add_extra_state_shared_building_slots = 4
 		buildings = {
 			infrastructure = 4 #was: 7
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 6
 
 		}
 		add_core_of = USA

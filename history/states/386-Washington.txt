@@ -3,7 +3,7 @@ state = {
 	name = "STATE_386" # Washington State
 	manpower = 1563395
 	
-	state_category = megalopolis
+	state_category = large_town
 
 	history = {
 
@@ -13,7 +13,7 @@ state = {
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
 			dockyard = 1
 			air_base = 5
 

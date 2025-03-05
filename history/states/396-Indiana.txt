@@ -3,14 +3,13 @@ state={
 	id=396
 	name="STATE_396"
 	manpower = 3238501
-	state_category = megalopolis
+	state_category = large_city
 
 	history={
 		owner = USA
-		add_extra_state_shared_building_slots = 4
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 10
+			industrial_complex = 5
 		}
 		add_core_of = USA
 		victory_points = {

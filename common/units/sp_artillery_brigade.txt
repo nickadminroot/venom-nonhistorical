@@ -7,6 +7,8 @@ sub_units = {
 		priority = 1795
 		ai_priority = 100
 		active = yes
+		is_artillery_brigade = yes
+		
 		
 		type = {
 			armor
@@ -73,6 +75,7 @@ sub_units = {
 		priority = 1796
 		ai_priority = 100
 		active = yes
+		is_artillery_brigade = yes
 		
 		type = {
 			armor
@@ -141,6 +144,7 @@ sub_units = {
 		priority = 1797
 		ai_priority = 100
 		active = yes
+		is_artillery_brigade = yes
 		training_time = 180
 		
 		type = {
@@ -210,6 +214,7 @@ sub_units = {
 		priority = 1798
 		ai_priority = 100
 		active = yes
+		is_artillery_brigade = yes
 		
 		type = {
 			support
@@ -281,6 +286,7 @@ sub_units = {
 		priority = 1796
 		ai_priority = 100
 		active = yes
+		is_artillery_brigade = yes
 		
 		type = {
 			armor
@@ -351,6 +357,7 @@ sub_units = {
 	#	priority = 1795
 	#	ai_priority = 0
 	#	active = yes
+		is_artillery_brigade = yes
 	#	
 	#	type = {
 	#		armor
@@ -413,6 +420,7 @@ sub_units = {
 #	#	priority = 1796
 #	#	ai_priority = 0
 #	#	active = yes
+		is_artillery_brigade = yes
 #	#	
 #	#	type = {
 #	#		armor
@@ -477,6 +485,7 @@ sub_units = {
 #		priority = 1797
 #		ai_priority = 0
 #		active = yes
+		is_artillery_brigade = yes
 #		training_time = 180
 #		
 #		type = {

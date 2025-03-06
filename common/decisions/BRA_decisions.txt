@@ -14,7 +14,7 @@ BRA_industrial_decisions = {
 			has_completed_focus = BRA_financial_stimulation
 			#any_core_state = {}
 		}
-		state_target = yes
+		state_target = any_controlled_state
 	    target_trigger = {
 	        FROM = {
 	           	is_fully_controlled_by = ROOT
@@ -133,7 +133,7 @@ BRA_ensure_support_cat = {
 				has_completed_focus = BRA_estado_novo
 			}
 		}
-		state_target = yes
+		state_target = any_controlled_state
 		target_trigger = {
 		    FROM = {
 		    	is_fully_controlled_by = ROOT
@@ -203,7 +203,7 @@ BRA_ensure_support_cat = {
 		visible = {
 			has_completed_focus = BRA_anaue
 		}
-		state_target = yes
+		state_target = any_controlled_state
 		target_trigger = {
 		    FROM = {
 		    	is_fully_controlled_by = ROOT
@@ -354,7 +354,7 @@ BRA_cangaceiro_decision_cat = {
 				has_stability < 0.4
 			}
 		}
-		state_target = yes
+		state_target = any_controlled_state
 		target_trigger = {
 		    FROM = {
 		    	is_fully_controlled_by = ROOT
@@ -619,7 +619,7 @@ BRA_amazonian_settlement_cat = {
 			has_completed_focus = BRA_amazonian_settlement
 		}
 
-		state_target = yes
+		state_target = any_controlled_state
 
 		target_trigger = {
 			FROM = {
@@ -698,7 +698,7 @@ BRA_jaguar_diplomacy_cat = {
 			}
 		}
 
-		#state_target = yes
+		#state_target = any_controlled_state
 		on_map_mode = map_and_decisions_view
 		target_trigger = {
 			FROM = {
@@ -840,7 +840,7 @@ BRA_sway_the_neighbors_cat = {
 			}
 		}
 
-		state_target = yes
+		state_target = any_controlled_state
 		on_map_mode = map_and_decisions_view
 		target_trigger = {
 			FROM = {
@@ -1040,7 +1040,7 @@ BRA_america_do_sul_cat = {
 				}
 			}
 		}
-		state_target = yes
+		state_target = any_controlled_state
 		target_trigger = {
 		    FROM = {
 		    	is_fully_controlled_by = ROOT

@@ -8122,6 +8122,7 @@ ENG_move_to_secure_the_dominions = {
 				is_subject_of = ROOT
 				NOT = { has_country_flag = ENG_imperialist_civil_war }
 				NOT = { has_government = ROOT }
+				NOT = { has_country_flag = banned_fascism_flag }
 			}
 		}
 

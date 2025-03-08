@@ -6445,8 +6445,18 @@ SOV_diplomacy_middle_east_decision_category = {
 			if = { #Activate mission for ENG if joint operation
 				limit = {
 					has_global_flag = SOV_agreed_anglo_soviet_invasion_of_iran_flag
+					tag = SOU
 				}
 				ENG = {
+					activate_mission = SOV_operation_countenance
+				}
+			}
+			if = { #Activate mission for ENG if joint operation
+				limit = {
+					has_global_flag = SOV_agreed_anglo_soviet_invasion_of_iran_flag
+					tag = ENG
+				}
+				SOU = {
 					activate_mission = SOV_operation_countenance
 				}
 			}

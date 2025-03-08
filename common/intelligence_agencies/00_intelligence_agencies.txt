@@ -348,6 +348,90 @@ intelligence_agency = {
 }
 
 intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_IRQ_DGS # TODO_ASD: should be intelligence_agency_logo_IRQ_DGS !!!
+	names = { "Mudiria al-Amn al-'Amm" } # The Directorate of General Security (DGS)
+	
+	default = { 
+		tag = IRQ 
+		has_war = no
+	} 
+	available = { 
+		original_tag = IRQ 
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_IRQ_DGMI 
+	names = { "Mudiriyyat al-Istikhabarat al-'Askariyya al-'Amma" } 
+	
+	default = { 
+		tag = IRQ 
+		has_war = yes
+	} 
+	available = { 
+		original_tag = IRQ 
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_AFG_neutrality
+	names = { "Istikhbarat" } 
+	
+	default = { 
+		tag = AFG 
+	} 
+	available = { 
+		original_tag = AFG 
+		has_government = neutrality
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_AFG_communism
+	names = { "KHAD" } 
+	
+	default = { 
+		tag = AFG 
+	} 
+	available = { 
+		original_tag = AFG 
+		has_government = communism
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_AFG_democratic
+	names = { "National Directorate of Security" } 
+	
+	default = { 
+		tag = AFG 
+	} 
+	available = { 
+		original_tag = AFG 
+		has_government = democratic
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_PER_savak
+	names = { "SAVAK" } 
+	
+	default = { 
+		tag = PER 
+	} 
+	available = { 
+		original_tag = PER 
+		NOT = { has_government = communism }
+	}
+}
+
+intelligence_agency = {
 	
 	picture = GFX_intelligence_agency_logo_SIA_nia
 	names = { "National Intelligence Agency" }

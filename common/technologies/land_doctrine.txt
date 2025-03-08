@@ -852,6 +852,7 @@ technologies = {
 		resistance_damage_to_garrison_on_our_occupied_states = 0.1 
 
 		enable_tactic = tactic_guerrilla_tactics
+		enable_tactic = tactic_sf_ambush
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -1323,7 +1324,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		
+		enable_tactic = tactic_sf_barrage
+
 		doctrine = yes	
 		research_cost = 4.5
 		
@@ -1549,6 +1551,7 @@ technologies = {
 		
 		doctrine = yes	
 		research_cost = 4.5
+		enable_tactic = tactic_sf_barrage
 		
 		categories = {
 			land_doctrine
@@ -2096,6 +2099,7 @@ technologies = {
 
 		doctrine = yes	
 		research_cost = 4.5
+		enable_tactic = tactic_sf_barrage
 		
 		categories = {
 			land_doctrine
@@ -2787,6 +2791,7 @@ technologies = {
 		additional_brigade_column_size = 1
 
 		enable_tactic = tactic_relentless_assault
+		enable_tactic = tactic_sf_barrage
 
 		path = {
 			leads_to_tech = deep_operations

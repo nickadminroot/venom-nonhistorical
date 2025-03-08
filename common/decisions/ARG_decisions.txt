@@ -13,13 +13,12 @@ ARG_intervenciones_federales_decisions = {
 		}
 
 		available = {
-			has_completed_focus = ARG_intervenciones_federales
 		} 
 
 		visible = { 
 			has_completed_focus = ARG_intervenciones_federales 
 		}
-		state_target = yes
+		state_target = any_owned_state
 		target_trigger = {
 	        FROM = {
 	           	has_dynamic_modifier = {
@@ -1291,7 +1290,7 @@ ARG_south_american_unity_decisions = {
 			} 
 		}
 
-		state_target = yes
+		state_target = any_owned_state
 
 		target_trigger = {
 			FROM = {

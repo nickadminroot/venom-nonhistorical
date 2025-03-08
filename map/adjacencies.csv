@@ -1,4 +1,11 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+7567;12910;sea;5771;-1;-1;-1;-1;;adelaide-kangaroo island
+6550;8435;sea;7452;-1;-1;-1;-1;;aegan isle-strait
+3314;6336;sea;2752;2885;1578;2890;1581;;afsluitdijk
+1135;13090;sea;6471;-1;-1;-1;-1;;amlia-unalaska
+10321;12251;sea;8313;-1;-1;-1;-1;;andaman
+4155;13084;sea;5507;-1;-1;-1;-1;;anguilla-virgin islands
+12954;13297;sea;5424;-1;-1;-1;-1;;araucania
 1048;13228;impassable;-1;-1;-1;-1;-1;;asas
 4135;7153;impassable;-1;-1;-1;-1;-1;;asas
 10094;13228;impassable;-1;-1;-1;-1;-1;;asas
@@ -169,40 +176,70 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10821;5087;impassable;-1;-1;-1;-1;-1;;Himalayas
 4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4558;12653;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4558;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-12763;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-2084;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-10821;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4998;12831;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-4998;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-1978;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-1978;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 7975;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-8044;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-8044;5064;impassable;-1;-1;-1;-1;-1;;peshawar mountains
-12805;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12805;5087;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12805;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-4923;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-10417;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+1978;8090;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4998;12831;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4998;5082;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+4558;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+1440;4155;sea;5507;-1;-1;-1;-1;;puerto rico-virgin islands
+1712;12147;sea;8978;-1;-1;-1;-1;;quebec-strait
+10007;10122;sea;7226;-1;-1;-1;-1;;rhodes-turkey
+3995;13024;sea;2855;-1;-1;-1;-1;;saipan-tinian
+1742;7868;sea;2510;-1;-1;-1;-1;;sakhalin-siberia
+7290;13080;sea;9081;-1;-1;-1;-1;;samoan islands
+1311;4228;sea;2856;-1;-1;-1;-1;;san bernardino strait
+1042;7437;sea;6819;-1;-1;-1;-1;;san cristobal-guadalcanal
+1085;4252;sea;5868;-1;-1;-1;-1;;santa isabel-malaita
+3838;6891;sea;5579;-1;-1;-1;-1;;sardinia-corsica
+3374;13260;sea;2408;2971;1622;2973;1620;;sdfyn-langeland
+4094;7212;sea;8791;-1;-1;-1;-1;;shikoku-chugoku
+7072;9965;sea;8791;-1;-1;-1;-1;;shikoku-kansai
+12113;12299;sea;5539;-1;-1;-1;-1;;singapore-batam
+3260;3325;sea;2408;-1;-1;-1;-1;;sjaelland-fyn
+6287;6345;sea;2382;-1;-1;-1;-1;;skåne-sjaelland
+211;299;sea;2282;-1;-1;-1;-1;;småland-öland
+4306;4608;sea;5666;-1;-1;-1;-1;;soerbaja-madura
+2078;5064;impassable;-1;-1;-1;-1;-1;;south afghanistan
+2078;10789;impassable;-1;-1;-1;-1;-1;;south afghanistan
+1995;10789;impassable;-1;-1;-1;-1;-1;;south afghanistan
+7916;10789;impassable;-1;-1;-1;-1;-1;;south afghanistan
+7982;13312;sea;2919;-1;-1;-1;-1;;south iran
+177;13009;sea;5533;-1;-1;-1;-1;;st lucia-martinique
+379;11350;sea;5533;-1;-1;-1;-1;;st vincent-barbados
+379;13009;sea;5533;-1;-1;-1;-1;;st vincent-st lucia
+5087;12805;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7519;12805;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 10417;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-8027;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-7224;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 7224;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7519;10417;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+1766;4923;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+7224;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 12218;12314;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
-12370;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains
-12370;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
-5062;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
-5062;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4768;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
-1840;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
-1840;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
-4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
+1766;12805;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+8027;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+9388;13257;sea;2358;3010;1608;3012;1609;;stralsund-rügen
+10222;12444;sea;5515;-1;-1;-1;-1;;sulawesi-pulau buton
+1421;10184;sea;2899;-1;-1;-1;-1;;sulu-mindanao
+1293;4269;sea;8751;-1;-1;-1;-1;;surigao-leyte
+11251;13258;sea;2408;2954;1621;2956;1621;;sönderjylland-als
+10188;12148;sea;8660;-1;-1;-1;-1;;tahiti-raiatea
+1428;12126;sea;812;-1;-1;-1;-1;;tanahbala-siberut
+1460;12126;sea;812;-1;-1;-1;-1;;tanahbala-sumatra
+4228;7307;sea;2876;-1;-1;-1;-1;;ticao pass
+7669;10276;sea;5263;-1;-1;-1;-1;;tiwi-darwin
+3284;13012;sea;2597;-1;-1;-1;-1;;tobago-trinidad
+2489;13033;sea;7918;-1;-1;-1;-1;;truk-hall islands
+3962;9859;sea;5946;-1;-1;-1;-1;;tsugaru strait
+7110;10011;sea;2708;4825;1219;-1;-1;;tushima-kyushu
+13028;13029;sea;2735;-1;-1;-1;-1;;ulithi-yap
+10694;13090;sea;6064;-1;-1;-1;-1;;unalaska-unimak
+1393;7259;sea;5257;-1;-1;-1;-1;;vancouver-strait
+1298;12162;sea;2124;-1;-1;-1;-1;;west nusa tenggara-east nusa tenggara
+6062;6205;sea;3590;-1;-1;-1;-1;;west scottish-strait
+9587;11570;impassable;-1;-1;-1;-1;-1;;western alps
 611;3612;impassable;-1;-1;-1;-1;-1;;western alps
-11570;3612;impassable;-1;-1;-1;-1;-1;;western alps
-11570;9587;impassable;-1;-1;-1;-1;-1;;western alps
+3612;11570;impassable;-1;-1;-1;-1;-1;;western alps
 6635;9587;impassable;-1;-1;-1;-1;-1;;western alps
 3641;11601;impassable;-1;-1;-1;-1;-1;;central alps
 3641;658;impassable;-1;-1;-1;-1;-1;;central alps
@@ -234,19 +271,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13312;7982;sea;2919;-1;-1;-1;-1;;South Iran
 761;13315;sea;9092;-1;-1;-1;-1;;Ontario
 13196;13314;sea;9092;-1;-1;-1;-1;;Northern Quebec
-8053;10476;impassable;-1;-1;-1;-1;-1;;Paropamisus Mountains
-12788;10476;impassable;-1;-1;-1;-1;-1;;Paropamisus Mountains
-12788;10896;impassable;-1;-1;-1;-1;-1;;Paropamisus Mountains
-1995;10896;impassable;-1;-1;-1;-1;-1;;Paropamisus Mountains
-10852;7584;impassable;-1;-1;-1;-1;-1;;North Afghanistan
-10852;12248;impassable;-1;-1;-1;-1;-1;;North Afghanistan
-12877;7584;impassable;-1;-1;-1;-1;-1;;North Afghanistan
-10781;12248;impassable;-1;-1;-1;-1;-1;;North Afghanistan
-10781;12314;impassable;-1;-1;-1;-1;-1;;North Afghanistan
-10789;7916;impassable;-1;-1;-1;-1;-1;;South Afghanistan
-10789;1995;impassable;-1;-1;-1;-1;-1;;South Afghanistan
-10789;2078;impassable;-1;-1;-1;-1;-1;;South Afghanistan
-5064;2078;impassable;-1;-1;-1;-1;-1;;South Afghanistan
 1421;10184;sea;2899;-1;-1;-1;-1;;Sulu-Mindanao
 5864;5838;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Otranto Strait
 -1;-1;;-1;-1;-1;-1;-1;-1 

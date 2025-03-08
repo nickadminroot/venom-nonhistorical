@@ -92,3 +92,16 @@ country_event = {
 		name = "Good to know"	
 	}
 }
+
+country_event = {
+	id = britain.100
+	title = britain.100.t
+	 desc = britain.100.desc
+	 picture = GFX_news_event_rezinka
+	 
+	 is_triggered_only = yes
+	  
+	 option = {
+		 name = britain.100.a
+	 }
+ }

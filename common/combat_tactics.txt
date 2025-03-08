@@ -686,7 +686,7 @@ tactic_attacker_sb_hold = {
 	
 	base =  { factor = 4 }
 	picture = attacker_sb_hold
-	display_phase = seize_bridge0
+	display_phase = seize_bridge
 	attacker = 0.2
 }
 tactic_attacker_sb_skillful_defence = { 
@@ -780,7 +780,7 @@ tactic_attacker_hb_attack = {
 	
 	base =  { factor = 4 }
 	picture = attacker_hb_attack
-	display_phase = hold_bridg0
+	display_phase = hold_bridge
 	attacker = 0.1
 }
 tactic_attacker_hb_rush = { 
@@ -793,7 +793,7 @@ tactic_attacker_hb_rush = {
 	
 	base =  { factor = 4 }
 	picture = attacker_hb_rush
-	display_phase = hold_bridg0
+	display_phase = hold_bridge
 	attacker = 0.2
 }
 tactic_attacker_hb_storm = { 
@@ -809,7 +809,7 @@ tactic_attacker_hb_storm = {
 
 	countered_by = tactic_defender_hb_skillful_defence
 	
-	phase = seize_bridge0
+	phase = seize_bridge
 	attacker = 0.2
 	defender = 0.05
 }
@@ -823,7 +823,7 @@ tactic_defender_hb_hold = {
 	
 	base =  { factor = 2 }
 	picture = defender_hb_hold
-	display_phase = hold_bridg0
+	display_phase = hold_bridge
 	attacker = 0.2
 	defender = -0.1
 }
@@ -840,7 +840,7 @@ tactic_defender_hb_skillful_defence = {
 	
 	base =  { factor = 2 }
 	picture = defender_hb_skillful_defence
-	display_phase = hold_bridge0
+	display_phase = hold_bridge
 	attacker = 0.1
 	defender = 0.05
 }

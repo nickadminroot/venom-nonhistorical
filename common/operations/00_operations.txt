@@ -1615,7 +1615,7 @@ operation_collaboration_government = { ### 10 2/55
 	network_strength = 50
 	operatives = 2
 	
-	cost_multiplier = 0.25
+	cost_multiplier = 0
 	
 	visible = {
 		network_strength = {

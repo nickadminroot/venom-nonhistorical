@@ -1002,6 +1002,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0
 			modifier = {
+				factor = 6
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}
+			modifier = {
 				factor = 0
 				OR = {
 					# we dont want chinese minors to go crazy on slots early since they get eaten
@@ -1018,6 +1026,12 @@ focus_tree = {
 					tag = PHI
 					num_of_controlled_states < 4
 					is_ai = yes
+				}
+				NOT = {
+					is_in_array = {
+						array = RAJ.raj_releasables
+						value = THIS
+					}
 				}			
 			}
 		}
@@ -1040,6 +1054,14 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 6
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}
 		}
 
 		bypass = {
@@ -1113,7 +1135,15 @@ focus_tree = {
 
 
 		ai_will_do = {
-			factor = 2			
+			factor = 2
+			modifier = {
+				factor = 6
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}			
 		}
 
 		bypass = {
@@ -1187,7 +1217,7 @@ focus_tree = {
 
 
 		ai_will_do = {
-			factor = 2
+			factor = 0
 		}
 
 		bypass = {
@@ -1261,7 +1291,7 @@ focus_tree = {
 
 
 		ai_will_do = {
-			factor = 2
+			factor = 0
 		}
 
 		bypass = {
@@ -1431,7 +1461,7 @@ focus_tree = {
 
 
 		ai_will_do = {
-			factor = 2
+			factor = 0
 		}
 
 		bypass = {

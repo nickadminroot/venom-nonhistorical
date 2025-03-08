@@ -351,10 +351,7 @@ country_event = {
 
 								set_autonomy = {
 									target=RAJ
-									autonomy_state = autonomy_dominion
-									freedom_level = 0 # 0-1 
-									end_wars  = no # default yes. will not cancel non civil wars if set to no
-									end_civil_wars = no # default yes. will not cancel civil wars if set to no
+									autonomy_state = autonomy_free
 								}
 							}
 						} 

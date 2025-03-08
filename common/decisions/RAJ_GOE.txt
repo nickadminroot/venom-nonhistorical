@@ -1,121 +1,121 @@
 RAJ_GOE_independence_movement = {
 
 	#TODO_VD add violence
-	RAJ_GOE_urge_non_violence = { 
+	# RAJ_GOE_urge_non_violence = { 
 
-		icon = GFX_decision_SWI_swiss_democratic_tradition_campaign
+	# 	icon = GFX_decision_SWI_swiss_democratic_tradition_campaign
 		
-		state_target = any_controlled_state
+	# 	state_target = any_controlled_state
 		
-		visible = { 
-			OR = {
-				has_completed_focus = RAJ_mahatma
-			}
-			NOT = { has_completed_focus = RAJ_forward_bloc }
+	# 	visible = { 
+	# 		OR = {
+	# 			has_completed_focus = RAJ_mahatma
+	# 		}
+	# 		NOT = { has_completed_focus = RAJ_forward_bloc }
 
-		}
+	# 	}
 		
-		available = {
-			hidden_trigger = {
-				always = yes
-			}
-		}
-		on_map_mode = map_only
-		target_root_trigger = {
-			original_tag = RAJ
-			has_completed_focus = RAJ_mahatma
+	# 	available = {
+	# 		hidden_trigger = {
+	# 			always = yes
+	# 		}
+	# 	}
+	# 	on_map_mode = map_only
+	# 	target_root_trigger = {
+	# 		original_tag = RAJ
+	# 		has_completed_focus = RAJ_mahatma
 			
-		}
-		target_trigger = {			
-			FROM = {
-				has_resistance = yes
-				resistance > 0
-				is_in_array = { RAJ.owned_states_at_game_start = THIS }
-				is_controlled_by = RAJ
-			}
-		}
+	# 	}
+	# 	target_trigger = {			
+	# 		FROM = {
+	# 			has_resistance = yes
+	# 			resistance > 0
+	# 			is_in_array = { RAJ.owned_states_at_game_start = THIS }
+	# 			is_controlled_by = RAJ
+	# 		}
+	# 	}
 		
-		cost = 15
-		fire_only_once = no
-		days_remove = 90
-		ai_will_do = {
-			base = 1
+	# 	cost = 15
+	# 	fire_only_once = no
+	# 	days_remove = 90
+	# 	ai_will_do = {
+	# 		base = 1
 
-		}
-		complete_effect = {
-			FROM = {
-				add_resistance = -60
-			}
-			ROOT = {
-				add_autonomy_ratio = { 
-					value = -0.05 
-					#localization = LOC_KEY
-				}
-				custom_effect_tooltip = idea_RAJ_independence_movement_tt
-				#add_to_variable = { RAJ_autonomy_gain_independence_movement = -0.05 tooltip = autonomy_gain_tt }
-			}
-		}
-	}
+	# 	}
+	# 	complete_effect = {
+	# 		FROM = {
+	# 			add_resistance = -60
+	# 		}
+	# 		ROOT = {
+	# 			add_autonomy_ratio = { 
+	# 				value = -0.05 
+	# 				#localization = LOC_KEY
+	# 			}
+	# 			custom_effect_tooltip = idea_RAJ_independence_movement_tt
+	# 			#add_to_variable = { RAJ_autonomy_gain_independence_movement = -0.05 tooltip = autonomy_gain_tt }
+	# 		}
+	# 	}
+	# }
 
-	RAJ_GOE_urge_violence = { 
+	# RAJ_GOE_urge_violence = { 
 
-		icon = GFX_decision_revolt
+	# 	icon = GFX_decision_revolt
 		
-		state_target = yes
+	# 	state_target = yes
 		
-		visible = { 
+	# 	visible = { 
 
-			has_completed_focus = RAJ_promote_violence_against_the_british
-			NOT = { has_completed_focus = RAJ_give_me_blood_and_i_will_grant_you_freedom }
-		}
+	# 		has_completed_focus = RAJ_promote_violence_against_the_british
+	# 		NOT = { has_completed_focus = RAJ_give_me_blood_and_i_will_grant_you_freedom }
+	# 	}
 		
-		available = {
-			hidden_trigger = {
-				always = yes
-			}
-		}
+	# 	available = {
+	# 		hidden_trigger = {
+	# 			always = yes
+	# 		}
+	# 	}
 		
-		target_root_trigger = {
-			original_tag = RAJ
-			has_completed_focus = RAJ_promote_violence_against_the_british	
-		}
-		target_trigger = {			
-			FROM = {
-				has_resistance = yes
-				is_in_array = { RAJ.owned_states_at_game_start = THIS }
-				is_controlled_by = ROOT
-			}
-		}
-		on_map_mode = map_only
-		cost = 20
-		fire_only_once = no
-		days_remove = 90
-		ai_will_do = {
-			base = 0
-			modifier = {
-				FROM = {
-					resistance < 67
-				}
-				add = 200
-			}
+	# 	target_root_trigger = {
+	# 		original_tag = RAJ
+	# 		has_completed_focus = RAJ_promote_violence_against_the_british	
+	# 	}
+	# 	target_trigger = {			
+	# 		FROM = {
+	# 			has_resistance = yes
+	# 			is_in_array = { RAJ.owned_states_at_game_start = THIS }
+	# 			is_controlled_by = ROOT
+	# 		}
+	# 	}
+	# 	on_map_mode = map_only
+	# 	cost = 20
+	# 	fire_only_once = no
+	# 	days_remove = 90
+	# 	ai_will_do = {
+	# 		base = 0
+	# 		modifier = {
+	# 			FROM = {
+	# 				resistance < 67
+	# 			}
+	# 			add = 200
+	# 		}
 
-			modifier = {
-				FROM = {
-					resistance < 87
-				}
-				add = 100
-			}
+	# 		modifier = {
+	# 			FROM = {
+	# 				resistance < 87
+	# 			}
+	# 			add = 100
+	# 		}
 
-		}
-		complete_effect = {
-			FROM = {
-				add_resistance = 35
-			}
-			ROOT = {
-				army_experience = 5
-			}
-		}
-	}
+	# 	}
+	# 	complete_effect = {
+	# 		FROM = {
+	# 			add_resistance = 35
+	# 		}
+	# 		ROOT = {
+	# 			army_experience = 5
+	# 		}
+	# 	}
+	# }
 
 	RAJ_GOE_try_to_arrest_bose = {
 	    activation = {

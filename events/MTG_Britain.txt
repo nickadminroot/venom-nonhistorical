@@ -4831,7 +4831,7 @@ country_event = {
 		name = mtg_britain.66.b
 		if = {
 			limit = {
-				original_tag = RAJ
+				tag = RAJ
 				NOT = { has_dlc = "Graveyard of Empires" }
 			}
 			leave_faction = yes
@@ -4839,7 +4839,7 @@ country_event = {
 		
 		if = {
 			limit = {
-				NOT = { original_tag = RAJ }
+				NOT = { tag = RAJ }
 			}
 
 			ENG = {

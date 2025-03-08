@@ -1114,12 +1114,11 @@ country_event = {
 			base = 1
 		}
 		add_ideas = idea_RAJ_the_long_goodbye
-		set_autonomy = {
-			target=RAJ
-			autonomy_state = autonomy_free
-			# freedom_level = 0 # 0-1 
-			end_wars  = no # default yes. will not cancel non civil wars if set to no
-			end_civil_wars = no # default yes. will not cancel civil wars if set to no
+		ENG = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_free
+			}
 		}
 	}
 

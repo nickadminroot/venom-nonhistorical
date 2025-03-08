@@ -1596,12 +1596,12 @@
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-		hidden_effect = {
-	      ENG = { 
-		country_event = britain.100 
-		days = 3
-		  }
-		}
+		# hidden_effect = {
+	    #   ENG = { 
+		# country_event = britain.100 
+		# days = 3
+		#   }
+		# }
 			if = {
 				limit = {
 					NOT = { has_wargoal_against = INS }

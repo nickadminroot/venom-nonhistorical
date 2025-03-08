@@ -144,7 +144,7 @@ focus_tree = {
 					}
 					is_owned_and_controlled_by = ROOT
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
  					level = 2
@@ -192,7 +192,7 @@ focus_tree = {
 					}
 					is_owned_and_controlled_by = ROOT
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
  					level = 2
@@ -226,7 +226,7 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			415 = {
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 5
 			}
 		}
 	}
@@ -609,7 +609,7 @@ focus_tree = {
 					}
 					is_owned_and_controlled_by = ROOT
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
  					level = 2
@@ -740,7 +740,7 @@ focus_tree = {
 
 		completion_reward = {
 			1005 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
  					level = 2
@@ -802,7 +802,7 @@ focus_tree = {
 			random_owned_controlled_state = {
 				prioritize = { 267 }
 
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
  					level = 2
@@ -1243,7 +1243,7 @@ focus_tree = {
 				}
 			}
 			1006 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
  					level = 2
@@ -2263,7 +2263,7 @@ focus_tree = {
 					limit = { 
 						dockyard < 8
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = dockyard
 						level = 1
@@ -2855,7 +2855,7 @@ focus_tree = {
 					1006 = { is_owned_and_controlled_by = ROOT }
 				}
 				1006 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
  						level = 2
@@ -2873,7 +2873,7 @@ focus_tree = {
 						}
 						is_owned_and_controlled_by = ROOT
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
  						level = 2
@@ -2996,7 +2996,7 @@ focus_tree = {
 					}
 					is_owned_and_controlled_by = ROOT
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
  					level = 2
@@ -3012,7 +3012,7 @@ focus_tree = {
 					}
 					is_owned_and_controlled_by = ROOT
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
  					level = 2
@@ -6870,7 +6870,7 @@ focus_tree = {
 				}
 			}
 			random_owned_state = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
  					level = 2
@@ -7281,7 +7281,7 @@ focus_tree = {
 					}
 					is_owned_and_controlled_by = ROOT
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
 					level = 3
@@ -7421,7 +7421,7 @@ focus_tree = {
 		search_filters = { }
 		completion_reward = {
 			random_owned_controlled_state = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3
@@ -8043,7 +8043,7 @@ focus_tree = {
 					type = tungsten
 					amount = 8
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
  					level = 2
@@ -8080,7 +8080,7 @@ focus_tree = {
 					type = aluminium
 					amount = 8
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
 					level = 3
@@ -8117,7 +8117,7 @@ focus_tree = {
 					type = oil
 					amount = 8
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
 					level = 3

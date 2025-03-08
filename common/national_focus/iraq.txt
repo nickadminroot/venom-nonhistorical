@@ -96,7 +96,7 @@ focus_tree = {
 					}	
 				}
 				prioritize = { 291 1011 676 } 
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
 					level = 3
@@ -282,16 +282,16 @@ focus_tree = {
 		completion_reward = {
 
 			291 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 			}
 			1011 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 			}
 			676 = {
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 			}
 			1010 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -313,7 +313,7 @@ focus_tree = {
 					}
 				}
 				680 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 				}
 			}
 
@@ -336,7 +336,7 @@ focus_tree = {
 					}
 				}
 				413 = {
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 3
 				}
 			}
 			
@@ -867,7 +867,7 @@ focus_tree = {
 					}
 				}
 				prioritize = { 1011 } 
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
  					level = 2
@@ -884,7 +884,7 @@ focus_tree = {
 					}
 				}
 				prioritize = { 291 } 
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
  					level = 2
@@ -936,7 +936,7 @@ focus_tree = {
 					}	
 				}
 				prioritize = { 291 } 
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
  					level = 2
@@ -1109,7 +1109,7 @@ focus_tree = {
 					}	
 				}
 				prioritize = { 291 1011 676 } 
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
 					level = 3
@@ -1279,7 +1279,7 @@ focus_tree = {
 					}
 				}
 				291 = {
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
  						level = 2
@@ -1307,7 +1307,7 @@ focus_tree = {
 			#		}
 			#	}
 			#	676 = {
-			#		add_extra_state_shared_building_slots = 1
+			#		add_extra_state_shared_building_slots = 2
 			#		add_building_construction = {
 			#			type = industrial_complex
  			#			level = 2
@@ -1678,7 +1678,7 @@ focus_tree = {
 					}	
 				}
 				prioritize = { 291 } 
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
  					level = 2
@@ -2245,7 +2245,7 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
  					level = 2
@@ -3483,7 +3483,7 @@ focus_tree = {
 					limit = { 
 						dockyard < 8
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -3610,7 +3610,7 @@ focus_tree = {
 					limit = { 
 						dockyard < 8
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = dockyard
 						level = 2
@@ -4739,7 +4739,7 @@ focus_tree = {
 				limit = {
 					is_core_of = ROOT
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
  					level = 2
@@ -9386,7 +9386,7 @@ focus_tree = {
 						include_locked = yes
 					}	
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
 					level = 3
@@ -9476,7 +9476,7 @@ focus_tree = {
 						include_locked = yes
 					}	
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
 					level = 3

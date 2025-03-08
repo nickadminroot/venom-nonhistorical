@@ -2944,103 +2944,31 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			random_list = {
-				1 = {
-					modifier = {
-						factor = 20
+			if = {
+				limit = {
+					NOT = {
 						has_dlc = "Trial of Allegiance"
 					}
-					modifier = {
-						factor = 100
-						has_dlc = "Trial of Allegiance"
-						ARG = {
-							has_completed_focus = ARG_work_with_the_nationalists
-						}
-					}
-
-					if = {
-						limit = {
-							NOT = {
-								has_dlc = "Trial of Allegiance"
-							}
-							ARG = {
-								is_ai = yes
-							}
-						}
-						ARG = {
-							add_timed_idea = { idea = fascism_drift_ARG days = 1460 }
-							country_event = { id = wtt_germany.1004 days = 1095 random_days = 365 }
-						}
-					}
-					
-					IF = {
-						limit = {
-							has_dlc = "Trial of Allegiance"
-							ARG = {
-								exists = yes
-							}
-						}
-						ARG = {
-							country_event = {
-								id = ARG_political_events.120
-								days = 30
-							}
-						}
+				}
+				ARG = {
+					add_timed_idea = { idea = fascism_drift_ARG days = 1460 }
+					country_event = { id = wtt_germany.1004 days = 1095 random_days = 365 }
+				}
+			}
+			
+			if = {
+				limit = {
+					has_dlc = "Trial of Allegiance"
+					ARG = {
+						exists = yes
 					}
 				}
-				1 = {
-					set_global_flag = MTG_flag_955
-					modifier = { 
-						has_dlc = "Trial of Allegiance"
-						tag = ARG
-						has_completed_focus = ARG_guardia_nacional
-						factor = 0
+				ARG = {
+					country_event = {
+						id = ARG_political_events.120
+						days = 30
 					}
 				}
-				1 = { 
-					modifier = { 
-						has_dlc = "Trial of Allegiance"
-						tag = ARG
-						has_completed_focus = ARG_guardia_nacional
-						factor = 0
-					}
-					if = { 
-						limit = { has_dlc = "La Resistance" }
-						country_event = { id = wtt_germany.1005 days = 1095 random_days = 365 } 
-					} 
-				}
-				1 = {
-					modifier = {
-						has_dlc = "Gotterdammerung"
-						tag = AUS
-						has_completed_focus = AUS_repeal_the_may_constitution
-						factor = 0
-					}
-
-					IF = {
-						limit = {
-							has_dlc = "Gotterdammerung"
-							AUS = {
-								exists = yes
-								OR = {
-									has_government = fascism
-									has_government = neutrality
-								}
-								NOT = {
-									has_completed_focus = AUS_repeal_the_may_constitution
-								}
-							}
-						}
-
-						AUS = {
-							country_event = {
-								id = AUS_political_events.104
-								days = 30
-							}
-						}
-					}
-				}
-				296 = {}
 			}
 		}
 	}

@@ -17507,7 +17507,7 @@ operations = {
 annexations = {
 	annex_mon = {
 		allowed = {
-			original_tag = SOV
+			tag = SOV
 		}
 
 		available = {
@@ -17523,6 +17523,8 @@ annexations = {
 				is_in_faction_with = SOV
 			}
 		}
+
+		fire_only_once = yes
 
 		visible = {
 			always = yes

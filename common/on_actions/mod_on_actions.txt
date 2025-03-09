@@ -98,6 +98,41 @@ on_actions = {
         }
 	}
 
+	# on_monthly_SOV = {
+	# 	effect = { # NEVER FORGET! Important to include this line to distinguish it from random_events = { ... }
+	# 		if = {
+	# 			limit = {
+	# 				SOV = {
+	# 					has_idea = closed_economy
+	# 				}
+	# 			}
+	# 			every_country = {
+	# 				limit = {
+	# 					is_in_faction_with = SOV
+	# 				}
+	# 				SOV = {
+	# 					add_ideas = sov_market
+	# 				}
+	# 			}
+	# 		}
+	# 		if = {
+	# 			limit = {
+	# 				SOV = {
+	# 					NOT = { has_idea = closed_economy }
+	# 				}
+	# 			}
+	# 			every_country = {
+	# 				limit = {
+	# 					is_in_faction_with = SOV
+	# 				}
+	# 				SOV = {
+	# 					remove_ideas = sov_market
+	# 				}
+	# 			}
+	# 		}
+    #     }
+	# }
+
 	# on_army_leader_daily = {
 	# 	effect = {
 	# 		if = {

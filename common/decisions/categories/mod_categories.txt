@@ -4,3 +4,9 @@ ENG_annex = {
 	}
 
 }
+
+annexations = {
+	allowed = {
+		tag = SOV
+	}
+}

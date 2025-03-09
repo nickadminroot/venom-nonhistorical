@@ -60,6 +60,25 @@ ideas = {
             }
 			picture = jap_manchurian_project
 		}
+
+		# sov_market = {
+		# 	targeted_modifier = {
+		# 		tag = ROOT
+		# 		extra_trade_to_target_factor = 0.25
+		# 	}
+		# 	allowed = {
+		# 		always = no
+		# 	}
+		# 	allowed_civil_war = {
+		# 		always = yes
+		# 	}
+		# 	removal_cost = -1
+		# 	cancel = {
+        #         has_war_with = ROOT
+        #     }
+		# 	picture = home_of_revolution
+		# }
+
 		armyandnavy_idea = { 
 			picture = generic_army_war_college
 			allowed = { always = no }

@@ -735,8 +735,8 @@ ideas = {
 			}
 
 			modifier = {
-				modifier_production_cost_infrastructure_factor = -0.2
-				modifier_production_cost_industrial_complex_factor = -0.2
+				production_cost_infrastructure_factor = -0.2
+				production_cost_industrial_complex_factor = -0.2
 				production_factory_max_efficiency_factor = 0.1
 			}
 
@@ -856,8 +856,8 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.15
-				modifier_production_cost_arms_factory_factor = -0.1
-				modifier_production_cost_dockyard_factor = -0.1
+				production_cost_arms_factory_factor = -0.1
+				production_cost_dockyard_factor = -0.1
 			}
 		}
 

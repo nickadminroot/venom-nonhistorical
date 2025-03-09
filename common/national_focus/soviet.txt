@@ -2455,7 +2455,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { SOV_air_mission_efficiency = 0.1 }
-			custom_effect_tooltip = SOV_intensify_pilot_training_program_ns_tt
+			custom_effect_tooltip = SOV_the_modern_war_in_the_skies_ns_tt
 
 			air_experience = 50
 		}
@@ -4224,15 +4224,7 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				has_tech = improved_medium_tank_chassis
-			}
-			else = {
-				has_tech = improved_medium_tank
-			}
+			always = yes
 		}
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -6249,14 +6241,16 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_restore_cossack_units }
 
 		available = {
-
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 		
 		search_filters = {}
 
 		completion_reward = {
 			add_to_variable = { SOV_the_red_army_army_org_factor = 0.05 }
-			add_to_variable = { SOV_the_red_army_training_time_factor = 0.1 }
+			# add_to_variable = { SOV_the_red_army_training_time_factor = 0.1 }
 			custom_effect_tooltip = SOV_cohesion_first_ns_tt
 		}
 	}
@@ -6643,7 +6637,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_military_reorganization
-		cost = 10
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_swap_to_political_advisors }
 
@@ -6694,7 +6688,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_military_reorganization
-		cost = 10
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_swap_to_political_advisors }
 
@@ -6749,7 +6743,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = SOV_military_reorganization
-		cost = 10
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_keep_commissars_organization focus = SOV_adjoined_battle_priests }
 
@@ -6800,7 +6794,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_keep_commissars_organization
-		cost = 10
+		cost = 5
 
 		allow_branch = {
 			NOT = {
@@ -6848,7 +6842,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_keep_commissars_organization
-		cost = 10
+		cost = 5
 
 		allow_branch = {
 			OR = {

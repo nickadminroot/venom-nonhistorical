@@ -873,7 +873,6 @@ add_ideas = {
 	trotskyite_plot_nsb
 	SOV_politicized_military
 	closed_economy
-	partial_economic_mobilisation
 	sov_market_MON
 	sov_market_TAN
 

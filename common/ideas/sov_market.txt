@@ -1,0 +1,7066 @@
+ideas = {
+	country = {
+		
+		sov_market_GER = {
+			targeted_modifier = {
+				tag = GER
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GER }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ENG = {
+			targeted_modifier = {
+				tag = ENG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ENG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		# sov_market_SOV = {
+		# 	targeted_modifier = {
+		# 		tag = SOV
+		# 		extra_trade_to_target_factor = 0.25
+		# 	}
+		# 	allowed = {
+		# 		always = no
+		# 	}
+		# 	allowed_civil_war = {
+		# 		always = yes
+		# 	}
+		# 	removal_cost = -1
+		# 	cancel = {
+		# 		OR = {
+		# 			NOT = { is_in_faction_with = SOV }
+		# 			NOT = {
+		# 				has_idea = closed_economy
+		# 			}
+		# 		}
+		# 	}
+		# 	picture = home_of_revolution
+		# }
+
+		sov_market_SWE = {
+			targeted_modifier = {
+				tag = SWE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SWE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_FRA = {
+			targeted_modifier = {
+				tag = FRA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = FRA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_LUX = {
+			targeted_modifier = {
+				tag = LUX
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = LUX }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BEL = {
+			targeted_modifier = {
+				tag = BEL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BEL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_HOL = {
+			targeted_modifier = {
+				tag = HOL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = HOL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CZE = {
+			targeted_modifier = {
+				tag = CZE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CZE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_POL = {
+			targeted_modifier = {
+				tag = POL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = POL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_AUS = {
+			targeted_modifier = {
+				tag = AUS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = AUS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_LIT = {
+			targeted_modifier = {
+				tag = LIT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = LIT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_EST = {
+			targeted_modifier = {
+				tag = EST
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = EST }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_LAT = {
+			targeted_modifier = {
+				tag = LAT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = LAT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SPR = {
+			targeted_modifier = {
+				tag = SPR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SPR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ITA = {
+			targeted_modifier = {
+				tag = ITA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ITA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ROM = {
+			targeted_modifier = {
+				tag = ROM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ROM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_YUG = {
+			targeted_modifier = {
+				tag = YUG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = YUG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SER = {
+			targeted_modifier = {
+				tag = SER
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SER }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SWI = {
+			targeted_modifier = {
+				tag = SWI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SWI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TUR = {
+			targeted_modifier = {
+				tag = TUR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TUR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GRE = {
+			targeted_modifier = {
+				tag = GRE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GRE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ALB = {
+			targeted_modifier = {
+				tag = ALB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ALB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NOR = {
+			targeted_modifier = {
+				tag = NOR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NOR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_DEN = {
+			targeted_modifier = {
+				tag = DEN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = DEN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BUL = {
+			targeted_modifier = {
+				tag = BUL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BUL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_POR = {
+			targeted_modifier = {
+				tag = POR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = POR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_FIN = {
+			targeted_modifier = {
+				tag = FIN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = FIN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_IRE = {
+			targeted_modifier = {
+				tag = IRE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = IRE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_HUN = {
+			targeted_modifier = {
+				tag = HUN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = HUN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_AFG = {
+			targeted_modifier = {
+				tag = AFG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = AFG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ARG = {
+			targeted_modifier = {
+				tag = ARG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ARG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_AST = {
+			targeted_modifier = {
+				tag = AST
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = AST }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BHU = {
+			targeted_modifier = {
+				tag = BHU
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BHU }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BOL = {
+			targeted_modifier = {
+				tag = BOL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BOL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BRA = {
+			targeted_modifier = {
+				tag = BRA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BRA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CAN = {
+			targeted_modifier = {
+				tag = CAN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CAN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CHI = {
+			targeted_modifier = {
+				tag = CHI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CHI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CHL = {
+			targeted_modifier = {
+				tag = CHL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CHL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_COL = {
+			targeted_modifier = {
+				tag = COL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = COL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_COS = {
+			targeted_modifier = {
+				tag = COS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = COS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ECU = {
+			targeted_modifier = {
+				tag = ECU
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ECU }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ELS = {
+			targeted_modifier = {
+				tag = ELS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ELS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ETH = {
+			targeted_modifier = {
+				tag = ETH
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ETH }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GUA = {
+			targeted_modifier = {
+				tag = GUA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GUA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_HON = {
+			targeted_modifier = {
+				tag = HON
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = HON }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_IRQ = {
+			targeted_modifier = {
+				tag = IRQ
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = IRQ }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_JAP = {
+			targeted_modifier = {
+				tag = JAP
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = JAP }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KOR = {
+			targeted_modifier = {
+				tag = KOR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KOR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_LIB = {
+			targeted_modifier = {
+				tag = LIB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = LIB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MEX = {
+			targeted_modifier = {
+				tag = MEX
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MEX }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MEN = {
+			targeted_modifier = {
+				tag = MEN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MEN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NEP = {
+			targeted_modifier = {
+				tag = NEP
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NEP }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NIC = {
+			targeted_modifier = {
+				tag = NIC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NIC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NZL = {
+			targeted_modifier = {
+				tag = NZL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NZL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PAN = {
+			targeted_modifier = {
+				tag = PAN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PAN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PER = {
+			targeted_modifier = {
+				tag = PER
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PER }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PHI = {
+			targeted_modifier = {
+				tag = PHI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PHI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PRU = {
+			targeted_modifier = {
+				tag = PRU
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PRU }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SAF = {
+			targeted_modifier = {
+				tag = SAF
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SAF }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SAU = {
+			targeted_modifier = {
+				tag = SAU
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SAU }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SIA = {
+			targeted_modifier = {
+				tag = SIA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SIA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SIK = {
+			targeted_modifier = {
+				tag = SIK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SIK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TIB = {
+			targeted_modifier = {
+				tag = TIB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TIB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_URG = {
+			targeted_modifier = {
+				tag = URG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = URG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_VEN = {
+			targeted_modifier = {
+				tag = VEN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = VEN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_YUN = {
+			targeted_modifier = {
+				tag = YUN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = YUN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_USA = {
+			targeted_modifier = {
+				tag = USA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = USA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MON = {
+			targeted_modifier = {
+				tag = MON
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MON }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TAN = {
+			targeted_modifier = {
+				tag = TAN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TAN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PAR = {
+			targeted_modifier = {
+				tag = PAR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PAR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CUB = {
+			targeted_modifier = {
+				tag = CUB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CUB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_DOM = {
+			targeted_modifier = {
+				tag = DOM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = DOM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_HAI = {
+			targeted_modifier = {
+				tag = HAI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = HAI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_YEM = {
+			targeted_modifier = {
+				tag = YEM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = YEM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_OMA = {
+			targeted_modifier = {
+				tag = OMA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = OMA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SLO = {
+			targeted_modifier = {
+				tag = SLO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SLO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RAJ = {
+			targeted_modifier = {
+				tag = RAJ
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RAJ }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CRO = {
+			targeted_modifier = {
+				tag = CRO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CRO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GXC = {
+			targeted_modifier = {
+				tag = GXC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GXC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PRC = {
+			targeted_modifier = {
+				tag = PRC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PRC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SHX = {
+			targeted_modifier = {
+				tag = SHX
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SHX }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_XSM = {
+			targeted_modifier = {
+				tag = XSM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = XSM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ICE = {
+			targeted_modifier = {
+				tag = ICE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ICE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_LEB = {
+			targeted_modifier = {
+				tag = LEB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = LEB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_JOR = {
+			targeted_modifier = {
+				tag = JOR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = JOR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SYR = {
+			targeted_modifier = {
+				tag = SYR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SYR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_EGY = {
+			targeted_modifier = {
+				tag = EGY
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = EGY }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_LBA = {
+			targeted_modifier = {
+				tag = LBA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = LBA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_WGR = {
+			targeted_modifier = {
+				tag = WGR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = WGR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_DDR = {
+			targeted_modifier = {
+				tag = DDR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = DDR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PAL = {
+			targeted_modifier = {
+				tag = PAL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PAL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ISR = {
+			targeted_modifier = {
+				tag = ISR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ISR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_VIN = {
+			targeted_modifier = {
+				tag = VIN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = VIN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CAM = {
+			targeted_modifier = {
+				tag = CAM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CAM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MAL = {
+			targeted_modifier = {
+				tag = MAL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MAL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_INS = {
+			targeted_modifier = {
+				tag = INS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = INS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_LAO = {
+			targeted_modifier = {
+				tag = LAO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = LAO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MNT = {
+			targeted_modifier = {
+				tag = MNT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MNT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_UKR = {
+			targeted_modifier = {
+				tag = UKR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = UKR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GEO = {
+			targeted_modifier = {
+				tag = GEO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GEO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KAZ  = {
+			targeted_modifier = {
+				tag = KAZ 
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KAZ  }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_AZR = {
+			targeted_modifier = {
+				tag = AZR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = AZR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ARM = {
+			targeted_modifier = {
+				tag = ARM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ARM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BLR = {
+			targeted_modifier = {
+				tag = BLR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BLR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ANG = {
+			targeted_modifier = {
+				tag = ANG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ANG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MZB = {
+			targeted_modifier = {
+				tag = MZB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MZB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ZIM = {
+			targeted_modifier = {
+				tag = ZIM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ZIM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_COG = {
+			targeted_modifier = {
+				tag = COG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = COG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KEN = {
+			targeted_modifier = {
+				tag = KEN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KEN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PAK = {
+			targeted_modifier = {
+				tag = PAK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PAK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BOT = {
+			targeted_modifier = {
+				tag = BOT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BOT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MAN = {
+			targeted_modifier = {
+				tag = MAN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MAN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BAH = {
+			targeted_modifier = {
+				tag = BAH
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BAH }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BAN = {
+			targeted_modifier = {
+				tag = BAN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BAN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BLZ = {
+			targeted_modifier = {
+				tag = BLZ
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BLZ }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BRM = {
+			targeted_modifier = {
+				tag = BRM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BRM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CRC = {
+			targeted_modifier = {
+				tag = CRC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CRC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GDL = {
+			targeted_modifier = {
+				tag = GDL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GDL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GYA = {
+			targeted_modifier = {
+				tag = GYA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GYA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_JAM = {
+			targeted_modifier = {
+				tag = JAM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = JAM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_JAN = {
+			targeted_modifier = {
+				tag = JAN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = JAN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KYR = {
+			targeted_modifier = {
+				tag = KYR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KYR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MAD = {
+			targeted_modifier = {
+				tag = MAD
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MAD }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MOL = {
+			targeted_modifier = {
+				tag = MOL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MOL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PNG = {
+			targeted_modifier = {
+				tag = PNG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PNG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PUE = {
+			targeted_modifier = {
+				tag = PUE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PUE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_QAT = {
+			targeted_modifier = {
+				tag = QAT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = QAT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SCO = {
+			targeted_modifier = {
+				tag = SCO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SCO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SRL = {
+			targeted_modifier = {
+				tag = SRL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SRL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SUR = {
+			targeted_modifier = {
+				tag = SUR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SUR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TAJ = {
+			targeted_modifier = {
+				tag = TAJ
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TAJ }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TRI = {
+			targeted_modifier = {
+				tag = TRI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TRI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TMS = {
+			targeted_modifier = {
+				tag = TMS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TMS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_UAE = {
+			targeted_modifier = {
+				tag = UAE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = UAE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_UZB = {
+			targeted_modifier = {
+				tag = UZB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = UZB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KUW = {
+			targeted_modifier = {
+				tag = KUW
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KUW }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CYP = {
+			targeted_modifier = {
+				tag = CYP
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CYP }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MLT = {
+			targeted_modifier = {
+				tag = MLT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MLT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ALG = {
+			targeted_modifier = {
+				tag = ALG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ALG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MOR = {
+			targeted_modifier = {
+				tag = MOR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MOR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TUN = {
+			targeted_modifier = {
+				tag = TUN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TUN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SUD = {
+			targeted_modifier = {
+				tag = SUD
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SUD }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ERI = {
+			targeted_modifier = {
+				tag = ERI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ERI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_DJI = {
+			targeted_modifier = {
+				tag = DJI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = DJI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SOM = {
+			targeted_modifier = {
+				tag = SOM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SOM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_UGA = {
+			targeted_modifier = {
+				tag = UGA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = UGA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RWA = {
+			targeted_modifier = {
+				tag = RWA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RWA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BRD = {
+			targeted_modifier = {
+				tag = BRD
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BRD }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TZN = {
+			targeted_modifier = {
+				tag = TZN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TZN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ZAM = {
+			targeted_modifier = {
+				tag = ZAM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ZAM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MLW = {
+			targeted_modifier = {
+				tag = MLW
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MLW }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GAB = {
+			targeted_modifier = {
+				tag = GAB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GAB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RCG = {
+			targeted_modifier = {
+				tag = RCG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RCG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_EQG = {
+			targeted_modifier = {
+				tag = EQG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = EQG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CMR = {
+			targeted_modifier = {
+				tag = CMR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CMR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CAR = {
+			targeted_modifier = {
+				tag = CAR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CAR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CHA = {
+			targeted_modifier = {
+				tag = CHA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CHA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NGA = {
+			targeted_modifier = {
+				tag = NGA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NGA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_DAH = {
+			targeted_modifier = {
+				tag = DAH
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = DAH }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TOG = {
+			targeted_modifier = {
+				tag = TOG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TOG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GHA = {
+			targeted_modifier = {
+				tag = GHA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GHA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_IVO = {
+			targeted_modifier = {
+				tag = IVO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = IVO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_VOL = {
+			targeted_modifier = {
+				tag = VOL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = VOL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MLI = {
+			targeted_modifier = {
+				tag = MLI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MLI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SIE = {
+			targeted_modifier = {
+				tag = SIE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SIE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GNA = {
+			targeted_modifier = {
+				tag = GNA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GNA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GNB = {
+			targeted_modifier = {
+				tag = GNB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GNB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SEN = {
+			targeted_modifier = {
+				tag = SEN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SEN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GAM = {
+			targeted_modifier = {
+				tag = GAM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GAM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_WLS = {
+			targeted_modifier = {
+				tag = WLS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = WLS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NGR = {
+			targeted_modifier = {
+				tag = NGR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NGR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CSA = {
+			targeted_modifier = {
+				tag = CSA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CSA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_USB = {
+			targeted_modifier = {
+				tag = USB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = USB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MRT = {
+			targeted_modifier = {
+				tag = MRT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MRT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NMB = {
+			targeted_modifier = {
+				tag = NMB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NMB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_WES = {
+			targeted_modifier = {
+				tag = WES
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = WES }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BAS = {
+			targeted_modifier = {
+				tag = BAS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BAS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CAY = {
+			targeted_modifier = {
+				tag = CAY
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CAY }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MLD = {
+			targeted_modifier = {
+				tag = MLD
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MLD }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_FIJ = {
+			targeted_modifier = {
+				tag = FIJ
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = FIJ }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_FSM = {
+			targeted_modifier = {
+				tag = FSM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = FSM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TAH = {
+			targeted_modifier = {
+				tag = TAH
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TAH }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GUM = {
+			targeted_modifier = {
+				tag = GUM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GUM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SOL = {
+			targeted_modifier = {
+				tag = SOL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SOL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SAM = {
+			targeted_modifier = {
+				tag = SAM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SAM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_HAW = {
+			targeted_modifier = {
+				tag = HAW
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = HAW }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SLV = {
+			targeted_modifier = {
+				tag = SLV
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SLV }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BOS = {
+			targeted_modifier = {
+				tag = BOS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BOS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_HRZ = {
+			targeted_modifier = {
+				tag = HRZ
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = HRZ }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MAC = {
+			targeted_modifier = {
+				tag = MAC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MAC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NIR = {
+			targeted_modifier = {
+				tag = NIR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NIR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BAY = {
+			targeted_modifier = {
+				tag = BAY
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BAY }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MEK = {
+			targeted_modifier = {
+				tag = MEK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MEK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PRE = {
+			targeted_modifier = {
+				tag = PRE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PRE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SAX = {
+			targeted_modifier = {
+				tag = SAX
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SAX }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_HAN = {
+			targeted_modifier = {
+				tag = HAN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = HAN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_WUR = {
+			targeted_modifier = {
+				tag = WUR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = WUR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SHL = {
+			targeted_modifier = {
+				tag = SHL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SHL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CAT = {
+			targeted_modifier = {
+				tag = CAT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CAT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NAV = {
+			targeted_modifier = {
+				tag = NAV
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NAV }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GLC = {
+			targeted_modifier = {
+				tag = GLC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GLC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ADU = {
+			targeted_modifier = {
+				tag = ADU
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ADU }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BRI = {
+			targeted_modifier = {
+				tag = BRI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BRI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_OCC = {
+			targeted_modifier = {
+				tag = OCC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = OCC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_COR = {
+			targeted_modifier = {
+				tag = COR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = COR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KUR = {
+			targeted_modifier = {
+				tag = KUR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KUR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TRA = {
+			targeted_modifier = {
+				tag = TRA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TRA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_DNZ = {
+			targeted_modifier = {
+				tag = DNZ
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = DNZ }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SIL = {
+			targeted_modifier = {
+				tag = SIL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SIL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KSH = {
+			targeted_modifier = {
+				tag = KSH
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KSH }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_DON = {
+			targeted_modifier = {
+				tag = DON
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = DON }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KUB = {
+			targeted_modifier = {
+				tag = KUB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KUB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BUK = {
+			targeted_modifier = {
+				tag = BUK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BUK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ALT = {
+			targeted_modifier = {
+				tag = ALT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ALT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KAL = {
+			targeted_modifier = {
+				tag = KAL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KAL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KAR = {
+			targeted_modifier = {
+				tag = KAR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KAR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CRI = {
+			targeted_modifier = {
+				tag = CRI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CRI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TAT = {
+			targeted_modifier = {
+				tag = TAT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TAT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CIN = {
+			targeted_modifier = {
+				tag = CIN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CIN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_DAG = {
+			targeted_modifier = {
+				tag = DAG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = DAG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BYA = {
+			targeted_modifier = {
+				tag = BYA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BYA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CKK = {
+			targeted_modifier = {
+				tag = CKK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CKK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_FER = {
+			targeted_modifier = {
+				tag = FER
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = FER }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_YAK = {
+			targeted_modifier = {
+				tag = YAK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = YAK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_VLA = {
+			targeted_modifier = {
+				tag = VLA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = VLA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KKP = {
+			targeted_modifier = {
+				tag = KKP
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KKP }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_YAM = {
+			targeted_modifier = {
+				tag = YAM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = YAM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TAY = {
+			targeted_modifier = {
+				tag = TAY
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TAY }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_OVO = {
+			targeted_modifier = {
+				tag = OVO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = OVO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NEN = {
+			targeted_modifier = {
+				tag = NEN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NEN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KOM = {
+			targeted_modifier = {
+				tag = KOM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KOM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ABK = {
+			targeted_modifier = {
+				tag = ABK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ABK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KBK = {
+			targeted_modifier = {
+				tag = KBK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KBK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NOA = {
+			targeted_modifier = {
+				tag = NOA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NOA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_VGE = {
+			targeted_modifier = {
+				tag = VGE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = VGE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BSK = {
+			targeted_modifier = {
+				tag = BSK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BSK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KHI = {
+			targeted_modifier = {
+				tag = KHI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KHI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_UDM = {
+			targeted_modifier = {
+				tag = UDM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = UDM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CHU = {
+			targeted_modifier = {
+				tag = CHU
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CHU }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MEL = {
+			targeted_modifier = {
+				tag = MEL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MEL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RIF = {
+			targeted_modifier = {
+				tag = RIF
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RIF }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_HAR = {
+			targeted_modifier = {
+				tag = HAR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = HAR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TIG = {
+			targeted_modifier = {
+				tag = TIG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TIG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_AFA = {
+			targeted_modifier = {
+				tag = AFA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = AFA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BEG = {
+			targeted_modifier = {
+				tag = BEG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BEG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GBA = {
+			targeted_modifier = {
+				tag = GBA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GBA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SID = {
+			targeted_modifier = {
+				tag = SID
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SID }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ORO = {
+			targeted_modifier = {
+				tag = ORO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ORO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_QEM = {
+			targeted_modifier = {
+				tag = QEM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = QEM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KHA = {
+			targeted_modifier = {
+				tag = KHA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KHA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_AOI = {
+			targeted_modifier = {
+				tag = AOI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = AOI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_LBV = {
+			targeted_modifier = {
+				tag = LBV
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = LBV }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_PAP = {
+			targeted_modifier = {
+				tag = PAP
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = PAP }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TOS = {
+			targeted_modifier = {
+				tag = TOS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TOS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SPM = {
+			targeted_modifier = {
+				tag = SPM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SPM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_TTS = {
+			targeted_modifier = {
+				tag = TTS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = TTS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SMI = {
+			targeted_modifier = {
+				tag = SMI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SMI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GRN = {
+			targeted_modifier = {
+				tag = GRN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GRN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RAP = {
+			targeted_modifier = {
+				tag = RAP
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RAP }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_YUC = {
+			targeted_modifier = {
+				tag = YUC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = YUC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RIG = {
+			targeted_modifier = {
+				tag = RIG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RIG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_QUE = {
+			targeted_modifier = {
+				tag = QUE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = QUE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_KAT = {
+			targeted_modifier = {
+				tag = KAT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = KAT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BIA = {
+			targeted_modifier = {
+				tag = BIA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BIA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_WLA = {
+			targeted_modifier = {
+				tag = WLA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = WLA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CBV = {
+			targeted_modifier = {
+				tag = CBV
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CBV }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_BAR = {
+			targeted_modifier = {
+				tag = BAR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = BAR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_EVE = {
+			targeted_modifier = {
+				tag = EVE
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = EVE }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_SOK = {
+			targeted_modifier = {
+				tag = SOK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = SOK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_THU = {
+			targeted_modifier = {
+				tag = THU
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = THU }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_HES = {
+			targeted_modifier = {
+				tag = HES
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = HES }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RHI = {
+			targeted_modifier = {
+				tag = RHI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RHI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_UBD = {
+			targeted_modifier = {
+				tag = UBD
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = UBD }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKB = {
+			targeted_modifier = {
+				tag = RKB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKN = {
+			targeted_modifier = {
+				tag = RKN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKG = {
+			targeted_modifier = {
+				tag = RKG
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKG }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKU = {
+			targeted_modifier = {
+				tag = RKU
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKU }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKO = {
+			targeted_modifier = {
+				tag = RKO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKK = {
+			targeted_modifier = {
+				tag = RKK
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKK }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKT = {
+			targeted_modifier = {
+				tag = RKT
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKT }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKM = {
+			targeted_modifier = {
+				tag = RKM
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKM }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKL = {
+			targeted_modifier = {
+				tag = RKL
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKL }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GEN = {
+			targeted_modifier = {
+				tag = GEN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GEN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKH = {
+			targeted_modifier = {
+				tag = RKH
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKH }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKI = {
+			targeted_modifier = {
+				tag = RKI
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKI }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKC = {
+			targeted_modifier = {
+				tag = RKC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RGB = {
+			targeted_modifier = {
+				tag = RGB
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RGB }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKA = {
+			targeted_modifier = {
+				tag = RKA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RNA = {
+			targeted_modifier = {
+				tag = RNA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RNA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RKV = {
+			targeted_modifier = {
+				tag = RKV
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RKV }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RAN = {
+			targeted_modifier = {
+				tag = RAN
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RAN }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RCO = {
+			targeted_modifier = {
+				tag = RCO
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RCO }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RUS = {
+			targeted_modifier = {
+				tag = RUS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RUS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RHD = {
+			targeted_modifier = {
+				tag = RHD
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RHD }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RAR = {
+			targeted_modifier = {
+				tag = RAR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RAR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ROA = {
+			targeted_modifier = {
+				tag = ROA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ROA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_RAA = {
+			targeted_modifier = {
+				tag = RAA
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = RAA }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_GAR = {
+			targeted_modifier = {
+				tag = GAR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = GAR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_INC = {
+			targeted_modifier = {
+				tag = INC
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = INC }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MIS = {
+			targeted_modifier = {
+				tag = MIS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MIS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_MAY = {
+			targeted_modifier = {
+				tag = MAY
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = MAY }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_INU = {
+			targeted_modifier = {
+				tag = INU
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = INU }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_CHR = {
+			targeted_modifier = {
+				tag = CHR
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = CHR }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_ITZ = {
+			targeted_modifier = {
+				tag = ITZ
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = ITZ }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_NAH = {
+			targeted_modifier = {
+				tag = NAH
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = NAH }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+		sov_market_IAS = {
+			targeted_modifier = {
+				tag = IAS
+				extra_trade_to_target_factor = 0.25
+			}
+			allowed = {
+				tag = SOV
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			cancel = {
+				OR = {
+					NOT = { is_in_faction_with = IAS }
+					NOT = {
+						has_idea = closed_economy
+					}
+				}
+			}
+			picture = home_of_revolution
+		}
+
+	}
+}

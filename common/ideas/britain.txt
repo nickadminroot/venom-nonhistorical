@@ -806,30 +806,33 @@ ideas = {
 				always = yes
 			}
 
-			equipment_bonus = {
-				screen_ship = {
-					naval_speed_factor = 0.25
-					naval_range = 0.5
-					naval_damage_factor = 0.1
-				}
-				carrier = {
-					naval_speed_factor = 0.25
-					naval_range = 0.5
-					carrier_size = 1
-				}
-				capital_ship = {
-					naval_speed_factor = 0.25
-					naval_range = 0.5
-					naval_damage_factor = 0.1
-				}
-				submarine = {
-					naval_speed_factor = 0.25
-					naval_range = 0.5
-				}
-			}
+			# equipment_bonus = {
+			# 	screen_ship = {
+			# 		naval_speed_factor = 0.25
+			# 		naval_range = 0.5
+			# 		naval_damage_factor = 0.1
+			# 	}
+			# 	carrier = {
+			# 		naval_speed_factor = 0.25
+			# 		naval_range = 0.5
+			# 		carrier_size = 1
+			# 	}
+			# 	capital_ship = {
+			# 		naval_speed_factor = 0.25
+			# 		naval_range = 0.5
+			# 		naval_damage_factor = 0.1
+			# 	}
+			# 	submarine = {
+			# 		naval_speed_factor = 0.25
+			# 		naval_range = 0.5
+			# 	}
+			# }
 
 			modifier = {
 				naval_coordination = 0.10
+				naval_speed_factor = 0.25
+				# naval_range = 0.5
+				naval_damage_factor = 0.1
 			}
 
 			picture = eng_the_sun_never_sets

@@ -769,13 +769,7 @@ SOV_soviet_airforce_dynamic_modifier = { #NATIONAL SPIRIT
 	icon = GFX_idea_SOV_red_airforce_ccp_2d_sov_compatibility
 
 	#INITIAL
-	air_accidents_factor = SOV_soviet_airforce_air_accidents_factor #0.75
-	air_ace_generation_chance_factor = SOV_soviet_airforce_air_ace_generation_chance_factor #-0.5
-	air_night_penalty = SOV_soviet_airforce_air_night_penalty #0.3
-	air_weather_penalty = SOV_soviet_airforce_air_weather_penalty #0.3
-	air_wing_xp_loss_when_killed_factor = SOV_soviet_airforce_air_wing_xp_loss_when_killed_factor #0.3
-	air_mission_xp_gain_factor = SOV_soviet_airforce_air_mission_xp_gain_factor #0.1
-	air_training_xp_gain_factor = SOV_soviet_airforce_air_training_xp_gain_factor #-0.1
+	air_mission_efficiency = SOV_air_mission_efficiency
 
 	#FUTURE
 	aircraft_manufacturer_cost_factor = SOV_soviet_airforce_aircraft_manufacturer_cost_factor #-0.25 -> Expand the Aircraft Industry
@@ -785,7 +779,6 @@ SOV_soviet_airforce_dynamic_modifier = { #NATIONAL SPIRIT
 	air_strategic_bomber_night_penalty = SOV_soviet_airforce_air_strategic_bomber_night_penalty #-0.1 -> Raskova's Aviation Group
 	air_cas_present_factor = SOV_soviet_airforce_air_cas_present_factor #0.1 -> Ground Support
 	strategic_bomb_visibility = SOV_soviet_airforce_strategic_bomb_visibility #-0.1 -> Long Range Aircraft
-	air_mission_efficiency = SOV_soviet_airforce_air_mission_efficiency #0.1 -> The Modern War in the Skies
 	air_nav_efficiency = SOV_soviet_airforce_air_nav_efficiency #0.1 -> Expand the Morskaya Aviatsiya
 }
 
@@ -795,13 +788,7 @@ SOV_soviet_airforce_aircraft_production_focus_dynamic_modifier = { #NATIONAL SPI
 	icon = GFX_idea_SOV_red_airforce_ccp_2d_sov_compatibility
 
 	#INITIAL
-	air_accidents_factor = SOV_soviet_airforce_air_accidents_factor #0.75
-	air_ace_generation_chance_factor = SOV_soviet_airforce_air_ace_generation_chance_factor #-0.5
-	air_night_penalty = SOV_soviet_airforce_air_night_penalty #0.3
-	air_weather_penalty = SOV_soviet_airforce_air_weather_penalty #0.3
-	air_wing_xp_loss_when_killed_factor = SOV_soviet_airforce_air_wing_xp_loss_when_killed_factor #0.3
-	air_mission_xp_gain_factor = SOV_soviet_airforce_air_mission_xp_gain_factor #0.1
-	air_training_xp_gain_factor = SOV_soviet_airforce_air_training_xp_gain_factor #-0.1
+	air_mission_efficiency = SOV_air_mission_efficiency
 	custom_modifier_tooltip = SOV_soviet_airforce_aircraft_production_focus_tt #Equipment modifiers (more aircraft production) applied via hidden NS -> Increase Aircraft Production
 
 	#FUTURE
@@ -812,7 +799,6 @@ SOV_soviet_airforce_aircraft_production_focus_dynamic_modifier = { #NATIONAL SPI
 	air_strategic_bomber_night_penalty = SOV_soviet_airforce_air_strategic_bomber_night_penalty #-0.1 -> Raskova's Aviation Group
 	air_cas_present_factor = SOV_soviet_airforce_air_cas_present_factor #0.1 -> Ground Support
 	strategic_bomb_visibility = SOV_soviet_airforce_strategic_bomb_visibility #-0.1 -> Long Range Aircraft
-	air_mission_efficiency = SOV_soviet_airforce_air_mission_efficiency #0.1 -> The Modern War in the Skies
 	air_nav_efficiency = SOV_soviet_airforce_air_nav_efficiency #0.1 -> Expand the Morskaya Aviatsiya
 }
 
@@ -822,13 +808,7 @@ SOV_soviet_airforce_dynamic_modifier_alt = { #NATIONAL SPIRIT
 	icon = GFX_idea_SOV_red_airforce_alt_ccp_2d_sov_compatibility
 
 	#INITIAL
-	air_accidents_factor = SOV_soviet_airforce_air_accidents_factor #0.75
-	air_ace_generation_chance_factor = SOV_soviet_airforce_air_ace_generation_chance_factor #-0.5
-	air_night_penalty = SOV_soviet_airforce_air_night_penalty #0.3
-	air_weather_penalty = SOV_soviet_airforce_air_weather_penalty #0.3
-	air_wing_xp_loss_when_killed_factor = SOV_soviet_airforce_air_wing_xp_loss_when_killed_factor #0.3
-	air_mission_xp_gain_factor = SOV_soviet_airforce_air_mission_xp_gain_factor #0.1
-	air_training_xp_gain_factor = SOV_soviet_airforce_air_training_xp_gain_factor #-0.1
+	air_mission_efficiency = SOV_air_mission_efficiency
 
 	#FUTURE
 	aircraft_manufacturer_cost_factor = SOV_soviet_airforce_aircraft_manufacturer_cost_factor #-0.25 -> Expand the Aircraft Industry
@@ -838,7 +818,6 @@ SOV_soviet_airforce_dynamic_modifier_alt = { #NATIONAL SPIRIT
 	air_strategic_bomber_night_penalty = SOV_soviet_airforce_air_strategic_bomber_night_penalty #-0.1 -> Raskova's Aviation Group
 	air_cas_present_factor = SOV_soviet_airforce_air_cas_present_factor #0.1 -> Ground Support
 	strategic_bomb_visibility = SOV_soviet_airforce_strategic_bomb_visibility #-0.1 -> Long Range Aircraft
-	air_mission_efficiency = SOV_soviet_airforce_air_mission_efficiency #0.1 -> The Modern War in the Skies
 	air_nav_efficiency = SOV_soviet_airforce_air_nav_efficiency #0.1 -> Expand the Morskaya Aviatsiya
 }
 
@@ -848,13 +827,7 @@ SOV_soviet_airforce_aircraft_production_focus_dynamic_modifier_alt = { #NATIONAL
 	icon = GFX_idea_SOV_red_airforce_alt_ccp_2d_sov_compatibility
 
 	#INITIAL
-	air_accidents_factor = SOV_soviet_airforce_air_accidents_factor #0.75
-	air_ace_generation_chance_factor = SOV_soviet_airforce_air_ace_generation_chance_factor #-0.5
-	air_night_penalty = SOV_soviet_airforce_air_night_penalty #0.3
-	air_weather_penalty = SOV_soviet_airforce_air_weather_penalty #0.3
-	air_wing_xp_loss_when_killed_factor = SOV_soviet_airforce_air_wing_xp_loss_when_killed_factor #0.3
-	air_mission_xp_gain_factor = SOV_soviet_airforce_air_mission_xp_gain_factor #0.1
-	air_training_xp_gain_factor = SOV_soviet_airforce_air_training_xp_gain_factor #-0.1
+	air_mission_efficiency = SOV_air_mission_efficiency
 	custom_modifier_tooltip = SOV_soviet_airforce_aircraft_production_focus_tt #Equipment modifiers (more aircraft production) applied via hidden NS -> Increase Aircraft Production
 
 	#FUTURE
@@ -865,7 +838,6 @@ SOV_soviet_airforce_aircraft_production_focus_dynamic_modifier_alt = { #NATIONAL
 	air_strategic_bomber_night_penalty = SOV_soviet_airforce_air_strategic_bomber_night_penalty #-0.1 -> Raskova's Aviation Group
 	air_cas_present_factor = SOV_soviet_airforce_air_cas_present_factor #0.1 -> Ground Support
 	strategic_bomb_visibility = SOV_soviet_airforce_strategic_bomb_visibility #-0.1 -> Long Range Aircraft
-	air_mission_efficiency = SOV_soviet_airforce_air_mission_efficiency #0.1 -> The Modern War in the Skies
 	air_nav_efficiency = SOV_soviet_airforce_air_nav_efficiency #0.1 -> Expand the Morskaya Aviatsiya
 }
 
@@ -1133,6 +1105,7 @@ SOV_the_red_army_dynamic_modifier = { #NATIONAL SPIRIT
 	dig_in_speed_factor = SOV_the_red_army_dig_in_speed_factor #0.05 -> Experts in Camouflage
 	operative_slot  = SOV_the_red_army_operative_slot  #1 -> Organization of the Partisans
 	max_command_power_mult = SOV_the_red_army_max_command_power_mult #0.1 -> Depoliticize the Military
+	
 }
 
 SOV_the_red_army_dynamic_modifier_alt = { #NATIONAL SPIRIT

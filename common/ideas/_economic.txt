@@ -763,7 +763,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_expected_value = 0.1
+				consumer_goods_expected_value = 0.2
+				production_speed_buildings_factor = -0.1
 				global_building_slots_factor = 0.1
 			}
 
@@ -791,7 +792,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_expected_value = 0.05
+				consumer_goods_expected_value = 0.1
+				production_speed_buildings_factor = -0.1
 				global_building_slots_factor = 0.2
 			}
 
@@ -1470,10 +1472,10 @@ ideas = {
 						hidden_trigger = { always = no } #NEED TO HAVE AN ALWAYS AS AN END STATEMENT IF URE USING AN IF ELSE IN AN OR STATEMENT OTHERWISE THE EVALUATION BREAKS!!
 					}
 				}
-				OR = {
-					NOT = {	tag = SOV }
-					NOT = { has_opinion_modifier = MR_pact }
-				}
+				# OR = {
+				# 	# NOT = {	tag = SOV }
+				# 	# NOT = { has_opinion_modifier = MR_pact }
+				# }
 
 				if = {
 					limit = {
@@ -1482,6 +1484,25 @@ ideas = {
 					}
 					NOT = { has_idea = CHI_nine_power_treaty }
 				}
+			}
+
+			allowed_to_remove = {
+				if = {
+					limit = {
+						tag = SOV
+					}
+					OR = {
+						has_completed_focus = SOV_beaten_but_not_defeated
+						has_completed_focus = SOV_back_to_the_nep
+						custom_trigger_tooltip = {
+							tooltip = sov_market_tooltip
+							always = no
+						}
+					}
+				}
+				# else = {
+				# 	always = yes
+				# }
 			}
 
 			rule = {

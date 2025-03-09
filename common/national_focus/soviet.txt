@@ -2304,17 +2304,16 @@ focus_tree = {
 		cost = 5
 
 		available = {
-
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 		
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { SOV_soviet_airforce_air_accidents_factor = -0.25 }
-			add_to_variable = { SOV_soviet_airforce_air_ace_generation_chance_factor = 0.25 }
-			add_to_variable = { SOV_soviet_airforce_air_weather_penalty = -0.1 }
-			add_to_variable = { SOV_soviet_airforce_air_training_xp_gain_factor = 0.1 }
-			custom_effect_tooltip = SOV_foster_flying_clubs_ns_tt
+			add_to_variable = { SOV_air_mission_efficiency = 0.1 }
+			custom_effect_tooltip = SOV_the_modern_war_in_the_skies_ns_tt
 
 			air_experience = 25
 		}
@@ -2331,20 +2330,16 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			OR = {
-				has_completed_focus = SOV_the_path_of_marxism_leninism
-				has_completed_focus = SOV_womens_fascist_movement
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
 			}
 		}
 		
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { SOV_soviet_airforce_air_ace_generation_chance_factor = 0.25 }
-			add_to_variable = { SOV_soviet_airforce_air_weather_penalty = -0.05 }
-			add_to_variable = { SOV_soviet_airforce_air_mission_xp_gain_factor = 0.05 }
-			add_to_variable = { SOV_soviet_airforce_air_training_xp_gain_factor = 0.05 }
-			custom_effect_tooltip = SOV_women_in_aviation_ns_tt
+			add_to_variable = { SOV_air_mission_efficiency = 0.1 }
+			custom_effect_tooltip = SOV_the_modern_war_in_the_skies_ns_tt
 
 			air_experience = 25
 			set_rule = {
@@ -2367,16 +2362,14 @@ focus_tree = {
 			any_enemy_country = {
 				SOV_is_major_not_original_sov = yes
 			}
-			has_full_control_of_state = 219 #MOSCOW
 		}
 		
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { SOV_soviet_airforce_air_night_penalty = -0.2 }
-			add_to_variable = { SOV_soviet_airforce_air_wing_xp_loss_when_killed_factor = -0.1 }
-			set_variable = { SOV_soviet_airforce_air_strategic_bomber_night_penalty = -0.1 }
-			custom_effect_tooltip = SOV_raskovas_aviation_group_ns_tt
+			add_to_variable = { SOV_air_mission_efficiency = 0.1 }
+			# set_variable = { SOV_soviet_airforce_air_strategic_bomber_night_penalty = -0.1 }
+			custom_effect_tooltip = SOV_the_modern_war_in_the_skies_ns_tt
 
 			custom_effect_tooltip = SOV_night_witches_nsb_tt
 			hidden_effect = {
@@ -2453,19 +2446,16 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_increase_aircraft_production }
 
 		available = {
-			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 		
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { SOV_soviet_airforce_air_accidents_factor = -0.25 }
-			add_to_variable = { SOV_soviet_airforce_air_ace_generation_chance_factor = 0.15 }
-			add_to_variable = { SOV_soviet_airforce_air_night_penalty = -0.1 }
-			add_to_variable = { SOV_soviet_airforce_air_weather_penalty = -0.15 }
-			add_to_variable = { SOV_soviet_airforce_air_wing_xp_loss_when_killed_factor = -0.15 }
-			add_to_variable = { SOV_soviet_airforce_air_fuel_consumption_factor = 0.1 }
-			custom_effect_tooltip = SOV_intensify_pilot_training_program_ns_tt
+			add_to_variable = { SOV_air_mission_efficiency = 0.1 }
+			custom_effect_tooltip = SOV_the_modern_war_in_the_skies_ns_tt
 
 			air_experience = 50
 		}
@@ -2482,17 +2472,16 @@ focus_tree = {
 		cost = 5
 
 		available = {
-
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 		
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { SOV_soviet_airforce_air_accidents_factor = -0.25 }
-			add_to_variable = { SOV_soviet_airforce_air_weather_penalty = -0.1 }
-			add_to_variable = { SOV_soviet_airforce_air_training_xp_gain_factor = 0.05 }
-			add_to_variable = { SOV_soviet_airforce_air_wing_xp_loss_when_killed_factor = -0.15 }
-			custom_effect_tooltip = SOV_expand_aviation_institutes_ns_tt
+			add_to_variable = { SOV_air_mission_efficiency = 0.1 }
+			custom_effect_tooltip = SOV_the_modern_war_in_the_skies_ns_tt
 		}
 	}
 
@@ -2509,7 +2498,9 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_long_range_aircraft }
 
 		available = {
-
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -2541,7 +2532,9 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_ground_support }
 
 		available = {
-
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -2572,14 +2565,15 @@ focus_tree = {
 		cost = 5
 
 		available = {
-
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 		
 		search_filters = {FOCUS_FILTER_AIR_XP}
 
 		completion_reward = {
-			add_to_variable = { SOV_soviet_airforce_air_night_penalty = -0.1 }
-			add_to_variable = { SOV_soviet_airforce_air_mission_efficiency = 0.1 } 
+			add_to_variable = { SOV_air_mission_efficiency = 0.1 }
 			custom_effect_tooltip = SOV_the_modern_war_in_the_skies_ns_tt
 
 			air_experience = 50
@@ -4227,18 +4221,10 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_pc_of_mechanical_engineering
-		cost = 10
+		cost = 5
 
 		available = {
-			if = {
-				limit = {
-					has_dlc = "No Step Back"
-				}
-				has_tech = improved_medium_tank_chassis
-			}
-			else = {
-				has_tech = improved_medium_tank
-			}
+			always = yes
 		}
 		
 		search_filters = {FOCUS_FILTER_RESEARCH}
@@ -4394,7 +4380,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_superior_war_machines
-		cost = 10
+		cost = 5
 
 		available = {
 		}
@@ -4646,7 +4632,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_pc_of_mechanical_engineering
-		cost = 10
+		cost = 5
 
 		available = {
 			has_full_control_of_state = 219 #MOSCOW
@@ -4869,7 +4855,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SOV_found_the_pcdi
-		cost = 5
+		cost = 1
 
 		available = {
 
@@ -6184,7 +6170,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_cohesion_first }
 
 		available = {
-			has_war_with_major = yes
+
 		}
 		
 		search_filters = {}
@@ -6264,7 +6250,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { SOV_the_red_army_army_org_factor = 0.05 }
-			add_to_variable = { SOV_the_red_army_training_time_factor = 0.1 }
+			# add_to_variable = { SOV_the_red_army_training_time_factor = 0.1 }
 			custom_effect_tooltip = SOV_cohesion_first_ns_tt
 		}
 	}
@@ -6276,10 +6262,12 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_strengthen_the_mobilization_plan
-		cost = 10
+		cost = 5
 
 		available = {
-			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 		
 		search_filters = {}
@@ -6299,7 +6287,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_rehabilitated_military
-		cost = 10
+		cost = 5
 
 		select_effect = {
 			add_ideas = SOV_military_reorganization_ns
@@ -6370,7 +6358,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_rehabilitated_military
-		cost = 10
+		cost = 5
 
 		available = {
 
@@ -6649,7 +6637,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_military_reorganization
-		cost = 10
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_swap_to_political_advisors }
 
@@ -6700,7 +6688,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_military_reorganization
-		cost = 10
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_swap_to_political_advisors }
 
@@ -6755,7 +6743,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = SOV_military_reorganization
-		cost = 10
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_keep_commissars_organization focus = SOV_adjoined_battle_priests }
 
@@ -6806,7 +6794,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_keep_commissars_organization
-		cost = 10
+		cost = 5
 
 		allow_branch = {
 			NOT = {
@@ -6854,7 +6842,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_keep_commissars_organization
-		cost = 10
+		cost = 5
 
 		allow_branch = {
 			OR = {

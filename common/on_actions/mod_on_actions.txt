@@ -98,40 +98,3394 @@ on_actions = {
         }
 	}
 
-	# on_monthly_SOV = {
-	# 	effect = { # NEVER FORGET! Important to include this line to distinguish it from random_events = { ... }
-	# 		if = {
-	# 			limit = {
-	# 				SOV = {
-	# 					has_idea = closed_economy
-	# 				}
-	# 			}
-	# 			every_country = {
-	# 				limit = {
-	# 					is_in_faction_with = SOV
-	# 				}
-	# 				SOV = {
-	# 					add_ideas = sov_market
-	# 				}
-	# 			}
-	# 		}
-	# 		if = {
-	# 			limit = {
-	# 				SOV = {
-	# 					NOT = { has_idea = closed_economy }
-	# 				}
-	# 			}
-	# 			every_country = {
-	# 				limit = {
-	# 					is_in_faction_with = SOV
-	# 				}
-	# 				SOV = {
-	# 					remove_ideas = sov_market
-	# 				}
-	# 			}
-	# 		}
-    #     }
-	# }
+	on_monthly_SOV = {
+		effect = { # NEVER FORGET! Important to include this line to distinguish it from random_events = { ... }
+			if = {
+				limit = {
+					SOV = {
+						has_idea = closed_economy
+					}
+				}
+				if = {
+					limit = {
+						GER = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GER }
+					}
+				}
+
+				if = {
+					limit = {
+						ENG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ENG }
+					}
+				}
+
+				# if = {
+				# 	limit = {
+				# 		SOV = {
+				# 			is_in_faction_with = SOV
+				# 		}
+				# 	}
+				# 	SOV = {
+				# 		add_ideas = { sov_market_SOV }
+				# 	}
+				# }
+
+				if = {
+					limit = {
+						SWE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SWE }
+					}
+				}
+
+				if = {
+					limit = {
+						FRA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_FRA }
+					}
+				}
+
+				if = {
+					limit = {
+						LUX = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_LUX }
+					}
+				}
+
+				if = {
+					limit = {
+						BEL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BEL }
+					}
+				}
+
+				if = {
+					limit = {
+						HOL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_HOL }
+					}
+				}
+
+				if = {
+					limit = {
+						CZE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CZE }
+					}
+				}
+
+				if = {
+					limit = {
+						POL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_POL }
+					}
+				}
+
+				if = {
+					limit = {
+						AUS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_AUS }
+					}
+				}
+
+				if = {
+					limit = {
+						LIT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_LIT }
+					}
+				}
+
+				if = {
+					limit = {
+						EST = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_EST }
+					}
+				}
+
+				if = {
+					limit = {
+						LAT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_LAT }
+					}
+				}
+
+				if = {
+					limit = {
+						SPR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SPR }
+					}
+				}
+
+				if = {
+					limit = {
+						ITA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ITA }
+					}
+				}
+
+				if = {
+					limit = {
+						ROM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ROM }
+					}
+				}
+
+				if = {
+					limit = {
+						YUG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_YUG }
+					}
+				}
+
+				if = {
+					limit = {
+						SER = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SER }
+					}
+				}
+
+				if = {
+					limit = {
+						SWI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SWI }
+					}
+				}
+
+				if = {
+					limit = {
+						TUR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TUR }
+					}
+				}
+
+				if = {
+					limit = {
+						GRE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GRE }
+					}
+				}
+
+				if = {
+					limit = {
+						ALB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ALB }
+					}
+				}
+
+				if = {
+					limit = {
+						NOR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NOR }
+					}
+				}
+
+				if = {
+					limit = {
+						DEN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_DEN }
+					}
+				}
+
+				if = {
+					limit = {
+						BUL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BUL }
+					}
+				}
+
+				if = {
+					limit = {
+						POR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_POR }
+					}
+				}
+
+				if = {
+					limit = {
+						FIN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_FIN }
+					}
+				}
+
+				if = {
+					limit = {
+						IRE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_IRE }
+					}
+				}
+
+				if = {
+					limit = {
+						HUN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_HUN }
+					}
+				}
+
+				if = {
+					limit = {
+						AFG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_AFG }
+					}
+				}
+
+				if = {
+					limit = {
+						ARG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ARG }
+					}
+				}
+
+				if = {
+					limit = {
+						AST = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_AST }
+					}
+				}
+
+				if = {
+					limit = {
+						BHU = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BHU }
+					}
+				}
+
+				if = {
+					limit = {
+						BOL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BOL }
+					}
+				}
+
+				if = {
+					limit = {
+						BRA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BRA }
+					}
+				}
+
+				if = {
+					limit = {
+						CAN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CAN }
+					}
+				}
+
+				if = {
+					limit = {
+						CHI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CHI }
+					}
+				}
+
+				if = {
+					limit = {
+						CHL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CHL }
+					}
+				}
+
+				if = {
+					limit = {
+						COL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_COL }
+					}
+				}
+
+				if = {
+					limit = {
+						COS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_COS }
+					}
+				}
+
+				if = {
+					limit = {
+						ECU = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ECU }
+					}
+				}
+
+				if = {
+					limit = {
+						ELS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ELS }
+					}
+				}
+
+				if = {
+					limit = {
+						ETH = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ETH }
+					}
+				}
+
+				if = {
+					limit = {
+						GUA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GUA }
+					}
+				}
+
+				if = {
+					limit = {
+						HON = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_HON }
+					}
+				}
+
+				if = {
+					limit = {
+						IRQ = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_IRQ }
+					}
+				}
+
+				if = {
+					limit = {
+						JAP = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_JAP }
+					}
+				}
+
+				if = {
+					limit = {
+						KOR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KOR }
+					}
+				}
+
+				if = {
+					limit = {
+						LIB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_LIB }
+					}
+				}
+
+				if = {
+					limit = {
+						MEX = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MEX }
+					}
+				}
+
+				if = {
+					limit = {
+						MEN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MEN }
+					}
+				}
+
+				if = {
+					limit = {
+						NEP = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NEP }
+					}
+				}
+
+				if = {
+					limit = {
+						NIC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NIC }
+					}
+				}
+
+				if = {
+					limit = {
+						NZL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NZL }
+					}
+				}
+
+				if = {
+					limit = {
+						PAN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PAN }
+					}
+				}
+
+				if = {
+					limit = {
+						PER = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PER }
+					}
+				}
+
+				if = {
+					limit = {
+						PHI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PHI }
+					}
+				}
+
+				if = {
+					limit = {
+						PRU = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PRU }
+					}
+				}
+
+				if = {
+					limit = {
+						SAF = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SAF }
+					}
+				}
+
+				if = {
+					limit = {
+						SAU = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SAU }
+					}
+				}
+
+				if = {
+					limit = {
+						SIA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SIA }
+					}
+				}
+
+				if = {
+					limit = {
+						SIK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SIK }
+					}
+				}
+
+				if = {
+					limit = {
+						TIB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TIB }
+					}
+				}
+
+				if = {
+					limit = {
+						URG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_URG }
+					}
+				}
+
+				if = {
+					limit = {
+						VEN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_VEN }
+					}
+				}
+
+				if = {
+					limit = {
+						YUN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_YUN }
+					}
+				}
+
+				if = {
+					limit = {
+						USA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_USA }
+					}
+				}
+
+				if = {
+					limit = {
+						MON = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MON }
+					}
+				}
+
+				if = {
+					limit = {
+						TAN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TAN }
+					}
+				}
+
+				if = {
+					limit = {
+						PAR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PAR }
+					}
+				}
+
+				if = {
+					limit = {
+						CUB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CUB }
+					}
+				}
+
+				if = {
+					limit = {
+						DOM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_DOM }
+					}
+				}
+
+				if = {
+					limit = {
+						HAI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_HAI }
+					}
+				}
+
+				if = {
+					limit = {
+						YEM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_YEM }
+					}
+				}
+
+				if = {
+					limit = {
+						OMA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_OMA }
+					}
+				}
+
+				if = {
+					limit = {
+						SLO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SLO }
+					}
+				}
+
+				if = {
+					limit = {
+						RAJ = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RAJ }
+					}
+				}
+
+				if = {
+					limit = {
+						CRO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CRO }
+					}
+				}
+
+				if = {
+					limit = {
+						GXC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GXC }
+					}
+				}
+
+				if = {
+					limit = {
+						PRC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PRC }
+					}
+				}
+
+				if = {
+					limit = {
+						SHX = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SHX }
+					}
+				}
+
+				if = {
+					limit = {
+						XSM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_XSM }
+					}
+				}
+
+				if = {
+					limit = {
+						ICE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ICE }
+					}
+				}
+
+				if = {
+					limit = {
+						LEB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_LEB }
+					}
+				}
+
+				if = {
+					limit = {
+						JOR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_JOR }
+					}
+				}
+
+				if = {
+					limit = {
+						SYR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SYR }
+					}
+				}
+
+				if = {
+					limit = {
+						EGY = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_EGY }
+					}
+				}
+
+				if = {
+					limit = {
+						LBA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_LBA }
+					}
+				}
+
+				if = {
+					limit = {
+						WGR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_WGR }
+					}
+				}
+
+				if = {
+					limit = {
+						DDR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_DDR }
+					}
+				}
+
+				if = {
+					limit = {
+						PAL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PAL }
+					}
+				}
+
+				if = {
+					limit = {
+						ISR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ISR }
+					}
+				}
+
+				if = {
+					limit = {
+						VIN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_VIN }
+					}
+				}
+
+				if = {
+					limit = {
+						CAM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CAM }
+					}
+				}
+
+				if = {
+					limit = {
+						MAL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MAL }
+					}
+				}
+
+				if = {
+					limit = {
+						INS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_INS }
+					}
+				}
+
+				if = {
+					limit = {
+						LAO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_LAO }
+					}
+				}
+
+				if = {
+					limit = {
+						MNT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MNT }
+					}
+				}
+
+				if = {
+					limit = {
+						UKR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_UKR }
+					}
+				}
+
+				if = {
+					limit = {
+						GEO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GEO }
+					}
+				}
+
+				if = {
+					limit = {
+						KAZ  = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KAZ  }
+					}
+				}
+
+				if = {
+					limit = {
+						AZR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_AZR }
+					}
+				}
+
+				if = {
+					limit = {
+						ARM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ARM }
+					}
+				}
+
+				if = {
+					limit = {
+						BLR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BLR }
+					}
+				}
+
+				if = {
+					limit = {
+						ANG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ANG }
+					}
+				}
+
+				if = {
+					limit = {
+						MZB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MZB }
+					}
+				}
+
+				if = {
+					limit = {
+						ZIM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ZIM }
+					}
+				}
+
+				if = {
+					limit = {
+						COG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_COG }
+					}
+				}
+
+				if = {
+					limit = {
+						KEN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KEN }
+					}
+				}
+
+				if = {
+					limit = {
+						PAK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PAK }
+					}
+				}
+
+				if = {
+					limit = {
+						BOT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BOT }
+					}
+				}
+
+				if = {
+					limit = {
+						MAN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MAN }
+					}
+				}
+
+				if = {
+					limit = {
+						BAH = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BAH }
+					}
+				}
+
+				if = {
+					limit = {
+						BAN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BAN }
+					}
+				}
+
+				if = {
+					limit = {
+						BLZ = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BLZ }
+					}
+				}
+
+				if = {
+					limit = {
+						BRM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BRM }
+					}
+				}
+
+				if = {
+					limit = {
+						CRC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CRC }
+					}
+				}
+
+				if = {
+					limit = {
+						GDL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GDL }
+					}
+				}
+
+				if = {
+					limit = {
+						GYA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GYA }
+					}
+				}
+
+				if = {
+					limit = {
+						JAM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_JAM }
+					}
+				}
+
+				if = {
+					limit = {
+						JAN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_JAN }
+					}
+				}
+
+				if = {
+					limit = {
+						KYR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KYR }
+					}
+				}
+
+				if = {
+					limit = {
+						MAD = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MAD }
+					}
+				}
+
+				if = {
+					limit = {
+						MOL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MOL }
+					}
+				}
+
+				if = {
+					limit = {
+						PNG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PNG }
+					}
+				}
+
+				if = {
+					limit = {
+						PUE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PUE }
+					}
+				}
+
+				if = {
+					limit = {
+						QAT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_QAT }
+					}
+				}
+
+				if = {
+					limit = {
+						SCO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SCO }
+					}
+				}
+
+				if = {
+					limit = {
+						SRL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SRL }
+					}
+				}
+
+				if = {
+					limit = {
+						SUR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SUR }
+					}
+				}
+
+				if = {
+					limit = {
+						TAJ = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TAJ }
+					}
+				}
+
+				if = {
+					limit = {
+						TRI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TRI }
+					}
+				}
+
+				if = {
+					limit = {
+						TMS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TMS }
+					}
+				}
+
+				if = {
+					limit = {
+						UAE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_UAE }
+					}
+				}
+
+				if = {
+					limit = {
+						UZB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_UZB }
+					}
+				}
+
+				if = {
+					limit = {
+						KUW = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KUW }
+					}
+				}
+
+				if = {
+					limit = {
+						CYP = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CYP }
+					}
+				}
+
+				if = {
+					limit = {
+						MLT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MLT }
+					}
+				}
+
+				if = {
+					limit = {
+						ALG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ALG }
+					}
+				}
+
+				if = {
+					limit = {
+						MOR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MOR }
+					}
+				}
+
+				if = {
+					limit = {
+						TUN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TUN }
+					}
+				}
+
+				if = {
+					limit = {
+						SUD = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SUD }
+					}
+				}
+
+				if = {
+					limit = {
+						ERI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ERI }
+					}
+				}
+
+				if = {
+					limit = {
+						DJI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_DJI }
+					}
+				}
+
+				if = {
+					limit = {
+						SOM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SOM }
+					}
+				}
+
+				if = {
+					limit = {
+						UGA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_UGA }
+					}
+				}
+
+				if = {
+					limit = {
+						RWA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RWA }
+					}
+				}
+
+				if = {
+					limit = {
+						BRD = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BRD }
+					}
+				}
+
+				if = {
+					limit = {
+						TZN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TZN }
+					}
+				}
+
+				if = {
+					limit = {
+						ZAM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ZAM }
+					}
+				}
+
+				if = {
+					limit = {
+						MLW = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MLW }
+					}
+				}
+
+				if = {
+					limit = {
+						GAB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GAB }
+					}
+				}
+
+				if = {
+					limit = {
+						RCG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RCG }
+					}
+				}
+
+				if = {
+					limit = {
+						EQG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_EQG }
+					}
+				}
+
+				if = {
+					limit = {
+						CMR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CMR }
+					}
+				}
+
+				if = {
+					limit = {
+						CAR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CAR }
+					}
+				}
+
+				if = {
+					limit = {
+						CHA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CHA }
+					}
+				}
+
+				if = {
+					limit = {
+						NGA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NGA }
+					}
+				}
+
+				if = {
+					limit = {
+						DAH = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_DAH }
+					}
+				}
+
+				if = {
+					limit = {
+						TOG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TOG }
+					}
+				}
+
+				if = {
+					limit = {
+						GHA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GHA }
+					}
+				}
+
+				if = {
+					limit = {
+						IVO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_IVO }
+					}
+				}
+
+				if = {
+					limit = {
+						VOL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_VOL }
+					}
+				}
+
+				if = {
+					limit = {
+						MLI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MLI }
+					}
+				}
+
+				if = {
+					limit = {
+						SIE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SIE }
+					}
+				}
+
+				if = {
+					limit = {
+						GNA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GNA }
+					}
+				}
+
+				if = {
+					limit = {
+						GNB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GNB }
+					}
+				}
+
+				if = {
+					limit = {
+						SEN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SEN }
+					}
+				}
+
+				if = {
+					limit = {
+						GAM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GAM }
+					}
+				}
+
+				if = {
+					limit = {
+						WLS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_WLS }
+					}
+				}
+
+				if = {
+					limit = {
+						NGR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NGR }
+					}
+				}
+
+				if = {
+					limit = {
+						CSA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CSA }
+					}
+				}
+
+				if = {
+					limit = {
+						USB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_USB }
+					}
+				}
+
+				if = {
+					limit = {
+						MRT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MRT }
+					}
+				}
+
+				if = {
+					limit = {
+						NMB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NMB }
+					}
+				}
+
+				if = {
+					limit = {
+						WES = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_WES }
+					}
+				}
+
+				if = {
+					limit = {
+						BAS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BAS }
+					}
+				}
+
+				if = {
+					limit = {
+						CAY = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CAY }
+					}
+				}
+
+				if = {
+					limit = {
+						MLD = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MLD }
+					}
+				}
+
+				if = {
+					limit = {
+						FIJ = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_FIJ }
+					}
+				}
+
+				if = {
+					limit = {
+						FSM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_FSM }
+					}
+				}
+
+				if = {
+					limit = {
+						TAH = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TAH }
+					}
+				}
+
+				if = {
+					limit = {
+						GUM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GUM }
+					}
+				}
+
+				if = {
+					limit = {
+						SOL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SOL }
+					}
+				}
+
+				if = {
+					limit = {
+						SAM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SAM }
+					}
+				}
+
+				if = {
+					limit = {
+						HAW = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_HAW }
+					}
+				}
+
+				if = {
+					limit = {
+						SLV = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SLV }
+					}
+				}
+
+				if = {
+					limit = {
+						BOS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BOS }
+					}
+				}
+
+				if = {
+					limit = {
+						HRZ = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_HRZ }
+					}
+				}
+
+				if = {
+					limit = {
+						MAC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MAC }
+					}
+				}
+
+				if = {
+					limit = {
+						NIR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NIR }
+					}
+				}
+
+				if = {
+					limit = {
+						BAY = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BAY }
+					}
+				}
+
+				if = {
+					limit = {
+						MEK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MEK }
+					}
+				}
+
+				if = {
+					limit = {
+						PRE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PRE }
+					}
+				}
+
+				if = {
+					limit = {
+						SAX = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SAX }
+					}
+				}
+
+				if = {
+					limit = {
+						HAN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_HAN }
+					}
+				}
+
+				if = {
+					limit = {
+						WUR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_WUR }
+					}
+				}
+
+				if = {
+					limit = {
+						SHL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SHL }
+					}
+				}
+
+				if = {
+					limit = {
+						CAT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CAT }
+					}
+				}
+
+				if = {
+					limit = {
+						NAV = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NAV }
+					}
+				}
+
+				if = {
+					limit = {
+						GLC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GLC }
+					}
+				}
+
+				if = {
+					limit = {
+						ADU = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ADU }
+					}
+				}
+
+				if = {
+					limit = {
+						BRI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BRI }
+					}
+				}
+
+				if = {
+					limit = {
+						OCC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_OCC }
+					}
+				}
+
+				if = {
+					limit = {
+						COR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_COR }
+					}
+				}
+
+				if = {
+					limit = {
+						KUR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KUR }
+					}
+				}
+
+				if = {
+					limit = {
+						TRA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TRA }
+					}
+				}
+
+				if = {
+					limit = {
+						DNZ = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_DNZ }
+					}
+				}
+
+				if = {
+					limit = {
+						SIL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SIL }
+					}
+				}
+
+				if = {
+					limit = {
+						KSH = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KSH }
+					}
+				}
+
+				if = {
+					limit = {
+						DON = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_DON }
+					}
+				}
+
+				if = {
+					limit = {
+						KUB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KUB }
+					}
+				}
+
+				if = {
+					limit = {
+						BUK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BUK }
+					}
+				}
+
+				if = {
+					limit = {
+						ALT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ALT }
+					}
+				}
+
+				if = {
+					limit = {
+						KAL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KAL }
+					}
+				}
+
+				if = {
+					limit = {
+						KAR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KAR }
+					}
+				}
+
+				if = {
+					limit = {
+						CRI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CRI }
+					}
+				}
+
+				if = {
+					limit = {
+						TAT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TAT }
+					}
+				}
+
+				if = {
+					limit = {
+						CIN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CIN }
+					}
+				}
+
+				if = {
+					limit = {
+						DAG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_DAG }
+					}
+				}
+
+				if = {
+					limit = {
+						BYA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BYA }
+					}
+				}
+
+				if = {
+					limit = {
+						CKK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CKK }
+					}
+				}
+
+				if = {
+					limit = {
+						FER = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_FER }
+					}
+				}
+
+				if = {
+					limit = {
+						YAK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_YAK }
+					}
+				}
+
+				if = {
+					limit = {
+						VLA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_VLA }
+					}
+				}
+
+				if = {
+					limit = {
+						KKP = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KKP }
+					}
+				}
+
+				if = {
+					limit = {
+						YAM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_YAM }
+					}
+				}
+
+				if = {
+					limit = {
+						TAY = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TAY }
+					}
+				}
+
+				if = {
+					limit = {
+						OVO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_OVO }
+					}
+				}
+
+				if = {
+					limit = {
+						NEN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NEN }
+					}
+				}
+
+				if = {
+					limit = {
+						KOM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KOM }
+					}
+				}
+
+				if = {
+					limit = {
+						ABK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ABK }
+					}
+				}
+
+				if = {
+					limit = {
+						KBK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KBK }
+					}
+				}
+
+				if = {
+					limit = {
+						NOA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NOA }
+					}
+				}
+
+				if = {
+					limit = {
+						VGE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_VGE }
+					}
+				}
+
+				if = {
+					limit = {
+						BSK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BSK }
+					}
+				}
+
+				if = {
+					limit = {
+						KHI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KHI }
+					}
+				}
+
+				if = {
+					limit = {
+						UDM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_UDM }
+					}
+				}
+
+				if = {
+					limit = {
+						CHU = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CHU }
+					}
+				}
+
+				if = {
+					limit = {
+						MEL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MEL }
+					}
+				}
+
+				if = {
+					limit = {
+						RIF = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RIF }
+					}
+				}
+
+				if = {
+					limit = {
+						HAR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_HAR }
+					}
+				}
+
+				if = {
+					limit = {
+						TIG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TIG }
+					}
+				}
+
+				if = {
+					limit = {
+						AFA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_AFA }
+					}
+				}
+
+				if = {
+					limit = {
+						BEG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BEG }
+					}
+				}
+
+				if = {
+					limit = {
+						GBA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GBA }
+					}
+				}
+
+				if = {
+					limit = {
+						SID = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SID }
+					}
+				}
+
+				if = {
+					limit = {
+						ORO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ORO }
+					}
+				}
+
+				if = {
+					limit = {
+						QEM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_QEM }
+					}
+				}
+
+				if = {
+					limit = {
+						KHA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KHA }
+					}
+				}
+
+				if = {
+					limit = {
+						AOI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_AOI }
+					}
+				}
+
+				if = {
+					limit = {
+						LBV = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_LBV }
+					}
+				}
+
+				if = {
+					limit = {
+						PAP = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_PAP }
+					}
+				}
+
+				if = {
+					limit = {
+						TOS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TOS }
+					}
+				}
+
+				if = {
+					limit = {
+						SPM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SPM }
+					}
+				}
+
+				if = {
+					limit = {
+						TTS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_TTS }
+					}
+				}
+
+				if = {
+					limit = {
+						SMI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SMI }
+					}
+				}
+
+				if = {
+					limit = {
+						GRN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GRN }
+					}
+				}
+
+				if = {
+					limit = {
+						RAP = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RAP }
+					}
+				}
+
+				if = {
+					limit = {
+						YUC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_YUC }
+					}
+				}
+
+				if = {
+					limit = {
+						RIG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RIG }
+					}
+				}
+
+				if = {
+					limit = {
+						QUE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_QUE }
+					}
+				}
+
+				if = {
+					limit = {
+						KAT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_KAT }
+					}
+				}
+
+				if = {
+					limit = {
+						BIA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BIA }
+					}
+				}
+
+				if = {
+					limit = {
+						WLA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_WLA }
+					}
+				}
+
+				if = {
+					limit = {
+						CBV = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CBV }
+					}
+				}
+
+				if = {
+					limit = {
+						BAR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_BAR }
+					}
+				}
+
+				if = {
+					limit = {
+						EVE = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_EVE }
+					}
+				}
+
+				if = {
+					limit = {
+						SOK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_SOK }
+					}
+				}
+
+				if = {
+					limit = {
+						THU = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_THU }
+					}
+				}
+
+				if = {
+					limit = {
+						HES = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_HES }
+					}
+				}
+
+				if = {
+					limit = {
+						RHI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RHI }
+					}
+				}
+
+				if = {
+					limit = {
+						UBD = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_UBD }
+					}
+				}
+
+				if = {
+					limit = {
+						RKB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKB }
+					}
+				}
+
+				if = {
+					limit = {
+						RKN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKN }
+					}
+				}
+
+				if = {
+					limit = {
+						RKG = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKG }
+					}
+				}
+
+				if = {
+					limit = {
+						RKU = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKU }
+					}
+				}
+
+				if = {
+					limit = {
+						RKO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKO }
+					}
+				}
+
+				if = {
+					limit = {
+						RKK = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKK }
+					}
+				}
+
+				if = {
+					limit = {
+						RKT = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKT }
+					}
+				}
+
+				if = {
+					limit = {
+						RKM = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKM }
+					}
+				}
+
+				if = {
+					limit = {
+						RKL = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKL }
+					}
+				}
+
+				if = {
+					limit = {
+						GEN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GEN }
+					}
+				}
+
+				if = {
+					limit = {
+						RKH = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKH }
+					}
+				}
+
+				if = {
+					limit = {
+						RKI = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKI }
+					}
+				}
+
+				if = {
+					limit = {
+						RKC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKC }
+					}
+				}
+
+				if = {
+					limit = {
+						RGB = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RGB }
+					}
+				}
+
+				if = {
+					limit = {
+						RKA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKA }
+					}
+				}
+
+				if = {
+					limit = {
+						RNA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RNA }
+					}
+				}
+
+				if = {
+					limit = {
+						RKV = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RKV }
+					}
+				}
+
+				if = {
+					limit = {
+						RAN = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RAN }
+					}
+				}
+
+				if = {
+					limit = {
+						RCO = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RCO }
+					}
+				}
+
+				if = {
+					limit = {
+						RUS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RUS }
+					}
+				}
+
+				if = {
+					limit = {
+						RHD = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RHD }
+					}
+				}
+
+				if = {
+					limit = {
+						RAR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RAR }
+					}
+				}
+
+				if = {
+					limit = {
+						ROA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ROA }
+					}
+				}
+
+				if = {
+					limit = {
+						RAA = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_RAA }
+					}
+				}
+
+				if = {
+					limit = {
+						GAR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_GAR }
+					}
+				}
+
+				if = {
+					limit = {
+						INC = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_INC }
+					}
+				}
+
+				if = {
+					limit = {
+						MIS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MIS }
+					}
+				}
+
+				if = {
+					limit = {
+						MAY = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_MAY }
+					}
+				}
+
+				if = {
+					limit = {
+						INU = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_INU }
+					}
+				}
+
+				if = {
+					limit = {
+						CHR = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_CHR }
+					}
+				}
+
+				if = {
+					limit = {
+						ITZ = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_ITZ }
+					}
+				}
+
+				if = {
+					limit = {
+						NAH = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_NAH }
+					}
+				}
+
+				if = {
+					limit = {
+						IAS = {
+							is_in_faction_with = SOV
+						}
+					}
+					SOV = {
+						add_ideas = { sov_market_IAS }
+					}
+				}
+
+			}
+        }
+	}
 
 	# on_army_leader_daily = {
 	# 	effect = {

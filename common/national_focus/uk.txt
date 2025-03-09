@@ -9238,17 +9238,24 @@ focus_tree = {
 	focus = {
 		id = uk_iraq_focus
 		available = {
-			country_exists = PER
-			NOT = { has_war_with = PER }
-			is_subject = no
-			any_enemy_country = { is_major = yes }
-		}
+			IRQ = {
+				OR = { 
+					communism > 0.2
+			 		fascism > 0.2
+					ROOT = {
+						has_idea = ENG_no_further_appeasement_idea
+					}
+					any_enemy_country = { is_major = yes }
+			 	} 
+			}
+		} #UK at war with fascist/commie. iraq is fascist/commie
+
 		bypass = {
 			IRQ = { exists = no }
 		}
 
 		will_lead_to_war_with = IRQ
-		prerequisite = { focus = ENG_home_defence focus = ENG_no_further_appeasement }
+		prerequisite = { focus = ENG_home_defence }
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x = -3
 		y = 3
@@ -9259,22 +9266,56 @@ focus_tree = {
 				NOT = { has_dlc = "Man the Guns" }
 			}
 		}
-		offset = {
-			x = 4
-			y = 0
-			trigger = {
-				has_game_rule = {
-					rule = obsolete_focus_branches_visibility
-					option = HIDE
-				}
-				has_completed_focus = ENG_global_defense
-			}
-		}
 		relative_position_id = ENG_home_defence
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 1
 		}	
+		completion_reward = {
+			create_wargoal = {
+				type = take_state_focus
+				target = IRQ
+				generator = { 291 }
+				expire = 0
+			}
+		}
+	}
+	focus = {
+		id = uk_iran_focus
+		prerequisite = { focus = uk_iraq_focus }
+		icon = GFX_goal_generic_forceful_treaty
+		x = 0
+		y = 1
+		relative_position_id = uk_iraq_focus
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_civil_war = yes
+			}
+			modifier = {
+				factor = 0
+				PER = {
+					has_government = ROOT
+				}
+			}	
+		}
+		will_lead_to_war_with = PER
+		available = {
+			country_exists = PER
+			NOT = { has_war_with = PER }
+			is_subject = no
+			any_enemy_country = { is_major = yes }
+		}
+
+		bypass = {
+			PER = { exists = no }
+		}
+		
+		search_filters = {}
+
 		completion_reward = {
 			IF = {
 				limit = {
@@ -9306,44 +9347,6 @@ focus_tree = {
 					generator = { 266 }
 					expire = 0
 				}
-			}
-		}
-	}
-	focus = {
-		id = uk_iran_focus
-		available = {
-			PER = {
-				exists = yes
-				OR = { 
-					communism > 0.2
-			 		fascism > 0.2
-					ROOT = {
-						has_idea = ENG_no_further_appeasement_idea
-					}
-			 	} 
-			}
-		} #UK at war with fascist/commie. iran is fascist/commie
-
-		bypass = {
-			PER = { exists = no }
-		}
-
-		will_lead_to_war_with = PER
-		prerequisite = { focus = uk_iraq_focus }
-		icon = GFX_goal_generic_forceful_treaty
-		x = 0
-		y = 1
-		relative_position_id = uk_iraq_focus
-		cost = 5
-		ai_will_do = {
-			factor = 1
-		}	
-		completion_reward = {
-			create_wargoal = {
-				type = take_state_focus
-				target = PER
-				generator = { 266 }
-				expire = 0
 			}
 		}
 	}
@@ -11083,6 +11086,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_ideas = ENG_the_mosley_memorandum_idea
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
@@ -11304,7 +11308,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = ENG_imperial_conscription
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}	
@@ -11868,7 +11872,7 @@ focus_tree = {
 		}
 		will_lead_to_war_with = JAP
 		icon = GFX_focus_attack_japan
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = ENG_bring_the_dominions_back_into_the_fold
 		cost = 5

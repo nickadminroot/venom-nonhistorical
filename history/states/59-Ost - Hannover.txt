@@ -33,8 +33,8 @@ state = {
 
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 1
+			arms_factory = 3
+			industrial_complex = 3
 			dockyard = 2
 			6325 = { # Buxtehude
 				naval_base = 1

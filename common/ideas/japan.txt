@@ -20,7 +20,7 @@ ideas = {
 			modifier = {
 				industry_air_damage_factor = -0.1
 				army_morale_factor = 0.1
-				conversion_cost_civ_to_mil_factor = -0.5
+				# conversion_cost_civ_to_mil_factor = -0.5
 			}
 		}
 
@@ -282,6 +282,7 @@ ideas = {
 				consumer_goods_factor = -0.20
 				research_speed_factor = 0.15
 				production_factory_max_efficiency_factor = 0.1
+				consumer_goods_expected_value = -0.1
 			}
 		}
 
@@ -370,6 +371,7 @@ ideas = {
 				consumer_goods_factor = -0.20
 				research_speed_factor = 0.25
 				production_factory_max_efficiency_factor = 0.2
+				consumer_goods_expected_value = -0.1
 			}
 		}
 
@@ -461,7 +463,7 @@ ideas = {
 				war_support_factor = 0.2
 				mobilization_laws_cost_factor = -0.25
 				justify_war_goal_time = -0.2
-				production_speed_industrial_complex_factor = -0.1
+				production_speed_industrial_complex_factor = -0.2
 				ai_desired_divisions_factor = 0.25
 			}
 			targeted_modifier = {

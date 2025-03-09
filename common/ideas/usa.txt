@@ -83,6 +83,8 @@ ideas = {
 				guarantee_tension = -0.2
 				mobilization_laws_cost_factor = 1
 				economy_cost_factor = 1
+				production_cost_arms_factory_factor = -0.1
+				production_cost_dockyard_factor = -0.1
 			}
 		}
 		USA_neutrality_act = {
@@ -103,6 +105,8 @@ ideas = {
 				send_volunteers_tension = 0.5
 				guarantee_tension = 0.5
 				embargo_threshold_factor = 1.5
+				production_cost_infrastructure_factor = -0.1
+				production_cost_industrial_complex_factor = -0.1
 			}
 		}
 		USA_neutrality_act_aat = {
@@ -135,6 +139,8 @@ ideas = {
 				send_volunteers_tension = 0.5
 				guarantee_tension = 0.5
 				embargo_threshold_factor = 1.5
+				production_cost_infrastructure_factor = -0.1
+				production_cost_industrial_complex_factor = -0.1
 				
 			}
 		}
@@ -159,6 +165,8 @@ ideas = {
 				guarantee_tension = -0.2
 				mobilization_laws_cost_factor = 1
 				economy_cost_factor = 1
+				production_cost_arms_factory_factor = -0.1
+				production_cost_dockyard_factor = -0.1
 			}
 		}
 		USA_lend_lease_act_na = {# version if player went down neutrality act
@@ -180,6 +188,8 @@ ideas = {
 				send_volunteers_tension = 0.5
 				guarantee_tension = 0.5
 				embargo_threshold_factor = 1.5
+				production_cost_infrastructure_factor = -0.1
+				production_cost_industrial_complex_factor = -0.1
 			}
 		}
 		USA_lend_lease_act_dummy = { #dummy version to show effects

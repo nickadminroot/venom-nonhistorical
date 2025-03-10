@@ -1554,7 +1554,7 @@
  SOV_comecon_communist_name: "$SOV_comecon_name$"
  SOV_comecon_alt_name: "$SOV_common_economic_space_name$"
  SOV_desperate_measures_decisions_unlocked_tt: "Открывает несколько решений §Y$SOV_great_patriotic_war$§!."
- SOV_lessons_of_war_ns_tt: "Изменить §Y$SOV_the_red_army_dynamic_modifier$§! на \nОрганизация дивизии: §G+15,0%§! \nПолучаемый опыт армии: §G+10,0%§! \nПотери опытных бойцов: §G-25,0%§! \nПрирост опыта лидера: §G+50,0%§!\n"
+ SOV_lessons_of_war_ns_tt: "Изменить §Y$SOV_the_red_army_dynamic_modifier$§! на \nОрганизация дивизии: §G+15,0%§! \nПолучаемый опыт армии: §G+10,0%§! \nПотери опытных бойцов: §G-25,0%§! \nПрирост опыта лидера: §G+50,0%§!\nПрочность: §G+20,0%§! \n"
  SOV_lessons_of_war_unlock_military_operations_tt: "Активация решения §Y«$SOV_order_227$»§! откроет в свою очередь решения по подготовке и проведению §Yвоенных наступлений§!."
  SOV_lessons_of_war_cowed_trait_tt: "\n§YКаждый командир армии или флота§! с чертой §Y$trait_SOV_cowed_by_stalin_army$§!: \n Теряет §Y$trait_SOV_cowed_by_stalin_army$§!:\n — Скорость восстановления дивизии: §R-10,0%§! \n — Скорость пополнения: §R-2,0%§!\n"
  SOV_the_glory_of_the_red_army_masterful_blitz_tactic_tt: "\nОткрывает доступ к тактике: §Y$tactic_masterful_blitz$§!"

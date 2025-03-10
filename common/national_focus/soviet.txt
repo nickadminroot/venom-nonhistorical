@@ -6397,6 +6397,7 @@ focus_tree = {
 			set_variable = { SOV_the_red_army_experience_gain_army_factor = 0 }
 			set_variable = { SOV_the_red_army_experience_loss_factor = 0 }
 			set_variable = { SOV_the_red_army_experience_gain_leader_factor = 0 }
+			set_variable = { SOV_the_red_army_army_strength_factor = 0 }
 
 			custom_effect_tooltip = SOV_lessons_of_war_ns_tt
 

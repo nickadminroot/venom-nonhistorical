@@ -1083,6 +1083,8 @@ SOV_the_red_army_dynamic_modifier = { #NATIONAL SPIRIT
 
 	experience_gain_factor = SOV.SOV_the_red_army_experience_gain_leader_factor
 
+	army_strength_factor = SOV.SOV_the_red_army_army_strength_factor
+
 
 	#FUTURE
 	mobilization_speed = SOV_the_red_army_mobilization_speed #0.05 -> Strengthen the Mobilization Plan
@@ -1118,6 +1120,8 @@ SOV_the_red_army_dynamic_modifier_alt = { #NATIONAL SPIRIT
 	army_org_factor = SOV_the_red_army_army_org_factor #-0.15 Meant to represent army disgruntledness
 	experience_gain_army_factor = SOV_the_red_army_experience_gain_army_factor #-0.1
 	experience_loss_factor = SOV_the_red_army_experience_loss_factor #0.25
+
+	army_strength_factor = SOV.SOV_the_red_army_army_strength_factor
 
 
 	#FUTURE

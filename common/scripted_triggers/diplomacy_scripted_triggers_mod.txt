@@ -4,5 +4,16 @@ DIPLOMACY_REVOKE_EMBARGO_ENABLE_TRIGGER = {
 }
 
 DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
-	always = no
+	if = {
+		limit = {
+			AND = {
+				tag = RAJ
+				has_completed_focus = RAJ_princely_autonomy
+			}
+		}
+		always = yes
+	}
+	else = {
+		always = no
+	}
 }

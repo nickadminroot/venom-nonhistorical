@@ -1000,7 +1000,7 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 0
+			factor = 3
 			modifier = {
 				factor = 6
 				is_in_array = {

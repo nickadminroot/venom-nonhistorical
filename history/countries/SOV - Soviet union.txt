@@ -605,6 +605,7 @@ set_variable = { SOV_the_red_army_max_dig_in = 0 } # -> Experts in Camouflage
 set_variable = { SOV_the_red_army_dig_in_speed_factor = 0 } # -> Experts in Camouflage
 set_variable = { SOV_the_red_army_operative_slot  = 0 } # -> Organization of the Partisans
 set_variable = { SOV_the_red_army_max_command_power_mult = 0 } # -> Depoliticize the Military
+set_variable = { SOV_the_red_army_army_strength_factor = -0.2 }
 
 add_dynamic_modifier = { modifier = SOV_the_red_army_dynamic_modifier }
 

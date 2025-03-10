@@ -7839,7 +7839,7 @@ SOV_start_civil_war = {
 			}
 		}
 
-		size = 0.4
+		size = 0.75
 		army_ratio = 0.25
 		navy_ratio = var:temp_centre_navy
 		air_ratio = var:temp_centre_air

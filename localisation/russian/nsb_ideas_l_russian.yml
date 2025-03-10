@@ -756,7 +756,7 @@
  SOV_for_the_common_good_allies_desc: "Каждое решение, будь оно наше или наших союзников, должно быть направлено на общее благо."
  SOV_for_the_common_good_subjects: "$SOV_for_the_common_good_allies$"
  SOV_for_the_common_good_subjects_desc: "Каждое решение, будь оно наше или наших союзников, направлено на общее благо. Следовательно, мы должны поддерживать эти идеи и непременно следовать данным нам указаниям, даже если наши жертвы не приводят к немедленному улучшению."
- SOV_planned_economy_dynamic_modifier: "Закрытая экономика"
+ SOV_planned_economy_dynamic_modifier: "Плановая экономика"
  SOV_grigory_semyonov_man_tt: "§Y[SOV.GetName]§! не выполняет фокус §Y$SOV_approach_semyonov$§!\n§Y[GetSovietCivilWarName]§! не началась.\n§Y$SOV_grigory_semyonov$§! становится также доступен в роли §Yгенерала§!, когда нанимается в советники."
  SOV_exiled_flag: "Сейчас в изгнании (§Gперсонажи в изгнании не могут быть подвергнуты чистке§!)"
  SOV_imprisoned_flag: "Сейчас в тюрьме (§Rперсонажи в тюрьме не могут быть подвергнуты чистке§!)"

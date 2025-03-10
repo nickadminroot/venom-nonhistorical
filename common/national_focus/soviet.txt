@@ -10359,6 +10359,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = SOV_back_to_the_nep_new_economy_law
 			add_ideas = new_economic_policy
+			add_ideas = free_trade
 			add_stability = 0.05
 			add_popularity = {
 				ideology = democratic 
@@ -16371,6 +16372,7 @@ ai_will_do = {
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}
 
 		completion_reward = {
+			add_ideas = free_trade
 			add_timed_idea = {
 				idea = SOV_consolidate_power
 				days = 365

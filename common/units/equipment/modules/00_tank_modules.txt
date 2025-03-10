@@ -443,7 +443,7 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			breakthrough = -0.75
+			breakthrough = -0.25
 		}
 
 		can_convert_from = {

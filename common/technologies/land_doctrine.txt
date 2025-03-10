@@ -108,7 +108,7 @@ technologies = {
 		xp_research_type = army
 		xp_unlock_cost = 100
 
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 1
 		}
 		armored_car = {
@@ -286,7 +286,7 @@ technologies = {
 			max_organisation = 3	
 		}
 
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 3
 		}
 		
@@ -298,6 +298,7 @@ technologies = {
 		}
 
 		enable_tactic = tactic_blitz
+		enable_tactic = tactic_breakthrough
 		
 		
 		path = {
@@ -348,7 +349,7 @@ technologies = {
 	armored_spearhead = { #Branch focused on Tanks 
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 3
 			breakthrough = 0.20
 		}
@@ -409,7 +410,7 @@ technologies = {
 	schwerpunk = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 2
 		}
 
@@ -465,7 +466,7 @@ technologies = {
 	blitzkrieg = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 1
 		}
 
@@ -597,7 +598,7 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 10
 		}
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 2
 		}
 		armored_car = {
@@ -694,7 +695,7 @@ technologies = {
 	modern_blitzkrieg = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 3
 			breakthrough = 0.20
 		}
@@ -1647,7 +1648,7 @@ technologies = {
 			max_organisation = 10
 			default_morale = 0.05
 		}
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 2
 		}
 
@@ -2084,7 +2085,7 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 5
 		}
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 1
 		}
 		armored_car = {
@@ -2253,7 +2254,7 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 5
 		}
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 1
 		}
 		armored_car = {
@@ -2363,7 +2364,7 @@ technologies = {
 	armored_operations = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 2
 		}
 		category_all_armor = {
@@ -2540,7 +2541,7 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 5
 		}
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 1
 		}	
 		armored_car = {
@@ -2854,7 +2855,7 @@ technologies = {
 	}
 	
 	deep_operations = {
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 2
 		}
 		armored_car = {
@@ -3015,7 +3016,7 @@ technologies = {
 	breakthrough_priority = {
 		xp_research_type = army
 		xp_unlock_cost = 100
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 1
 			breakthrough = 0.10
 		}
@@ -3073,7 +3074,7 @@ technologies = {
 	}
 	
 	mechanized_wave = {
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 2
 		}
 		xp_research_type = army
@@ -3316,7 +3317,7 @@ technologies = {
 		category_all_infantry = {
 			max_organisation = 10
 		}
-		category_tanks = {
+		category_all_armor = {
 			max_organisation = 2
 		}
 		armored_car = {

@@ -1,921 +1,921 @@
 ﻿l_english:
-################################### TRAITS                      \n      §H§!
- #####
- 
- SIA_Rama_VII:0 "Rama VII"
- 
- SIA_Plaek_Phibun:0 "Plaek Phibun"
- 
- peoples_dictator:0 "People's Dictator"
- 
- peoples_assembly:0 "People's Assembly"
- 
- disillusioned_with_democracy:0 "Disillusioned with Democracy"
- disillusioned_with_democracy_desc:0 "No longer believing in democracy, this individual is looking to protect their people's rights through other means."
- 
- ##### ADVISORS
- 
- the_great_craftsman:0 "The Great Craftsman"
- the_great_craftsman_desc:0 "Prince Naris is known as the Great Craftsman of Siam for his excellence and talent in many art fields including architecture."
- 
-    # Update 2.0
- 
- conservative_democrat:0 "Conservative Democrat"
- little_goebbels:0 "Little Goebbels"
- minister_of_science:0 "Minister of Science"
- minister_of_transportation:0 "Minister of Transportation"
- 
- ##### ARMY CHIEF
- 
- ##### NAVY CHIEF
- 
- ##### AIR CHIEF
- 
- ##### HIGH COMMAND
- 
- ##### ARMOR DESIGNER
- 
- ##### AIRCRAFT DESIGNER
- 
- ##### SHIP DESIGNER
- 
- ##### MATERIAL DESIGNER
- 
- ##### INDUSTRIAL CONCERN
- 
- ##### THEORIST
- 
-################################### OPINION MODIFIERS           \n      §H§!
- 
- 
- 
- 
-################################### FOCUSES                     \n      §H§!
- 
- SIA_Fund_Education:0 "Fund Education"
- SIA_Fund_Education_desc:0 ""
- 
- SIA_Contract_Japanese_Artillery:0 "Contract Japanese Artillery"
- SIA_Contract_Japanese_Artillery_desc:0 ""
- 
- SIA_Contract_Japanese_Aircraft:0 "Contract Japanese Aircraft"
- SIA_Contract_Japanese_Aircraft_desc:0 ""
- 
- # Update 2.0
- 
- SIA_Unite_SEA:0 "Unite South East Asia"
- SIA_Unite_SEA_desc:0 "The Worker's of South East Asia have all broken their chains. It is now time for us to all form a united government to stand against the Western and Asian Imperialists."
- SIA_Unite_SEA_Tooltip:0 "Transfer ownership of §YSouth East Asian§! provinces."
- 
- SIA_Expand_Royal_Railway:0 "Expand Royal Railway"
- SIA_Expand_Royal_Railway_desc:0 ""
- SIA_Expand_Royal_Railway_II:0 "Expand Royal Railway II"
- SIA_Expand_Royal_Railway_II_desc:0 ""
- 
-    # Tool Tips for 6 Principles
-
- SIA_Principles_Supreme_Tooltip:0 "Modify §Y$SIA_Principles$§! by \nPolitical Power Gain: §G+10.0%§! \n\n"
- SIA_Principles_Security_Tooltip:0 "Modify §Y$SIA_Principles$§! by \nDivision Attack on core territory: §G+10.0%§! \nDivision Defense on core territory: §G+10.0%§! \n\n"
- SIA_Principles_Economic_Tooltip:0 "Modify §Y$SIA_Principles$§! by \nConsumer Goods Factories: §Y-10.0%§!\n\n"
- SIA_Principles_Equality_Tooltip:0 "Modify §Y$SIA_Principles$§! by \nAdditional Recruitable Population: §G+15.00%§!\n\n"
- SIA_Principles_Rights_Tooltip:0 "Modify §Y$SIA_Principles$§! by \nCompliance Growth Speed: §G+5.0%§!\n\n"
- SIA_Principles_Education_Tooltip:0 "Modify §Y$SIA_Principles$§! by \nResearch Speed: §G+5.0%§!\n\n"
- 
- 
- SIA_Great_Depression_Tooltip:0 "Modify §Y$SIA_Great_Depression$§! by \nPolitical Power Gain: §G+10.0%§! \nConsumer Goods Factories: §Y-10.0%§! \nResource Gain Efficiency: §G+10.00%§! \nAdditional Recruitable Population: §G+10.00%§!\n\n"
- 
- # Fascist
- 
- SIA_Military_as_Protectors:0 "Military as Protectors"
- SIA_Military_as_Protectors_desc:0 "The People's party launched a coup in 32' which successful formed a constituional monarchy. The first Prime Minister Nititada dissolved the newly formed parliament. A second coup was launched by the military to regain Civilian control. This new government headed by Phraya Phahon would attempt to carry out elections and follow the constitution. The end of this conflict saw the military promote themselves as the protector of democracy."
- 
- SIA_Eliminate_Civilian_Resistance:0 "Eliminate Civilian Resistance"
- SIA_Eliminate_Civilian_Resistance_desc:0 ""
-
- SIA_Inspired_by_March_on_Rome:0 "Inspired by March on Rome"
- SIA_Inspired_by_March_on_Rome_desc:0 "After the revolution of 1932, the Thai government of Phraya Phahol was impressed by the success of the March on Rome of Benito Mussolini's Italian fascist movement. Phibun, also an admirer of Italian fascism, sought to replicate fascist-style propaganda tactics, valued in Italy as one of the most powerful propaganda instruments of political power."
- 
- SIA_Control_the_Royalty:0 "Control the Royalty"
- SIA_Control_the_Royalty_desc:0 "Prince Rama VII was replaced as king by his nine-year-old nephew Prince Ananda Mahidol, who at that time was attending school in Lausanne, Switzerland. Regents were appointed by Phibun to govern in his stead."
- 
- SIA_Call_for_Vote:0 "Call for Vote"
- SIA_Call_for_Vote_desc:0 "Now is the time to elect a new leader for Siam as power has been secured."
- 
- SIA_Establish_Phibuns_Dictatorship:0 "Establish Phibun's Dictatorship"
- SIA_Establish_Phibuns_Dictatorship_desc:0 ""
- 
- SIA_Cultural_Mandates:0 "Thai Cultural Revolution"
- SIA_Cultural_Mandates_desc:0 "Phibun launched a series of major cultural mandates, known as the Thai Cultural Revolution, to increase the pace of modernisation in Thailand."
- 
- SIA_Thai_Propaganda:0 "Thai Propaganda"
- SIA_Thai_Propaganda_desc:0 "Phibun and Luang Wichitwathakan, the government's ideological spokesman, copied the propaganda techniques used by Hitler and Mussolini to build up the cult of the leader. Photographs of Phibun were to be found everywhere, and those of the abdicated King Prajadhipok were banned. His quotes appeared in newspapers, were plastered on billboards, and were repeated over the radio."
- 
- SIA_Proclaim_Great_Kingdom_of_Thailand:0 "Proclaim Great Kingdom of Thailand"
- SIA_Proclaim_Great_Kingdom_of_Thailand_desc:0 "Following the rise of Pan-Thai nationalism whose policy is the integration of the Shan, the Lao and other Tai peoples, such as Vietnam, Burma and South China, Phibun has delcared the nation to be the "Great Kingdom of Thailand.") "
- 
- SIA_The_Two_Italys:0 "The Two 'Italies'"
- SIA_The_Two_Italys_desc:0 "Phibun's greatest inspiration in his governance is Italy's Mussolini. Thailand is known as the 'Italy of Asia.' We should reach across the ocean and attempt to form an alliance with them."
- 
- # Monarchist
- 
- SIA_Empower_Rama_VII:0 "Return of Rama VII"
- SIA_Empower_Rama_VII_desc:0 "Clearly the new government cannot be trusted and power must be returned to the monarchy. This will be the only way to protect the citizens. We will ask Rama VII to return."
- 
- SIA_Undermine_Nationalists:0 "Purge the Nationalists"
- SIA_Undermine_Nationalists_desc:0 "Following the failed Boworadet rebellion, many royalists were arrest of fled to other countries. We need to undo this mistake and bring Boworadet back with his royalists in order to regain military control."
- 
- SIA_Silence_the_Civilian_Wing:0 "Concessions with the Civilian Wing"
- SIA_Silence_the_Civilian_Wing_desc: "Rama VII has never been opposed to democracy but clearly now is not the time for Siam. We will offer concessions to the Civilian Wing in order to gain their support against the nationalists."
- 
- SIA_Purge_the_Communists:0 "Purge the Communists"
- SIA_Purge_the_Communists_desc:0 "While we will seek close relations with the Civilian Wing, the previous anti-communist acts need to stay in place. Communism is a greater threat to Siam and the Monarchy than any other group. We will find any traces of Communism within the party and arrest these individuals."
- 
- SIA_Return_of_the_Monarchy:0 "Fuse the Factions"
- SIA_Return_of_the_Monarchy_desc:0 "Now that we have purge the extremist elements, we can combine the monarchists and the militarists under Prahon into a single party to ensure stability in the nation."
- 
- SIA_Connections_to_the_Past:0 "Return of Boworadet"
- SIA_Connections_to_the_Past_desc:0 "We should send a message to Boworadet letting him know the monarchy is back in control. We could use his assistance."
- 
- SIA_Descendants_of_Shiva_and_Vishnu:0 "Descendants of Shiva and Vishnu"
- SIA_Descendants_of_Shiva_and_Vishnu_desc:0 "The Chakri dynasty has ruled Thailand since the founding of the Rattanakosin Era and the city of Bangkok in 1782. Thai sovereign is seen as an incarnation of Shiva and Vishnu. We will revise this sentiment to return our right to rule and reinvigorate our people's faith in the monarchy."
- 
- SIA_Re_Establish_Supreme_Council:0 "Re-Establish the Supreme Council"
- SIA_Re_Establish_Supreme_Council_desc: "The Supreme Council of State of Siam was an advisory and legislative council established by Rama VII that existed from 1925 to 1932. He wished to create a council similar to a cabinet, where the most important government officials could meet to decide on state affairs. This was abolished by the People's Party. We should re-establish the Supreme Council to assist Rama VII in ruling the nation."
- 
- SIA_Legacy_of_Ayutthaya:0 "Legacy of Ayutthaya"
- SIA_Legacy_of_Ayutthaya_desc:0 "European travellers in the early 16th century called Ayutthaya one of the three great powers of Asia. This period was described as a "golden age" of Siamese culture and saw the rise in Chinese trade and the introduction of capitalism into Siam. We will embrace our history and reclaim our power and our cultural significance in Asia"
- 
- SIA_Revenge_Against_Burma:0 "Revenge Against Burma"
- SIA_Revenge_Against_Burma_desc:0 "In the mid-18th century, the Burmese Konbaung dynasty invaded Ayutthaya in 1759–1760 and 1765–1767. In April 1767, after a 14-month siege, the city of Ayutthaya fell to besieging Burmese forces and was completely destroyed, thereby ending the 417-year-old Ayutthaya Kingdom. We will have revenge for the ending of the most powerful Siamese state."
- 
- # Industry
- 
- SIA_Industrial_Expansion:0 "Industrial Expansion"
- SIA_Industrial_Expansion_desc:0 ""
- 
- SIA_Increase_Rubber_Production:0 "Increase Rubber Production"
- SIA_Increase_Rubber_Production_desc:0 "Our primary export is rubber. We need to expand upon this."
- 
- SIA_Increase_Rubber_Production_II:0 "Increase Rubber Production II"
- SIA_Increase_Rubber_Production_II_desc:0 "Our primary export is rubber. We need to expand upon this."
- 
- SIA_Expand_Interior_Infrastructure:0 "Interior Infrastructure"
- SIA_Expand_Interior_Infrastructure_desc:0 ""
- 
- SIA_Expand_Interior_Industry:0 "Interior Industry"
- SIA_Expand_Interior_Industry_desc:0 ""
- 
- SIA_Expand_Coastal_Infrastructure:0 "Coastal Infrastructure"
- SIA_Expand_Coastal_Infrastructure_desc:0 ""
- 
- SIA_Expand_Coastal_Industry:0 "Coastal Industry"
- SIA_Expand_Coastal_Industry_desc:0 ""
- 
- SIA_Defend_the_Coast:0 "Defend the Coast"
- SIA_Defend_the_Coast_desc:0 ""
- 
- SIA_Lanna_Resource_Extraction:0 "Lanna Resource Extraction"
- SIA_Lanna_Resource_Extraction_desc:0 ""
- 
- SIA_Malay_Resource_Extraction:0 "Malay Resource Extraction"
- SIA_Malay_Resource_Extraction_desc:0 ""
- 
- SIA_Invite_Paribatra_to_Return:0 "Invite Paribatra to Return"
- SIA_Invite_Paribatra_to_Return_desc:0 "As a consequence of the 1932 coup, Paribatra was exiled from the kingdom to Bandung, Dutch East Indies, which was under the Dutch administration. Paribatra has a Prussian education which we can make use of. We should invite him back to serve the state."
- 
- # Six
- 
- SIA_Six_Principles_of_Khana_Ratsadon:0 "Six Principles of Khana Ratsadon"
- SIA_Six_Principles_of_Khana_Ratsadon_desc:0 ""
- 
- SIA_Supreme_Power_of_Thai_People:0 "Supreme Power of Thai People"
- SIA_Supreme_Power_of_Thai_People_desc:0 ""
- 
- SIA_National_Security:0 "National Security"
- SIA_National_Security_desc:0 ""
- 
- SIA_Economic_Welfare:0 "Economic Welfare"
- SIA_Economic_Welfare_desc:0 ""
- 
- SIA_Equality_of_Thai_People:0 "Equality of Thai People"
- SIA_Equality_of_Thai_People_desc:0 ""
- 
- SIA_Rights_and_Liberties:0 "Rights and Liberties"
- SIA_Rights_and_Liberties_desc:0 ""
- 
- SIA_Public_Education:0 "Public Education"
- SIA_Public_Education_desc:0 ""
- 
- # Military
- 
- SIA_Royal_Thai_Navy:0 "Royal Thai Navy"
- SIA_Royal_Thai_Navy_desc:0 ""
- 
- SIA_Acquire_Bangkok_Dock_Company:0 "Acquire Bangkok Dock Company"
- SIA_Acquire_Bangkok_Dock_Company_desc:0 ""
- 
- SIA_Royal_Thai_Marine_Corps:0 "Royal Thai Marine Corps"
- SIA_Royal_Thai_Marine_Corps_desc:0 ""
- 
- SIA_Escort_Focus:0 "Escort Focus"
- SIA_Escort_Focus_desc:0 ""
- 
- SIA_Interdiction_Focus:0 "Interdiction Focus"
- SIA_Interdiction_Focus_desc:0 ""
- 
- SIA_Modern_Thai_Navy:0 "Modern Thai Navy"
- SIA_Modern_Thai_Navy_desc:0 ""
- 
- SIA_Royal_Thai_Army:0 "Royal Thai Army"
- SIA_Royal_Thai_Army_desc:0 ""
- 
- SIA_Artillery_Modernization:0 "Artillery Modernization"
- SIA_Artillery_Modernization_desc:0 ""
- 
- SIA_Artillery_Production:0 "Artillery Production"
- SIA_Artillery_Production_desc:0 ""
- 
- SIA_Arms_Modernization:0 "Arms Modernization"
- SIA_Arms_Modernization_desc:0 ""
- 
- SIA_Arms_Production:0 "Arms Production"
- SIA_Arms_Production_desc:0 ""
- 
- SIA_Armor_Modernization:0 "Armor Modernization"
- SIA_Armor_Modernization_desc:0 ""
- 
- SIA_Armor_Production:0 "Armor Production"
- SIA_Armor_Production_desc:0 ""
- 
- SIA_Modern_Thai_Military:0 "Modern Thai Military"
- SIA_Modern_Thai_Military_desc:0 ""
- 
- SIA_Royal_Thai_Airforce:0 "Royal Thai Airforce"
- SIA_Royal_Thai_Airforce_desc:0 ""
- 
- SIA_Airbase_Expansion:0 "Airbase Expansion"
- SIA_Airbase_Expansion_desc:0 ""
- 
- SIA_Air_Innovation:0 "Air Innovation"
- SIA_Air_Innovation_desc:0 ""
- 
- SIA_Naval_Focus:0 "Naval Focus"
- SIA_Naval_Focus_desc:0 ""
- 
- SIA_CAS_Focus:0 "CAS Focus"
- SIA_CAS_Focus_desc:0 ""
- 
- SIA_Fighter_Focus:0 "Fighter Focus"
- SIA_Fighter_Focus_desc:0 ""
- 
- SIA_Modern_Thai_Airforce:0 "Modern Thai Airforce"
- SIA_Modern_Thai_Airforce_desc:0 ""
- 
- 
- # Shared
- 
- SIA_Pan_Thai_Nationalism:0 "Pan-Thai Nationalism"
- SIA_Pan_Thai_Nationalism_desc:0 "The promotion of a new wave of nationalism. Supported by writings by the cultural advisor Luang Wichitwathakan."
- 
- SIA_Negotiations_with_Japan:0 "Relations with Japan"
- SIA_Negotiations_with_Japan_desc:0 "Japan is today one of the Siamese people's foremost economic partners. We should continue to foster relations with them."
- 
- SIA_Seek_Closer_Relations_To_Japan:0 "Seek Closer Relations To Japan"
- SIA_Seek_Closer_Relations_To_Japan_desc:0 "Thailand looked to Japan for help in the confrontation with French Indochina."
- 
- SIA_Request_Mediation_of_Japan_for_Indochina:0 "Mediation of Japan for Indochina"
- SIA_Request_Mediation_of_Japan_for_Indochina_desc:0 "Japan can mediate the ceding of our rightful territories from France."
- 
- SIA_South_East_Asian_Pact:0 "South East Asian Pact"
- SIA_South_East_Asian_Pact_desc:0 "We do not need assistance from Western or Asian Imperialists. We will stand on our own."
- 
- SIA_Invite_Southern_Warlords:0 "Invite Southern Warlords"
- SIA_Invite_Southern_Warlords_desc:0 "We can use the southern Warlords against our enemies in Indochina, India, and China."
- 
- SIA_Assist_the_Chinese:0 "Assist the Chinese"
- SIA_Assist_the_Chinese_desc:0 "While the Chinese may not necessarily be our allies, we cannot allow Imperialist Japan to gain control of their resources if we hope to remain out of their sphere of influence."
- 
- SIA_Military_Factionalism:0 "Military Factionalism"
- SIA_Military_Factionalism_desc:0 "Before the Khana Ratsadon can continue, we must address the military factionalism."
- 
- # Democratic / Communist
- 
- SIA_Re_Empower_Civilian_Wing:0 "Empower the Civilian Wing"
- SIA_Re_Empower_Civilian_Wing_desc:0 "The Khana Ratsodon was divided into two factions, a civilian faction led by Pridi Bhanomyong, and a military faction led by Marshal Pibulsongkram. We will support this civilian faction."
- 
- SIA_Reconcile_with_Military:0 "Reconcile with the Military"
- SIA_Reconcile_with_Military_desc:0 "Many members of the military, including Praya Phahon support the civilian wing. With the support of these individuals we can reconcile with the military."
- 
- SIA_Reinstate_Constitutional_Monarchy:0 "Reinstate Constitutional Monarchy"
- SIA_Reinstate_Constitutional_Monarchy_desc:0 "The original intention of the rebellion on 24 June 1932 was to transform the country's absolute monarchy to constitutional monarchy. We need to reinstate the powers of Rama VII while maintaining balance of power."
- 
- SIA_Demand_Referendum:0 "Demand Referendum"
- SIA_Demand_Referendum_desc:0 "Now that we have secured the prescense of the Civilian Wing, we can call a vote to place Pridi in power and reconvene elections."
- 
- SIA_National_Economic_Council:0 "National Economic Council"
- SIA_National_Economic_Council_desc:0 "The National Economic Council is Siam's central planning agency responsible for crafting strategies for balanced and sustainable development in the national interest."
- 
- SIA_Thammasat_University:0 "Thammasat University"
- SIA_Thammasat_University_desc:0 "Thammasat University is a public research university in Siam founded by Pridi Bhanomyong."
- 
- SIA_Look_Outward:0 "Look Outward"
- SIA_Look_Outward_desc:0 "With the rise of Japan and increasing world tension, we should look to gain allies to protect our sovereignty."
-
- SIA_Join_Allies:0 "Join Allies"
- SIA_Join_Allies_desc:0 "The Allies are the protectors of democracy. We should join them in order to protect ourselves and protect democracy around the world."
- 
- SIA_Renegotiate_Unequal_Treaties:0 "Renegotiate Unequal Treaties"
- SIA_Renegotiate_Unequal_Treaties_desc:0 "We should discuss renegotiating the equal treaties with France and Britain. With our democratic system, maybe they will respect our sovereignty and give us back our land."
- 
- SIA_Offer_To_Take_Over_Indonesia:0 "Offer to Take Over Indonesia"
- SIA_Offer_To_Take_Over_Indonesia_desc:0 "Indonesia is vulnerable without the full support of the Allies. We are in a good position to protect the area from the enemies of democracy."
- 
- SIA_Reinstate_Peoples_Assembly:0 "Reinstate People's Assembly"
- SIA_Reinstate_Peoples_Assembly_desc:0 "The People's Assembly was established in 1932 after the adoption of Siam's first constitution, which transformed Siam from an absolute monarchy to a constitutional monarchy."
- 
- SIA_Agitate_the_Masses:0 "Agitate the Masses"
- SIA_Agitate_the_Masses_desc:0 "The people of Siam want the power in the country. They are tired of being ruled by the royal elite in Siam."
- 
- SIA_United_East_Asia:0 "United East Asia"
- SIA_United_East_Asia_desc:0 "Unprecedented, we wish to unite all the non-fascist or communist nations of Asia into one faction. We will come together and defend Asia against radical factions and imperialists alike."
- 
- SIA_Protect_Asia:0 "Protect Asia"
- SIA_Protect_Asia_desc:0 "We are the protectors of Democracy in Asia."
- 
- SIA_South_East_Asia_United:0 "South East Asia United"
- SIA_South_East_Asia_United_desc:0 "We have United a significant portion of South East Asia and have become the beacon of Democracy in Asia."
- 
- # Communist
- 
- SIA_Repeal_Anti_Communist_Act:0 "Repeal Anti-Communist Act"
- SIA_Repeal_Anti_Communist_Act_desc:0 "Manopakorn Nitithada carried out a silent coup to dissolve the National Assembly on 1 April 1933, and used emergency decrees (such as the Anti-Communist Act) to govern. We should undo these illegal acts."
- 
- SIA_Yellow_Dossier:0 "Yellow Dossier"
- SIA_Yellow_Dossier_desc:0 "The Yellow Dossier was a plan to arrange and provide state welfare, to distribute all land to the rural poor, to intervene in private sector economic affairs, and to provide farmers more economic subsidies."
- 
- SIA_Align_Military_Officials:0 "Align Military Officials"
- SIA_Align_Military_Officials_desc:0 "There is a significant amount of factionalism within the military. We should take advantages of this and guarantee certain privileges to individuals for their loyalty."
- 
- SIA_Communist_Sieze_Control_of_Government:0 "Communist Seize Control of Government"
- SIA_Communist_Sieze_Control_of_Government_desc:0 "With a sizeable power base, we can now make moves to put Pridi in power and move the party more towards Communism."
- 
- SIA_Empower_the_Peoples_Assembly:0 "Empower the People's Assembly"
- SIA_Empower_the_Peoples_Assembly_desc:0 "The People's Assembly needs to be empowered. The initial idea of Khana Ratsodon was to put the civilians in power and form an assembly. We will hand-pick individuals for this new empowered People's Assembly."
- 
- SIA_The_Permanent_Revolution:0 "The Permanent Revolution"
- SIA_The_Permanent_Revolution_desc:0 "We can no long sit idly, we need to share the revolution with the rest of the world."
- 
- SIA_Asian_Revolution:0 "An Asian Revolution"
- SIA_Asian_Revolution_desc:0 "The Communist revolution may have grown the most powerful in the Soviets, but the true source of Communist power is Asia."
- 
- SIA_spies:0 "National Intelligence Agency"
- SIA_spies_desc:0 "In order to share Communism with the world, we will need to ignite the worker's by sharing the ideals of Communism."
- 
- SIA_Unite_Under_the_Peoples_Leader:0 "Unite Under the People's Leader"
- SIA_Unite_Under_the_Peoples_Leader_desc:0 "We have been shown that we cannot trust Assemblies to guarantee the worker's rights. We will follow the Soviet model and centralize power under Pridi as a democratic dictatorship."
- 
- SIA_Request_Soviet_Aid:0 "Request Soviet Aid"
- SIA_Request_Soviet_Aid_desc:0 "We should seek aid from the Soviet's. They have inspired our revolution and if we get assistance we could push their version of Communism to the world."
- 
- SIA_Embrace_Stalinism:0 "Embrace Stalinism"
- SIA_Embrace_Stalinism_desc:0 "Stalinism has clearly showed that it is the true interpretation of Marx and the only way to successfully launch a worker's revolution."
- 
- SIA_Peoples_Dictatorship:0 "People's Dictatorship"
- SIA_Peoples_Dictatorship_desc:0 "The centralization of power was for the sake of the people. We are their protectors from themselves."
- 
- SIA_Expand_Yellow_Dossier:0 "Expand Yellow Dossier"
- SIA_Expand_Yellow_Dossier_desc:0 "The Yellow Dossier helped ignite the revolution in Siam. We should expand this to further mobilize our economy."
- 
- SIA_State_Welfare:0 "State Welfare"
- SIA_State_Welfare_desc:0 "The state will guarantee the welfare of our workers."
- 
- SIA_Redistribute_Land:0 "Redistribute Land"
- SIA_Redistribute_Land_desc:0 "We need to redistribute royal land for use by the state and the people."
- 
- SIA_Rural_Economic_Subsidies:0 "Rural Economic Subsidies"
- SIA_Rural_Economic_Subsidies_desc:0 "The rural lands of Siam are the backbone of our nation. While we want rapid industrialization, we cannot force something liket his is Thailand."
- 
- SIA_Join_Comintern:0 "Join Comintern"
- SIA_Join_Comintern_desc:0 "The Soviet Union is the leader of the Communist world. We should join hands with them to further the revolution."
- 
- SIA_South_East_Asian_Bloc:0 "South East Asian Bloc"
- SIA_South_East_Asian_Bloc_desc:0 "The Soviet's are not the leader of the revolution, Asia is. We should guide the rest of Asia with our ideals."
- 
- SIA_Invite_Sinkiang:0 "Invite Sinkiang"
- SIA_Invite_Sinkiang_desc:0 "Sinkiang may have close relations with the Soviet Union but we can convince them to support our Communist Asia."
- 
- SIA_Invite_CCP:0 "Invite CCP"
- SIA_Invite_CCP_desc:0 "The CCP is trying to secure Chinese Communism. We should support this movement."
- 
- SIA_Invite_Japan:0 "Invite Japan"
- SIA_Invite_Japan_desc:0 "Japan has demonstrated that nothing can stop the revolution. We should join hands with the former-imperialist."
- 
- SIA_Unite_the_Thai:0 "Unite the Thai"
- SIA_Unite_the_Thai_desc:0 "The Thai peoples around us need to be saved from the despotism and capitalism. It our responsibility to do so."
- 
- SIA_Remember_the_Past:0 "Remember the Past"
- SIA_Remember_the_Past_desc:0 "The Burmese people have been a part of the Thai people's various nations. Let us bring them back into the fold."
- 
-################################### IDEAS                       \n      §H§!
- 
- SIA_Pad_Thai:0 "Pad Thai"
- SIA_Pad_Thai_II:0 "Pad Thai"
- 
- ## Update 2.0
- 
- SIA_Principles:0 "Six Principles of Khana Ratsodon"
- 
- 
- SIA_Supreme_Council_Of_Science:0 "Supreme Council of Science"
- SIA_Supreme_Council_Of_Science_desc:0 "The King realizing the wisdom in the Khana Ratsodon pushing for public education, has decided to found the Supreme Council of Science made of loyal princes to direct education and technological breathroughs for the country."
- 
- SIA_Supreme_Council_Of_Economics:0 "Supreme Council of Economics"
- SIA_Supreme_Council_Of_Economics_desc:0 "Despite being a traitor to the monarchy, Pridi's idea for a economic council will be good for the country. We should form one of loyal princes which will guide the country towards greater economic success."
- 
- SIA_Thai_Neutrality:0 "Thai Neutrality"
- SIA_Thai_Neutrality_desc:0 "Thai peoples are not interested in getting involved in world affairs."
- 
- SIA_Repealed_Anti_Communist_Act:0 "Repealed Anti-Communist Act"
- SIA_Repealed_Anti_Communist_Act_desc:0 "Manopakorn Nitithada carried out a silent coup to dissolve the National Assembly on 1 April 1933, and used emergency decrees (such as the Anti-Communist Act) to govern. We have undone these illegal acts."
- 
- SIA_Civilian_Wing_Opposition:0 "Civilian Wing Opposition"
- SIA_Civilian_Wing_Opposition_desc:0 "The civilian government set up by the People's Party was embroiled in conflict with old conservative factions, and the new system of democracy was short lived."
- 
- SIA_Military_Opposition:0 "Military Opposition"
- SIA_Military_Opposition_desc:0 "The nationalists and military have cemented themselves in the government and hold the majority in the People's Party. Conflict with them causes significant difficulty in running the government."
- 
- SIA_Revenge_Against_France:0 "Revenge Against France"
- SIA_Revenge_Against_ENG:0 "Revenge Against Britain"
- 
- 
- SIA_Great_Depression_I:0 "Recovering from Great Depression"
- SIA_Great_Depression_II:0 "Recovering from Great Depression"
- SIA_Great_Depression_III:0 "Recovering from Great Depression"
- SIA_Great_Depression_IV:0 "Recovering from Great Depression"
- 
- SIA_Royal_Railways:0 "Royal Thai Railways"
- 
- #Fascist
- 
- SIA_Puppeted_Monarchy:0 "Puppeted Monarchy"
- SIA_Puppeted_Monarchy_desc:0 "Prince Rama VII was replaced as king by his nine-year-old nephew Prince Ananda Mahidol, who at that time was attending school in Lausanne, Switzerland. Regents were appointed by Phibun to govern in his stead."
- 
- SIA_March_on_Rome:0 "Inspired by March on Rome"
- SIA_March_on_Rome_desc:0 "Phibun, an admirer of Italian fascism, sought to replicate fascist-style propaganda tactics, valued in Italy as one of the most powerful propaganda instruments of political power."
- 
- SIA_Great_Kingdom_of_Thailand:0 "Great Kingdom of Thailand"
- SIA_Great_Kingdom_of_Thailand_desc:0 "Great Kingdom of Thailand which is the integration of the Shan, the Lao and other Tai peoples, such as Vietnam, Burma and South China."
- 
- SIA_Cultural_Mandate_1:0 "Cultural Mandate 1"
- SIA_Cultural_Mandate_2_3:0 "Cultural Mandate 2"
- SIA_Cultural_Mandate_4:0 "Cultural Mandate 3"
- SIA_Cultural_Mandate_5:0 "Cultural Mandate 4"
- SIA_Cultural_Mandate_7:0 "Cultural Mandate 5"
- SIA_Cultural_Mandate_11:0 "Cultural Mandate 6"
- 
- #Monarchist
- 
- SIA_Divine_Leadership:0 "Divine Leadership"
- SIA_Divine_Leadership_desc:0 "Our rulers wield the celestial weapons of the gods Vishnu and Shiva."
- 
- SIA_Supreme_Council:0 "Supreme Council of the State of Siam"
- SIA_Supreme_Council_desc: "The Supreme Council of State of Siam was an advisory and legislative council established by Rama VII. The council will assist the ruler."
- 
- SIA_Purge_the_Fascists:0 "Purge the Fascists"
- SIA_Purge_the_Fascists_desc:0 "With the support of the monarchs and Phahon loyalists, we can remove the fascist elements from government."
- 
- SIA_Phrayas_Support:0 "Phraya Phahon's Support"
- SIA_Phrayas_Support_desc:0 "An uneasy alliance between the military under Phraya Phahon and the Royalists under Rama VII."
-
- SIA_Phrayas_President:0 "President Phraya Phahon"
- SIA_Phrayas_President_desc:0 "Phahon is now the President of the Supreme Council."
-
- 
- # Shared
- 
- SIA_Volunteers_for_China:0 "Volunteers for China"
- SIA_Volunteers_for_China_desc:0 "We will protect China and therefore ourselves."
- 
- 
- SIA_New_Thai_Military_Academies:0 "New Thai Military Academies"
- SIA_New_Thai_Military_Academies_desc:0 ""
- 
- SIA_Empowered_Rama_VII:0 "Empowered Rama VII"
- SIA_Empowered_Rama_VII_desc:0 ""
- 
- SIA_Military_in_Power:0 "Military in Power"
- SIA_Military_in_Power_desc:0 ""
- 
- # Democratic / Communist
- 
- SIA_National_Economic_Council:0 "National Economic Council"
- 
- SIA_Peoples_Assembly:0 "People's Assembly"
- 
- SIA_Yellow_Dossier_Expanded:0 "Expanded Yellow Dossier"
- SIA_Yellow_Dossier_Expanded_desc:0 "The Yellow Dossier was a plan to arrange and provide state welfare, to distribute all land to the rural poor, to intervene in private sector economic affairs, and to provide farmers more economic subsidies."
+  ################################### TRAITS                      \n      §H§! 
+   ##### 
   
- SIA_Stalinism:0 "Stalinism"
- SIA_Stalinism_desc:0 "Stalinism has clearly showed that it is the true interpretation of Marx and the only way to successfully launch a worker's revolution."
- 
- SIA_Empowered_Civilian_Wing:0 "Empowered Civilian Wing"
- 
-################################### DECISIONS                   \n      §H§! 
- 
- ## Update 2.0
- 
- SIA_Workers_Revolution:0 "Ignite the Revolution"
- SIA_Indonesian_Revolution_dec:0 "Indonesian Revolution"
- SIA_Filippino_Revolution_dec:0 "Filippino Revolution"
- SIA_Australian_Revolution_dec:0 "Australian Revolution"
- SIA_New_Zealand_Revolution_dec:0 "New Zealand Revolution"
- 
- SIA_Invite_Malaya_dec:0 "Invite Malaya"
- SIA_Invite_Indies_dec:0 "Invite East Indies"
- SIA_Invite_Philippines_dec:0 "Invite Philippines"
- SIA_Invite_Australia_dec:0 "Invite Australia"
- SIA_Invite_New_Zealand_dec:0 "Invite New Zealand"
- 
- SIA_Core_SEA:0 "Integrate South East Asia"
- SIA_Integrate_Malaya_dec:0 "Integrate Malaya"
- SIA_Integrate_Indies_dec:0 "Integrate Indies"
- SIA_Integrate_Philippines_dec:0 "Integrate Philippines"
- SIA_Integrate_North_Australia_dec:0 "Integrate North Australia"
- SIA_Integrate_New_Zealand_dec:0 "Integrate New Zealand"
- 
- ##
- 
- 
- SIA_Territorial_Claims:0 "Territorial Claims"
- SIA_Demand_Indochina_dec:0 "Demand Indochina"
- SIA_Demand_Indochina_dec_desc:0 "If France is occupied in Europe, we could threaten war to gain our land back."
- 
- SIA_Demand_Burma_dec:0 "Demand Burma"
- SIA_Demand_Burma_dec_desc:0 "While the UK is busy with others in Europe, we should attempt to regain our land in Burma."
- 
- SIA_Cultural_Mandate_1_dec:0 "Cultural Mandate 1"
- SIA_Cultural_Mandate_2_dec:0 "Cultural Mandate 2"
- SIA_Cultural_Mandate_3_dec:0 "Cultural Mandate 3"
- SIA_Cultural_Mandate_4_dec:0 "Cultural Mandate 4"
- SIA_Cultural_Mandate_5_dec:0 "Cultural Mandate 5"
- SIA_Cultural_Mandate_6_dec:0 "Cultural Mandate 6"
- 
- SIA_Propaganda_Output_dec:0 "Output for Thailand!"
- SIA_Propaganda_Asceticism_dec:0 "Practice Asceticism!"
- SIA_Propaganda_Supply_dec:0 "Supply for the Thai!"
- SIA_Propaganda_Org_dec:0 "Defend our home!"
- SIA_Propaganda_Offensive_dec:0 "Crush our enemy!"
- SIA_Propaganda_Recruitment_dec:0 "Serve your country!"
- 
- SIA_Sue_France_For_Peace_dec:0 "Sue France for Peace"
- SIA_Sue_Britain_For_Peace_dec:0 "Sue the UK for Peace"
- 
-################################### EVENTS                      \n      §H§!
- 
-  # Democratic Referendum
- 
- SIA.16.t:0 "Pridi Banomyong wins the Election"
- SIA.16.desc:0 "Pridi diverged from Plaek Phibunsongkhram after the latter began to display a taste for dictatorial governance in the 1930s, marking the beginning of the long rivalry between the two Khana Ratsadon leaders. He will guide us with his democratic principles."
- SIA.16.a:0 "For Siam!"
- 
- # Phibun Election
- 
- SIA.2.t:0 "Plaek Phibunsongkhram wins the Election"
- SIA.2.desc:0 "Phibun became the third Prime Minister of Thailand in 1938 while serving as Commander of the Royal Siamese Army. Inspired by the Italian fascism of Benito Mussolini, he established a de facto military dictatorship run along fascist lines, promoted Thai nationalism and Sinophobia, and allied Thailand with Imperial Japan in World War II."
- SIA.2.a:0 "For Thailand!"
- 
- # Scandal
- 
- SIA.3.t:0 "Phraya Phahon Scandal"
- SIA.3.desc:0 "The beginning of the end for Phraya Phahon's time as prime minister began in when a scandal erupted involving the sale of crown real estate to high-ranking officials at below-market prices. Now that this is exposed, what should we do?"
- SIA.3.a:0 "Attempt to maintain control"
- SIA.3.b:0 "Request monarchy support"
- 
- # Fascism
- 
- SIA.4.t:0 "Fasism on the Rise"
- SIA.4.desc:0 "Phraya Phahon's cabinet found themselves an ideological and political minority due to the scandal. Phibon is gaining influence with his fascist rhetoric inspired by Mussolini's Italian state."
- SIA.4.a:0 "We have to accept this."
- 
- # Monarchy
- 
- SIA.5.t:0 "Monarchy lends Support"
- SIA.5.desc:0 "Rama VII has offered a compromise for his support in this ordeal. The monarchy has been declining in power however, with the monarchists left along with Phahon's supporters, we could manage to curb the influence of Phibon. Rama VII would like to once again be placed as head of state for his support and in return we will be able to continue to serve as Prime Minister."
- SIA.5.a:0 "We will take this deal."
- 
- SIA_Phahon_Scandal_Resolved_With_Monarchy_Support:0 "Resolved the Pahon Scandal with Monarchy Support"
- SIA_Phibon_Gaining_Power:0 "Phibon gaining Power"
- 
- # Ask Japan for Mediation
- 
- SIA.1.t:0 "Siam Requests Mediation"
- SIA.1.desc:0 "Siam is currently at war with France over indochina. Given they are aligned with us they have requested we mediated so they may take their land and end the war. What should we do?"
- SIA.1.a:0 "Support them"
- SIA.1.b:0 "Do not suppot them"
- 
- # Japan says yes
- 
- SIA.6.t:0 "Japan accepts"
- SIA.6.desc:0 "Japan has accepted our request for mediation. The results are favorable, we will retain control of Laos and Cambodia and will end the war."
- SIA.6.a:0 "Excellent"
- 
- # Japan says no
- 
- SIA.7.t:0 "Japan declines"
- SIA.7.desc:0 "Japan has turned their back on us. We cannot do anything about this now, we have to focus on the war ahead of us."
- SIA.7.a:0 "Unfortunate"
- 
- # Demand Indochina
- 
- SIA.8.t:0 "Siam demands Indochina"
- SIA.8.desc:0 "The Siamese government has sent us correspondence demanding Indochina from us. How should we respond?"
- SIA.8.a:0 "Decline demands"
- SIA.8.b:0 "Accept demands"
- 
- # They Said Yes
- 
- SIA.9.t:0 "France accepts"
- SIA.9.desc:0 "France has accepted our demands for Indochina. We have regained our rightful territory."
- SIA.9.a:0 "Wise choice"
- 
- # They Said No
+ SIA_Rama_VII: "Рама VII" #NT!
   
- SIA.10.t:0 "France declines"
- SIA.10.desc:0 "France has declined our demands for Indochina. We now have no option but to take it by force."
- SIA.10.a:0 "To arms!"
- 
- # Japan Bullies Siam
+ SIA_Plaek_Phibun: "Плек Фибун" #NT!
   
- SIA.11.t:0 "Japanese demands"
- SIA.11.desc:0 "The Japanese government has demanded that we join their faction. They threaten the use of force if we decline."
- SIA.11.a:0 "We should avoid bloodshed"
- SIA.11.b:0 "We will not bend to the Japanese"
+ peoples_dictator: "Народный диктатор" #NT!
   
-# Rama to Power
+ peoples_assembly: "Народное Собрание" #NT!
   
- SIA.12.t:0 "Rama VII returns to Power"
- SIA.12.desc:0 "Following the cooperation with the military and Phahon, Rama VII has returned to power."
- SIA.12.a:0 "We welcome back Rama VII"
- 
- # Demand Burma
- 
- SIA.13.t:0 "Siam demands Burma"
- SIA.13.desc:0 "The Siamese government has sent us correspondence demanding Burma from us. How should we respond?"
- SIA.13.a:0 "Decline demands"
- SIA.13.b:0 "Accept demands"
- 
- # They Said Yes
- 
- SIA.14.t:0 "UK accepts"
- SIA.14.desc:0 "The UK has accepted our demands for Burma. We have regained our rightful territory."
- SIA.14.a:0 "This is best for all"
- 
- # They Said No
+ disillusioned_with_democracy: "Разочарование в демократии" #NT!
+ disillusioned_with_democracy_desc: "Больше не веря в демократию, этот человек пытается защитить права своего народа другими способами." #NT!
   
- SIA.15.t:0 "UK declines"
- SIA.15.desc:0 "UK has declined our demands for Burma. We now have no option but to take it by force."
- SIA.15.a:0 "To arms!"
- 
-  # Ask for Burma
- 
- SIA.17.t:0 "Siam Requests Renegotiation of Unequal Treaties"
- SIA.17.desc:0 "The Siamese government has sent us correspondence asking for the return of Burma from us. How should we respond?"
- SIA.17.a:0 "Decline demands"
- SIA.17.b:0 "Accept demands"
- 
- # They Said Yes
- 
- SIA.18.t:0 "UK accepts"
- SIA.18.desc:0 "The UK has accepted our requests for Burma. We have regained our rightful territory."
- SIA.18.a:0 "Fortunate"
- 
- # They Said No
+   ##### ADVISORS 
   
- SIA.19.t:0 "UK declines"
- SIA.19.desc:0 "UK has declined our requests for Burma. This is unfortunate"
- SIA.19.a:0 "Unfortunate"
- 
- # Ask for Indochina
- 
- SIA.20.t:0 "Siam Requests Renegotiation of Unequal Treaties"
- SIA.20.desc:0 "The Siamese government has sent us correspondence asking for the return of Laos and Cambodia from us. How should we respond?"
- SIA.20.a:0 "Decline demands"
- SIA.20.b:0 "Accept demands"
- 
- # They Said Yes
- 
- SIA.21.t:0 "France accepts"
- SIA.21.desc:0 "The French have accepted our requests for Laos and Cambodia. We have regained our rightful territory."
- SIA.21.a:0 "Fortunate"
- 
- # They Said No
+ the_great_craftsman: "Великий Мастер" #NT!
+ the_great_craftsman_desc: "Принц Нарис известен как великий мастер Сиама за свое мастерство и талант во многих областях искусства, включая архитектуру." #NT!
   
- SIA.22.t:0 "France declines"
- SIA.22.desc:0 "The French have declined our requests for Laos and Cambodia. This is unfortunate"
- SIA.22.a:0 "Unfortunate"
- 
- # Ask for Indonesia
- 
- SIA.23.t:0 "Siam Offers to Control Indonesia"
- SIA.23.desc:0 "The Siamese government has sent us correspondence offering to take over Indonesia. How should we respond?"
- SIA.23.a:0 "Decline demands"
- SIA.23.b:0 "Accept demands"
- 
- # They Said Yes
- 
- SIA.24.t:0 "UK accepts"
- SIA.24.desc:0 "The UK has accepted our requests for Indonesia. We will protect them."
- SIA.24.a:0 "Fortunate"
- 
- # They Said No
+      # Update 2.0 
   
- SIA.25.t:0 "UK declines"
- SIA.25.desc:0 "The UK has declined our requests for Indonesia. This is unfortunate"
- SIA.25.a:0 "Unfortunate"
- 
- # French Indochina
- 
- # They Said Yes
- 
- SIA.27.t:0 "France accepts"
- SIA.27.desc:0 "The French have accepted our requests for Indonesia. We will protect them."
- SIA.27.a:0 "Fortunate"
- 
- # They Said No
+ conservative_democrat: "Консервативный демократ" #NT!
+ little_goebbels: "Маленький Геббельс" #NT!
+ minister_of_science: "Министр науки" #NT!
+ minister_of_transportation: "Министр транспорта" #NT!
   
- SIA.28.t:0 "France declines"
- SIA.28.desc:0 "The French have declined our requests for Indonesia. This is unfortunate"
- SIA.28.a:0 "Unfortunate"
- 
- # Communists sieze power
- 
- SIA.29.t:0 "Pridi Seizes Control"
- SIA.29.desc:0 "An infusion of leftists fleeing China for Thailand in the late 1920s following the Nationalist-Communist split of 1927 also increased support for activities. This growth the recent change in policy of the Khana Ratsodon has allowed the Communists to seize control. Pridi was previously less extreme but has been disillusioned with recent changes in the party, we might be able to use this."
- SIA.29.a:0 "Pridi will lead us."
- 
- # People's Assembly
- 
- SIA.30.t:0 "People's Assembly Empowered"
- SIA.30.desc:0 "We will follow the beliefs of Trotsky and empower the People's Assembly to handle affairs in our nation. We will let the people democratically elect these individuals for this new empowered People's Assembly and this body will lead the nation."
- SIA.30.a:0 "For the People!"
- 
- # Communists send aid
- 
- SIA.31.t:0 "Soviet's Send Aid"
- SIA.31.desc:0 "The Soviet's have shown support for our new communist state."
- SIA.31.a:0 "For the state!"
- 
- # Boworadet
- 
- SIA.32.t:0 "Return of Boworadet"
- SIA.32.desc:0 "Prince Boworadet lead a rebellion against Phahon and Pridi during the 1933 Siamese Coup d'etat. Boworadet was a royalist who did not want to see the king disrespected and reduced to nothing but a figure head. His rebellion failed and he fled to Cambodia, but now with our monarchy back in place we should re-invite Boworadet to lead our armed forces."
- SIA.32.a:0 "For the king!"
- 
- # Phahon Coup
- 
- SIA.33.t:0 "Phraya Phahon wants Presidency"
- SIA.33.desc:0 "With the recent re-creation of the Supreme Council of the State of Siam, Phraya Phahon would like the position as president for his assistance in our return. He has warned that he will not take denying this lightly. What will we do?"
- SIA.33.a:0 "Of course!"
- SIA.33.b:0 "No, we will not be threatened."
- 
-  # Bangkok Floods
- 
- SIA.34.t:0 "Bangkok Floods"
- SIA.34.desc:0 "In September 1942, there was a long rainy season in Northern, Northeastern and Central regions of Thailand, causing great floods in many provinces, including Bangkok. In Bangkok, the major flooding was recorded as having effects on the city's infrastructure lasting three months.\n\nWith the floods, many agricultural areas were flooded, especially the rice fields, which caused a serious shortage of rice. The Thai government decided to encourage people to eat noodles instead."
- SIA.34.a:0 "We must introduce a new meal!"
- SIA.34.a:0 "We must mandate a new meal!!"
- 
-  # Cultural Mandates
- 
- SIA.35.t:0 "On the name of the country, people and nationality"
- SIA.35.desc:0 "Public preference for changing the name of the country. It consisted of one item: "The country, people and nationality are to be called 'Thai'. Organizations with the name 'Siam' are forced to change their names."
- SIA.35.a:0 "For Thailand!"
- 
- SIA.36.t:0 "On preventing danger to the nation"
- SIA.36.desc:0 "1.Thai people must not engage in any business without considering the benefit and safety of the nation.\n\n2.Thai people must never reveal anything to foreigners that might damage the nation. These actions are a betrayal of the nation.\n\n3.Thai people must not act as agent or spokesman for foreigners without considering the benefit of the Thai nation, and must not express opinion or take the side of foreigners in international disputes. These actions are a betrayal of the nation.\n\n4.Thai people must not secretly purchase land on behalf of foreigners in a way that endangers the nation. These actions are a betrayal of the nation.\n\n5.When a person has betrayed the nation, it is the duty of Thai people to actively and quickly put a stop to it."
- SIA.36.a:0 "For Thailand!"
- 
- SIA.37.t:0 "On using Thai products"
- SIA.37.desc:0 "1.Thai people should make an effort to consume only food made from Thai products.\n\n2.Thai people should make an effort to wear only clothes made from Thai products.\n\n3.Thai people should support the agricultural, commercial, industrial, and other vocational efforts of fellow Thais.\n\n4.Thai people should use and support any public utility established by the government or by Thai people.\n\n5.Thai people practising agriculture, commerce, industry, or other vocation supported by this mandate must make an effort to maintain standards, improve quality, and run their business honestly."
- SIA.37.a:0 "For Thailand!"
- 
- SIA.38.t:0 "On Thai dress"
- SIA.38.desc:0 "1.Thai people should not appear at public gatherings, in public places, or in city limits without being appropriately dressed. Inappropriate dress includes wearing only underpants, wearing no shirt, or wearing a wraparound cloth.\n\n2.Appropriate dress for Thai people consists of:\nUniforms, as position and opportunity permits;\nPolite international-style attire;\nPolite traditional attire."
- SIA.38.a:0 "For Thailand!"
- 
- # Allied Bombing Campaign
- 
- SIA.39.t:0 "Allied Bombing Campaign on Bangkok"
- SIA.39.desc:0 "A strafing run on the Bangkok Noi railway station in Thonburi resulted in 78 civilian fatalities and damage to the house of the Thai politician Pridi Banomyong.\n\nAnother indiscriminate bombing and strafing of a railroad killed 400 civilians and 50 Thai soldiers. The British raided Bangkok from 3:00 p.m. to 5:00 p.m., knocking out the Samsen power plant and damaging the city's only other one. Bangkok was left mostly without power or running water, and 200 civilians were killed."
- SIA.39.a:0 "Thailand will persevere!"
- 
- # Burma Railroad
- 
- SIA.40.t:0 "Thai–Burma Railway"
- SIA.40.desc:0 "A 415 km (258 mi) railway between Ban Pong, Thailand, and Thanbyuzayat, Burma. Built by civilian laborers impressed or recruited by the Japanese and prisoners taken by the Japanese, to supply troops and weapons in the Burma campaign of World War II. It completed the rail link between Bangkok, Thailand, and Rangoon, Burma."
- SIA.40.a:0 "A product of Thai-Japanese Cooperation."
- 
- SIA.41.t:0 "Thai–Burma Railway Expanded"
- SIA.41.desc:0 "Thai–Burma Railway is extremely useful to the war effort and needs to be expanded.\n\nBetween 180,000 and 250,000 Southeast Asian civilians and over 60,000 Allied prisoners of war were subjected to forced labour during its construction. Around 90,000 civilians died, as did more than 12,000 Allied prisoners."
- SIA.41.a:0 "For our ally."
- 
- # Japan Decides if to bully
- 
- SIA.42.t:0 "Thai Strategic Importance"
- SIA.42.desc:0 "The Thai appear to be hesitant to join us in our war effort but their land is a useful passage into Burma and the surrounding Indian territories. They have made it clear that we cannot expect their help without a show of force. What should our approach be?"
- SIA.42.a:0 "We need to secure Thailand."
- SIA.42.b:0 "Leave them be."
- 
-################################### OTHER\n                     \n      §H§!
- 
- # Update 2.0
- 
- SIA_Khuang_Aphaiwong:0 "Khuang Aphaiwong"
- SIA_Wichit_Whichitwathakan:0 "Wichit Whichitwathakan"
- SIA_Tua_Lapanukrom:0 "Tua Lapanukrom"
- SIA_Charun_Rattanakul:0 "Charun Rattanakul"
- 
- SIA_Chalermkiat_Wattanangkul:0 "Chalermkiat Wattanangkul"
- 
- SIA_Thawan_Thamrongnawasawat:0 "Thawan Thamrongnawasawat"
- SIA_Sindhu_Kamalanavin_v2:0 "Sindhu Kamalanavin"
- SIA_Mangkorn_Phromyothi:0 "Mangkorn Phromyothi"
- 
- SIA_Munee_Mahasantana:0 "Munee Mahasantana"
- SIA_Sindhu_Songkramchai:0 "Sindhu Songkramchai"
- SIA_Krawin_Thampitak:0 "Krawin Thampitak"
- 
- SIA_Bangkok_Dock_Company:0 "Bangkok Dock Company"
- SIA_osaka_army_arsenal_artillery_organization:0 "Osaka Army Arsenal"
- SIA_mitsubishi_organization:0 "Mitsubishi"
- 
- #
- 
- 
- 
- SIA_fascism_party:0 "Khana Ratsadon (Military Wing)"
- SIA_fascism_party_long:0 "Khana Ratsadon (Military Wing)"
- SIA_democratic_party:0 "Khana Ratsadon (Civilian Wing)"
- SIA_democratic_party_long:0 "Khana Ratsadon (Civilian Wing)"
- SIA_neutrality_party:0 "Khana Ratsadon"
- SIA_neutrality_party_long:0 "Khana Ratsadon"
- SIA_communism_party:0 "Pak Kommunist Siam"
- SIA_communism_party_long:0 "Pak Kommunist Siam"
- 
- SIA_empowered_communist_party:0 "Pak Kommunist Prathet Thai"
- SIA_empowered_communist_party_long:0 "Pak Kommunist Prathet Thai"
- 
- SIA_Chakri:0 "Chakri Dynasty"
- SIA_Chakri_long:0 "Chakri Dynasty"
- 
- SIA_pridi_bhanomyong:0 "Pridi Banomyong"
- SIA_pridi_bhanomyong_desc:0 "Led Siam while serving in multiple ministerial posts, as regent, and as prime minister. He led the civilian wing of Khana Ratsadon."
- 
- SIA_Phayom_Chulanont:0 "Payom Chulanont"
- SIA_Phayom_Chulanont_desc:0 "Thai Communist and revolutionary."
- 
- SIA_Prince_Boworadet:0 "Prince Boworadet"
- 
- SIA_bangkok_dock_company_organization:0 "Bangkok Dock Company"
- 
- SIA_Khana_Ratsodon_Empowered:0 "Khana Ratsodon Empowered"
- 
- SIA_Thai_Mandates_tooltip:0 "Enables the §YThai Cultural Mandate§! decisions."
- SIA_Thai_Propaganda_tooltip:0 "Enables the §YThai Propaganda§! decisions."
- 
- SIA_Phahon:0 "Phraya Phahon"
- SIA_Prince_Naris:0 "Prince Naris"
- SIA_Prince_Damrong:0 "Prince Damrong"
- SIA_Paribatra_Sukhumbandhu:0 "Paribatra Sukhumbandhu"
- 
- SIA_Will_Empower:0 "This will §GEmpower§! the Khana Ratsodon"
- SIA_Will_Remove:0 "This will §RRemove§! the Khana Ratsodon"
- 
-# Cosmetics
- 
-  ## Update 2.0
+   ##### ARMY CHIEF 
   
-    SIA_PSA:0 "People's Republic of SEA"
-    SIA_PSA_ADJ:0 "South East Asian"
-    SIA_PSA_DEF:0 "The United People's Republic of South East Asia"
-    
-    social_democracy:0 "Social Democracy"
-    social_democracy_desc:0 "Social democracy is a political philosophy within socialism that supports political and economic democracy and supports a reformist and democratic approach towards achieving socialism, usually under a social liberal framework. In practice, social democracy takes a form of socially managed welfare capitalism, achieved with partial public ownership, economic interventionism, and policies promoting social equality."
-    
-  ##
- 
-SIA_AYU:0 "Empire of Ayutthaya"
-SIA_AYU_ADJ:0 "Thai"
-SIA_AYU_DEF:0 "The Empire of Ayutthaya"
-
-SIA_THAI:0 "Great Kingdom of Thailand"
-SIA_THAI_ADJ:0 "Thai"
-SIA_THAI_DEF:0 "The Great Kingdom of Thailand"
-
-SIA_SEA:0 "United South East Asia"
-SIA_SEA_ADJ:0 "South East Asian"
-SIA_SEA_DEF:0 "United South East Asian Republic"
- 
- 
- 
- 
+   ##### NAVY CHIEF 
+  
+   ##### AIR CHIEF 
+  
+   ##### HIGH COMMAND 
+  
+   ##### ARMOR DESIGNER 
+  
+   ##### AIRCRAFT DESIGNER 
+  
+   ##### SHIP DESIGNER 
+  
+   ##### MATERIAL DESIGNER 
+  
+   ##### INDUSTRIAL CONCERN 
+  
+   ##### THEORIST 
+  
+  ################################### OPINION MODIFIERS           \n      §H§! 
+  
+  
+  
+  
+  ################################### FOCUSES                     \n      §H§! 
+  
+ SIA_Fund_Education: "Фонд образования" #NT!
+ SIA_Fund_Education_desc: "" #NT!
+  
+ SIA_Contract_Japanese_Artillery: "Контрактная японская артиллерия" #NT!
+ SIA_Contract_Japanese_Artillery_desc: "" #NT!
+  
+ SIA_Contract_Japanese_Aircraft: "Контракт японских самолетов" #NT!
+ SIA_Contract_Japanese_Aircraft_desc: "" #NT!
+  
+   # Update 2.0 
+  
+ SIA_Unite_SEA: "Объединяем Юго-Восточную Азию" #NT!
+ SIA_Unite_SEA_desc: "Рабочие Юго-Восточной Азии все разорвали свои цепи. Теперь пришло время нам всем сформировать единое правительство, чтобы противостоять западным и азиатским империалистам." #NT!
+ SIA_Unite_SEA_Tooltip: "Передача права собственности на провинции §YЮго-Восточной Азии§!." #NT!
+  
+ SIA_Expand_Royal_Railway: "Развернуть Королевская железная дорога" #NT!
+ SIA_Expand_Royal_Railway_desc: "" #NT!
+ SIA_Expand_Royal_Railway_II: "Развернуть Королевская железная дорога II" #NT!
+ SIA_Expand_Royal_Railway_II_desc: "" #NT!
+  
+      # Tool Tips for 6 Principles 
+  
+ SIA_Principles_Supreme_Tooltip: "Изменить §Y$SIA_Principles$§! на \nУсиление политической власти: §G+10.0%§! \n\n" #NT!
+ SIA_Principles_Security_Tooltip: "Изменить §Y$SIA_Principles$§! на \nАтака дивизии на основной территории: §G+10.0%§! \nОборона дивизии на основной территории: §G+10.0%§! \n\n" #NT!
+ SIA_Principles_Economic_Tooltip: "Изменить §Y$SIA_Principles$§! от \nФабрики потребительских товаров: §Y-10.0%§!\n\n" #NT!
+ SIA_Principles_Equality_Tooltip: "Изменить §Y$SIA_Principles$§! на \nДополнительное рекрутируемое население: §G+15.00%§!\n\n" #NT!
+ SIA_Principles_Rights_Tooltip: "Изменить §Y$SIA_Principles$§! по \nСкорость роста соответствия: §G+5.0%§!\n\n" #NT!
+ SIA_Principles_Education_Tooltip: "Изменить §Y$SIA_Principles$§! на \nСкорость исследования: §G+5.0%§!\n\n" #NT!
+  
+  
+ SIA_Great_Depression_Tooltip: "Изменить §Y$SIA_Great_Depression$§! на \nУсиление политической власти: §G+10.0%§! \nФабрики потребительских товаров: §Y-10.0%§! \nЭффективность прироста ресурсов: §G+10.00%§! \nДополнительное рекрутируемое население: §G+10.00%§!\n\n" #NT!
+  
+   # Fascist 
+  
+ SIA_Military_as_Protectors: "Военные как защитники" #NT!
+ SIA_Military_as_Protectors_desc: "Народная партия совершила переворот в 32', который успешно сформировал конституционную монархию. Первый премьер-министр Нититада распустил недавно сформированный парламент. Второй переворот был совершен военными, чтобы вернуть гражданский контроль. Это новое правительство во главе с Прайей Пхахоном попыталось провести выборы и следовать конституции. В конце этого конфликта военные стали позиционировать себя как защитников демократии." #NT!
+  
+ SIA_Eliminate_Civilian_Resistance: "Устранить гражданское сопротивление" #NT!
+ SIA_Eliminate_Civilian_Resistance_desc: "" #NT!
+  
+ SIA_Inspired_by_March_on_Rome: "Вдохновлено Маршем на Рим" #NT!
+ SIA_Inspired_by_March_on_Rome_desc: "После революции 1932 года тайское правительство Прайя Пхахоль было впечатлено успехом Марша на Рим итальянского фашистского движения Бенито Муссолини. Фибун, также поклонник итальянского фашизма, стремился воспроизвести пропагандистскую тактику фашистского стиля, ценимую в Италии как один из самых мощных пропагандистских инструментов политической власти." #NT!
+  
+ SIA_Control_the_Royalty: "Контролировать королевскую власть" #NT!
+ SIA_Control_the_Royalty_desc: "Принц Рама VII был заменен на посту короля своим девятилетним племянником принцем Анандой Махидолом, который в то время учился в школе в Лозанне, Швейцария. Регенты были назначены Фибуном, чтобы управлять вместо него." #NT!
+  
+ SIA_Call_for_Vote: "Призыв к голосованию" #NT!
+ SIA_Call_for_Vote_desc: "Сейчас настало время избрать нового лидера Сиама, поскольку власть в стране обеспечена." #NT!
+  
+ SIA_Establish_Phibuns_Dictatorship: "Установить диктатуру Фибуна" #NT!
+ SIA_Establish_Phibuns_Dictatorship_desc: "" #NT!
+  
+ SIA_Cultural_Mandates: "Тайская культурная революция" #NT!
+ SIA_Cultural_Mandates_desc: "Пхибун инициировал ряд крупных культурных инициатив, известных как Тайская культурная революция, с целью ускорения темпов модернизации в Таиланде." #NT!
+  
+ SIA_Thai_Propaganda: "Тайская пропаганда" #NT!
+ SIA_Thai_Propaganda_desc: "Фибун и Луанг Вичитватакан, идеологический представитель правительства, копировали пропагандистские приемы, используемые Гитлером и Муссолини для создания культа лидера. Фотографии Фибуна можно было найти повсюду, а фотографии отрекшегося короля Праджадхипока были запрещены. Его цитаты появлялись в газетах, были расклеены на рекламных щитах и ​​повторялись по радио." #NT!
+  
+ SIA_Proclaim_Great_Kingdom_of_Thailand: "Провозгласить Великое Королевство Таиланд" #NT!
+ SIA_Proclaim_Great_Kingdom_of_Thailand_desc: "После подъема пантайского национализма, политика которого направлена ​​на интеграцию народов Шан, Лао и других тайских народов, таких как Вьетнам, Бирма и Южный Китай, Пхибун объявил страну «Великим Королевством Таиланд».)" #NT!
+  
+ SIA_The_Two_Italys: "Две «Италии»" #NT!
+ SIA_The_Two_Italys_desc: "Величайшим вдохновением для Фибуна в его правлении является Муссолини из Италии. Таиланд известен как «Италия Азии». Мы должны пересечь океан и попытаться заключить с ними союз." #NT!
+  
+   # Monarchist 
+  
+ SIA_Empower_Rama_VII: "Возвращение Рамы VII" #NT!
+ SIA_Empower_Rama_VII_desc: "Очевидно, что новому правительству нельзя доверять, и власть должна быть возвращена монархии. Это будет единственный способ защитить граждан. Мы попросим Раму VII вернуться." #NT!
+  
+ SIA_Undermine_Nationalists: "Очистите националистов" #NT!
+ SIA_Undermine_Nationalists_desc: "После провалившегося восстания Боурадета многие роялисты были арестованы или бежали в другие страны. Нам нужно исправить эту ошибку и вернуть Боурадета с его роялистами, чтобы вернуть военный контроль." #NT!
+  
+ SIA_Silence_the_Civilian_Wing: "Уступки гражданскому крылу" #NT!
+ SIA_Silence_the_Civilian_Wing_desc: "Рама VII никогда не был противником демократии, но сейчас явно не время для Сиама. Мы предложим уступки гражданскому крылу, чтобы получить их поддержку против националистов." #NT!
+  
+ SIA_Purge_the_Communists: "Очистите коммунистов" #NT!
+ SIA_Purge_the_Communists_desc: "Хотя мы будем стремиться к тесным отношениям с гражданским крылом, предыдущие антикоммунистические акты должны оставаться на месте. Коммунизм представляет большую угрозу для Сиама и монархии, чем любая другая группа. Мы найдем любые следы коммунизма внутри партии и арестуем этих лиц." #NT!
+  
+ SIA_Return_of_the_Monarchy: "Объедините фракции" #NT!
+ SIA_Return_of_the_Monarchy_desc: "Теперь, когда мы очистили страну от экстремистских элементов, мы можем объединить монархистов и милитаристов под руководством Прахона в единую партию, чтобы обеспечить стабильность в стране." #NT!
+  
+ SIA_Connections_to_the_Past: "Возвращение Боворадета" #NT!
+ SIA_Connections_to_the_Past_desc: "Мы должны послать сообщение Боурадету, дав ему знать, что монархия снова под контролем. Мы могли бы использовать его помощь." #NT!
+  
+ SIA_Descendants_of_Shiva_and_Vishnu: "Потомки Шивы и Вишну" #NT!
+ SIA_Descendants_of_Shiva_and_Vishnu_desc: "Династия Чакри правила Таиландом с момента основания Эры Раттанакосин и города Бангкока в 1782 году. Тайский монарх рассматривается как воплощение Шивы и Вишну. Мы пересмотрим это мнение, чтобы вернуть себе право на власть и возродить веру нашего народа в монархию." #NT!
+  
+ SIA_Re_Establish_Supreme_Council: "Восстановить Верховный Совет." #NT!
+ SIA_Re_Establish_Supreme_Council_desc: "Верховный государственный совет Сиама был консультативным и законодательным советом, созданным Рамой VII, который существовал с 1925 по 1932 год. Он хотел создать совет, аналогичный кабинету, где самые важные правительственные чиновники могли бы встречаться для принятия решений по государственным делам. Это было отменено Народной партией. Мы должны восстановить Верховный совет, чтобы помочь Раме VII в управлении страной." #NT!
+  
+ SIA_Legacy_of_Ayutthaya: "Наследие Аюттайи" #NT!
+ SIA_Legacy_of_Ayutthaya_desc: "Европейские путешественники в начале XVI века называли Аюттайю одной из трех великих держав Азии. Этот период описывался как «золотой век» сиамской культуры и стал свидетелем подъема китайской торговли и внедрения капитализма в Сиам. Мы примем нашу историю и восстановим нашу силу и наше культурное значение в Азии" #NT!
+  
+ SIA_Revenge_Against_Burma: "Месть Бирме" #NT!
+ SIA_Revenge_Against_Burma_desc: "В середине XVIII века бирманская династия Конбаунгов вторглась в Аюттайю в 1759–1760 и 1765–1767 годах. В апреле 1767 года после 14-месячной осады город Аюттайя пал под натиском бирманских войск и был полностью разрушен, тем самым положив конец 417-летнему королевству Аюттайя. Мы отомстим за конец самого могущественного сиамского государства." #NT!
+  
+   # Industry 
+  
+ SIA_Industrial_Expansion: "Промышленное расширение" #NT!
+ SIA_Industrial_Expansion_desc: "" #NT!
+  
+ SIA_Increase_Rubber_Production: "Увеличение производства резины" #NT!
+ SIA_Increase_Rubber_Production_desc: "Наш основной экспорт — каучук. Нам нужно расширять это направление." #NT!
+  
+ SIA_Increase_Rubber_Production_II: "Увеличение производства резины II" #NT!
+ SIA_Increase_Rubber_Production_II_desc: "Наш основной экспорт — каучук. Нам нужно расширять это направление." #NT!
+  
+ SIA_Expand_Interior_Infrastructure: "Внутренняя инфраструктура" #NT!
+ SIA_Expand_Interior_Infrastructure_desc: "" #NT!
+  
+ SIA_Expand_Interior_Industry: "Внутренняя промышленность" #NT!
+ SIA_Expand_Interior_Industry_desc: "" #NT!
+  
+ SIA_Expand_Coastal_Infrastructure: "Береговая инфраструктура" #NT!
+ SIA_Expand_Coastal_Infrastructure_desc: "" #NT!
+  
+ SIA_Expand_Coastal_Industry: "Прибрежная промышленность" #NT!
+ SIA_Expand_Coastal_Industry_desc: "" #NT!
+  
+ SIA_Defend_the_Coast: "Защитить побережье" #NT!
+ SIA_Defend_the_Coast_desc: "" #NT!
+  
+ SIA_Lanna_Resource_Extraction: "Добыча ресурсов Ланна" #NT!
+ SIA_Lanna_Resource_Extraction_desc: "" #NT!
+  
+ SIA_Malay_Resource_Extraction: "Добыча малайских ресурсов" #NT!
+ SIA_Malay_Resource_Extraction_desc: "" #NT!
+  
+ SIA_Invite_Paribatra_to_Return: "Пригласить Paribatra вернуться" #NT!
+ SIA_Invite_Paribatra_to_Return_desc: "В результате переворота 1932 года Парибатра был выслан из королевства в Бандунг, Голландская Ост-Индия, которая находилась под управлением голландцев. Парибатра получил прусское образование, которое мы можем использовать. Мы должны пригласить его обратно на службу государству." #NT!
+  
+   # Six 
+  
+ SIA_Six_Principles_of_Khana_Ratsadon: "Шесть принципов Ханы Ратсадон" #NT!
+ SIA_Six_Principles_of_Khana_Ratsadon_desc: "" #NT!
+  
+ SIA_Supreme_Power_of_Thai_People: "Верховная власть тайского народа" #NT!
+ SIA_Supreme_Power_of_Thai_People_desc: "" #NT!
+  
+ SIA_National_Security: "Национальная безопасность" #NT!
+ SIA_National_Security_desc: "" #NT!
+  
+ SIA_Economic_Welfare: "Экономическое благосостояние" #NT!
+ SIA_Economic_Welfare_desc: "" #NT!
+  
+ SIA_Equality_of_Thai_People: "Равенство тайского народа" #NT!
+ SIA_Equality_of_Thai_People_desc: "" #NT!
+  
+ SIA_Rights_and_Liberties: "Права и свободы" #NT!
+ SIA_Rights_and_Liberties_desc: "" #NT!
+  
+ SIA_Public_Education: "Народное образование" #NT!
+ SIA_Public_Education_desc: "" #NT!
+  
+   # Military 
+  
+ SIA_Royal_Thai_Navy: "Королевский флот Таиланда" #NT!
+ SIA_Royal_Thai_Navy_desc: "" #NT!
+  
+ SIA_Acquire_Bangkok_Dock_Company: "Приобретение компании Bangkok Dock Company" #NT!
+ SIA_Acquire_Bangkok_Dock_Company_desc: "" #NT!
+  
+ SIA_Royal_Thai_Marine_Corps: "Королевский корпус морской пехоты Таиланда" #NT!
+ SIA_Royal_Thai_Marine_Corps_desc: "" #NT!
+  
+ SIA_Escort_Focus: "Эскорт Фокус" #NT!
+ SIA_Escort_Focus_desc: "" #NT!
+  
+ SIA_Interdiction_Focus: "Фокус на запрете" #NT!
+ SIA_Interdiction_Focus_desc: "" #NT!
+  
+ SIA_Modern_Thai_Navy: "Современный тайский флот" #NT!
+ SIA_Modern_Thai_Navy_desc: "" #NT!
+  
+ SIA_Royal_Thai_Army: "Королевская армия Таиланда" #NT!
+ SIA_Royal_Thai_Army_desc: "" #NT!
+  
+ SIA_Artillery_Modernization: "Модернизация артиллерии" #NT!
+ SIA_Artillery_Modernization_desc: "" #NT!
+  
+ SIA_Artillery_Production: "Артиллерийское производство" #NT!
+ SIA_Artillery_Production_desc: "" #NT!
+  
+ SIA_Arms_Modernization: "Модернизация вооружения" #NT!
+ SIA_Arms_Modernization_desc: "" #NT!
+  
+ SIA_Arms_Production: "Производство оружия" #NT!
+ SIA_Arms_Production_desc: "" #NT!
+  
+ SIA_Armor_Modernization: "Модернизация брони" #NT!
+ SIA_Armor_Modernization_desc: "" #NT!
+  
+ SIA_Armor_Production: "Производство брони" #NT!
+ SIA_Armor_Production_desc: "" #NT!
+  
+ SIA_Modern_Thai_Military: "Современные тайские военные" #NT!
+ SIA_Modern_Thai_Military_desc: "" #NT!
+  
+ SIA_Royal_Thai_Airforce: "Королевские военно-воздушные силы Таиланда" #NT!
+ SIA_Royal_Thai_Airforce_desc: "" #NT!
+  
+ SIA_Airbase_Expansion: "Расширение авиабазы" #NT!
+ SIA_Airbase_Expansion_desc: "" #NT!
+  
+ SIA_Air_Innovation: "Воздушные инновации" #NT!
+ SIA_Air_Innovation_desc: "" #NT!
+  
+ SIA_Naval_Focus: "Военно-морской фокус" #NT!
+ SIA_Naval_Focus_desc: "" #NT!
+  
+ SIA_CAS_Focus: "CAS-фокус" #NT!
+ SIA_CAS_Focus_desc: "" #NT!
+  
+ SIA_Fighter_Focus: "Фокус истребителя" #NT!
+ SIA_Fighter_Focus_desc: "" #NT!
+  
+ SIA_Modern_Thai_Airforce: "Современные тайские военно-воздушные силы" #NT!
+ SIA_Modern_Thai_Airforce_desc: "" #NT!
+  
+  
+   # Shared 
+  
+ SIA_Pan_Thai_Nationalism: "Пантайский национализм" #NT!
+ SIA_Pan_Thai_Nationalism_desc: "Продвижение новой волны национализма. Поддержано работами культурного советника Луанга Вичитватакана." #NT!
+  
+ SIA_Negotiations_with_Japan: "Отношения с Японией" #NT!
+ SIA_Negotiations_with_Japan_desc: "Сегодня Япония является одним из важнейших экономических партнеров сиамского народа. Мы должны продолжать развивать отношения с ними." #NT!
+  
+ SIA_Seek_Closer_Relations_To_Japan: "Стремиться к более тесным отношениям с Японией" #NT!
+ SIA_Seek_Closer_Relations_To_Japan_desc: "Таиланд обратился к Японии за помощью в противостоянии с Французским Индокитаем." #NT!
+  
+ SIA_Request_Mediation_of_Japan_for_Indochina: "Посредничество Японии в Индокитае" #NT!
+ SIA_Request_Mediation_of_Japan_for_Indochina_desc: "Япония может выступить посредником в уступке наших законных территорий Франции." #NT!
+  
+ SIA_South_East_Asian_Pact: "Юго-Восточно-Азиатский пакт" #NT!
+ SIA_South_East_Asian_Pact_desc: "Нам не нужна помощь западных или азиатских империалистов. Мы выстоим сами." #NT!
+  
+ SIA_Invite_Southern_Warlords: "Пригласить южных военачальников" #NT!
+ SIA_Invite_Southern_Warlords_desc: "Мы можем использовать южных военачальников против наших врагов в Индокитае, Индии и Китае." #NT!
+  
+ SIA_Assist_the_Chinese: "Помогите китайцам" #NT!
+ SIA_Assist_the_Chinese_desc: "Хотя китайцы не обязательно являются нашими союзниками, мы не можем позволить империалистической Японии получить контроль над их ресурсами, если мы надеемся остаться вне сферы их влияния." #NT!
+  
+ SIA_Military_Factionalism: "Военная фракционность" #NT!
+ SIA_Military_Factionalism_desc: "Прежде чем Хана Ратсадон сможет продолжить свою деятельность, мы должны решить проблему военной фракционности." #NT!
+  
+   # Democratic / Communist 
+  
+ SIA_Re_Empower_Civilian_Wing: "Расширение прав и возможностей гражданского крыла" #NT!
+ SIA_Re_Empower_Civilian_Wing_desc: "Khana Ratsodon разделилась на две фракции: гражданскую фракцию во главе с Приди Бханомьонгом и военную фракцию во главе с маршалом Пибулсонгкрамом. Мы поддержим эту гражданскую фракцию." #NT!
+  
+ SIA_Reconcile_with_Military: "Примириться с военными" #NT!
+ SIA_Reconcile_with_Military_desc: "Многие военные, включая Прая Пахона, поддерживают гражданское крыло. При поддержке этих людей мы можем примириться с военными." #NT!
+  
+ SIA_Reinstate_Constitutional_Monarchy: "Восстановить конституционную монархию" #NT!
+ SIA_Reinstate_Constitutional_Monarchy_desc: "Первоначальным намерением восстания 24 июня 1932 года было преобразование абсолютной монархии страны в конституционную монархию. Нам необходимо восстановить полномочия Рамы VII, сохраняя при этом баланс сил." #NT!
+  
+ SIA_Demand_Referendum: "Требовать референдума" #NT!
+ SIA_Demand_Referendum_desc: "Теперь, когда мы обеспечили присутствие Гражданского крыла, мы можем объявить голосование по вопросу о приходе Приди к власти и повторно назначить выборы." #NT!
+  
+ SIA_National_Economic_Council: "Национальный экономический совет" #NT!
+ SIA_National_Economic_Council_desc: "Национальный экономический совет — центральный плановый орган Сиама, отвечающий за разработку стратегий сбалансированного и устойчивого развития в национальных интересах." #NT!
+  
+ SIA_Thammasat_University: "Университет Таммасат" #NT!
+ SIA_Thammasat_University_desc: "Университет Таммасат — государственный исследовательский университет в Сиаме, основанный Приди Бханомионгом." #NT!
+  
+ SIA_Look_Outward: "Посмотрите наружу" #NT!
+ SIA_Look_Outward_desc: "С усилением Японии и ростом мировой напряженности нам следует искать союзников для защиты нашего суверенитета." #NT!
+  
+ SIA_Join_Allies: "Присоединяйтесь к союзникам" #NT!
+ SIA_Join_Allies_desc: "Союзники — защитники демократии. Мы должны присоединиться к ним, чтобы защитить себя и защитить демократию во всем мире." #NT!
+  
+ SIA_Renegotiate_Unequal_Treaties: "Пересмотреть неравноправные договоры" #NT!
+ SIA_Renegotiate_Unequal_Treaties_desc: "Нам следует обсудить пересмотр равноправных договоров с Францией и Британией. С нашей демократической системой, возможно, они будут уважать наш суверенитет и вернут нам нашу землю." #NT!
+  
+ SIA_Offer_To_Take_Over_Indonesia: "Предложение о захвате Индонезии" #NT!
+ SIA_Offer_To_Take_Over_Indonesia_desc: "Индонезия уязвима без полной поддержки союзников. Мы находимся в хорошей позиции, чтобы защитить территорию от врагов демократии." #NT!
+  
+ SIA_Reinstate_Peoples_Assembly: "Восстановить Народное Собрание" #NT!
+ SIA_Reinstate_Peoples_Assembly_desc: "Народное собрание было создано в 1932 году после принятия первой конституции Сиама, которая превратила Сиам из абсолютной монархии в конституционную монархию." #NT!
+  
+ SIA_Agitate_the_Masses: "Агитируйте массы" #NT!
+ SIA_Agitate_the_Masses_desc: "Народ Сиама хочет власти в стране. Они устали от правления королевской элиты Сиама." #NT!
+  
+ SIA_United_East_Asia: "Объединенная Восточная Азия" #NT!
+ SIA_United_East_Asia_desc: "Не имея прецедента, мы хотим объединить все нефашистские или коммунистические нации Азии в одну фракцию. Мы соберемся вместе и защитим Азию от радикальных фракций и империалистов." #NT!
+  
+ SIA_Protect_Asia: "Защитить Азию" #NT!
+ SIA_Protect_Asia_desc: "Мы — защитники демократии в Азии." #NT!
+  
+ SIA_South_East_Asia_United: "Юго-Восточная Азия Объединенная" #NT!
+ SIA_South_East_Asia_United_desc: "Мы объединили значительную часть Юго-Восточной Азии и стали маяком демократии в Азии." #NT!
+  
+   # Communist 
+  
+ SIA_Repeal_Anti_Communist_Act: "Отменить антикоммунистический закон" #NT!
+ SIA_Repeal_Anti_Communist_Act_desc: "Манопакорн Нититада осуществил тихий переворот, чтобы распустить Национальную ассамблею 1 апреля 1933 года, и использовал чрезвычайные указы (такие как Закон о борьбе с коммунистами) для управления. Мы должны отменить эти незаконные акты." #NT!
+  
+ SIA_Yellow_Dossier: "Желтое досье" #NT!
+ SIA_Yellow_Dossier_desc: "«Желтое досье» представляло собой план по организации и предоставлению государственного благосостояния, распределению всей земли среди сельской бедноты, вмешательству в экономические дела частного сектора и предоставлению фермерам больших экономических субсидий." #NT!
+  
+ SIA_Align_Military_Officials: "Согласование военных чиновников" #NT!
+ SIA_Align_Military_Officials_desc: "В армии наблюдается значительная фракционность. Мы должны воспользоваться этим и гарантировать определенные привилегии отдельным лицам за их лояльность." #NT!
+  
+ SIA_Communist_Sieze_Control_of_Government: "Коммунисты захватывают контроль над правительством" #NT!
+ SIA_Communist_Sieze_Control_of_Government_desc: "Имея в своем распоряжении значительную политическую базу, мы теперь можем предпринять шаги, чтобы привести Приди к власти и направить партию в сторону коммунизма." #NT!
+  
+ SIA_Empower_the_Peoples_Assembly: "Расширение полномочий Народного Собрания" #NT!
+ SIA_Empower_the_Peoples_Assembly_desc: "Народное собрание должно быть наделено полномочиями. Первоначальная идея Ханы Ратсодон заключалась в том, чтобы дать власть гражданским лицам и сформировать собрание. Мы будем вручную выбирать людей для этого нового уполномоченного Народного собрания." #NT!
+  
+ SIA_The_Permanent_Revolution: "Перманентная революция" #NT!
+ SIA_The_Permanent_Revolution_desc: "Мы не можем больше сидеть сложа руки, нам нужно поделиться революцией с остальным миром." #NT!
+  
+ SIA_Asian_Revolution: "Азиатская революция" #NT!
+ SIA_Asian_Revolution_desc: "Коммунистическая революция, возможно, достигла наибольшего могущества в Советах, но истинным источником коммунистической власти является Азия." #NT!
+  
+ SIA_spies: "Национальное разведывательное агентство" #NT!
+ SIA_spies_desc: "Чтобы поделиться коммунизмом со всем миром, нам нужно будет зажечь рабочих, разделяя идеалы коммунизма." #NT!
+  
+ SIA_Unite_Under_the_Peoples_Leader: "Объединяйтесь под руководством народного лидера" #NT!
+ SIA_Unite_Under_the_Peoples_Leader_desc: "Нам показали, что мы не можем доверять Ассамблеям в обеспечении прав трудящихся. Мы последуем советской модели и централизуем власть под руководством Приди в качестве демократической диктатуры." #NT!
+  
+ SIA_Request_Soviet_Aid: "Запросить советскую помощь" #NT!
+ SIA_Request_Soviet_Aid_desc: "Нам следует обратиться за помощью к Советам. Они вдохновили нашу революцию, и если мы получим помощь, мы сможем продвинуть их версию коммунизма по всему миру." #NT!
+  
+ SIA_Embrace_Stalinism: "Принять сталинизм" #NT!
+ SIA_Embrace_Stalinism_desc: "Сталинизм ясно показал, что это истинная интерпретация Маркса и единственный способ успешного начала рабочей революции." #NT!
+  
+ SIA_Peoples_Dictatorship: "Народная диктатура" #NT!
+ SIA_Peoples_Dictatorship_desc: "Централизация власти была ради народа. Мы — его защитники от него самого." #NT!
+  
+ SIA_Expand_Yellow_Dossier: "Развернуть желтое досье" #NT!
+ SIA_Expand_Yellow_Dossier_desc: "Желтое досье помогло разжечь революцию в Сиаме. Мы должны расширить это, чтобы еще больше мобилизовать нашу экономику." #NT!
+  
+ SIA_State_Welfare: "Государственное благосостояние" #NT!
+ SIA_State_Welfare_desc: "Государство гарантирует благосостояние наших работников." #NT!
+  
+ SIA_Redistribute_Land: "Перераспределить землю" #NT!
+ SIA_Redistribute_Land_desc: "Нам необходимо перераспределить королевские земли для использования государством и народом." #NT!
+  
+ SIA_Rural_Economic_Subsidies: "Сельские экономические субсидии" #NT!
+ SIA_Rural_Economic_Subsidies_desc: "Сельские земли Сиама являются хребтом нашей нации. Хотя мы хотим быстрой индустриализации, мы не можем навязать что-то вроде его Таиланда." #NT!
+  
+ SIA_Join_Comintern: "Вступайте в Коминтерн" #NT!
+ SIA_Join_Comintern_desc: "Советский Союз — лидер коммунистического мира. Мы должны объединиться с ними, чтобы продвигать революцию." #NT!
+  
+ SIA_South_East_Asian_Bloc: "Юго-Восточный Азиатский Блок" #NT!
+ SIA_South_East_Asian_Bloc_desc: "Советы не лидеры революции, а Азия. Мы должны вести остальную Азию нашими идеалами." #NT!
+  
+ SIA_Invite_Sinkiang: "Пригласить Синьцзян" #NT!
+ SIA_Invite_Sinkiang_desc: "У Синьцзяна могут быть тесные отношения с Советским Союзом, но мы можем убедить их поддержать нашу коммунистическую Азию." #NT!
+  
+ SIA_Invite_CCP: "Пригласить КПК" #NT!
+ SIA_Invite_CCP_desc: "КПК пытается защитить китайский коммунизм. Мы должны поддержать это движение." #NT!
+  
+ SIA_Invite_Japan: "Пригласить Японию" #NT!
+ SIA_Invite_Japan_desc: "Япония продемонстрировала, что ничто не может остановить революцию. Мы должны объединиться с бывшими империалистами." #NT!
+  
+ SIA_Unite_the_Thai: "Объединяйтесь, тайцы!" #NT!
+ SIA_Unite_the_Thai_desc: "Тайские народы вокруг нас должны быть спасены от деспотизма и капитализма. Это наша обязанность." #NT!
+  
+ SIA_Remember_the_Past: "Помни прошлое" #NT!
+ SIA_Remember_the_Past_desc: "Бирманский народ был частью различных наций тайского народа. Давайте вернем их в лоно." #NT!
+  
+  ################################### IDEAS                       \n      §H§! 
+  
+ SIA_Pad_Thai: "Пад Тай" #NT!
+ SIA_Pad_Thai_II: "Пад Тай" #NT!
+  
+   ## Update 2.0 
+  
+ SIA_Principles: "Шесть принципов Хана Ратсодон" #NT!
+  
+  
+ SIA_Supreme_Council_Of_Science: "Высший совет по науке" #NT!
+ SIA_Supreme_Council_Of_Science_desc: "Король, осознав мудрость Хана Ратсодона, продвигающего народное образование, решил основать Высший совет по науке, состоящий из лояльных принцев, чтобы направлять образовательные и технологические достижения страны." #NT!
+  
+ SIA_Supreme_Council_Of_Economics: "Высший совет экономики" #NT!
+ SIA_Supreme_Council_Of_Economics_desc: "Несмотря на то, что Приди предал монархию, его идея экономического совета будет полезна для страны. Мы должны сформировать одного из лояльных принцев, который поведет страну к большему экономическому успеху." #NT!
+  
+ SIA_Thai_Neutrality: "Нейтралитет Таиланда" #NT!
+ SIA_Thai_Neutrality_desc: "Народ Таиланда не заинтересован во вмешательстве в мировые дела." #NT!
+  
+ SIA_Repealed_Anti_Communist_Act: "Отменённый антикоммунистический закон" #NT!
+ SIA_Repealed_Anti_Communist_Act_desc: "Манопакорн Нититада осуществил тихий переворот, чтобы распустить Национальную ассамблею 1 апреля 1933 года, и использовал чрезвычайные указы (такие как Антикоммунистический закон) для управления. Мы отменили эти незаконные акты." #NT!
+  
+ SIA_Civilian_Wing_Opposition: "Гражданское крыло оппозиции" #NT!
+ SIA_Civilian_Wing_Opposition_desc: "Гражданское правительство, созданное Народной партией, вступило в конфликт со старыми консервативными фракциями, а новая система демократии просуществовала недолго." #NT!
+  
+ SIA_Military_Opposition: "Военная оппозиция" #NT!
+ SIA_Military_Opposition_desc: "Националисты и военные закрепились в правительстве и имеют большинство в Народной партии. Конфликт с ними вызывает значительные трудности в управлении правительством." #NT!
+  
+ SIA_Revenge_Against_France: "Месть Франции" #NT!
+ SIA_Revenge_Against_ENG: "Месть Британии" #NT!
+  
+  
+ SIA_Great_Depression_I: "Восстановление после Великой депрессии" #NT!
+ SIA_Great_Depression_II: "Восстановление после Великой депрессии" #NT!
+ SIA_Great_Depression_III: "Восстановление после Великой депрессии" #NT!
+ SIA_Great_Depression_IV: "Восстановление после Великой депрессии" #NT!
+  
+ SIA_Royal_Railways: "Королевские железные дороги Таиланда" #NT!
+  
+   #Fascist 
+  
+ SIA_Puppeted_Monarchy: "Кукольная монархия" #NT!
+ SIA_Puppeted_Monarchy_desc: "Принц Рама VII был заменен на посту короля своим девятилетним племянником принцем Анандой Махидолом, который в то время учился в школе в Лозанне, Швейцария. Регенты были назначены Фибуном, чтобы управлять вместо него." #NT!
+  
+ SIA_March_on_Rome: "Вдохновлено Маршем на Рим" #NT!
+ SIA_March_on_Rome_desc: "Фибун, поклонник итальянского фашизма, стремился воспроизвести пропагандистскую тактику фашистского стиля, которая ценилась в Италии как один из самых мощных пропагандистских инструментов политической власти." #NT!
+  
+ SIA_Great_Kingdom_of_Thailand: "Великое Королевство Таиланд" #NT!
+ SIA_Great_Kingdom_of_Thailand_desc: "Великое Королевство Таиланд, которое представляет собой объединение народов Шан, Лао и других тайских народов, таких как Вьетнам, Бирма и Южный Китай." #NT!
+  
+ SIA_Cultural_Mandate_1: "Культурный мандат 1" #NT!
+ SIA_Cultural_Mandate_2_3: "Культурный мандат 2" #NT!
+ SIA_Cultural_Mandate_4: "Культурный мандат 3" #NT!
+ SIA_Cultural_Mandate_5: "Культурный мандат 4" #NT!
+ SIA_Cultural_Mandate_7: "Культурный мандат 5" #NT!
+ SIA_Cultural_Mandate_11: "Культурный мандат 6" #NT!
+  
+   #Monarchist 
+  
+ SIA_Divine_Leadership: "Божественное Лидерство" #NT!
+ SIA_Divine_Leadership_desc: "Наши правители владеют небесным оружием богов Вишну и Шивы." #NT!
+  
+ SIA_Supreme_Council: "Верховный Совет Государства Сиам" #NT!
+ SIA_Supreme_Council_desc: "Верховный государственный совет Сиама был консультативным и законодательным советом, созданным Рамой VII. Совет будет помогать правителю." #NT!
+  
+ SIA_Purge_the_Fascists: "Очистите фашистов" #NT!
+ SIA_Purge_the_Fascists_desc: "При поддержке монархов и сторонников Пахона мы сможем устранить фашистские элементы из правительства." #NT!
+  
+ SIA_Phrayas_Support: "Поддержка Прайи Пахон" #NT!
+ SIA_Phrayas_Support_desc: "Непростой союз между военными под предводительством Прайя Пахона и роялистами под предводительством Рамы VII." #NT!
+  
+ SIA_Phrayas_President: "Президент Прайя Пахон" #NT!
+ SIA_Phrayas_President_desc: "В настоящее время Пахон является председателем Верховного совета." #NT!
+  
+  
+   # Shared 
+  
+ SIA_Volunteers_for_China: "Волонтеры для Китая" #NT!
+ SIA_Volunteers_for_China_desc: "Мы защитим Китай, а значит, и себя." #NT!
+  
+  
+ SIA_New_Thai_Military_Academies: "Новые военные академии Таиланда" #NT!
+ SIA_New_Thai_Military_Academies_desc: "" #NT!
+  
+ SIA_Empowered_Rama_VII: "Уполномоченный Рама VII" #NT!
+ SIA_Empowered_Rama_VII_desc: "" #NT!
+  
+ SIA_Military_in_Power: "Военные у власти" #NT!
+ SIA_Military_in_Power_desc: "" #NT!
+  
+   # Democratic / Communist 
+  
+ SIA_National_Economic_Council: "Национальный экономический совет" #NT!
+  
+ SIA_Peoples_Assembly: "Народное Собрание" #NT!
+  
+ SIA_Yellow_Dossier_Expanded: "Расширенное желтое досье" #NT!
+ SIA_Yellow_Dossier_Expanded_desc: "«Желтое досье» представляло собой план по организации и предоставлению государственного благосостояния, распределению всей земли среди сельской бедноты, вмешательству в экономические дела частного сектора и предоставлению фермерам больших экономических субсидий." #NT!
+  
+ SIA_Stalinism: "сталинизм" #NT!
+ SIA_Stalinism_desc: "Сталинизм ясно показал, что это истинная интерпретация Маркса и единственный способ успешного начала рабочей революции." #NT!
+  
+ SIA_Empowered_Civilian_Wing: "Уполномоченное гражданское крыло" #NT!
+  
+  ################################### DECISIONS                   \n      §H§! 
+  
+   ## Update 2.0 
+  
+ SIA_Workers_Revolution: "Зажги революцию" #NT!
+ SIA_Indonesian_Revolution_dec: "Индонезийская революция" #NT!
+ SIA_Filippino_Revolution_dec: "Филиппинская революция" #NT!
+ SIA_Australian_Revolution_dec: "Австралийская революция" #NT!
+ SIA_New_Zealand_Revolution_dec: "Новозеландская революция" #NT!
+  
+ SIA_Invite_Malaya_dec: "Пригласить Малайю" #NT!
+ SIA_Invite_Indies_dec: "Пригласить Ост-Индию" #NT!
+ SIA_Invite_Philippines_dec: "Пригласить Филиппины" #NT!
+ SIA_Invite_Australia_dec: "Пригласить Австралию" #NT!
+ SIA_Invite_New_Zealand_dec: "Пригласить Новую Зеландию" #NT!
+  
+ SIA_Core_SEA: "Интеграция Юго-Восточной Азии" #NT!
+ SIA_Integrate_Malaya_dec: "Интегрировать Малайю" #NT!
+ SIA_Integrate_Indies_dec: "Интеграция инди" #NT!
+ SIA_Integrate_Philippines_dec: "Интеграция Филиппин" #NT!
+ SIA_Integrate_North_Australia_dec: "Интеграция Северной Австралии" #NT!
+ SIA_Integrate_New_Zealand_dec: "Интеграция Новой Зеландии" #NT!
+  
+   ## 
+  
+  
+ SIA_Territorial_Claims: "Территориальные претензии" #NT!
+ SIA_Demand_Indochina_dec: "Спрос на Индокитай" #NT!
+ SIA_Demand_Indochina_dec_desc: "Если Франция будет оккупирована в Европе, мы можем пригрозить войной, чтобы вернуть себе свои земли." #NT!
+  
+ SIA_Demand_Burma_dec: "Спрос Бирма" #NT!
+ SIA_Demand_Burma_dec_desc: "Пока Великобритания занята проблемами других стран Европы, мы должны попытаться вернуть себе наши земли в Бирме." #NT!
+  
+ SIA_Cultural_Mandate_1_dec: "Культурный мандат 1" #NT!
+ SIA_Cultural_Mandate_2_dec: "Культурный мандат 2" #NT!
+ SIA_Cultural_Mandate_3_dec: "Культурный мандат 3" #NT!
+ SIA_Cultural_Mandate_4_dec: "Культурный мандат 4" #NT!
+ SIA_Cultural_Mandate_5_dec: "Культурный мандат 5" #NT!
+ SIA_Cultural_Mandate_6_dec: "Культурный мандат 6" #NT!
+  
+ SIA_Propaganda_Output_dec: "Выход для Таиланда!" #NT!
+ SIA_Propaganda_Asceticism_dec: "Практикуйте аскетизм!" #NT!
+ SIA_Propaganda_Supply_dec: "Поставка для Таиланда!" #NT!
+ SIA_Propaganda_Org_dec: "Защитим наш дом!" #NT!
+ SIA_Propaganda_Offensive_dec: "Сокрушим нашего врага!" #NT!
+ SIA_Propaganda_Recruitment_dec: "Служите своей стране!" #NT!
+  
+ SIA_Sue_France_For_Peace_dec: "Подать в суд на Францию ​​за мир" #NT!
+ SIA_Sue_Britain_For_Peace_dec: "Подать в суд на Великобританию за мир" #NT!
+  
+  ################################### EVENTS                      \n      §H§! 
+  
+    # Democratic Referendum 
+  
+ SIA.16.t: "Приди Баномионг побеждает на выборах" #NT!
+ SIA.16.desc: "Приди отошел от Плэка Пибунсонгхрама после того, как последний начал проявлять склонность к диктаторскому правлению в 1930-х годах, что ознаменовало начало длительного соперничества между двумя лидерами Хана Ратсадона. Он будет направлять нас своими демократическими принципами." #NT!
+ SIA.16.a: "За Сиам!" #NT!
+  
+   # Phibun Election 
+  
+ SIA.2.t: "Плек Пибунсонгкрам побеждает на выборах" #NT!
+ SIA.2.desc: "Фибун стал третьим премьер-министром Таиланда в 1938 году, занимая пост командующего Королевской сиамской армией. Вдохновленный итальянским фашизмом Бенито Муссолини, он установил фактическую военную диктатуру, управляемую по фашистским принципам, пропагандировал тайский национализм и синофобию и объединил Таиланд с императорской Японией во Второй мировой войне." #NT!
+ SIA.2.a: "За Таиланд!" #NT!
+  
+   # Scandal 
+  
+ SIA.3.t: "Скандал в Прайя Пхахон" #NT!
+ SIA.3.desc: "Начало конца для премьер-министра Прайи Пахон началось, когда разразился скандал, связанный с продажей королевской недвижимости высокопоставленным чиновникам по ценам ниже рыночных. Теперь, когда это раскрыто, что нам делать?" #NT!
+ SIA.3.a: "Попытка сохранить контроль" #NT!
+ SIA.3.b: "Запросить поддержку монархии" #NT!
+  
+   # Fascism 
+  
+ SIA.4.t: "Фашизм на подъеме" #NT!
+ SIA.4.desc: "Кабинет Phraya Phahon оказался в идеологическом и политическом меньшинстве из-за скандала. Phibon приобретает влияние своей фашистской риторикой, вдохновленной итальянским государством Муссолини." #NT!
+ SIA.4.a: "Мы должны это принять." #NT!
+  
+   # Monarchy 
+  
+ SIA.5.t: "Монархия оказывает поддержку" #NT!
+ SIA.5.desc: "Рама VII предложил компромисс за свою поддержку в этом испытании. Монархия теряет власть, однако, с монархистами, оставшимися вместе со сторонниками Пхахона, мы могли бы сдержать влияние Пхибона. Рама VII хотел бы снова стать главой государства за свою поддержку, а взамен мы сможем продолжить исполнять обязанности премьер-министра." #NT!
+ SIA.5.a: "Мы примем эту сделку." #NT!
+  
+ SIA_Phahon_Scandal_Resolved_With_Monarchy_Support: "Разрешили скандал Пахона с поддержкой монархии" #NT!
+ SIA_Phibon_Gaining_Power: "Файбон набирает силу" #NT!
+  
+   # Ask Japan for Mediation 
+  
+ SIA.1.t: "Сиам просит о посредничестве" #NT!
+ SIA.1.desc: "Сиам в настоящее время находится в состоянии войны с Францией из-за Индокитая. Поскольку они связаны с нами, они попросили нас выступить посредниками, чтобы они могли забрать свою землю и положить конец войне. Что нам делать?" #NT!
+ SIA.1.a: "Поддержите их" #NT!
+ SIA.1.b: "Не поддерживайте их." #NT!
+  
+   # Japan says yes 
+  
+ SIA.6.t: "Япония принимает" #NT!
+ SIA.6.desc: "Япония приняла нашу просьбу о посредничестве. Результаты благоприятны, мы сохраним контроль над Лаосом и Камбоджей и закончим войну." #NT!
+ SIA.6.a: "Отличный" #NT!
+  
+   # Japan says no 
+  
+ SIA.7.t: "Япония отказывается" #NT!
+ SIA.7.desc: "Япония отвернулась от нас. Мы ничего не можем с этим поделать, мы должны сосредоточиться на предстоящей войне." #NT!
+ SIA.7.a: "Неудачный" #NT!
+  
+   # Demand Indochina 
+  
+ SIA.8.t: "Сиам требует Индокитай" #NT!
+ SIA.8.desc: "Сиамское правительство направило нам письмо с требованием отдать нам Индокитай. Как нам следует ответить?" #NT!
+ SIA.8.a: "Отклонить требования" #NT!
+ SIA.8.b: "Принять требования" #NT!
+  
+   # They Said Yes 
+  
+ SIA.9.t: "Франция принимает" #NT!
+ SIA.9.desc: "Франция приняла наши требования по Индокитаю. Мы вернули себе нашу законную территорию." #NT!
+ SIA.9.a: "Мудрый выбор" #NT!
+  
+   # They Said No 
+  
+ SIA.10.t: "Франция отказывается" #NT!
+ SIA.10.desc: "Франция отклонила наши требования по Индокитаю. Теперь у нас нет выбора, кроме как взять его силой." #NT!
+ SIA.10.a: "К оружию!" #NT!
+  
+   # Japan Bullies Siam 
+  
+ SIA.11.t: "Японские требования" #NT!
+ SIA.11.desc: "Японское правительство потребовало, чтобы мы присоединились к их фракции. Они угрожают применить силу, если мы откажемся." #NT!
+ SIA.11.a: "Мы должны избегать кровопролития" #NT!
+ SIA.11.b: "Мы не прогнёмся перед японцами." #NT!
+  
+  # Rama to Power 
+  
+ SIA.12.t: "Рама VII возвращается к власти" #NT!
+ SIA.12.desc: "После сотрудничества с военными и Пахоном Рама VII вернулся к власти." #NT!
+ SIA.12.a: "Мы приветствуем возвращение Рамы VII" #NT!
+  
+   # Demand Burma 
+  
+ SIA.13.t: "Сиам требует Бирму" #NT!
+ SIA.13.desc: "Сиамское правительство направило нам письмо с требованием отдать нам Бирму. Как нам следует ответить?" #NT!
+ SIA.13.a: "Отклонить требования" #NT!
+ SIA.13.b: "Принять требования" #NT!
+  
+   # They Said Yes 
+  
+ SIA.14.t: "Великобритания принимает" #NT!
+ SIA.14.desc: "Великобритания приняла наши требования по Бирме. Мы вернули себе нашу законную территорию." #NT!
+ SIA.14.a: "Это лучше для всех." #NT!
+  
+   # They Said No 
+  
+ SIA.15.t: "Великобритания отказывается" #NT!
+ SIA.15.desc: "Великобритания отклонила наши требования по Бирме. Теперь у нас нет выбора, кроме как взять ее силой." #NT!
+ SIA.15.a: "К оружию!" #NT!
+  
+    # Ask for Burma 
+  
+ SIA.17.t: "Сиам требует пересмотра неравноправных договоров" #NT!
+ SIA.17.desc: "Сиамское правительство направило нам письмо с просьбой вернуть Бирму от нас. Как нам следует ответить?" #NT!
+ SIA.17.a: "Отклонить требования" #NT!
+ SIA.17.b: "Принять требования" #NT!
+  
+   # They Said Yes 
+  
+ SIA.18.t: "Великобритания принимает" #NT!
+ SIA.18.desc: "Великобритания приняла наши требования по Бирме. Мы вернули себе нашу законную территорию." #NT!
+ SIA.18.a: "Удачливый" #NT!
+  
+   # They Said No 
+  
+ SIA.19.t: "Великобритания отказывается" #NT!
+ SIA.19.desc: "Великобритания отклонила наши запросы по Бирме. Это прискорбно" #NT!
+ SIA.19.a: "Неудачный" #NT!
+  
+   # Ask for Indochina 
+  
+ SIA.20.t: "Сиам требует пересмотра неравноправных договоров" #NT!
+ SIA.20.desc: "Сиамское правительство направило нам письмо с просьбой вернуть Лаос и Камбоджу от нас. Как нам следует ответить?" #NT!
+ SIA.20.a: "Отклонить требования" #NT!
+ SIA.20.b: "Принять требования" #NT!
+  
+   # They Said Yes 
+  
+ SIA.21.t: "Франция принимает" #NT!
+ SIA.21.desc: "Французы приняли наши требования по Лаосу и Камбодже. Мы вернули себе нашу законную территорию." #NT!
+ SIA.21.a: "Удачливый" #NT!
+  
+   # They Said No 
+  
+ SIA.22.t: "Франция отказывается" #NT!
+ SIA.22.desc: "Французы отклонили наши запросы на Лаос и Камбоджу. Это прискорбно" #NT!
+ SIA.22.a: "Неудачный" #NT!
+  
+   # Ask for Indonesia 
+  
+ SIA.23.t: "Сиам предлагает взять под контроль Индонезию" #NT!
+ SIA.23.desc: "Сиамское правительство направило нам письмо с предложением захватить Индонезию. Как нам следует отреагировать?" #NT!
+ SIA.23.a: "Отклонить требования" #NT!
+ SIA.23.b: "Принять требования" #NT!
+  
+   # They Said Yes 
+  
+ SIA.24.t: "Великобритания принимает" #NT!
+ SIA.24.desc: "Великобритания приняла наши просьбы по Индонезии. Мы защитим их." #NT!
+ SIA.24.a: "Удачливый" #NT!
+  
+   # They Said No 
+  
+ SIA.25.t: "Великобритания отказывается" #NT!
+ SIA.25.desc: "Великобритания отклонила наши запросы по Индонезии. Это прискорбно" #NT!
+ SIA.25.a: "Неудачный" #NT!
+  
+   # French Indochina 
+  
+   # They Said Yes 
+  
+ SIA.27.t: "Франция принимает" #NT!
+ SIA.27.desc: "Французы приняли наши просьбы по Индонезии. Мы защитим их." #NT!
+ SIA.27.a: "Удачливый" #NT!
+  
+   # They Said No 
+  
+ SIA.28.t: "Франция отказывается" #NT!
+ SIA.28.desc: "Французы отклонили наши запросы на Индонезию. Это прискорбно." #NT!
+ SIA.28.a: "Неудачный" #NT!
+  
+   # Communists sieze power 
+  
+ SIA.29.t: "Приди захватывает контроль" #NT!
+ SIA.29.desc: "Приток левых, бежавших из Китая в Таиланд в конце 1920-х годов после раскола националистов и коммунистов в 1927 году, также увеличил поддержку деятельности. Этот рост и недавнее изменение политики Хана Ратсодона позволили коммунистам захватить контроль. Приди ранее был менее радикальным, но разочаровался в недавних изменениях в партии, мы могли бы использовать это." #NT!
+ SIA.29.a: "Приди поведет нас." #NT!
+  
+   # People's Assembly 
+  
+ SIA.30.t: "Народное Собрание Уполномочено" #NT!
+ SIA.30.desc: "Мы последуем убеждениям Троцкого и предоставим Народному собранию полномочия управлять делами в нашей стране. Мы позволим народу демократическим путем избрать этих людей для этого нового уполномоченного Народного собрания, и этот орган будет руководить страной." #NT!
+ SIA.30.a: "За народ!" #NT!
+  
+   # Communists send aid 
+  
+ SIA.31.t: "Советы посылают помощь" #NT!
+ SIA.31.desc: "Советы выразили поддержку нашему новому коммунистическому государству." #NT!
+ SIA.31.a: "За государство!" #NT!
+  
+   # Boworadet 
+  
+ SIA.32.t: "Возвращение Боворадета" #NT!
+ SIA.32.desc: "Принц Боворадет возглавил восстание против Пахона и Приди во время сиамского переворота 1933 года. Боворадет был роялистом, который не хотел видеть короля неуважаемым и низведенным до положения номинального главы. Его восстание провалилось, и он бежал в Камбоджу, но теперь, когда наша монархия вернулась на место, мы должны снова пригласить Боворадета возглавить наши вооруженные силы." #NT!
+ SIA.32.a: "За короля!" #NT!
+  
+   # Phahon Coup 
+  
+ SIA.33.t: "Прайя Пахон хочет стать президентом" #NT!
+ SIA.33.desc: "С недавним воссозданием Верховного совета штата Сиам, Прайя Пахон хотел бы получить пост президента за помощь в нашем возвращении. Он предупредил, что не будет легкомысленно отрицать это. Что мы будем делать?" #NT!
+ SIA.33.a: "Конечно!" #NT!
+ SIA.33.b: "Нет, нам никто не будет угрожать." #NT!
+  
+    # Bangkok Floods 
+  
+ SIA.34.t: "Наводнения в Бангкоке" #NT!
+ SIA.34.desc: "В сентябре 1942 года в северных, северо-восточных и центральных регионах Таиланда был продолжительный сезон дождей, вызвавший сильные наводнения во многих провинциях, включая Бангкок. В Бангкоке было зафиксировано сильное наводнение, которое оказало влияние на инфраструктуру города и длилось три месяца.\n\nВ результате наводнений были затоплены многие сельскохозяйственные районы, особенно рисовые поля, что привело к серьезной нехватке риса. Правительство Таиланда решило поощрить людей есть лапшу вместо риса." #NT!
+ SIA.34.a: "Мы должны ввести новое блюдо!" #NT!
+ SIA.34.a: "Мы должны ввести новое блюдо!!" #NT!
+  
+    # Cultural Mandates 
+  
+ SIA.35.t: "О названии страны, народа и национальности" #NT!
+ SIA.35.desc:0 "Public preference for changing the name of the country. It consisted of one item: "Public preference for changing the name of the country. It consisted of one item: "Общественное предпочтение по изменению названия страны. Оно состояло из одного пункта: «Страна, народ и национальность должны называться „Таи“». Организации с названием „Сиам“ вынуждены изменить свои названия»." #NT!
+ SIA.35.a: "За Таиланд!" #NT!
+  
+ SIA.36.t: "О предотвращении опасности для нации" #NT!
+ SIA.36.desc: "1. Тайцы не должны заниматься каким-либо бизнесом, не принимая во внимание выгоду и безопасность нации.\n\n2. Тайцы никогда не должны раскрывать иностранцам ничего, что может нанести ущерб нации. Эти действия являются предательством нации.\n\n3. Тайцы не должны выступать в качестве агентов или представителей иностранцев, не принимая во внимание выгоду нации, и не должны выражать мнение или принимать сторону иностранцев в международных спорах. Эти действия являются предательством нации.\n\n4. Тайцы не должны тайно покупать землю от имени иностранцев таким образом, чтобы это подвергало нацию опасности. Эти действия являются предательством нации.\n\n5. Если человек предал нацию, обязанность тайцев - активно и быстро положить этому конец." #NT!
+ SIA.36.a: "За Таиланд!" #NT!
+  
+ SIA.37.t: "Об использовании тайской продукции" #NT!
+ SIA.37.desc: "1. Тайцы должны стремиться употреблять в пищу только продукты, произведенные из тайских продуктов.\n\n2. Тайцы должны стремиться носить одежду, произведенную только из тайских продуктов.\n\n3. Тайцы должны поддерживать сельскохозяйственные, коммерческие, промышленные и другие профессиональные усилия своих соотечественников-тайцев.\n\n4. Тайцы должны использовать и поддерживать любые общественные услуги, созданные правительством или тайцами.\n\n5. Тайцы, занимающиеся сельским хозяйством, торговлей, промышленностью или другими видами деятельности, поддерживаемыми этим мандатом, должны прилагать усилия для поддержания стандартов, повышения качества и честного ведения своего бизнеса." #NT!
+ SIA.37.a: "За Таиланд!" #NT!
+  
+ SIA.38.t: "О тайском платье" #NT!
+ SIA.38.desc: "1.Тайцы не должны появляться на общественных собраниях, в общественных местах или в черте города без соответствующей одежды. Неприемлемая одежда включает ношение только нижнего белья, отсутствие рубашки или ношение обернутой ткани.\n\n2.Приемлемая одежда для тайцев состоит из:\nУниформы, насколько позволяет положение и возможности;\nВежливой одежды в международном стиле;\nВежливой традиционной одежды." #NT!
+ SIA.38.a: "За Таиланд!" #NT!
+  
+   # Allied Bombing Campaign 
+  
+ SIA.39.t: "Бомбардировочная кампания союзников по Бангкоку" #NT!
+ SIA.39.desc: "В результате обстрела железнодорожной станции Бангкок Ной в Тонбури погибло 78 мирных жителей и был поврежден дом тайского политика Приди Баномионга.\n\nВ результате еще одной беспорядочной бомбардировки и обстрела железной дороги погибло 400 мирных жителей и 50 тайских солдат. Британцы совершили налет на Бангкок с 15:00 до 17:00, выведя из строя электростанцию ​​Самсен и повредив единственную другую в городе. Бангкок остался практически без электричества и водопровода, погибло 200 мирных жителей." #NT!
+ SIA.39.a: "Таиланд выстоит!" #NT!
+  
+   # Burma Railroad 
+  
+ SIA.40.t: "Тайско-бирманская железная дорога" #NT!
+ SIA.40.desc: "415-километровая (258 миль) железная дорога между Бан Понгом, Таиланд, и Танбьюзаятом, Бирма. Построена гражданскими рабочими, нанятыми или завербованными японцами, и пленными, взятыми японцами, для снабжения войск и оружия в бирманской кампании Второй мировой войны. Она завершила железнодорожное сообщение между Бангкоком, Таиланд, и Рангуном, Бирма." #NT!
+ SIA.40.a: "Продукт тайско-японского сотрудничества." #NT!
+  
+ SIA.41.t: "Расширение железной дороги Тай-Бирма" #NT!
+ SIA.41.desc: "Железная дорога Тай-Бирма чрезвычайно полезна для военных действий и нуждается в расширении.\n\nОт 180 000 до 250 000 мирных жителей Юго-Восточной Азии и более 60 000 военнопленных союзников были подвергнуты принудительному труду во время ее строительства. Около 90 000 мирных жителей погибли, как и более 12 000 военнопленных союзников." #NT!
+ SIA.41.a: "Для нашего союзника." #NT!
+  
+   # Japan Decides if to bully 
+  
+ SIA.42.t: "Стратегическое значение Таиланда" #NT!
+ SIA.42.desc: "Тайцы, похоже, не решаются присоединиться к нам в наших военных усилиях, но их земля — это полезный проход в Бирму и окружающие индийские территории. Они ясно дали понять, что мы не можем ожидать их помощи без демонстрации силы. Каким должен быть наш подход?" #NT!
+ SIA.42.a: "Нам нужно обеспечить безопасность Таиланда." #NT!
+ SIA.42.b: "Оставьте их в покое." #NT!
+  
+  ################################### OTHER\n                     \n      §H§! 
+  
+   # Update 2.0 
+  
+ SIA_Khuang_Aphaiwong: "Кхуанг Апхайвонг" #NT!
+ SIA_Wichit_Whichitwathakan: "Wichit Вичитватакан" #NT!
+ SIA_Tua_Lapanukrom: "Туа Лапанукром" #NT!
+ SIA_Charun_Rattanakul: "Чарун Раттанакул" #NT!
+  
+ SIA_Chalermkiat_Wattanangkul: "Чалермкиат Ваттанангкул" #NT!
+  
+ SIA_Thawan_Thamrongnawasawat: "Таван Тамронгнавасават" #NT!
+ SIA_Sindhu_Kamalanavin_v2: "Синдху Камаланавин" #NT!
+ SIA_Mangkorn_Phromyothi: "Мангкорн Фромиоти" #NT!
+  
+ SIA_Munee_Mahasantana: "Муни Махасантана" #NT!
+ SIA_Sindhu_Songkramchai: "Синдху Сонгкрамчай" #NT!
+ SIA_Krawin_Thampitak: "Кравин Тампитак" #NT!
+  
+ SIA_Bangkok_Dock_Company: "Компания «Бангкок Док»" #NT!
+ SIA_osaka_army_arsenal_artillery_organization: "Осакский армейский арсенал" #NT!
+ SIA_mitsubishi_organization: "Мицубиси" #NT!
+  
+   # 
+  
+  
+  
+ SIA_fascism_party: "Хана Ратсадон (военное крыло)" #NT!
+ SIA_fascism_party_long: "Хана Ратсадон (военное крыло)" #NT!
+ SIA_democratic_party: "Хана Ратсадон (Гражданское крыло)" #NT!
+ SIA_democratic_party_long: "Хана Ратсадон (Гражданское крыло)" #NT!
+ SIA_neutrality_party: "Khana Ratsadon"
+ SIA_neutrality_party_long: "Khana Ratsadon"
+ SIA_communism_party: "Пакистан Коммунист Сиам" #NT!
+ SIA_communism_party_long: "Пакистан Коммунист Сиам" #NT!
+  
+ SIA_empowered_communist_party: "Пакистанский коммунистический пратет тайский" #NT!
+ SIA_empowered_communist_party_long: "Пакистанский коммунистический пратет тайский" #NT!
+  
+ SIA_Chakri: "Династия Чакри" #NT!
+ SIA_Chakri_long: "Династия Чакри" #NT!
+  
+ SIA_pridi_bhanomyong: "Приди Баномионг" #NT!
+ SIA_pridi_bhanomyong_desc: "Руководил Сиамом, занимая несколько министерских постов, будучи регентом и премьер-министром. Он руководил гражданским крылом Хана Ратсадона." #NT!
+  
+ SIA_Phayom_Chulanont: "Пайом Чуланонт" #NT!
+ SIA_Phayom_Chulanont_desc: "Тайский коммунист и революционер." #NT!
+  
+ SIA_Prince_Boworadet: "Принц Боворадет" #NT!
+  
+ SIA_bangkok_dock_company_organization: "Компания «Бангкок Док»" #NT!
+  
+ SIA_Khana_Ratsodon_Empowered: "Хана Ратсодон Уполномоченный" #NT!
+  
+ SIA_Thai_Mandates_tooltip: "Позволяет принимать решения §YТайского культурного мандата§!." #NT!
+ SIA_Thai_Propaganda_tooltip: "Позволяет принимать решения §YТайская пропаганда§!." #NT!
+  
+ SIA_Phahon: "Прайя Пхахон" #NT!
+ SIA_Prince_Naris: "Принц Нарис" #NT!
+ SIA_Prince_Damrong: "Принц Дамронг" #NT!
+ SIA_Paribatra_Sukhumbandhu: "Парибатра Сукхумбандху" #NT!
+  
+ SIA_Will_Empower: "Это будет §GEmpower§! Хана Ратсодон" #NT!
+ SIA_Will_Remove: "Это будет §RRemove§! Хана Ратсодон" #NT!
+  
+  # Cosmetics 
+  
+    ## Update 2.0 
+  
+ SIA_PSA: "Народная Республика ЮВА" #NT!
+ SIA_PSA_ADJ: "Юго-Восточная Азия" #NT!
+ SIA_PSA_DEF: "Объединенная Народная Республика Юго-Восточной Азии" #NT!
+  
+ social_democracy: "Социал-демократия" #NT!
+ social_democracy_desc: "Социальная демократия — это политическая философия в рамках социализма, которая поддерживает политическую и экономическую демократию и поддерживает реформистский и демократический подход к достижению социализма, обычно в рамках социальной либеральной структуры. На практике социальная демократия принимает форму социально управляемого капитализма благосостояния, достигаемого с частичной общественной собственностью, экономическим интервенционизмом и политикой, способствующей социальному равенству." #NT!
+  
+    ## 
+  
+ SIA_AYU: "Империя Аютия" #NT!
+ SIA_AYU_ADJ: "тайский" #NT!
+ SIA_AYU_DEF: "Империя Аюттхая" #NT!
+  
+ SIA_THAI: "Великое Королевство Таиланд" #NT!
+ SIA_THAI_ADJ: "тайский" #NT!
+ SIA_THAI_DEF: "Великое Королевство Таиланд" #NT!
+  
+ SIA_SEA: "Объединенная Юго-Восточная Азия" #NT!
+ SIA_SEA_ADJ: "Юго-Восточная Азия" #NT!
+ SIA_SEA_DEF: "Объединенная Юго-Восточная Азиатская Республика" #NT!
+  
+  
+  
+  

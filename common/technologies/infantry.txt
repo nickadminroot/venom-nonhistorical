@@ -34,7 +34,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -61,7 +61,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -1300,7 +1300,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 		start_year = 1918
 		folder = {
 			name = infantry_folder
@@ -1376,7 +1376,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 		start_year = 1938
 		folder = {
 			name = infantry_folder
@@ -1453,7 +1453,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 		start_year = 1940
 		folder = {
 			name = infantry_folder
@@ -1512,7 +1512,7 @@ technologies = {
 			breakthrough = 0.05
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 		start_year = 1942
 		folder = {
 			name = infantry_folder
@@ -1579,7 +1579,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
@@ -1652,7 +1652,7 @@ technologies = {
 
 		}
 
-		research_cost = 2
+		research_cost = 0.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder

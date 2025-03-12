@@ -1,4 +1,5 @@
 ﻿l_english:
+ 
  AFG_oil_concessions_category: "Oil Concessions"
  AFG_propose_oil_concession_deal: "Propose oil concession agreement to [FROM.GetName]"
  AFG_oil_deal_negotiation_in_progress: "Oil development negotiations in progress"
@@ -15,10 +16,10 @@
  AFG_setup_artillery_mio: "Establish state run artillery factory"
  AFG_cross_border_ties_category: "Cross-border Ties"
  AFG_cross_border_ties_category_desc: "$AFG_cross_border_ties_desc$"
- AFG_cross_border_target_state: "Support resistance in §Y[FROM.GetName]§!"
- AFG_suggest_integrate_state: "Offer the program §Y[FROM.GetName]§! state [ROOT.GetNonIdeologyName]"
+ AFG_cross_border_target_state: "Promote resistance in §Y[FROM.GetName]§!"
+ AFG_suggest_integrate_state: "Suggest transfer of §Y[FROM.GetName]§! to [ROOT.GetNonIdeologyName]"
  AFG_promoted_resistance_here: "Afghanistan has promoted anti-government resistance here."
- AFG_propose_peace_for_state: "Offer the world by §Y[FROM.GetName]§!"
+ AFG_propose_peace_for_state: "Propose peace for §Y[FROM.GetName]§!"
  AFG_quami_category: "Quami"
  AFG_quami_category_desc: "$AFG_maintain_quami_desc$"
  AFG_expand_quami: "Expand Irregular Recruitment"
@@ -31,7 +32,7 @@
  AFG_relieve_quami: "Demobilize the Irregulars"
  AFG_relieve_quami_tt: "Disband all irregulars for the time being. They can be raised again in future."
  AFG_raise_quami_active: "Irregulars are raised"
- AFG_propose_peace_for_tajikistan: "Offer the world §Y[FROM.owner.GetNameRuDat]"
+ AFG_propose_peace_for_tajikistan: "Offer peace for [FROM.GetName]"
  AFG_foreign_intervention_category: "The Great Game"
  AFG_foreign_intervention_category_desc: "Afghanistan sits at a crossroad between various great powers. Historically, the British and Russians squabbled over the status of the beleaguered nation throughout the 19th century. Now, new nations taking an interest in Afghanistan have destabilized the delicate balance in the region and intervention to secure it may be inevitable."
  AFG_demand_end_to_communist_influence: "Demand an end to communist influence in Afghanistan"
@@ -54,39 +55,44 @@
  afg_turkik_people_name_key: "Alliance with the Turkic People"
  not_afg_turkik_people_name_key: "Crackdown on Turkic Dissent"
  AFG_turkik_alliance_category_desc: "$AFG_alliance_with_turkik_peoples_desc$"
- AFG_support_resistance_in_state: "Create a resistance cell in §Y[FROM.owner.GetNameRuPrep]§!"
+ AFG_support_resistance_in_state: "Establish resistance cell in §Y[FROM.GetName]§!"
  AFG_support_resistance_in_state_middle_east: "$AFG_support_resistance_in_state$"
  AFG_resistance_active_here: "Resistance cell established here"
  AFG_supporting_resistance_in_state_in_progress: "Establishing a resistance cell in progress"
- SOV_afg_crush_resistance_in_state: "Suppress the resistance cells in §Y[FROM.owner.GetNameRuPrep]§!"
+ SOV_afg_crush_resistance_in_state: "Crush resistance cells in §Y[FROM.GetName]§!"
  SOV_afg_clamp_down_in_state_in_progress: "Anti-resistance cell operation in progress"
  AFG_disgruntled_minority: "Disgruntled Minority"
  AFG_disgruntled_minority_desc: "The Pashtuns may dominate Afghanistan by virtue of numbers, but they are not the only group in the nation with a rich history, culture and distinct identity. The Tajiks, Uzbeks and many others of northern Afghanistan must not be forgotten about, or they may rally and overthrow the reigning regime as they have done in decades past."
  AFG_arranged_expansion_modifier: "Arranged Expansion"
  AFG_arranged_expansion_modifier_tt: "Bid cost multiplied by §G0.55§! for Afghanistan in peace conference."
  AFG_kabul_conference_category: "The Kabul Conference"
- AFG_claim_state: "Negotiate §Y[AFG.GetAdjective]§! expansion into §Y[FROM.GetName]§!"
+ AFG_claim_state: "Negotiate §Y[AFG.GetAdjective]§! expansion into §Y[FROM.GetName]§!" 
  AFG_claim_state_middle_east: "$AFG_claim_state$"
  AFG_expansion_claim_in_progress: "Negotiations in progress"
-  #RAJ 
+ #RAJ
  RAJ_GOE_partition_cat: "Partition"
  RAJ_GOE_independence_movement: "Independence Movement"
- RAJ_GOE_urge_non_violence: "Promote non -violence in [FROM.GetName]"
+ RAJ_GOE_urge_non_violence: "Urge Non-Violence in [FROM.GetName]"
  RAJ_GOE_tea_exports_cat: "Tea Exports"
- RAJ_GOE_export_tea_subject: "[ENG.GetFlag]Export tea to the state §Y[ENG.GetName]§!"
+ RAJ_GOE_export_tea_subject: "Export Tea to [ENG.GetName]"
  RAJ_GOE_export_tea_subject_trigger: "Can still expand Tea Exports: §Y[?RAJ_times_expanded_tea_exports]/5§!"
  RAJ_GOE_export_tea_free: "$RAJ_GOE_export_tea_subject$"
- RAJ_GOE_sikh_recruitment: "Recruitment of the Sikhs in §Y[FROM.GetName]§!"
- RAJ_GOE_sikh_recruitment_cat: "Recruitment of the Sikhs in §Y[FROM.GetName]§!"
+
+ RAJ_GOE_sikh_recruitment: "Sikh Recruitment"
+ RAJ_GOE_sikh_recruitment_cat: "Sikh Recruitment"
  RAJ_GOE_sikh_recruitment_tt: "§YCreates a seasoned mountaineer division§!\n"
+
  RAJ_stir_unrest_in_the_north_cat: "Stir Unrest in the North"
  RAJ_stir_unrest_in_the_north_decision: "Stir Unrest in [FROM.GetName]"
+
  RAJ_stir_unrest_in_the_north_tt: "We will retain control of this state when we break away from the British Raj when we complete §Y$RAJ_the_mughal_uprising$§!"
  has_stirred_unrest: "Has Stirred Unrest in State"
+
  RAJ_GOE_famine_trigger: "More than 4 shocks has occurred to the food system"
  RAJ_GOE_famine_shocks: "Current shocks to the food system: §R[?RAJ_food_shocks]§!"
+
  RAJ_GOE_famine_cat: "Famine"
- RAJ_shut_down_black_markets: "Close black markets in [FROM.GetName]"
+ RAJ_shut_down_black_markets: "Shut Down Black Markets in [FROM.GetName]"
  RAJ_deploy_emergency_healthcare: "Deploy Emergency Healthcare "
  RAJ_ask_for_aid: "Ask for Famine Aid"
  RAJ_asked_for_famine_help: "Asked for Famine Aid"
@@ -98,11 +104,11 @@
  RAJ_GOE_reduce_war_taxes: "Reduce War Taxes"
  RAJ_GOE_raise_war_taxes_condition_tt: "Current Enemies (§Y[?var:enemies^num]§!) is less than the amount of times raised war taxes (§Y[?var:amount_of_times_raised_taxes]§!)"
  RAJ_GOE_reduce_war_taxes_condition_tt: "Amount of times raised war taxes (§Y[?var:amount_of_times_raised_taxes]§!) is more than 0"
- RAJ_GOE_azad_hind_radio_fascism: "Change to Fascist Aligned Propaganda"
+ RAJ_GOE_azad_hind_radio_fascism: "Change to Fascist Aligned Propaganda" 
  RAJ_GOE_azad_hind_radio_unaligned: "Change to Unaligned Propaganda"
  RAJ_GOE_azad_hind_radio_communism: "Change to Communist Aligned Propaganda"
- RAJ_GOE_urge_violence: "Promote violence in [FROM.GetName]"
- RAJ_GOE_foment_independence_tension: "Provoke the struggle for independence in [FROM.GetName]"
+ RAJ_GOE_urge_violence: "Urge Violence in [FROM.GetName]"
+ RAJ_GOE_foment_independence_tension: "Foment Independence Tension in [FROM.GetName]"
  RAJ_GOE_foment_independence_tension_tt: "Cores will be regained upon completing §Y$RAJ_give_me_blood_and_i_will_grant_you_freedom$§!"
  RAJ_GOE_try_to_arrest_bose: "British Authorities are trying to arrest Subhas Chandra Bose"
  RAJ_british_authorities_looking_to_arrest_bose: "British Authorities are trying to arrest Subhas Chandra Bose"
@@ -112,24 +118,32 @@
  RAJ_establish_local_recruitment_offices_tt_2: "Max cap Reached"
  RAJ_military_matters: "Military Matters"
  RAJ_GOE_vie_for_princes: "Vie for Princely States"
+ 
+
  RAJ_GOE_vie_for_princes_tt: "\nAdds §Y1§! Pressure to [THIS.GetName], pressuring them to join us. Reduces our available capability to pressure states by §Y1§! (Currently [?ROOT.pressure_left]/[?ROOT.default_pressure]) \n\n§YCurrent Pressure towards state:§![GetPressureTextRAJ]"
  RAJ_core_states: "Core [FROM.GetName]"
  RAJ_core_states_eic: "Core [FROM.GetName]"
  RAJ_GOE_india_indivisible_cat: "India Indivisible"
  RAJ_GOE_vie_for_princes_pressure_unknown: "Unknown"
  RAJ_GOE_vie_for_princes_pressure_known_RAJ: "[RAJ.GetName] Pressure: [?THIS.RAJ_pressure]"
+
  RAJ_GOE_princely_state_timeout: "Princely states deciding their fate"
  RAJ_GOE_princely_state_timeout_tt: "By pressuring them we can diplomatically annex their territory. Should we have a clear pressure advantage [FROM.GetName] will surely join us.\n\n§YAt the end of the mission each state will decide of who to join. If a country has more than 50% pressure than any other country in a state that state will join [ROOT.GetName] willingly. Should  no country get a clear majority all the pressure will be refunded to [ROOT.GetName]. This will repeat 3 times or until every state is annexed.§!"
  pressure_left_tt: "Pressure left to play against Princely States is more than §Y0§!\nCurrently: §Y[?pressure_left]§!"
+ 
  RAJ_pressure_text: "[GetPressureTextRAJ]"
  RAJ_reveal_pressure: ""
+
  RAJ_hidden_pressure_RAJ_BAN_does_not_exist: "\nOur Pressure Against [THIS.GetName]: §O[?THIS.RAJ_pressure]§!\n[PAK.GetAdjective] Pressure Against [THIS.GetName]: §YUnknown§!"
  RAJ_hidden_pressure_RAJ_BAN_exists: "$RAJ_hidden_pressure_RAJ_BAN_does_not_exist$\n$RAJ_hidden_pressure_ban_exists$"
+
  RAJ_hidden_pressure_PAK_BAN_does_not_exist: "\nOur Pressure Against [THIS.GetName]: §G[?THIS.PAK_pressure]§!\n[RAJ.GetAdjective] Pressure Against [THIS.GetName]: §YUnknown§!"
  RAJ_hidden_pressure_PAK_BAN_exists: "$RAJ_hidden_pressure_PAK_BAN_does_not_exist$\n$RAJ_hidden_pressure_ban_exists$"
+
  RAJ_hidden_pressure_PAK: ""
  RAJ_hidden_pressure_BAN: ""
  RAJ_GOE_partition_is_over: "Partition is over"
+
  RAJ_hidden_pressure_ban_exists: "[BAN.GetAdjective] Pressure Against [THIS.GetName]: §YUnknown§!"
  RAJ_akhand_bharat_cat: "Akhand Bharat Formation"
  RAJ_akhand_bharat_claim_nep: "Claim [NEP.GetAdjective] States"
@@ -140,6 +154,7 @@
  RAJ_akhand_bharat_claim_srl: "Claim [SRL.GetAdjective] States"
  RAJ_akhand_bharat_claim_mld: "Claim [MLD.GetAdjective] States"
  RAJ_akhand_bharat_claim_bhu: "Claim [BHU.GetAdjective] States"
+ RAJ_akhand_bharat_claim_ban: "Claim [BAN.GetAdjective] States"
  RAJ_form_akhand_bharat: "Form Akhand Bharat"
  RAJ_akhand_bharat_availability_tt: "All previously claimed territories that is core of Akhand Bharat of is under our control"
  RAJ_akhand_bharat_annex_subject: "If [THIS.GetName] is our puppet when taking this decision they will transfer all states that is now our core after taking this decision"
@@ -160,22 +175,24 @@
  RAJ_GOE_modify_dividends: "Modifies §Y$idea_RAJ_eic_dividends_investment$§! to be: "
  RAJ_GOE_modify_dividends_2: "for the duration of the next §Yfiscal year§!"
  has_payed_dividends: "Has Payed Dividends"
+
  RAJ_GOE_eic_no_more_taxman: "Put an end to the taxes for good"
  RAJ_GOE_eic_no_more_taxman_tt: "Remove §YTaxes§!."
- taxes_desc: ""
+ 
+ taxes_desc: "We pay tax as a percentage of our income in layers called tax brackets. As our income goes up, the tax rate on the next layer of income is higher.\n\nAt the end of every fiscal year we need to pay taxes to the [ENG.GetAdjective] government, depending on how big our industry is. This is determined by our amount of §YCivilian Factories§!.\n\nThe amount is paid in §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§!\nHow much is to be paid is determined by different tax brackets as follows:\n"
  eic_industry_tt: "Amount of Taxable Civilian Factories: §Y[?var:actually_controlled_civs]§!\n$RAJ_dividents_status_tt$"
- eic_industry_tt_on_hover: "Some of our income goes to the state treasury in the form of taxes in several categories. The higher the income, the higher the category and the amount that should be paid. \ NV by the end of each financial year, we are obliged to pay the [ENG.GetAdjRULower]omed government, the size of which depends on the volume of our industry - that is, on the number of §Y -citizens of factories ,2. \ N \ nsumma is paid in the form of §Y factor factories producing consumer goods § \ Note \ Note. The exact size is determined in accordance with the tax categories. \ n \ nc, it is §YFACTOR of factories producing consumer goods §!, our loss will be [?var:taxes_display_tt]. To reduce the tax category, you can transfer civil factories to the subjects - for this it is necessary to perform the focus “§Y schemes of money laundering §!” \ n"
- tier_1_taxes: "§W 1: to [?var:tier_two_taxes_threshold] factories [?tier_one_taxes_tax_tt]%§!"
+ eic_industry_tt_on_hover: "Currently we own §Y[?var:actually_controlled_civs]§! Civilian Factories factories, and as such we expect to get a [?var:taxes_display_tt] §YConsumer Goods Factories factor§! penalty. To lower the tax bracket we are in we can funnel civilian factories to subjects by completing the §YInstitutional Money Laundering§! focus\n"
+ tier_1_taxes: "  §W 1st:                        0-[?var:tier_two_taxes_threshold] factories                         [?tier_one_taxes_tax_tt]%§!"
  tier_1_taxes_tt: "Being in this tax bracket requires us to have between 0-[?var:tier_two_taxes_threshold] §YCivilian Factories§!, and being inside this bracket will apply a §Y[?tier_one_taxes_tax_tt]%§! Consumer Goods Factories factor penalty."
- tier_2_taxes: "§W 2: Sum Factory-[?var:tier_two_taxes_threshold_plus_1]-2 [?tier_two_taxes_tax_tt]%§!"
+ tier_2_taxes: "  §W 2nd:                        [?var:tier_two_taxes_threshold_plus_1]-[?var:tier_three_taxes_threshold] factories                    [?tier_two_taxes_tax_tt]%§!"
  tier_2_taxes_tt: "Being in this tax bracket requires us to have between [?var:tier_two_taxes_threshold_plus_1]-[?var:tier_three_taxes_threshold] §YCivilian Factories§!, and being inside this bracket will apply a §Y[?tier_two_taxes_tax_tt]%§! Consumer Goods Factories factor penalty."
- tier_3_taxes: "§W3: Sum Factory-[?var:tier_three_taxes_threshold_plus_1]-2 [?tier_three_taxes_tax_tt]%§!"
+ tier_3_taxes: "  §W 3rd:                        [?var:tier_three_taxes_threshold_plus_1]-[?var:tier_four_taxes_threshold] factories                  [?tier_three_taxes_tax_tt]%§!"
  tier_3_taxes_tt: "Being in this tax bracket requires us to have between [?var:tier_three_taxes_threshold_plus_1]-[?var:tier_four_taxes_threshold] §YCivilian Factories§!, and being inside this bracket will apply a §Y[?tier_three_taxes_tax_tt]%§! Consumer Goods Factories factor penalty."
- tier_4_taxes: "§W 4: Factory more than [?var:tier_four_taxes_threshold] [?var:tier_four_taxes_tax_tt]%§!"
+ tier_4_taxes: "  §W 4th:              More Than [?var:tier_four_taxes_threshold] factories               [?var:tier_four_taxes_tax_tt]%§!"
  tier_4_taxes_tt: "Being in this tax bracket requires us to more than [?var:tier_three_taxes_threshold_plus_1] §YCivilian Factories§!, and being inside this bracket will apply a §Y[?tier_four_taxes_tax_tt] %§! §YConsumer Goods Factories factor§! penalty."
- tier_taxes_header_1: "§W Tax category §!"
+ tier_taxes_header_1: "§W    Tax\nbrackets§!                                                                                                                                                                                                                                                                                                                " 
  tier_taxes_header_1_tt: "At the end of the §Yfiscial Year§! we are expected to pay a portion of our income to the English government in §YComsumer Goods Factories factor§!. The more civilian factories we control, excluding trade and factories owned by puppets, the more we will have to pay. The amount of civilian factories needed to stay inside a specific tax bracket are shown in the §YTaxable Income Bracket§! cells, and the rate of taxation is shown in its corresponding cell."
- tier_taxes_header_2: ""
+ tier_taxes_header_2: "§WTaxable income bracket§!"
  tier_taxes_header_3: "§WTax Rate§!"
  eic_arrow_tt: "This is the current tax bracket that we are in."
  RAJ_dividents_status_tt: "[GetDividendsStatus]"
@@ -183,6 +200,8 @@
  RAJ_dividend_status_normal: "We have paid a §Ynormal amount§! of dividends to investors, yielding a moderate bonus for the next §Yfiscal year§!."
  RAJ_dividend_status_high: "We have paid a §Yhigh amount§! of dividends to investors, yielding a large bonus for the next fiscal year."
  RAJ_dividend_status_none: "We have paid §Yno dividends§! to investors, yielding no bonus for he next §Yfiscal year§!"
+
+
  eic_low_investments_cost: "When §YEnd of the Fiscal Year§! times out:\nRemove $eic_low_investments_cost_tt$ permanently"
  eic_low_investments_cost_tt: "1 §YCivilian Factory§!"
  eic_normal_investments_cost: "When §YEnd of the Fiscal Year§! times out:\nRemove $eic_normal_investments_cost_tt$ permanently"
@@ -196,24 +215,30 @@
  modify_taxation_second_bracket: "Modifies the rate of taxation for the §Y2nd tax bracket§! by: "
  modify_taxation_third_bracket: "Modifies the rate of taxation for the §Y3rd tax bracket§! by: "
  modify_taxation_fourth_bracket: "Modifies the rate of taxation for the §Y4th tax bracket§! by: "
+
  modify_tier_two_taxes_threshold: "Modifies the factories threshold for the §Y2nd tax bracket§! by: "
  modify_tier_three_taxes_threshold: "Modifies the factories threshold for the §Y3rd tax bracket§! by: "
  modify_tier_fouth_taxes_threshold: "Modifies the factories threshold for the §Y4th tax bracket§! by: "
+ 
  tier_one_threshold: "1st Low Income Tax Bracket"
  tier_two_threshold: "2nd Medium Income Tax Bracket"
  tier_three_threshold: "3rd High Income Tax Bracket"
  tier_four_threshold: "4th Very High Income Tax Bracket"
-  #tier_four_taxes_threshold 
+
+
+
+#tier_four_taxes_threshold
+
  tier_threshold_increase_0: "Raises the civilian requirement for staying inside a tax bracket.\n§Y1st§! Bracket:   From §Y[?var:tier_two_taxes_threshold]§! to §G[?var:tier_two_taxes_threshold_plus_4]§! §YCivilian Factories§!"
  tier_threshold_increase_1: "§Y2nd§! Bracket: From §Y[?var:tier_three_taxes_threshold]§! to §G[?var:tier_three_taxes_threshold_plus_4]§! §YCivilian Factories§!"
  tier_threshold_increase_2: "§Y3rd§! Bracket:  From §Y[?var:tier_four_taxes_threshold]§! to §G[?var:tier_four_taxes_threshold_plus_4]§! §YCivilian Factories§!"
  tier_threshold_increase_not_setup: "Raises the civilian factories requirement for staying inside a tax bracket by §G4§!"
-  #tier_three_taxes_threshold_2 
+# tier_three_taxes_threshold_2
  tier_two_threshold_tt: "Raises the threshold for remaining in the §Y$tier_one_threshold$§! by: §Y$RIGHT|+=.0$§! §YCivilian Factories§!"
  tier_three_threshold_tt: "Raises the threshold for remaining in the §Y$tier_two_threshold$§! by: §Y$RIGHT|+=.0$§! §YCivilian Factories§!"
  tier_four_threshold_tt: "Raises the threshold for remaining in the §Y$tier_three_threshold$§! by: §Y$RIGHT|+=.0$§! §YCivilian Factories§!"
  RAJ_GOE_tax_fraud: "Funnel industry to [FROM.GetName]"
- RAJ_GOE_hostile_takeover_decision: "[FROM.owner.GetFlag] buy §Y[FROM.GetName]§!"
+ RAJ_GOE_hostile_takeover_decision: "[FROM.owner.GetFlag] Buy [FROM.GetName] from [FROM.owner.GetName] "
  is_trying_to_buy_land: "Is already trying to buy land"
  RAJ_GOE_hostile_takeover_remove_civ_tt: "Removes §R5§! §YCivilian Factories§!\n"
  RAJ_GOE_hostile_takeover_remove_civ_tt_1: "Removes §R1§! §YCivilian Factories§!\n"
@@ -238,27 +263,32 @@
  RAJ_hostile_takeover_cost_15: "More than §Y14§! controlled §YCivilian Factories§! (currently §Y[?actually_controlled_civs]§!)"
  RAJ_GOE_eic_hostile_takeover_cat: "Hostile Takeover"
  RAJ_GOE_eng_is_getting_involved_in_war: "[ENG.GetNameDefCap] getting involved in the war"
-  ############## 
-  #### IRAN #### 
-  ############## 
-  ############## 
-  #### FLAGS ### 
-  ############## 
+
+ ##############
+ #### IRAN ####
+ ##############
+
+ ##############
+ #### FLAGS ###
+ ##############
+
  PER_sold_oil_flag: "Sold [PER.GetAdjective] Oil"
  PER_refused_oil_flag: "Refused [PER.GetAdjective] Oil"
  PER_offers_oil_flag: "Offered [PER.GetAdjective] Oil"
  PER_parliament_dissolved: "Dissolved Parliament"
  PER_economy_proved: "Proved Economic Credibility"
  PER_military_fielded: "Military Mobilized"
- PER_state_coring_flag: "We integrate the region"
-  ############################## 
-  #### INDUSTRIAL DECISIONS #### 
-  ############################## 
+ PER_state_coring_flag: "Integrating State"
+
+ ##############################
+ #### INDUSTRIAL DECISIONS ####
+ ##############################
+
  PER_profit_from_war_category: "War Profiteering"
  PER_profit_from_war_category_desc: "As war rages across the world, we are given a unique opportunity to sell our vast stocks of oil in order to improve our own economy and potentially protect us from external threats. This initiative will make the most of our vast natural resources."
  PER_sell_oil: "Sell [PER.GetAdjective] Oil to [FROM.GetNameDef]"
  PER_integrate_anatolia_decisions_category: "Reintegrate Anatolia"
- PER_integrate_anatolia_decisions_category_desc: "Anatoly formally entered our empire for centuries. It's time to return it under control. Integrate these territories and continue [GetAdjRULower] Expansion."
+ PER_integrate_anatolia_decisions_category_desc: "Anatolia has been a part of our empire's de jure land for hundreds of years, and it is finally time to bring it back under our control. Integrate these territories, and help continue the expansion of [PER.GetNameDef]."
  PER_core_conquered_state: "Reintegrate [FROM.GetName]"
  PER_absorb_byzantines_category: "Absorb Byzantium"
  PER_absorb_byzantines_category_desc: "[BYZ.GetNameDefCap] has finally fallen to our superior empire. We have been able to end a grudge against Greece that stems from our ancient days, and we can finally work to bring these lands under our sovereign rule."
@@ -269,12 +299,12 @@
  PER_civil_unrest_category: "Civil Unrest"
  PER_civil_unrest_category_desc: "As we have consolidated more power to the Shah, many parties within our government have shown distaste and distrust in our government. As each of them scheme to overthrow us, we must find a way to clamp down on this dissidence before it becomes a real problem for us.\n\n§RWe must take the 'Assessing the Opposition' national focus before we can stop this insurgence.§!"
  PER_civil_war_imminent: "Civil War Imminent!"
- PER_end_civil_war_tt: "If all three decisions are implemented, the threat of civil war will disappear."
+ PER_end_civil_war_tt: "Completing all three decisions will end the civil war threat."
  PER_dissolve_parliament: "Dissolve Parliament"
  PER_stabilize_economy: "Economic Credibility"
  PER_prepare_military: "Prove Military Prowess"
  PER_mass_protests: "Opposition to the Shah"
- PER_organize_protest_in_state: "Organize a protest in [FROM.owner.GetNameRuPrep]"
+ PER_organize_protest_in_state: "Organize Protest in [FROM.GetName]"
  PER_national_iranian_radio: "[ROOT.GetAdjective] National Radio"
  PER_boost_war_support: "Recruitment Drive"
  PER_promote_communism: "Education Campaign"
@@ -287,34 +317,38 @@
  PER_kurdish_revolt_mission: "Kurdish Uprising Imminent"
  PER_anti_gulf_decisions_cat: "Defending Our Interests"
  PER_anti_gulf_decisions_cat_des: "[PER.GetNameDef] is attempting to undermine the interests of anyone who would oppose them in the Gulf region. We must act decisively before their underhanded tactics tip the delicate balance of power too far in their favor."
- PER_clampdown_on_resistance: "Pursue Kurdish separatists in [FROM.owner.GetNameRuPrep]"
+ PER_clampdown_on_resistance: "Crackdown on Kurdish Separatists in [FROM.GetName]"
  clearing_kurdish_resistance_flag: "Clearing Kurdish Resistance"
- PER_promote_resistance_in_gulf_states: "Maintain resistance in [FROM.owner.GetNameRuPrep]"
- PER_pashtuns_in_pakistan: "Support Pashtun resistance in [FROM.owner.GetNameRuPrep]"
+ PER_promote_resistance_in_gulf_states: "Promote resistance in [FROM.GetName]"
+ PER_pashtuns_in_pakistan: "Promote Pashtun Resistance in [FROM.GetName]"
  PER_kur_azr_independence_cat: "Separatist Movements"
  PER_kur_azr_revolt_mission: "Separatists Preparing for Independence War"
  PER_kur_indy_war_tt: "§RAll Kurdish core states we own will rise up and declare an independence war against us!§!"
  PER_azr_indy_war_tt: "§RAll Azerbaijani core states we own will rise up and declare an independence war against us!§!"
  PER_kur_azr_indy_war_started: "Independence war has started."
- PER_establish_cells: "Organize the opposition in [FROM.owner.GetNameRuPrep]"
+ PER_establish_cells: "Organize Opposition in [FROM.GetName]"
  PER_opposition_cell_tt: "§YThis state will side with the opposition should a civil war erupt!§!"
  PER_establish_cells_tt: "§RThe political power cost of taking states after this will increase by [?ROOT.PER_opposition_increment_cost].§!"
  PER_establish_opposition_hq_tt: "§YThis state will be our base of operations and therefore become our capital should a civil war break out against the Shah.§!"
- PER_opposition_hq_established: "The opposition headquarters will be deployed."
- PER_establish_opposition_hq: "Expand the headquarters of the opposition in §Y[FROM.owner.GetNameRuPrep]§!"
+ PER_opposition_hq_established: "Has established opposition base of operations."
+ PER_establish_opposition_hq: "Establish Opposition HQ in §Y[FROM.GetName]§!"
  PER_opposition_has_already_selected_a_hq_1: "Has already selected a location for a base of operations."
  PER_plant_resistance_cat: "$PER_plant_resistance_cells$"
- PER_plant_resistance_cat_desc: "If we want to increase our chances of a successful preemptive blow, we need to make the attention of the authorities in neighboring states are distracted by other problems - about [GetAdjRULower] groups and resistance cells."
+ PER_plant_resistance_cat_desc: "If we are to increase our chances of succeeding in a pre-emptive strike against our enemies, then we must work to ensure the states that border us have their own problems to deal with in the form of pro-[PER.GetAdjective] resistance groups and cells."
  PER_organize_resistance: "$PER_promote_resistance_in_gulf_states$"
-  ############## 
-  #### IRAQ #### 
-  ############## 
+
+
+ ##############
+ #### IRAQ ####
+ ##############
+
+
  neo_assyrian_empire_category: "Restore the Neo-Assyrian Empire"
- neo_assyrian_empire_category_desc: "At its maximum extent, the Neo-Assyrian Empire dominated most of the Middle-East We should endeavor to restore our state to its ancient glory, and reconquer our empire of old."
+ neo_assyrian_empire_category_desc: "At its maximum extent, the Neo-Assyrian Empire dominated most of the Middle-East We should endeavor to restore our state to its ancient glory, and reconquer our empire of old." 
  neo_assyrian_empire_decision: "Reclaim our Ancient Glory"
  IRQ_arab_free_legion_cat: "Free Arabian Legion"
  IRQ_arab_free_legion_cat_desc: "$IRQ_arab_free_legion_desc$"
- IRQ_recruit_arab_free_legion: "Hire the Legion "Free Arabia" in §Y[FROM.GetName]§!"
+ IRQ_recruit_arab_free_legion: "Recruit Free Arab Legion in §Y[FROM.GetName]§!"
  IRQ_recruiting_arab_legion: "Currently recruiting Arab Free Legion here."
  IRQ_recruited_arab_legion_here: "Have already recruited Arab Free Legion here."
  greater_iraq_decision_cat: "Greater Iraq"
@@ -326,8 +360,9 @@
  IRQ_invite_to_federation: "Invite §Y[FROM.OWNER.GetNameDef]§! to [ROOT.GetNameDef]."
  IRQ_invite_to_federation_africa: "$IRQ_invite_to_federation$"
  IRQ_inviting_to_federation_in_progress: "Currently inviting other nations to the Federation."
- IRQ_has_permanently_rejected_fed: "Has permanently rejected membership."
+ IRQ_has_permanently_rejected_fed: "Has permanently rejected membership." 
  OMA_restore_order_in_the_interior: "Restore Order to the Interior"
  united_arab_republic_cat: "$IRQ_proclaim_united_arab_republic$"
  united_arab_republic_cat_desc: "$IRQ_proclaim_united_arab_republic_desc$"
  united_arab_rep_core_state: "$IRQ_core_state$"
+

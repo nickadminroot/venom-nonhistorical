@@ -1144,31 +1144,35 @@ country_event = {
         }
     }
 }
-
 country_event = {
-   id = britain.100
-   title = britain.100.t
-    desc = britain.100.desc
-    picture = GFX_news_event_rezinka
-	
-	is_triggered_only = yes
-	 
-	option = {
-        name = britain.100.a
-        ENG = {
-		  transfer_state = 672 add_state_core = 672
-		  transfer_state = 334 add_state_core = 334
-		  transfer_state = 335 add_state_core = 335
-		  transfer_state = 667 add_state_core = 667
-		  transfer_state = 673 add_state_core = 673
-		  transfer_state = 668 add_state_core = 668
-		  transfer_state = 669 add_state_core = 669
-		  transfer_state = 738 add_state_core = 738
-		}
+    id = britain.28
+    title = britain.28.t
+    desc = britain.28.desc
+    picture = GFX_report_event_ebaniy_britanzi_win_africa
+ 
+    
+    trigger = {
+	  448 = { is_controlled_by = ENG }
+	  663 = { is_controlled_by = ENG }
+	  451 = { is_controlled_by = ENG }
+	  661 = { is_controlled_by = ENG }
+	  449 = { is_controlled_by = ENG }
+	  662 = { is_controlled_by = ENG }
+	}
+    option = {
+	name = britain.28.a
+     ENG = {
+	   add_timed_idea = {
+	   idea = ENG_win_africa
+       days = 180
+       }
+	 }
+       set_country_flag = Africa_total_win  
+       ITA = {
+         set_country_flag = Africa_total_win  
+       }		 
     }
 }
-	  
-
 
 country_event = {
 	id = AAT_britain_narvik.1
@@ -1291,7 +1295,3 @@ country_event = {
 		}
 	}
 }
-
-
-
- 

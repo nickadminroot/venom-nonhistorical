@@ -5,11 +5,13 @@ state=
 	manpower = 2194
 	
 	state_category = wasteland
-	
+	resources={
+		oil = 10 #was: 50.000
+	}
 	history = {
 		owner = ENG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 
 		victory_points = {

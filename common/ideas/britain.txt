@@ -77,10 +77,31 @@ ideas = {
 
 
 			modifier = {
-				stability_factor = 0.05
+				stability_factor = 0.15
 				drift_defence_factor = 0.5
 			}
 		}
+		
+		ENG_win_africa = {
+			picture = english_africa_win
+			allowed = {
+				original_tag = ENG
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.15
+				industrial_capacity_factory = 0.07
+				industrial_capacity_dockyard = 0.07
+				construction_speed = 0.1			
+			}
+		}
+		
+		
+		
+		
 
 		ENG_george_vi = {
 			
@@ -735,7 +756,9 @@ ideas = {
 			}
 
 			modifier = {
-				production_speed_infrastructure_factor = 0.1
+				production_cost_infrastructure_factor = -0.2
+				production_cost_industrial_complex_factor = -0.2
+				production_factory_max_efficiency_factor = 0.1
 			}
 
 			picture = man_five_year_plan_industry
@@ -758,6 +781,8 @@ ideas = {
 
 			modifier = {
 				non_core_manpower = 0.1
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
 			}
 
 			picture = eng_imperial_conscription
@@ -780,6 +805,8 @@ ideas = {
 
 			modifier = {
 				autonomy_gain = -1
+				cic_to_overlord_factor = 0.1
+				mic_to_overlord_factor = 0.1
 			}
 
 			picture = eng_imperial_conscription
@@ -800,19 +827,33 @@ ideas = {
 				always = yes
 			}
 
-			equipment_bonus = {
-				screen_ship = {
-					naval_speed = 0.1 naval_range = 0.25
-				}
-				carrier = {
-					naval_speed = 0.1 naval_range = 0.25
-				}
-				capital_ship = {
-					naval_speed = 0.1 naval_range = 0.25
-				}
-				submarine = {
-					naval_speed = 0.1 naval_range = 0.25
-				}
+			# equipment_bonus = {
+			# 	screen_ship = {
+			# 		naval_speed_factor = 0.25
+			# 		naval_range = 0.5
+			# 		naval_damage_factor = 0.1
+			# 	}
+			# 	carrier = {
+			# 		naval_speed_factor = 0.25
+			# 		naval_range = 0.5
+			# 		carrier_size = 1
+			# 	}
+			# 	capital_ship = {
+			# 		naval_speed_factor = 0.25
+			# 		naval_range = 0.5
+			# 		naval_damage_factor = 0.1
+			# 	}
+			# 	submarine = {
+			# 		naval_speed_factor = 0.25
+			# 		naval_range = 0.5
+			# 	}
+			# }
+
+			modifier = {
+				naval_coordination = 0.10
+				naval_speed_factor = 0.25
+				# naval_range = 0.5
+				naval_damage_factor = 0.1
 			}
 
 			picture = eng_the_sun_never_sets
@@ -839,6 +880,8 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.15
+				production_cost_arms_factory_factor = -0.1
+				production_cost_dockyard_factor = -0.1
 			}
 		}
 
@@ -1297,10 +1340,13 @@ ideas = {
 				neutrality_drift = 0.1
 				political_power_factor = 0.15
 				generate_wargoal_tension = -0.5
-				lend_lease_tension = -0.4
-				send_volunteers_tension = -0.4
-				guarantee_tension = -0.4
+				lend_lease_tension = -0.8
+				send_volunteers_tension = -0.8
+				guarantee_tension = -0.8
 				drift_defence_factor = 0.3
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				army_org_factor = 0.1
 			}
 
 			picture = eng_the_kings_party
@@ -2193,4 +2239,8 @@ ideas = {
 			}
 		}
 	}
+	
+	
+	
+	
 }

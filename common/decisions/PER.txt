@@ -249,7 +249,7 @@ PER_memphis_initiative_category = {
 			FROM = {
 				impassable = no	
 				AND = {
-					is_core_of = EGY
+					is_on_continent = middle_east
 					NOT = { 
 						is_core_of = ROOT 
 					}
@@ -503,7 +503,10 @@ PER_mass_protests = {
 		visible = {
 			has_completed_focus = PER_stage_mass_protests
 			NOT = {
-				has_global_flag = PER_civil_war_happened
+				OR = {
+					has_global_flag = PER_civil_war_happened
+					has_global_flag = PER_non_lethal_takeover
+				}
 			}
 		}
 		state_target = any_controlled_state
@@ -562,6 +565,7 @@ PER_mass_protests = {
 					has_completed_focus = PER_force_abdication
 					has_completed_focus = PER_constitutional_monarchy
 					has_global_flag = PER_civil_war_happened
+					has_global_flag = PER_non_lethal_takeover
 				}
 			}	
 		}

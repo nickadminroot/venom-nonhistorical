@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 ﻿###########################
+=======
+﻿####### ####################
+>>>>>>> Stashed changes
 # Italian Events
 ###########################
 
@@ -11,20 +15,39 @@ country_event = {
  
     
     trigger = {
+<<<<<<< Updated upstream
+=======
+	  tag = ITA
+>>>>>>> Stashed changes
 	  452 = { is_controlled_by = ITA }
 	  1018 = { is_controlled_by = ITA }
 	  907 = { is_controlled_by = ITA }
 	  447 = { is_controlled_by = ITA }
 	  446 = { is_controlled_by = ITA }
+<<<<<<< Updated upstream
 	}
     option = {
       ITA = {
 	   name = italy.17.a
+=======
+		OR = {
+		452 = { is_controlled_by = GER }
+		1018 = { is_controlled_by = GER }
+		907 = { is_controlled_by = GER }
+		447 = { is_controlled_by = GER }
+		446 = { is_controlled_by = GER }
+		}
+	}
+    option = {
+       name = italy.17.a
+	  ITA = {
+>>>>>>> Stashed changes
 	   add_timed_idea = {
 	   idea = ITA_win_africa 
        days = 180
        }
 	  }
+<<<<<<< Updated upstream
 	  GER = {
 	   add_timed_idea = {
 	   idea = ITA_win_africa 
@@ -34,6 +57,24 @@ country_event = {
 	   set_country_flag = Africa_total_win
 	   ENG = {
 	     set_country_flag = Africa_total_win
+=======
+	  if = {
+	   limit = {
+	GER = {
+	 is_in_faction_with = ITA 
+	}
+   }
+    GER = {
+   add_timed_idea = {
+	   idea = ITA_win_africa 
+       days = 180
+	}
+   }
+  }
+	   set_country_flag = Africa_total_win
+	   ENG = {
+	    set_country_flag = Africa_total_win
+>>>>>>> Stashed changes
 	   }
     }
 }

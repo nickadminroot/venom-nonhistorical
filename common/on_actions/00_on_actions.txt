@@ -5271,6 +5271,7 @@ effect = {
 	}	
 }
 
+<<<<<<< Updated upstream
 on_war = {
       effect = {
 			if = {
@@ -5278,21 +5279,41 @@ on_war = {
 					ITA = {
 					has_war_with = ENG
 					}
+=======
+on_declare_war = {
+      effect = {
+			if = {
+				limit = {
+				  tag = ITA
+				  FROM = {tag = ENG}
+>>>>>>> Stashed changes
 				}
 			  news_event = news.0
 			}
 	  }
+<<<<<<< Updated upstream
 effect = {
 			if = {
 				limit = {
 					ENG = {
 					has_war_with = ITA
 					}
+=======
+	  effect = {
+			if = {
+				limit = {
+				  tag = ENG
+				  FROM = {tag = ITA}
+>>>>>>> Stashed changes
 				}
 			  news_event = news.0
 			}
 	  }
+<<<<<<< Updated upstream
 
 
 }
+=======
+  }
+>>>>>>> Stashed changes
 }

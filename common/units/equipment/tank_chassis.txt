@@ -210,6 +210,8 @@ equipments = {
 		build_cost_ic = 2.25
 		reliability = 0.95
 		armor_value = 15
+		soft_attack = 1
+		hard_attack = 1
 	}
 
 	light_tank_chassis_2 = {
@@ -225,6 +227,8 @@ equipments = {
 		maximum_speed = 6
 		reliability = 1.1
 		armor_value = 20
+		soft_attack = 2
+		hard_attack = 2
 		resources = {
 			steel = 1
 		}
@@ -243,8 +247,8 @@ equipments = {
 		maximum_speed = 7
 		reliability = 1.3
 		armor_value = 25
-		soft_attack = 2
-		hard_attack = 2
+		soft_attack = 3
+		hard_attack = 3
 		resources = {
 			steel = 2
 		}
@@ -664,6 +668,8 @@ equipments = {
 		resources = {
 			steel = 1
 		}
+		soft_attack = 1
+		hard_attack = 1
 
 		lend_lease_cost = 14
 
@@ -701,6 +707,8 @@ equipments = {
 		armor_value = 65
 		maximum_speed = 5
 		reliability = 0.8
+		soft_attack = 1
+		hard_attack = 1
 	}
 
 	heavy_tank_chassis_2 = {
@@ -716,6 +724,8 @@ equipments = {
 		maximum_speed = 5
 		reliability = 1.1
 		armor_value = 70
+		soft_attack = 3
+		hard_attack = 3
 		resources = {
 			steel = 1
 			chromium = 1
@@ -735,6 +745,8 @@ equipments = {
 		maximum_speed = 5
 		reliability = 1.2
 		armor_value = 85
+		soft_attack = 5
+		hard_attack = 5
 		resources = {
 			steel = 2
 			chromium = 1

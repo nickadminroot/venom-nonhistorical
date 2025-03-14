@@ -4,25 +4,10 @@ spriteTypes = {
 		name = "GFX_report_event_canada_ronnie"
 		texturefile = "gfx/event_pictures/report_event_canada_ronnie.dds"
 	}
-	
-	spriteType = {
-		name = "GFX_report_event_italian_win_africa"
-		texturefile = "gfx/event_pictures/report_event_italian_win_africa.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_report_event_ebaniy_britanzi_win_africa"
-		texturefile = "gfx/event_pictures/report_event_ebaniy_britanzi_win_africa.dds"
-	}
 
 	spriteType = {
 		name = "GFX_report_event_generic_funeral"
 		texturefile = "gfx/event_pictures/report_event_generic_funeral.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_news_event_italy_join_Axis"
-		texturefile = "gfx/event_pictures/news_event_italy_join_Axis.dds"
 	}
 
 	spriteType = {

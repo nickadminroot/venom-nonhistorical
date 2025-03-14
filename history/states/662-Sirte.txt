@@ -4,14 +4,12 @@ state={
 	manpower = 13213
 	
 	state_category = wasteland
-	resources={
-		steel = 10#was: 50.000
-	}
+	
 	
 	history={
 		owner = ITA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 		add_core_of = LBA
 	}

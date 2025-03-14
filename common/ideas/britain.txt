@@ -81,27 +81,6 @@ ideas = {
 				drift_defence_factor = 0.5
 			}
 		}
-		
-		ENG_win_africa = {
-			picture = english_africa_win
-			allowed = {
-				original_tag = ENG
-			}
-			
-			removal_cost = -1
-
-			modifier = {
-				stability_factor = 0.1
-				war_support_factor = 0.15
-				industrial_capacity_factory = 0.07
-				industrial_capacity_dockyard = 0.07
-				construction_speed = 0.1			
-			}
-		}
-		
-		
-		
-		
 
 		ENG_george_vi = {
 			
@@ -2239,8 +2218,4 @@ ideas = {
 			}
 		}
 	}
-	
-	
-	
-	
 }

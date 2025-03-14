@@ -61,12 +61,35 @@ units = {
 	 #  #   # #    #   #  #  #  #  # #       #  # #  # #  # #  # #  #   # 
 	### #   # #    ### #  # ### #  # ###      ##   ##  #  # #  # ###  ##  
 
+	division = { # "Kebur Zabagna"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5010 # Addis Ababa
+		division_template = "Kebur Zabagna"			# Elite emperor's guard
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
 
 	#  #  ##  ###  ### #  # ### ###  #  #     ### ###   ##  #  # ### 
 	## # #  # #  #  #  #  # #   #  # ## #     #   #  # #  # ## #  #  
 	# ## #  # ###   #  #### ##  ###  # ##     ##  ###  #  # # ##  #  
 	#  # #  # #  #  #  #  # #   #  # #  #     #   #  # #  # #  #  #  
 	#  #  ##  #  #  #  #  # ### #  # #  #     #   #  #  ##  #  #  #  
+
+
+	# Army of the Left - Ras Imru Haile Selassie
+	division = { # "1 Gojjam Provincial Sefari"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1984 # Gondar
+		division_template = "Mehal Sefari"	# Regular Infantry
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
 	#division = { # "2 Gojjam Provincial Sefari"
 	#	division_name = {
 	#		is_name_ordered = yes
@@ -77,7 +100,58 @@ units = {
 	#	start_experience_factor = 0.2
 	#	start_equipment_factor = 0.8
 	#}
+	division = { # "1 Wolqayt Provincial Sefari"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 13237 # Aksum
+		division_template = "Mountain Division"	# Regular Infantry
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = { # "1 Semien Provincial Sefari"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 13237 # Aksum
+		division_template = "Mountain Division"	# Regular Infantry
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	#division = { # "1 Gojjam Levies"
+	#	division_name = {
+	#		is_name_ordered = yes
+	#		name_order = 1
+	#	}
+	#	location = 1984 # Gondar
+	#	division_template = "Chitet Sefari"	# Irregular Infantry
+	#	start_experience_factor = 0.1
+	#	start_equipment_factor = 0.5
+	#}
+	#division = { # "2 Gojjam Levies"
+	#	division_name = {
+	#		is_name_ordered = yes
+	#		name_order = 2
+	#	}
+	#	location = 1984 # Gondar
+	#	division_template = "Chitet Sefari"	# Irregular Infantry
+	#	start_experience_factor = 0.1
+	#	start_equipment_factor = 0.5
+	#}
 
+	# Mehal Sefari (Army of the Center) - Ras Mulugeta Yeggazu of Illubabor
+	division = { # "1 Amino Provincial Sefari"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 13238
+		division_template = "Mehal Sefari"	# Regular Infantry
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
 	division = { # "1 Gubba Provincial Sefari"
 		division_name = {
 			is_name_ordered = yes
@@ -128,8 +202,36 @@ units = {
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
 	}
-	
-	#
+	division = { # "1 Sela Provincial Sefari"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 7980
+		division_template = "Mehal Sefari"	# Regular Infantry
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	#division = { # "1 Sodo Provincial Sefari"
+	#	division_name = {
+	#		is_name_ordered = yes
+	#		name_order = 12
+	#	}
+	#	location = 5097 # Dessie
+	#	division_template = "Mehal Sefari"	# Regular Infantry
+	#	start_experience_factor = 0.2
+	#	start_equipment_factor = 0.8
+	#}
+	division = { # "1 Welega Provincial Sefari"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 5097 # Dessie
+		division_template = "Mehal Sefari"	# Regular Infantry
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
 
 
 	# Army of the Right- Ras Kassa Haile Darge

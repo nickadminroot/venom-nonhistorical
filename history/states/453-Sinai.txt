@@ -2,13 +2,11 @@
 state={
 	id=453
 	name="STATE_453"
-    resources={
-		chromium = 15 #was: 50.000
-	}
+
 	history={
 		owner = ENG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 
 		}
 		victory_points = {

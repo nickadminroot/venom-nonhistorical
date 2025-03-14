@@ -1,5 +1,20 @@
 technologies = {
-
+   
+    
+	origion_swaptech = { 
+		research_cost = 0
+		
+		folder = {
+			name = industry_folder
+			position = { x = -4 y = 0 }
+		}
+		on_research_complete = {
+			set_technology = { origion_swaptech = 0 }
+		}
+			ai_will_do = { factor = -15 }
+	}
+	
+	
 	basic_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
@@ -764,7 +779,10 @@ technologies = {
 			leads_to_tech = fuel_refining 
 			research_cost_coeff = 1
 		}
-		
+		path = {
+			leads_to_tech = origion_swaptech
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 		start_year = 1936
 		folder = {

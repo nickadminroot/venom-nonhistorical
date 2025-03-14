@@ -5246,4 +5246,53 @@ on_actions = {
 			}
 		}
 	}
+	
+on_war = {
+      effect = {
+			if = {
+				limit = {
+					ITA = {
+					has_war_with = ENG
+					}
+				}
+			  ITA = { add_ideas = africa_start }
+			}
+	  }
+   
+effect = {
+		if = {
+			limit = {
+				ENG = {
+					has_war_with = ITA
+				}
+			}
+			  ENG = { add_ideas = africa_start }
+		}
+	}	
+}
+
+on_war = {
+      effect = {
+			if = {
+				limit = {
+					ITA = {
+					has_war_with = ENG
+					}
+				}
+			  news_event = news.0
+			}
+	  }
+effect = {
+			if = {
+				limit = {
+					ENG = {
+					has_war_with = ITA
+					}
+				}
+			  news_event = news.0
+			}
+	  }
+
+
+}
 }

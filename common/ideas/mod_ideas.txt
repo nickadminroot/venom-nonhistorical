@@ -98,5 +98,15 @@ ideas = {
                 has_war = yes
             }
 		}
+		africa_start = {
+		   picture = africa_start
+		   allowed = { always = no }
+		   removal_cost = -1
+		   	available  = {
+		    NOT = {
+			 has_country_flag = Africa_total_win
+			}
+		   }
+		}
     }
 }

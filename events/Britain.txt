@@ -1152,12 +1152,9 @@ country_event = {
  
     
     trigger = {
-<<<<<<< Updated upstream
-	  448 = { is_controlled_by = ENG }
-=======
+
 	 tag = ENG
 	 448 = { is_controlled_by = ENG }
->>>>>>> Stashed changes
 	  663 = { is_controlled_by = ENG }
 	  451 = { is_controlled_by = ENG }
 	  661 = { is_controlled_by = ENG }

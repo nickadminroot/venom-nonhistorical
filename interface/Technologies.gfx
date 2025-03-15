@@ -2,7 +2,7 @@ spriteTypes = {
 
 	### generic equipment archetypes ###
     SpriteType = {
-		name = "GFX_origion_swaptech_medium"
+		name = "GFX_venom_swaptech_medium"
 		texturefile = "gfx/interface/technologies/basic_encryption.dds"
 	}
 	

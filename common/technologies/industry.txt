@@ -1,7 +1,7 @@
 technologies = {
    
     
-	origion_swaptech = { 
+	venom_swaptech = { 
 		research_cost = 0
 		
 		folder = {
@@ -9,7 +9,7 @@ technologies = {
 			position = { x = -4 y = 0 }
 		}
 		on_research_complete = {
-			set_technology = { origion_swaptech = 0 }
+			set_technology = { venom_swaptech = 0 }
 		}
 			ai_will_do = { factor = -15 }
 	}
@@ -780,7 +780,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = origion_swaptech
+			leads_to_tech = venom_swaptech
 			research_cost_coeff = 1
 		}
 		research_cost = 1

@@ -3478,6 +3478,7 @@ focus_tree = {
 			set_politics = {
 				ruling_party = fascism
 			}
+			country_event = mtg_usa_civil_war_democrats.40
 			# if = {
 			# 	limit = {
 			# 		has_country_flag = mtg_usa_civil_war_democrats_1

@@ -3478,7 +3478,34 @@ focus_tree = {
 			set_politics = {
 				ruling_party = fascism
 			}
-			country_event = { id = mtg_usa_civil_war_democrats.40 days = 30 }
+			USA_douglas_macarthur = {
+				#Non-Aligned country leader role
+				
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							american_caesar
+						}
+					}
+					promote_leader = yes
+				}
+				#Fascism country leader role
+				add_country_leader_role = {
+					country_leader = {
+						expire = "1965.1.1"
+						ideology = rexism
+						traits = {
+							american_caesar
+						}
+					}
+					promote_leader = yes
+				}
+	
+				#Remove Army Leader Role
+				remove_unit_leader_role = yes
+			}
 			# if = {
 			# 	limit = {
 			# 		has_country_flag = mtg_usa_civil_war_democrats_1

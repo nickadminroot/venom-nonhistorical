@@ -825,7 +825,7 @@
 				}
 				add_tech_bonus = {
 					name = AST_cac_boomerang
-					bonus = 1.0
+					bonus = 1
 					ahead_reduction = 2
 					uses = 1
 					category = light_fighter
@@ -834,19 +834,9 @@
 			else = {
 				add_tech_bonus = {
 					name = AST_cac_boomerang
-					bonus = 1.0
+					bonus = 1
 					uses = 1
 					category = light_fighter
-				}
-				create_equipment_variant = {
-					name = "CAC Boomerang" #
-					type = small_plane_airframe_1
-					modules = {
-						fixed_main_weapon_slot = light_mg_4x
-						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
-						engine_type_slot = engine_2_1x
-						special_type_slot_1 = drop_tanks
-					}
 				}	
 			}
 		}
@@ -901,6 +891,12 @@
 
 		completion_reward = {
 			air_experience = 25
+			add_tech_bonus = {
+				name = AST_expand_northern_presence
+				bonus = 0.5
+				uses = 2
+				category = air_equipment
+			}
 			random_owned_controlled_state = {
 				prioritize = { 521 520 872}
 				limit = {
@@ -960,40 +956,13 @@
 						has_dlc = "By Blood Alone"
 					}
 				}
-				add_tech_bonus = {
-					name = AST_cac_woomera
-					bonus = 1.0
-					uses = 3
-					category = cat_strategic_bomber
-					category = tactical_bomber
-					category = naval_air
-				}
-				add_tech_bonus = {
-					name = AST_cac_woomera
-					bonus = 1.0
-					uses = 1
-					category = cat_strategic_bomber
-				}
 			}
 			else = {
 				add_tech_bonus = {
 					name = AST_cac_woomera
 					bonus = 1
-					uses = 3
+					uses = 1
 					category = tactical_bomber
-					category = naval_air
-				}
-				create_equipment_variant = {
-					name = "CAC Woomera" #
-					type = medium_plane_airframe_1
-					modules = {
-						fixed_main_weapon_slot = medium_bomb_bay
-						fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
-						fixed_auxiliary_weapon_slot_2 = torpedo_mounting
-						fixed_auxiliary_weapon_slot_3 = bomb_locks
-						engine_type_slot = engine_3_2x
-						special_type_slot_1 = lmg_defense_turret_2x
-					}
 				}
 			}
 		}

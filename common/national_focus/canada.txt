@@ -2438,7 +2438,7 @@ focus_tree = {
 		x = 21
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 9
@@ -2608,7 +2608,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CAN_strengthen_the_commonwealth_ties
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 35
@@ -2646,7 +2646,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = CAN_strengthen_the_commonwealth_ties
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -2681,7 +2681,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = CAN_strengthen_the_commonwealth_ties
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -2869,7 +2869,7 @@ focus_tree = {
 		y = 0
 		relative_position_id = CAN_strengthen_the_commonwealth_ties
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 5
@@ -2921,7 +2921,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CAN_patriation
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25
@@ -2979,7 +2979,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CAN_permanent_joint_defense_board
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25

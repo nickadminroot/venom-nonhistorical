@@ -15,7 +15,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_country_flag = mtg_usa_civil_war_fascists_1
+		# set_country_flag = mtg_usa_civil_war_fascists_1
 	}
 
 	
@@ -32,10 +32,10 @@ country_event = {
 		ai_chance = {
 			factor = 20
 		}
-		custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+		# custom_effect_tooltip = mtg_usa_civil_war_warning_tt
 		add_political_power = -120
 		USA_congress_small_opposition = yes 
-		country_event = { id = mtg_usa_civil_war_fascists.2 days = 90  }
+		# country_event = { id = mtg_usa_civil_war_fascists.2 days = 90  }
 	}
 }
 #
@@ -845,12 +845,12 @@ country_event = {
 	title = mtg_usa_civil_war_fascists.201.t
 	desc = mtg_usa_civil_war_fascists.201.desc
 	hidden = yes
-	trigger = {
-		original_tag = USA
-		communism > 0.3
-		has_country_flag = mtg_usa_civil_war_fascists_1
-		not = { has_country_flag = mtg_usa_civil_war_fascists_2 }
-	}
+	# trigger = {
+	# 	original_tag = USA
+	# 	communism > 0.3
+	# 	has_country_flag = mtg_usa_civil_war_fascists_1
+	# 	not = { has_country_flag = mtg_usa_civil_war_fascists_2 }
+	# }
 	mean_time_to_happen = { days = 20 }
 	fire_only_once = yes
 	immediate = {

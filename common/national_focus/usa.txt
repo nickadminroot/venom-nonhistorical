@@ -268,19 +268,19 @@ focus_tree = {
 				}
 				USA_congress_large_opposition = yes
 			}
-			if = {
-				limit = {
-					has_country_flag = mtg_usa_civil_war_fascists_1
-					not = { has_country_flag = mtg_usa_civil_war_fascists_2 }
-				}
-				country_event = mtg_usa_civil_war_fascists.2
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
-			}
-			else_if = {
-				limit = { not = { has_country_flag = mtg_usa_civil_war_fascists_1 } }
-				country_event = mtg_usa_civil_war_fascists.1
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
-			}
+			# if = {
+			# 	limit = {
+			# 		has_country_flag = mtg_usa_civil_war_fascists_1
+			# 		not = { has_country_flag = mtg_usa_civil_war_fascists_2 }
+			# 	}
+			# 	country_event = mtg_usa_civil_war_fascists.2
+			# 	custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+			# }
+			# else_if = {
+			# 	limit = { not = { has_country_flag = mtg_usa_civil_war_fascists_1 } }
+			# 	country_event = mtg_usa_civil_war_fascists.1
+			# 	custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+			# }
 		}
 	}
 	focus = {
@@ -481,32 +481,36 @@ focus_tree = {
 				}
 				add_stability = -0.1
 			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.5
+			}
 			USA_return_majority = yes
-			if = {
-				limit = {
-					has_country_flag = mtg_usa_civil_war_fascists_1
-					not = {
-						has_country_flag = mtg_usa_civil_war_fascists_2
-					}
-				}
-				country_event = mtg_usa_civil_war_fascists.2
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
-			}
-			else_if = {
-				limit = { not = { has_country_flag = mtg_usa_civil_war_fascists_1 } }
-				country_event = mtg_usa_civil_war_fascists.1
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
-			}
-			hidden_effect = {
-				if = {
-					limit = {
-						has_country_flag = mtg_usa_civil_war_fascists_2
-						has_war = no
-						not = { has_country_flag = mucwf4 }
-					}
-					country_event = mtg_usa_civil_war_fascists.4
-				}
-			}
+			# if = {
+			# 	limit = {
+			# 		has_country_flag = mtg_usa_civil_war_fascists_1
+			# 		not = {
+			# 			has_country_flag = mtg_usa_civil_war_fascists_2
+			# 		}
+			# 	}
+			# 	country_event = mtg_usa_civil_war_fascists.2
+			# 	custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+			# }
+			# else_if = {
+			# 	limit = { not = { has_country_flag = mtg_usa_civil_war_fascists_1 } }
+			# 	country_event = mtg_usa_civil_war_fascists.1
+			# 	custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+			# }
+			# hidden_effect = {
+			# 	if = {
+			# 		limit = {
+			# 			has_country_flag = mtg_usa_civil_war_fascists_2
+			# 			has_war = no
+			# 			not = { has_country_flag = mucwf4 }
+			# 		}
+			# 		country_event = mtg_usa_civil_war_fascists.4
+			# 	}
+			# }
 		}
 	}
 	focus = {
@@ -619,7 +623,7 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_WAR_SUPPORT}
 		completion_reward = {
-			add_war_support = 0.1
+			add_war_support = 0.25
 		}
 	}
 	focus = {
@@ -747,7 +751,9 @@ focus_tree = {
 			}
 			USA_great_depression_level_down = yes
 			unlock_decision_tooltip = { decision = USA_communal_domain show_effect_tooltip = yes }
-
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 5
+			}
 		}
 	}
 	focus = {
@@ -3409,19 +3415,19 @@ focus_tree = {
 				}
 				add_stability = -0.1
 			}
-			if = {
-				limit = {
-					has_country_flag = mtg_usa_civil_war_democrats_1
-					not = { has_country_flag = mtg_usa_civil_war_democrats_2 }
-				}
-				country_event = mtg_usa_civil_war_democrats.2
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
-			}
-			else_if = {
-				limit = { not = { has_country_flag = mtg_usa_civil_war_democrats_1 } }
-				country_event = mtg_usa_civil_war_democrats.1
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
-			}
+			# if = {
+			# 	limit = {
+			# 		has_country_flag = mtg_usa_civil_war_democrats_1
+			# 		not = { has_country_flag = mtg_usa_civil_war_democrats_2 }
+			# 	}
+			# 	country_event = mtg_usa_civil_war_democrats.2
+			# 	custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+			# }
+			# else_if = {
+			# 	limit = { not = { has_country_flag = mtg_usa_civil_war_democrats_1 } }
+			# 	country_event = mtg_usa_civil_war_democrats.1
+			# 	custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+			# }
 		}
 	}
 
@@ -3438,7 +3444,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_america_first }
 		relative_position_id = USA_america_first
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -3462,19 +3468,23 @@ focus_tree = {
 		completion_reward = {
 			USA_congress_medium_support = yes
 			unlock_decision_tooltip = { decision = USA_beat_up_opposition show_effect_tooltip = yes }
-			if = {
-				limit = {
-					has_country_flag = mtg_usa_civil_war_democrats_1
-					not = { has_country_flag = mtg_usa_civil_war_democrats_2 }
-				}
-				country_event = mtg_usa_civil_war_democrats.2
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.5
 			}
-			else_if = {
-				limit = { not = { has_country_flag = mtg_usa_civil_war_democrats_1 } }
-				country_event = mtg_usa_civil_war_democrats.1
-				custom_effect_tooltip = mtg_usa_civil_war_warning_tt
-			}
+			# if = {
+			# 	limit = {
+			# 		has_country_flag = mtg_usa_civil_war_democrats_1
+			# 		not = { has_country_flag = mtg_usa_civil_war_democrats_2 }
+			# 	}
+			# 	country_event = mtg_usa_civil_war_democrats.2
+			# 	custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+			# }
+			# else_if = {
+			# 	limit = { not = { has_country_flag = mtg_usa_civil_war_democrats_1 } }
+			# 	country_event = mtg_usa_civil_war_democrats.1
+			# 	custom_effect_tooltip = mtg_usa_civil_war_warning_tt
+			# }
 		}
 	}
 
@@ -3485,7 +3495,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_ally_with_the_silver_shirts }
 		relative_position_id = USA_ally_with_the_silver_shirts
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -3504,7 +3514,7 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = {FOCUS_FILTER_STABILITY}
 		completion_reward = {
-			add_stability = 0.05
+			add_stability = 0.15
 		}
 	}
 	focus = {
@@ -3514,7 +3524,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = USA_national_prosperity_program }
 		relative_position_id = USA_ally_with_the_silver_shirts
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -3609,7 +3619,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_ally_with_the_silver_shirts }
 		relative_position_id = USA_ally_with_the_silver_shirts
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -3639,7 +3649,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = USA_invite_foreign_support }
 		relative_position_id = USA_invite_foreign_support
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -3670,7 +3680,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = USA_send_lindbergh_to_germany }
 		relative_position_id = USA_invite_foreign_support
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -3704,7 +3714,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = USA_send_lindbergh_to_germany }
 		relative_position_id = USA_invite_foreign_support
-		cost = 10
+		cost = 3
 
 		ai_will_do = {
 			factor = 1
@@ -3735,7 +3745,7 @@ focus_tree = {
 		prerequisite = { focus = USA_work_with_the_bund }
 		prerequisite = { focus = USA_national_employment_strategy }
 		relative_position_id = USA_invite_foreign_support
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1

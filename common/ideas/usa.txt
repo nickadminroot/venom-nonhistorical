@@ -293,7 +293,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_factor = -0.25
 			}
 		}
 
@@ -594,7 +594,10 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				industrial_capacity_factory = 0.05	
+				production_speed_arms_factory_factor = 0.1
+				production_speed_dockayrd_factor = 0.1
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15	
 			}
 		}
 		USA_labour_management_relations_act = {
@@ -629,6 +632,7 @@ ideas = {
 			
 			modifier = {
 				training_time_army_factor = -0.1
+				army_org_factor = 0.2
 			}
 		}
 		USA_gold_standard = {
@@ -680,8 +684,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.4
+				# production_speed_arms_factory_factor = 0.25
 			}
 		}
 		USA_privatization = {
@@ -698,7 +702,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_infrastructure_factor = 0.1
+				production_speed_infrastructure_factor = 0.25
+				consumer_goods_factor = -0.15
 			}
 		}
 		USA_national_employment_strategy = {
@@ -714,9 +719,11 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				production_factory_efficiency_gain_factor = 0.1
+				production_speed_industrial_complex_factor = 0.4
+				# production_speed_arms_factory_factor = 0.25
+				production_factory_max_efficiency_factor = 0.2
+				industrial_capacity_dockyard = 0.2
+				production_factory_efficiency_gain_factor = 0.2
 			}
 		}
 		USA_war_powers_act = {

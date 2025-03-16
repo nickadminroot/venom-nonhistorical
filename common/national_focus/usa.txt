@@ -485,6 +485,9 @@ focus_tree = {
 				ideology = communism
 				popularity = 0.5
 			}
+			set_politics = {
+				ruling_party = communism
+			}
 			USA_return_majority = yes
 			# if = {
 			# 	limit = {
@@ -3471,6 +3474,9 @@ focus_tree = {
 			add_popularity = {
 				ideology = fascism
 				popularity = 0.5
+			}
+			set_politics = {
+				ruling_party = fascism
 			}
 			# if = {
 			# 	limit = {

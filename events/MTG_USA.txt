@@ -2321,18 +2321,18 @@ country_event = {
 	title = test_state.1.t
 	desc = test_state.1.d
 	
-	trigger = { 
-		original_tag = USA
-		has_country_flag = mtg_usa_civil_war_democrats_1
-		fascism > 0.3
-		not = { has_country_flag = mtg_usa_civil_war_democrats_2 }
-	}
+	# trigger = { 
+	# 	# original_tag = USA
+	# 	# has_country_flag = mtg_usa_civil_war_democrats_1
+	# 	# fascism > 0.3
+	# 	# not = { has_country_flag = mtg_usa_civil_war_democrats_2 }
+	# }
 	mean_time_to_happen = { days = 20 }
 	fire_only_once = yes
-	immediate = {
-		country_event = mtg_usa_civil_war_democrats.2
+	# immediate = {
+	# 	country_event = mtg_usa_civil_war_democrats.2
 		
-	}
+	# }
 	option = {
 		name = OK
 	}

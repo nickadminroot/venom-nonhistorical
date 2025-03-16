@@ -540,8 +540,7 @@ ideas = {
 				stability_factor = 0.1
 				war_support_factor = 0.15
 				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
-                set_country_flag = Africa_total_win				
+				industrial_capacity_dockyard = 0.1				
 			}
 		}
 		

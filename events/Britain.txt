@@ -1154,25 +1154,28 @@ country_event = {
     trigger = {
 
 	 tag = ENG
-	 448 = { is_controlled_by = ENG }
-	  663 = { is_controlled_by = ENG }
-	  451 = { is_controlled_by = ENG }
-	  661 = { is_controlled_by = ENG }
-	  449 = { is_controlled_by = ENG }
-	  662 = { is_controlled_by = ENG }
+	 448 = { controller = { is_in_faction_with = ENG } }
+	  663 = { controller = { is_in_faction_with = ENG } }
+	  451 = { controller = { is_in_faction_with = ENG } }
+	  661 = { controller = { is_in_faction_with = ENG } }
+	  449 = { controller = { is_in_faction_with = ENG } }
+	  662 = { controller = { is_in_faction_with = ENG } }
 	}
     option = {
-	name = britain.28.a
-     ENG = {
-	   add_timed_idea = {
-	   idea = ENG_win_africa
-       days = 180
-       }
-	 }
-       set_country_flag = Africa_total_win  
-       ITA = {
-         set_country_flag = Africa_total_win  
-       }		 
+		name = britain.28.a
+		every_allied_country = {
+			limit = {
+				has_idea = africa_start
+			}
+			add_timed_idea = {
+				idea = ENG_win_africa
+				days = 180
+			}
+		}
+		set_country_flag = Africa_total_win  
+		ITA = {
+			set_country_flag = Africa_total_win  
+		}		 
     }
 }
 

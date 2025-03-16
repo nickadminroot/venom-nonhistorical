@@ -1,72 +1,74 @@
 ﻿####### ####################
 # Italian Events
 ###########################
-
 add_namespace = italy
 country_event = {
-    id = italy.17
-    title = italy.17.t
-    desc = italy.17.desc
-    picture = GFX_report_event_italian_win_africa
- 
-    
-    trigger = {
-	  tag = ITA
-	  452 = { is_controlled_by = ITA }
-	  1018 = { is_controlled_by = ITA }
-	  907 = { is_controlled_by = ITA }
-	  447 = { is_controlled_by = ITA }
-	  446 = { is_controlled_by = ITA }
-		OR = {
-		452 = { is_controlled_by = GER }
-		1018 = { is_controlled_by = GER }
-		907 = { is_controlled_by = GER }
-		447 = { is_controlled_by = GER }
-		446 = { is_controlled_by = GER }
+	id = italy.17
+	title = italy.17.t
+	desc = italy.17.desc
+	picture = GFX_report_event_italian_win_africa
+	trigger = {
+		tag = ITA
+		452 = {
+			controller = {
+				is_in_faction_with = ITA
+			}
+		}
+		1018 = {
+			controller = {
+				is_in_faction_with = ITA
+			}
+		}
+		907 = {
+			controller = {
+				is_in_faction_with = ITA
+			}
+		}
+		447 = {
+			controller = {
+				is_in_faction_with = ITA
+			}
+		}
+		446 = {
+			controller = {
+				is_in_faction_with = ITA
+			}
 		}
 	}
-    option = {
-       name = italy.17.a
-	  ITA = {
-	   add_timed_idea = {
-	   idea = ITA_win_africa 
-       days = 180
-       }
-	  }
-	  if = {
-	   limit = {
-	GER = {
-	 is_in_faction_with = ITA 
+	option = {
+		name = italy.17.a
+		every_allied_country = {
+			limit = {
+				has_idea = africa_start
+			}
+			add_timed_idea = {
+				idea = ENG_win_africa
+				days = 180
+			}
+		}
+		set_country_flag = Africa_total_win
+		ENG = {
+			set_country_flag = Africa_total_win
+		}
 	}
-   }
-    GER = {
-   add_timed_idea = {
-	   idea = ITA_win_africa 
-       days = 180
-	}
-   }
-  }
-	   set_country_flag = Africa_total_win
-	   ENG = {
-	    set_country_flag = Africa_total_win
-	   }
-    }
 }
+
 # Albania Yields
 country_event = {
 	id = italy.1
 	title = italy.1.t
 	desc = italy.1.d
 	picture = GFX_report_event_royal_parade
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.1.a
-
-		annex_country = { target = ALB }
-		add_named_threat = { threat = 2 name = ITA_albania_war_goal }
-
+		annex_country = {
+			target = ALB
+		}
+		add_named_threat = {
+			threat = 2
+			name = ITA_albania_war_goal
+		}
 		#BBA
 		# The king is an idea
 		if = {
@@ -87,23 +89,31 @@ country_event = {
 				add_idea = vittorio_emanuele_albania_ethiopia
 			}
 		}
-
 		if = {
 			limit = {
 				has_character = ITA_vittorio_emanuele_iii
 			}
-			ITA_vittorio_emanuele_iii = { add_country_leader_trait = king_of_albania }
-			
+			ITA_vittorio_emanuele_iii = {
+				add_country_leader_trait = king_of_albania
+			}
 			hidden_effect = {
-				ITA_vittorio_emanuele_iii = { set_character_flag = ITA_king_of_albania_flag } #Used to add the NS of the king back after having removed it (Christian Democracy)
+				ITA_vittorio_emanuele_iii = {
+					set_character_flag = ITA_king_of_albania_flag
+				}				#Used to add the NS of the king back after having removed it (Christian Democracy)
 			}
 		}
-
 		USA = {
-			set_country_flag = { flag = USA_albania_window days = 60 value = 1 }
+			set_country_flag = {
+				flag = USA_albania_window
+				days = 60
+				value = 1
+			}
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.22 }
+			country_event = {
+				days = 1
+				id = news.22
+			}
 		}
 	}
 }
@@ -114,18 +124,22 @@ country_event = {
 	title = italy.2.t
 	desc = italy.2.d
 	picture = GFX_report_event_albanian_partisans
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.2.a
 		create_wargoal = {
 			type = take_state_focus
 			target = ALB
-			generator = { 44 805 }
+			generator = {
+				44
+				805
+			}
 		}
 		hidden_effect = {
-			country_event = { days = 1 id = news.23 }
+			country_event = {
+				days = 1
+				id = news.23
+			}
 		}
 	}
 }
@@ -136,32 +150,37 @@ country_event = {
 	title = italy.3.t
 	desc = italy.3.d
 	picture = GFX_report_event_albanian_king_zog
-	
 	is_triggered_only = yes
-	
-	option = { # Yield
+	option = {
+		# Yield
 		name = italy.3.a
 		ai_chance = {
 			base = 40
 			modifier = {
 				factor = 0
-				OR = {			
+				OR = {
 					any_other_country = {
 						OR = {
 							is_major = yes
 							tag = YUG
 							original_tag = BUL
 						}
-						NOT = { tag = FROM }
+						NOT = {
+							tag = FROM
+						}
 						OR = {
 							has_guaranteed = ROOT
 							AND = {
 								is_in_faction_with = ROOT
 								OR = {
-									NOT = { is_in_faction_with = FROM }
+									NOT = {
+										is_in_faction_with = FROM
+									}
 									AND = {
 										is_in_faction_with = FROM
-										FROM = { is_faction_leader = no }
+										FROM = {
+											is_faction_leader = no
+										}
 									}
 								}
 							}
@@ -169,7 +188,9 @@ country_event = {
 					}
 					AND = {
 						is_subject = yes
-						NOT = { is_subject_of = FROM }
+						NOT = {
+							is_subject_of = FROM
+						}
 					}
 				}
 			}
@@ -177,7 +198,7 @@ country_event = {
 				factor = 0.5
 				OR = {
 					has_government = communism
-					has_government = fascism #glorious Albania will never yield! #Actually, there is nothing glorious to be found in fascism ;)
+					has_government = fascism					#glorious Albania will never yield! #Actually, there is nothing glorious to be found in fascism ;)
 				}
 			}
 			modifier = {
@@ -185,30 +206,37 @@ country_event = {
 				is_subject_of = FROM
 			}
 		}
-		
 		FROM = {
-			country_event = { days = 1 id = italy.1 }
+			country_event = {
+				days = 1
+				id = italy.1
+			}
 		}
 		custom_effect_tooltip = GAME_OVER_TT
 	}
-	option = { # Resist
+	option = {
+		# Resist
 		name = italy.3.b
 		ai_chance = {
-			factor = 20 
+			factor = 20
 			modifier = {
 				factor = 0
 				OR = {
 					AND = {
 						is_in_faction_with = FROM
-						FROM = { is_faction_leader = yes }
+						FROM = {
+							is_faction_leader = yes
+						}
 					}
 					AND = {
-						is_in_faction = no 
+						is_in_faction = no
 						NOT = {
 							any_other_country = {
-								NOT = { tag = FROM }
+								NOT = {
+									tag = FROM
+								}
 								has_guaranteed = ROOT
-							} 
+							}
 						}
 					}
 				}
@@ -216,12 +244,16 @@ country_event = {
 			modifier = {
 				add = 100
 				is_in_faction = yes
-				NOT = { is_in_faction_with = FROM }
+				NOT = {
+					is_in_faction_with = FROM
+				}
 			}
 			modifier = {
 				add = 100
 				is_subject = yes
-				NOT = { is_subject_of = FROM }
+				NOT = {
+					is_subject_of = FROM
+				}
 			}
 		}
 		FROM = {
@@ -229,10 +261,15 @@ country_event = {
 				create_wargoal = {
 					type = take_state_focus
 					target = ALB
-					generator = { 44 }
+					generator = {
+						44
+					}
 				}
 			}
-			country_event = { days = 1 id = italy.2 }
+			country_event = {
+				days = 1
+				id = italy.2
+			}
 		}
 	}
 }
@@ -243,9 +280,7 @@ country_event = {
 	title = italy.4.t
 	desc = italy.4.d
 	picture = GFX_report_event_bunker_01
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.4.a
 		158 = {
@@ -259,7 +294,6 @@ country_event = {
 				province = 11721
 				level = 3
 			}
-		
 			add_building_construction = {
 				type = bunker
 				province = 9738
@@ -286,25 +320,25 @@ country_event = {
 	}
 }
 
-
 # Italian-German Treaty (Germans)
 country_event = {
 	id = italy.5
 	title = italy.5.t
 	desc = italy.5.d
 	picture = GFX_report_event_german_italian_pact
-	
 	is_triggered_only = yes
-	
 	option = {
-		name = italy.5.a	#sounds good
+		name = italy.5.a		#sounds good
 		ITA = {
-			country_event = { days = 1 id = italy.6 }
+			country_event = {
+				days = 1
+				id = italy.6
+			}
 		}
 		# REVISIT Balance research bonus, also in event below
 		add_tech_bonus = {
 			name = mountaineers2_bonus
-			bonus = 1.0
+			bonus = 1
 			uses = 1
 			technology = tech_mountaineers2
 		}
@@ -315,13 +349,17 @@ country_event = {
 			category = naval_doctrine
 		}
 	}
-	
 	option = {
-		name = italy.5.b	#no way 
-		ai_chance = { factor = 0 }
+		name = italy.5.b		#no way 
+		ai_chance = {
+			factor = 0
+		}
 		add_political_power = -10
 		ITA = {
-			country_event = { days = 1 id = italy.7 }
+			country_event = {
+				days = 1
+				id = italy.7
+			}
 		}
 	}
 }
@@ -332,26 +370,27 @@ country_event = {
 	title = italy.6.t
 	desc = italy.6.d
 	picture = GFX_report_event_physics_lab_01
-
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.6.a
 		# REVISIT Balance research bonus
 		add_tech_bonus = {
 			name = synth_bonus
-			bonus = 1.0
+			bonus = 1
 			uses = 1
 			category = synth_resources
 		}
 		add_tech_bonus = {
 			name = armor_bonus
-			bonus = 1.0
+			bonus = 1
 			uses = 2
 			category = armor
 		}
 		ITA = {
-			add_opinion_modifier = { target = GER modifier = ger_ita_tech_treaty }
+			add_opinion_modifier = {
+				target = GER
+				modifier = ger_ita_tech_treaty
+			}
 		}
 	}
 }
@@ -362,13 +401,14 @@ country_event = {
 	title = italy.7.t
 	desc = italy.7.d
 	picture = GFX_report_event_physics_lab_01
-
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.7.a
 		ITA = {
-			add_opinion_modifier = { target = GER modifier = ger_ita_tech_treaty_rejected }
+			add_opinion_modifier = {
+				target = GER
+				modifier = ger_ita_tech_treaty_rejected
+			}
 		}
 	}
 }
@@ -379,19 +419,23 @@ country_event = {
 	title = italy.8.t
 	desc = italy.8.d
 	picture = GFX_report_event_german_parade_paris
-
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.8.a
 		FRA = {
 			if = {
-				limit = { is_in_faction = no }
-				set_rule = { can_create_factions = yes }
+				limit = {
+					is_in_faction = no
+				}
+				set_rule = {
+					can_create_factions = yes
+				}
 				create_faction = "domination_francaise"
 			}
 		}
-		FRA = {	add_to_faction = ITA }
+		FRA = {
+			add_to_faction = ITA
+		}
 		ITA = {
 			add_ai_strategy = {
 				type = alliance
@@ -407,17 +451,28 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			news_event = { hours = 6 id = news.181 }
+			news_event = {
+				hours = 6
+				id = news.181
+			}
 		}
 	}
 	option = {
 		name = italy.8.b
-		ai_chance = { factor = 0 }
+		ai_chance = {
+			factor = 0
+		}
 		FRA = {
-			add_opinion_modifier = { target = ITA modifier = ITA_FRA_woo_italy_reject }
-		}	
+			add_opinion_modifier = {
+				target = ITA
+				modifier = ITA_FRA_woo_italy_reject
+			}
+		}
 		hidden_effect = {
-			news_event = { hours = 6 id = news.183 }
+			news_event = {
+				hours = 6
+				id = news.183
+			}
 		}
 	}
 }
@@ -428,27 +483,43 @@ country_event = {
 	title = italy.9.t
 	desc = italy.9.d
 	picture = GFX_report_event_merchant_ship_01
-
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.9.a
-		ITA = { country_event = { id = italy.10 } }
-		effect_tooltip = {
-			ITA = { transfer_state = 177 }
-			remove_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
+		ITA = {
+			country_event = {
+				id = italy.10
+			}
 		}
-
+		effect_tooltip = {
+			ITA = {
+				transfer_state = 177
+			}
+			remove_opinion_modifier = {
+				target = ITA
+				modifier = ita_supported_spain_civil_war
+			}
+		}
 		hidden_effect = {
-			news_event = { id = news.190 }
+			news_event = {
+				id = news.190
+			}
 		}
 	}
 	option = {
 		name = italy.9.b
-		ai_chance = { factor = 0 }
-		ITA = { country_event = { id = italy.11 } }
+		ai_chance = {
+			factor = 0
+		}
+		ITA = {
+			country_event = {
+				id = italy.11
+			}
+		}
 		effect_tooltip = {
-			ITA = { add_state_claim = 177 }
+			ITA = {
+				add_state_claim = 177
+			}
 		}
 	}
 }
@@ -459,16 +530,21 @@ country_event = {
 	title = italy.10.t
 	desc = italy.10.d
 	picture = GFX_report_event_merchant_ship_01
-
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.10.a
-		ITA = { transfer_state = 177 }
+		ITA = {
+			transfer_state = 177
+		}
 		FROM = {
 			if = {
-				limit = { has_opinion_modifier = ita_supported_spain_civil_war }
-				remove_opinion_modifier = { target = ITA modifier = ita_supported_spain_civil_war }
+				limit = {
+					has_opinion_modifier = ita_supported_spain_civil_war
+				}
+				remove_opinion_modifier = {
+					target = ITA
+					modifier = ita_supported_spain_civil_war
+				}
 			}
 		}
 	}
@@ -480,12 +556,12 @@ country_event = {
 	title = italy.11.t
 	desc = italy.11.d
 	picture = GFX_report_event_merchant_ship_01
-
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.11.a
-		ITA = { add_state_claim = 177 }
+		ITA = {
+			add_state_claim = 177
+		}
 	}
 }
 
@@ -495,21 +571,24 @@ country_event = {
 	title = italy.12.t
 	desc = italy.12.d
 	picture = GFX_report_event_generic_croatia_handshake
-
 	is_triggered_only = yes
-	
 	option = {
 		ai_chance = {
 			factor = 33
 			modifier = {
 				factor = 3
-				has_army_size = { size > 75 }
+				has_army_size = {
+					size > 75
+				}
 			}
 		}
 		name = italy.12.a
 		ITA = {
 			add_political_power = -100
-			if = { limit = { is_faction_leader = yes }
+			if = {
+				limit = {
+					is_faction_leader = yes
+				}
 				add_to_faction = YUG
 				YUG = {
 					add_ai_strategy = {
@@ -520,7 +599,7 @@ country_event = {
 				}
 			}
 			if = {
-				limit = { 
+				limit = {
 					OR = {
 						AND = {
 							is_faction_leader = no
@@ -538,19 +617,35 @@ country_event = {
 						value = 200
 					}
 				}
-			}			
+			}
 		}
-		GER = { country_event = { id = germany.96 hours = 6 } }
-		YUG = { country_event = { id = yugoslavia.6 hours = 6 } }
-	}	
+		GER = {
+			country_event = {
+				id = germany.96
+				hours = 6
+			}
+		}
+		YUG = {
+			country_event = {
+				id = yugoslavia.6
+				hours = 6
+			}
+		}
+	}
 	option = {
 		ai_chance = {
 			factor = 100
-		}	
+		}
 		name = italy.12.b
 		YUG = {
-			add_opinion_modifier = { target = ITA modifier = western_betrayal }
-			country_event = { id = yugoslavia.5 hours = 6 }
+			add_opinion_modifier = {
+				target = ITA
+				modifier = western_betrayal
+			}
+			country_event = {
+				id = yugoslavia.5
+				hours = 6
+			}
 		}
 	}
 }
@@ -559,114 +654,135 @@ country_event = {
 country_event = {
 	id = italy.13
 	title = italy.13.t
-	desc = { 
+	desc = {
 		text = italy.13.d_dalmatia_montenegro
 		trigger = {
 			has_completed_focus = ITA_balkan_ambition
 			owns_state = 44
 		}
 	}
-	desc = { 
+	desc = {
 		text = italy.13.d_dalmatia
 		trigger = {
 			has_completed_focus = ITA_balkan_ambition
-			NOT = { owns_state = 44 }
+			NOT = {
+				owns_state = 44
+			}
 		}
 	}
-	desc = { 
+	desc = {
 		text = italy.13.d_montenegro
 		trigger = {
-			NOT = { has_completed_focus = ITA_balkan_ambition }
+			NOT = {
+				has_completed_focus = ITA_balkan_ambition
+			}
 			owns_state = 44
 		}
 	}
- 
 	picture = GFX_report_event_vienna_award_negotiations
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.13.a
 		if = {
-			limit = { has_completed_focus = ITA_balkan_ambition }
-			ITA = { transfer_state = 103 }
+			limit = {
+				has_completed_focus = ITA_balkan_ambition
+			}
+			ITA = {
+				transfer_state = 103
+			}
 		}
 		if = {
-			limit = { owns_state = 44 }
-			ITA = { transfer_state = 105 }
+			limit = {
+				owns_state = 44
+			}
+			ITA = {
+				transfer_state = 105
+			}
 		}
 		if = {
-			limit = { owns_state = 44 }
-			ITA = { transfer_state = 802 }
+			limit = {
+				owns_state = 44
+			}
+			ITA = {
+				transfer_state = 802
+			}
 		}
 		if = {
-			limit = { owns_state = 44 }
-			ITA = { transfer_state = 970 }
+			limit = {
+				owns_state = 44
+			}
+			ITA = {
+				transfer_state = 970
+			}
 		}
 	}
 }
-
 
 # Italy Germany rejects demands for Vichy territory
 country_event = {
 	id = italy.14
 	title = italy.14.t
 	desc = italy.14.d
- 
 	picture = GFX_report_event_generic_sign_treaty1
-	
 	is_triggered_only = yes
-	
 	option = {
-		ai_chance = { factor = 25 }
+		ai_chance = {
+			factor = 25
+		}
 		name = italy.14.a
-		GER = { 
-			remove_from_faction = ITA 
+		GER = {
+			remove_from_faction = ITA
 			country_event = germany.105
 		}
 	}
-
 	option = {
-		ai_chance = { factor = 75 }
+		ai_chance = {
+			factor = 75
+		}
 		name = italy.14.b
-
 	}
 }
-
 
 # Italy Germany accepts demands for Vichy territory
 country_event = {
 	id = italy.15
 	title = italy.15.t
-	desc = { 
+	desc = {
 		text = italy.15.d
 		trigger = {
 			has_global_flag = ITA_claims_on_france_735
 			has_global_flag = ITA_claims_on_france_1
 		}
 	}
-	desc = { 
+	desc = {
 		text = italy.15.d_Corsica
 		trigger = {
-			NOT = { has_global_flag = ITA_claims_on_france_735 }
+			NOT = {
+				has_global_flag = ITA_claims_on_france_735
+			}
 			has_global_flag = ITA_claims_on_france_1
 		}
 	}
- 
 	picture = GFX_report_event_generic_sign_treaty1
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.15.a
 		if = {
-			limit = { has_global_flag = ITA_claims_on_france_735 }
-			ITA = { transfer_state = 735 }
+			limit = {
+				has_global_flag = ITA_claims_on_france_735
+			}
+			ITA = {
+				transfer_state = 735
+			}
 		}
 		if = {
-			limit = { has_global_flag = ITA_claims_on_france_1 }
-			ITA = { transfer_state = 1 }
-		}		
+			limit = {
+				has_global_flag = ITA_claims_on_france_1
+			}
+			ITA = {
+				transfer_state = 1
+			}
+		}
 	}
 }
 
@@ -675,15 +791,10 @@ country_event = {
 	id = italy.16
 	title = italy.16.t
 	desc = italy.16.d
- 
 	picture = GFX_report_event_generic_sign_treaty1
-	
 	is_triggered_only = yes
-	
 	option = {
 		name = italy.16.a
-
 		transfer_state = 735
 	}
 }
-

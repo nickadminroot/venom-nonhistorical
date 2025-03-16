@@ -5255,7 +5255,8 @@ on_war = {
 					has_war_with = ENG
 					}
 				}
-			  ITA = { 
+			  ITA = {
+				add_ideas = africa_start 
 				every_allied_country = {
 					add_ideas = africa_start
 				}
@@ -5271,6 +5272,7 @@ effect = {
 				}
 			}
 			  ENG = {
+				add_ideas = africa_start
 			every_allied_country = {
 				add_ideas = africa_start
 			} }

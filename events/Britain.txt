@@ -1163,6 +1163,10 @@ country_event = {
 	}
     option = {
 		name = britain.28.a
+		add_timed_idea = {
+			idea = ENG_win_africa
+			days = 180
+		}
 		every_allied_country = {
 			limit = {
 				has_idea = africa_start

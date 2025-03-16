@@ -3,4 +3,18 @@ spriteTypes = {
 		name = "GFX_idea_mon_jebtsundamba_khutughtu"
 		texturefile = "gfx/interface/ideas/mon_jebtsundamba_khutughtu.dds"
 	}	
+	spriteType = {
+		name = "GFX_idea_africa_start"
+		texturefile = "gfx/interface/ideas/africa_start.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_english_africa_win"
+		texturefile = "gfx/interface/ideas/english_africa_win.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_Italy_africa_win"
+		texturefile = "gfx/interface/ideas/Italy_africa_win.dds"
+	}	
+	
+	
 }

@@ -1496,7 +1496,7 @@
  SOV_socialism_in_one_country_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nЗащита от смены идеологии: §G+5,0%§! \nЕжедневная поддержка коммунизма: §G+0,05§! \nМодификатор стабильности от штрафа за оборонительную войну: §G+25,00%§! \n\n"
  SOV_the_stalin_constitution_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nЗащита от смены идеологии: §G+5,0%§! \nПрирост политической власти: §G+5%§! \n\n"
  SOV_secure_the_administration_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nЗатраты на законы об экономике: §G-20%§! \nЗатраты на законы, регулирующие торговлю: §G-20%§! \nЗатраты на законы о призыве: §G-20%§! \n\n"
- SOV_the_collectivization_process_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nФабрики товаров народного потребления: §Y-2,0%§! \nМаксимум фабрик в регионе: §G+10%§! \nСкорость строительства: §G+5,00%§! \n\n"
+ SOV_the_collectivization_process_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nФабрики товаров народного потребления: §Y-20%§! \nМаксимум фабрик в регионе: §G+10%§! \nСкорость строительства: §G+10%§! \n\n"
  SOV_the_workers_dictatorship_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nПрирост политической власти: §G+5%§! \nМинимальный лимит капитуляции: §G+5,00%§! \n\n"
  SOV_organization_centralization_discipline_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nИзменение максимума командного ресурса: §G+20§! \nСкорость мобилизации: §G+5,00%§! \n\n"
  SOV_behead_the_snake_ns_tt: "$SOV_modify_the_politburo_ns_intro$ \nЯчейки для агентов: §G+1§! \n\n"

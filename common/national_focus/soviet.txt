@@ -7216,7 +7216,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = SOV_socialism_in_one_country
-		cost = 5
+		cost = 10
 
 		available = {
 
@@ -7225,8 +7225,8 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
 
 		completion_reward = {
-			add_to_variable = { SOV_the_politburo_good_consumer_goods_factor = -0.02 }
-			add_to_variable = { SOV_the_politburo_production_speed_buildings_factor = 0.05 } 
+			add_to_variable = { SOV_the_politburo_good_consumer_goods_factor = -0.2 }
+			add_to_variable = { SOV_the_politburo_production_speed_buildings_factor = 0.1 } 
 			add_to_variable = { SOV_the_politburo_global_building_slots_factor = 0.1 } 
 			custom_effect_tooltip = SOV_the_collectivization_process_ns_tt
 
@@ -7804,9 +7804,9 @@ focus_tree = {
 		cost = 10
 
 		available = {
-			has_government = communism
-			NOT = { has_global_flag = AAT_trotsky_sent_to_stalin }
-			has_global_flag = AAT_trotsky_in_mexico
+			# has_government = communism
+			# # NOT = { has_global_flag = AAT_trotsky_sent_to_stalin }
+			# # has_global_flag = AAT_trotsky_in_mexico
 		}
 		
 		search_filters = {FOCUS_FILTER_SOV_POLITICAL_PARANOIA}
@@ -9121,9 +9121,8 @@ focus_tree = {
 			}
 			add_field_marshal_role = {
 				character = SOV_lev_trotsky
-				traits = { media_personality organisational_leader }
-				skill = 4
-				attack_skill = 3
+				skill = 8
+				attack_skill = 8
 				defense_skill = 1
 				planning_skill = 4
 				logistics_skill = 4
@@ -9149,10 +9148,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_MANPOWER}
 
 		completion_reward = {
-			add_timed_idea = {
-				idea = SOV_revolutionary_spirit_idea
-				days = 365
-			}
+			add_ideas = SOV_revolutionary_spirit_idea
 		}
 	}
 
@@ -9440,7 +9436,7 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 8
 			}
 		}
 	}
@@ -9556,14 +9552,15 @@ focus_tree = {
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { is_capital = yes }
+						add_extra_state_shared_building_slots = 16
 						add_building_construction = {
 						    type = industrial_complex
-							level = 2
+							level = 8
 							instant_build = yes
 						}
 						add_building_construction = {
 						    type = arms_factory
-							level = 2
+							level = 8
 							instant_build = yes
 						}
 					}

@@ -2647,6 +2647,7 @@ ideas = {
 
 			modifier = {
 				industry_repair_factor = 0.2
+				production_speed_buildings_factor = 0.1
 			}
 		}
 
@@ -2666,8 +2667,7 @@ ideas = {
 			}
 
 			modifier = {
-				weekly_manpower = 1000
-				army_attack_factor = 0.15
+				army_attack_factor = 0.1
 			}
 		}
 

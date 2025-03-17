@@ -1167,13 +1167,20 @@ country_event = {
 			idea = ENG_win_africa
 			days = 180
 		}
-		every_allied_country = {
+		if = {
 			limit = {
-				has_idea = africa_start
+				ENG = {
+					is_in_faction = yes
+				}
 			}
-			add_timed_idea = {
-				idea = ENG_win_africa
-				days = 180
+			every_allied_country = {
+				limit = {
+					has_idea = africa_start
+				}
+				add_timed_idea = {
+					idea = ENG_win_africa
+					days = 180
+				}
 			}
 		}
 		set_country_flag = Africa_total_win  

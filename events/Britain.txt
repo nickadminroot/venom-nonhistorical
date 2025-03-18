@@ -1152,6 +1152,11 @@ country_event = {
  
     
     trigger = {
+		ENG = {
+			NOT = {
+				has_country_flag = Africa_total_win
+			}
+		}
 
 	 tag = ENG
 	 448 = { controller = { is_in_faction_with = ENG } }

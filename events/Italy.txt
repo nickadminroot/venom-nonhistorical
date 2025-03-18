@@ -8,6 +8,11 @@ country_event = {
 	desc = italy.17.desc
 	picture = GFX_report_event_italian_win_africa
 	trigger = {
+		ITA = {
+			NOT = {
+				has_country_flag = Africa_total_win
+			}
+		}
 		tag = ITA
 		452 = {
 			controller = {

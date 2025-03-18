@@ -387,6 +387,22 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 			# Moscow - Rostov on Don
 			build_railway = {
 				path = { 9330 3356 6279 6230 6398 6341 413 3527 11475 11412 6591 3540 3519 11459 11450 11434 9417 }
@@ -459,6 +475,22 @@ focus_tree = {
 				add_to_variable = { SOV_fyp_production_factory_efficiency_gain_factor = 0.05 }
 				add_to_variable = { SOV_fyp_consumer_goods_factor = 0.10 }
 			}
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 			if = {
 				limit = {
 					has_government = communism
@@ -522,6 +554,22 @@ focus_tree = {
 			hidden_effect = {
 				add_to_variable = { SOV_fyp_consumer_goods_factor = -0.05 }
 			}
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 			custom_effect_tooltip = SOV_reorganize_the_pc_of_heavy_industry_ns_tt
 			if = {
 				limit = {
@@ -583,6 +631,22 @@ focus_tree = {
 		completion_reward = {
 			add_to_variable = { SOV_fyp_production_factory_max_efficiency_factor = 0.05 }
 			add_to_variable = { SOV_fyp_line_change_production_efficiency_factor = 0.1 }
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 			custom_effect_tooltip = SOV_industrial_modernization_ns_tt
 
 			add_tech_bonus = {
@@ -720,6 +784,22 @@ focus_tree = {
 			hidden_effect = {
 				set_variable = { SOV_fyp_production_speed_industrial_complex_factor = 0 } #Remove Civ constr speed
 			}
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 			if = {
 				limit = {
 					has_government = communism
@@ -773,6 +853,22 @@ focus_tree = {
 			add_to_variable = { SOV_fyp_production_factory_efficiency_gain_factor = 0.15 } #Add efficiency gain
 			add_to_variable = { SOV_fyp_production_factory_start_efficiency_factor = 0.15 } #Add efficiency start
 			add_to_variable = { SOV_fyp_industrial_capacity_factory = 0.10 } #Add small output bonus
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
 			custom_effect_tooltip = SOV_optimize_production_lines_ns_tt
 
 			add_tech_bonus = {
@@ -2188,6 +2284,22 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 0
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 			if = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
@@ -2264,6 +2376,23 @@ focus_tree = {
 				#This handles the equipment bonus that's not supported by dynamic modifiers
 				add_ideas = SOV_increased_aircraft_production_ns_bonus
 				add_to_variable = { SOV_soviet_airforce_air_accidents_factor = 0.05 }
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 0
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
 			}
 
 			hidden_effect = {
@@ -2603,7 +2732,7 @@ focus_tree = {
 		x = 6
 		y = 0
 		relative_position_id = SOV_transpolar_flights
-		cost = 5
+		cost = 2
 
 		ai_will_do = {
 			factor = 1
@@ -2650,7 +2779,7 @@ focus_tree = {
 		x = -3
 		y = 1
 		relative_position_id = SOV_expand_the_red_fleet
-		cost = 5
+		cost = 1
 
 		available = {
 			195 = { #LENINGRAD
@@ -2796,7 +2925,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_expand_the_red_fleet
-		cost = 5
+		cost = 1
 
 		available = {
 			OR = {
@@ -2886,7 +3015,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_expand_the_red_fleet
-		cost = 5
+		cost = 1
 
 		available = {
 			OR = {
@@ -3016,7 +3145,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = SOV_expand_the_red_fleet
-		cost = 5
+		cost = 1
 
 		available = {
 			OR = {
@@ -4146,6 +4275,22 @@ focus_tree = {
 			hidden_effect = {
 				add_dynamic_modifier = { modifier = SOV_defense_industry_dynamic_modifier }
 			}
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 0
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 			custom_effect_tooltip = SOV_found_the_pcdi_ns_tt
 		}
 	}
@@ -4202,10 +4347,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 3
 					add_building_construction = {
 						type = arms_factory
-						level = 2
+						level = 3
 						instant_build = yes
 					}
 				}
@@ -4232,6 +4377,23 @@ focus_tree = {
 		completion_reward = {
 			set_variable = { SOV_defense_industry_tank_manufacturer_cost_factor = -0.25 }
 			custom_effect_tooltip = SOV_superior_war_machines_ns_tt
+
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 0
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 
 			add_tech_bonus = {
 				name = SOV_superior_war_machines
@@ -4363,6 +4525,23 @@ focus_tree = {
 			set_variable = { SOV_defense_industry_materiel_manufacturer_cost_factor = -0.25 }
 			custom_effect_tooltip = SOV_the_means_to_wage_war_ns_tt
 
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 0
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+
 			add_tech_bonus = {
 				name = SOV_the_means_to_wage_war
 				bonus = 0.75
@@ -4424,10 +4603,10 @@ focus_tree = {
 					}
 				}
 				572 = {
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = arms_factory
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 				}
@@ -4443,10 +4622,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 2
+					add_extra_state_shared_building_slots = 4
 					add_building_construction = {
 						type = arms_factory
-						level = 2
+						level = 4
 						instant_build = yes
 					}
 				}
@@ -4682,6 +4861,22 @@ focus_tree = {
 					}
 				}
 			}
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 0
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -4782,6 +4977,22 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					arms_factory > 0
+					free_building_slots = {
+						building = arms_factory
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 			if = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
@@ -5268,7 +5479,7 @@ focus_tree = {
 		relative_position_id = SOV_military_engineering_university
 		cost = 2
 
-		mutually_exclusive = { focus = SOV_improve_the_stalin_line }
+		# mutually_exclusive = { focus = SOV_improve_the_stalin_line }
 
 		available = {
 			OR = {
@@ -5283,6 +5494,7 @@ focus_tree = {
 				has_full_control_of_state = 80
 				has_full_control_of_state = 78
 				has_full_control_of_state = 766
+				has_war = yes
 			}
 		}
 		
@@ -5507,9 +5719,9 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_military_engineering_university
-		cost = 5
+		cost = 2
 
-		mutually_exclusive = { focus = SOV_the_molotov_line }
+		# mutually_exclusive = { focus = SOV_the_molotov_line }
 
 		available = {
 			OR = {
@@ -5521,6 +5733,7 @@ focus_tree = {
 				has_full_control_of_state = 203
 				has_full_control_of_state = 834
 				has_full_control_of_state = 192
+				has_war = yes
 			}
 		}
 		
@@ -7233,110 +7446,37 @@ focus_tree = {
 			add_stability = -0.05
 			add_war_support = -0.05
 
-			if = { #Target a rural state with no civs
+			random_owned_controlled_state = {
 				limit = {
-					any_owned_state = {
-						OR = {
-							has_state_category = town #Developed Rural Region
-							has_state_category = rural #Rural Region
-						}
-						is_fully_controlled_by = ROOT
-						industrial_complex < 1
-						arms_factory < 1
-						dockyard < 1
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 6
+						include_locked = yes
 					}
 				}
-				random_owned_state = {
-					limit = {
-						OR = {
-							has_state_category = town #Developed Rural Region
-							has_state_category = rural #Rural Region
-						}
-						is_fully_controlled_by = ROOT
-						industrial_complex < 1
-						arms_factory < 1
-						dockyard < 1
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 3
-					add_building_construction = {
-						type = industrial_complex
-						level = 3
-						instant_build = yes
-					}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
 				}
 			}
-			else_if = { #Failsafe 1: Target a random rural state
+
+			random_owned_controlled_state = {
 				limit = {
-					any_owned_state = {
-						OR = {
-							has_state_category = town #Developed Rural Region
-							has_state_category = rural #Rural Region
-						}
-						is_fully_controlled_by = ROOT
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 6
+						include_locked = yes
 					}
 				}
-				random_owned_state = {
-					limit = {
-						OR = {
-							has_state_category = town #Developed Rural Region
-							has_state_category = rural #Rural Region
-						}
-						is_fully_controlled_by = ROOT
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 6
-					add_building_construction = {
-						type = industrial_complex
-						level = 6
-						instant_build = yes
-					}
-				}
-			}
-			else_if = { #Failsafe 2: Target a random state
-				limit = {
-					any_owned_state = {
-						is_fully_controlled_by = ROOT
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-				}
-				random_owned_state = {
-					limit = {
-						is_fully_controlled_by = ROOT
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
-					}
-					add_extra_state_shared_building_slots = 6
-					add_building_construction = {
-						type = industrial_complex
-						level = 6
-						instant_build = yes
-					}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
 				}
 			}
 
@@ -7563,7 +7703,7 @@ focus_tree = {
 						is_controlled_by = ROOT
 						free_building_slots = {
 							building = arms_factory
-							size > 1
+							size > 10
 							include_locked = yes
 						}
 					}
@@ -7801,7 +7941,7 @@ focus_tree = {
 		x = 2
 		y = 1
 		relative_position_id = SOV_the_military_conspiracy
-		cost = 10
+		cost = 5
 
 		available = {
 			# has_government = communism

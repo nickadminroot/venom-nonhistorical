@@ -262,6 +262,12 @@ focus_tree = {
 						id = 12769
 					}
 				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+						level = 2
+					instant_build = yes
+				}	
 			}
 			custom_effect_tooltip = {
 				localization_key = building_state_modifier|dam
@@ -669,6 +675,17 @@ focus_tree = {
 			}
 			SOU = {
 				#custom_effect_tooltip = AFG_ideology_on_the_rise_flipped_tt
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+ 					level = 2
+					instant_build = yes
+				}	
 			}
 		}
 	}

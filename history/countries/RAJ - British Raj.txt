@@ -514,6 +514,22 @@ if = {
 		NOT = { has_dlc = "Graveyard of Empires" }
 	}
 	every_owned_state = {
+		limit = {
+			NOT = {
+				state = 992
+				state = 441
+				state = 787
+				state = 442
+				state = 987
+				state = 440
+				state = 445
+				state = 444
+				state = 1012
+				state = 432
+				state = 434
+				state = 990
+			}
+		}
 		add_core_of = RAJ
 	}
 }

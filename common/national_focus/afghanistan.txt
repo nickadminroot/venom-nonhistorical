@@ -174,7 +174,7 @@ focus_tree = {
 		}
 		#allow_branch = {
 		#}
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
 			add_tech_bonus = {
@@ -354,7 +354,7 @@ focus_tree = {
 		}
 		#allow_branch = {
 		#}
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_STABILITY }
 
 		completion_reward = {
 			1009 = {
@@ -377,7 +377,14 @@ focus_tree = {
 			add_ideas = AFG_hellmand_altered_no_treaty
 
 			custom_effect_tooltip = AFG_kajaki_dam_tt
-
+			IF = {
+				limit = {
+					NOT = {
+						414 = {
+							is_owned_by = ROOT
+						}
+					}
+				}
 			414 = {
 				OWNER = {
 					country_event = {
@@ -386,6 +393,7 @@ focus_tree = {
 					}
 					effect_tooltip = {
 						add_ideas = PER_hellmand_altered_no_treaty
+						}
 					}
 				}
 			}
@@ -497,7 +505,7 @@ focus_tree = {
 		}
 		#allow_branch = {
 		#}
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
 			add_ideas = AFG_infrastructure_investment
@@ -534,7 +542,7 @@ focus_tree = {
 		}
 		#allow_branch = {
 		#}
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
 			1009 = {
@@ -578,7 +586,7 @@ focus_tree = {
 		}
 		#allow_branch = {
 		#}
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_INDUSTRY  }
 		completion_reward = {
 			alter_subsistence_economy_modifier_industrialize = yes
 			custom_effect_tooltip = available_industrial_concern
@@ -603,7 +611,7 @@ focus_tree = {
 		}
 		#allow_branch = {
 		#}
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
 			random_core_state = {
@@ -649,7 +657,7 @@ focus_tree = {
 		}
 		#allow_branch = {
 		#}
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL FOCUS_FILTER_INTERNATIONAL_TRADE }
 
 		completion_reward = {
 			custom_effect_tooltip = AFG_look_to_other_partners_tt
@@ -716,7 +724,7 @@ focus_tree = {
 		}
 		#allow_branch = {
 		#}
-		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH FOCUS_FILTER_INTERNATIONAL_TRADE }
 
 		completion_reward = {
 			add_offsite_building = {
@@ -753,7 +761,7 @@ focus_tree = {
 		}
 		#allow_branch = {
 		#}
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 
 		completion_reward = {
 			1005 = {
@@ -1334,6 +1342,7 @@ focus_tree = {
 		search_filters = {  }
 
 		completion_reward = {
+			custom_effect_tooltip = AFG_quami_intro_tt
 			add_to_variable = { AFG_modifier_army_sub_unit_cavalry_attack_factor = 0.2 tooltip = cavalry_attack_factor_tt }
 			add_to_variable = { AFG_modifier_army_sub_unit_cavalry_defence_factor = 0.2
 			tooltip = cavalry_defence_factor_tt}
@@ -3391,10 +3400,12 @@ focus_tree = {
 			factor = 10
 		}
 		available = {
+			is_subject = no
 		}
 		#allow_branch = {
 		#}
 		bypass = {
+			is_subject = yes
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION } 
 		completion_reward = {
@@ -5071,8 +5082,10 @@ focus_tree = {
 		}
 		bypass = { 
 			is_in_faction_with = GER 
+			is_subject = yes
 		}
 		available = {
+			is_subject = no
 			NOT = { has_idea = neutrality_idea }
 			threat > 0.25
 			GER = {
@@ -6405,6 +6418,10 @@ focus_tree = {
 		#}
 		search_filters = { }
 		completion_reward = {
+			if = {
+				limit = {
+					415 = { is_owned_and_controlled_by = ROOT }
+				}
 			415 = {
 				add_building_construction = {
 					type = supply_node
@@ -6413,13 +6430,33 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			}
+			else = {
+				random_owned_controlled_state = {
+					construct_building_in_random_province = {
+						supply_node = 1
+					}
+				}
+			}
 
+			if = {
+				limit = {
+					1009 = { is_owned_and_controlled_by = ROOT }
+				}
 			1009 = {
 				add_building_construction = {
 					type = supply_node
 					province = 1948
 					level = 1
 					instant_build = yes
+					}
+				}
+			}
+			else = {
+				random_owned_controlled_state = {
+					construct_building_in_random_province = {
+						supply_node = 1
+					}
 				}
 			}
 			build_railway = {
@@ -6482,29 +6519,6 @@ focus_tree = {
 			}
 		}
 	}
-
-	#focus = {
-	#	id = AFG_invite_foreign_corporations
-	#	icon = GFX_focus_generic_american_investments 
-	#	prerequisite = { focus = AFG_align_with_the_allies }
-	#	x = -2
-	#	y = 1
-	#	relative_position_id = AFG_align_with_the_allies
-	#	#mutually_exclusive = { focus = AFG_propose_confederation_with_pakistan }
-	#	cost = 5
-	#	ai_will_do = {
-	#		factor = 10
-	#	}
-	#	available = {
-	#	}
-	#	#allow_branch = {
-	#	#}
-	#	search_filters = { }
-	#	completion_reward = {
-	#		custom_effect_tooltip = "TODO_ASD: Setup MIO decision system from Brazil"
-	#	}
-	#}
-
 
 	focus = {
 		id = AFG_secure_iran
@@ -7905,6 +7919,7 @@ focus_tree = {
 			factor = 10
 		}
 		available = {
+			is_subject = no
 			has_government = communism
 			SOU = {
 				exists = yes
@@ -7914,6 +7929,7 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
+				is_subject = yes
 				is_in_faction_with = SOU
 				SOU = {
 					OR = {

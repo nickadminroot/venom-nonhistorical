@@ -593,12 +593,20 @@ focus_tree = {
 		}
 
 		bypass = {
+			OR = {
 			AND = {
 				AFG = { exists = no }
 				PER = { exists = no }
 				IRQ = { exists = no }
 			}
 			is_subject = yes
+				IF = {
+					limit = {
+						has_dlc = "Graveyard of Empires"
+					}
+					has_global_flag = PER_saadabad_pact
+				}
+			}
 		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
@@ -649,6 +657,15 @@ focus_tree = {
 				SYR = { country_event = { id = bftb_turkey.23 } }
 			}
 			add_war_support = 0.05
+
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_dlc = "Graveyard of Empires"
+					}
+					set_global_flag = PER_saadabad_pact
+				}
+			}
 		}
 	}
 
@@ -749,6 +766,15 @@ focus_tree = {
 			if = {
 				limit = {
 					FRA = { owns_state = 799 }
+				}
+				FRA = { country_event = { id = bftb_turkey.25 hours = 6 } }
+			}
+			else_if = {
+				limit = {
+					SYR = { 
+						owns_state = 799 
+						is_subject_of = FRA
+					}
 				}
 				FRA = { country_event = { id = bftb_turkey.25 hours = 6 } }
 			}
@@ -2828,12 +2854,38 @@ focus_tree = {
 		}
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
+
 		completion_reward = {
+
+			IF = {
+				limit = {
 			677 = {
 				controller = {
-					country_event = { id = bftb_turkey.102 }
+							is_subject = no
+						}
+					}
+				}
+				677 = {
+					controller = {
+						country_event = { 
+							id = bftb_turkey.102 
+							hours = 2
+						}
+					}
 				}
 			}
+			ELSE = {
+				every_country = {
+					limit = {
+						has_subject = 677.controller
+					}
+					country_event = { 
+						id = bftb_turkey.102 
+						hours = 2
+					}
+				}
+			}
+			
 		}
 	}
 
@@ -6615,7 +6667,22 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			IF = {
+				limit = {
+					NOT = {
+						has_dlc = "Graveyard of Empires"
+					}
+				}
 			IRQ = { country_event = { id = bftb_turkey.67 hours = 8 } }
+			}
+			ELSE = {
+				IRQ = {
+					add_timed_idea = {
+						idea = AFG_fascism_influence
+						days = 365
+					}
+				}
+			}			
 		}
 	}
 
@@ -7665,14 +7732,14 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			798 = { add_extra_state_shared_building_slots = 2 }
-			345 = { add_extra_state_shared_building_slots = 2 }
-			344 = { add_extra_state_shared_building_slots = 2 }
-			342 = { add_extra_state_shared_building_slots = 2 }
-			356 = { add_extra_state_shared_building_slots = 2 }
-			349 = { add_extra_state_shared_building_slots = 3 }
-			348 = { add_extra_state_shared_building_slots = 3 }
-			355 = { add_extra_state_shared_building_slots = 3 }
+			798 = { add_extra_state_shared_building_slots = 1 }
+			345 = { add_extra_state_shared_building_slots = 1 }
+			344 = { add_extra_state_shared_building_slots = 1 }
+			342 = { add_extra_state_shared_building_slots = 1 }
+			356 = { add_extra_state_shared_building_slots = 1 }
+			349 = { add_extra_state_shared_building_slots = 2 }
+			348 = { add_extra_state_shared_building_slots = 2 }
+			355 = { add_extra_state_shared_building_slots = 2 }
 			add_popularity = { 
 				ideology = communism
 				popularity = 0.07
@@ -7966,10 +8033,10 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_owned_controlled_state = { add_extra_state_shared_building_slots = 2 }
-			random_owned_controlled_state = { add_extra_state_shared_building_slots = 2 }
-			random_owned_controlled_state = { add_extra_state_shared_building_slots = 2 }
-			random_owned_controlled_state = { add_extra_state_shared_building_slots = 2 }
+			random_owned_controlled_state = { add_extra_state_shared_building_slots = 1 }
+			random_owned_controlled_state = { add_extra_state_shared_building_slots = 1 }
+			random_owned_controlled_state = { add_extra_state_shared_building_slots = 1 }
+			random_owned_controlled_state = { add_extra_state_shared_building_slots = 1 }
 		}
 	}
 
@@ -8579,6 +8646,7 @@ focus_tree = {
 			add_state_core = 231
 			add_state_core = 420
 			add_state_core = 419
+			add_state_core = 1000 #East Azerbaijan
 			add_state_core = 417
 			add_state_claim = 413
 			add_state_claim = 232

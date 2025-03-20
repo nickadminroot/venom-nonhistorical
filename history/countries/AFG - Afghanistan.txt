@@ -1,4 +1,4 @@
-﻿#add_ideas = armyandnavy_idea
+#add_ideas = armyandnavy_idea
 army_experience = 10
 navy_experience = 10
 air_experience = 10
@@ -271,6 +271,11 @@ IF = {
 		fascism = 15
 		communism = 10
 		neutrality = 75
+	}
+
+	### Techs ###
+	set_technology = {
+		gw_artillery = 1
 	}
 }
 

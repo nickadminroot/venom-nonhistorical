@@ -695,6 +695,9 @@ focus_tree = {
 						save_global_event_target_as = UK_INDIA
 					}
                     add_dynamic_modifier = { modifier = idea_RAJ_agrarian_society }
+                    set_variable = { RAJ_agrarian_society_conscription_factor = RAJ.RAJ_agrarian_society_conscription_factor } #3
+                    set_variable = { RAJ_agrarian_society_mobilization_laws_cost_factor = RAJ.RAJ_agrarian_society_mobilization_laws_cost_factor } #9
+                    set_variable = { RAJ_agrarian_society_mobilization_speed = RAJ.RAJ_agrarian_society_mobilization_speed } #3
                     add_ideas = RAJ_marginalized_muslim_community_angry
                     add_ideas = RAJ_princely_states
                     add_ideas = RAJ_risk_of_famine
@@ -2394,10 +2397,12 @@ focus_tree = {
         search_filters = { FOCUS_FILTER_INDUSTRY}
 
         completion_reward = {
+
             build_railway = {
                 level = 3
                 start_province = 4709
                 target_province = 4893 
+                build_only_on_allied = yes
             }
             add_ideas = BRA_road_investment
             add_ideas = BRA_rail_investment
@@ -3166,6 +3171,9 @@ focus_tree = {
                     add_to_tech_sharing_group = commonwealth_research
                     set_cosmetic_tag = RAJ_UK
                     add_dynamic_modifier = { modifier = idea_RAJ_agrarian_society }
+                    set_variable = { RAJ_agrarian_society_conscription_factor = RAJ.RAJ_agrarian_society_conscription_factor } #3
+                    set_variable = { RAJ_agrarian_society_mobilization_laws_cost_factor = RAJ.RAJ_agrarian_society_mobilization_laws_cost_factor } #9
+                    set_variable = { RAJ_agrarian_society_mobilization_speed = RAJ.RAJ_agrarian_society_mobilization_speed } #3
                     add_ideas = RAJ_marginalized_muslim_community
                     add_ideas = RAJ_princely_states
                     add_ideas = RAJ_risk_of_famine
@@ -3921,6 +3929,11 @@ focus_tree = {
 
 
         completion_reward = {
+
+            set_rule = { 
+                can_send_volunteers = yes # rule to use, e.g.  can_not_declare_war = yes
+            }
+            
             swap_ideas = {
                 remove_idea = idea_RAJ_empowered_police_force
                 add_idea = idea_RAJ_pmc
@@ -3974,11 +3987,7 @@ focus_tree = {
                     irregular_infantry = { x = 2 y = 1 }
                 }
             }
-            hidden_effect = {
-                set_rule = { 
-                    can_send_volunteers = yes # rule to use, e.g.  can_not_declare_war = yes
-                }
-            }
+
             swap_ideas = {
                 remove_idea = idea_RAJ_pmc
                 add_idea = idea_RAJ_pmc_2
@@ -5740,6 +5749,7 @@ focus_tree = {
 
         completion_reward = {
             add_tech_bonus = {
+                name = RAJ_institutional_money_laundering
                 bonus = 0.25
                 uses = 1
                 category = construction_tech # optional 
@@ -5915,7 +5925,12 @@ focus_tree = {
         }
         
         bypass = {
-
+            all_other_country = {
+                NOT = {
+                    has_government = communism
+                    communism > 0.45
+                }
+            }
         }
 
         cancel_if_invalid = yes
@@ -9024,7 +9039,42 @@ focus_tree = {
                 idea = idea_RAJ_confiscated_princely_wealth
                 days = 740
             }
+            set_country_flag = RAJ_exiled_princes_flag
         }
+    }
+
+    focus = {
+        id = RAJ_integrate_the_princes
+        icon = GFX_focus_rom_handle_king
+        prerequisite = { focus = RAJ_exile_princes }
+        x = 0
+        y = 1
+        relative_position_id = RAJ_exile_princes
+
+        cost = 5
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        available = {
+            has_country_flag = {
+                flag = RAJ_exiled_princes_flag
+                days > 365
+            }
+        }
+
+        bypass = {
+
+        }
+
+        search_filters = {FOCUS_FILTER_POLITICAL}
+        search_filters={FOCUS_FILTER_ANNEXATION}
+
+        completion_reward = {
+            custom_effect_tooltip = RAJ_india_indivisible_tt
+        }
+
     }
 
 
@@ -9546,7 +9596,7 @@ focus_tree = {
         }
 
         available = {
-
+            is_subject = no
         }
 
         bypass = {
@@ -10604,6 +10654,13 @@ focus_tree = {
                             allow_spawning_on_enemy_provs = yes 
                             count = 1
                         }
+
+                        if = {
+                            limit = {
+                                NOT = { RAJ = { has_country_flag = bose_opponent_has_valid_capital } }
+                            }
+                            RAJ = { set_country_flag = bose_opponent_has_valid_capital }
+                        }
                     }
 
                     if = {
@@ -10669,8 +10726,7 @@ focus_tree = {
             }
 
 
-            #First check if the "other" raj has any valid state that it can possily have as a capital
-            bose_civil_war_capital_check = yes
+
             if = {
                 limit = { RAJ = { has_country_flag = bose_opponent_has_valid_capital } }
 
@@ -10734,6 +10790,14 @@ focus_tree = {
                     }
 
                     clear_array = RAJ.owned_states_copy
+                }
+
+                if = {
+                    limit = { NOT = { has_war_with = var:revolter_tag } }
+                    declare_war_on = {
+                        target = var:revolter_tag
+                        type = annex_everything
+                    }
                 }
             }
 
@@ -14174,10 +14238,11 @@ focus_tree = {
         }
 
         available = {
-
+            is_subject = no
         }
         
         bypass = {
+            # this is not a bug, it should not have a bypass requirement, do not add one
         }
 
         search_filters = {FOCUS_FILTER_POLITICAL}
@@ -14613,22 +14678,13 @@ focus_tree = {
         }
 
         completion_reward = {
-            if = {
+            random_owned_controlled_state = {
                 limit = {
-                    controls_state = 439
-                    NOT = {
-                        439 = {
-                            air_facility > 0
-                        }
-                    }
+                    can_construct_building = air_facility
                 }
-                439 = {
-                    add_building_construction = {
-                        type = air_facility
-                        level = 1
-                        instant_build = yes
-                        province = 2086 
-                    }
+                prioritize = { 439 }
+                construct_building_in_random_province = {
+                    air_facility = 1
                 }
             }
 
@@ -14699,13 +14755,11 @@ focus_tree = {
         ai_will_do = {
             factor = 1
         }
-
-        available = {
-
-        }
         
         bypass = {
-
+            321 = {
+                is_owned_by = RAJ
+            }
         }
 
         cancel_if_invalid = yes
@@ -14929,6 +14983,7 @@ focus_tree = {
             }
 
             add_tech_bonus = {
+                name = RAJ_fight_malnutrition
                 bonus = 0.5
                 uses = 1
                 category = motorized_equipment # optional 
@@ -15543,30 +15598,8 @@ focus_tree = {
         search_filters = {FOCUS_FILTER_INDUSTRY}
 
         completion_reward = {
-            random_core_state = {
-                add_extra_state_shared_building_slots = 2
-                add_building_construction = {
-                    type = arms_factory
-                     level = 2
-                    instant_build = yes
-                }
-            }
-            random_core_state = {
-                add_extra_state_shared_building_slots = 2
-                add_building_construction = {
-                    type = arms_factory
-                     level = 2
-                    instant_build = yes
-                }
-            }
-            random_core_state = {
-                add_extra_state_shared_building_slots = 2
-                add_building_construction = {
-                    type = arms_factory
-                     level = 2
-                    instant_build = yes
-                }
-            }
+            ETH_add_random_mil_factory_effect = yes
+            ETH_add_random_mil_factory_effect = yes
         }
     }
 
@@ -17482,6 +17515,10 @@ focus_tree = {
         available_if_capitulated = no
 
         completion_reward = {
+            if = {
+                limit = {
+                    has_dlc = "Arms Against Tyranny"
+                }
             add_doctrine_cost_reduction = {
                 name = RAJ_gurkhas
                 cost_reduction = 0.35
@@ -17489,6 +17526,10 @@ focus_tree = {
                 category = special_forces_doctrine
             }
             add_potential_special_forces_tree = yes
+            }
+            else = {
+                army_experience = 100
+            }
             division_template = {
                 name = "Gurkha Rifles"
                 is_locked = no
@@ -19276,6 +19317,12 @@ focus_tree = {
             army_experience = 30
             navy_experience = 30
             air_experience = 30
+            }
+            else = {
+                army_experience = 45
+                navy_experience = 45
+                air_experience = 45
+            }
         }
     }
     

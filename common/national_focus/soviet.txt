@@ -909,8 +909,8 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-			set_variable = { SOV_fyp_industrial_capacity_factory = 0.05 }
-			set_variable = { SOV_fyp_industrial_capacity_dockyard = 0.05 }
+			add_to_variable = { SOV_fyp_industrial_capacity_factory = 0.05 }
+			add_to_variable = { SOV_fyp_industrial_capacity_dockyard = 0.05 }
 
 			custom_effect_tooltip = SOV_steel_casting_industry_ns_tt
 

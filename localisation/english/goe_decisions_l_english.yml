@@ -128,7 +128,7 @@
  RAJ_GOE_vie_for_princes_pressure_known_RAJ: "[RAJ.GetName] Pressure: [?THIS.RAJ_pressure]"
 
  RAJ_GOE_princely_state_timeout: "Princely states deciding their fate"
- RAJ_GOE_princely_state_timeout_tt: "By pressuring them we can diplomatically annex their territory. Should we have a clear pressure advantage [FROM.GetName] will surely join us.\n\n§YAt the end of the mission each state will decide of who to join. If a country has more than 50% pressure than any other country in a state that state will join [ROOT.GetName] willingly. Should  no country get a clear majority all the pressure will be refunded to [ROOT.GetName]. This will repeat 3 times or until every state is annexed.§!"
+ RAJ_GOE_princely_state_timeout_tt: "By pressuring them we can diplomatically annex their territory. Should we have a clear pressure advantage [FROM.GetName] will surely join us.\n\nAt the end of the mission each state will decide of who to join. If a country has more than 25% pressure than any other country in a state that state will join [ROOT.GetName] willingly.\n\n"
  pressure_left_tt: "Pressure left to play against Princely States is more than §Y0§!\nCurrently: §Y[?pressure_left]§!"
  
  RAJ_pressure_text: "[GetPressureTextRAJ]"

@@ -824,7 +824,7 @@
  GOE_RAJ_transfered_commander_tt: "Transfered to [RAJ.GetNameDefCap]"
 
  currentStateResistance: "  Currently §R[?var:THIS.resistance]%§! Resistance."
- currentStateCompliance: "  Currently §Y[?var:THIS.resistance]%§! Compliance."
+ currentStateCompliance: "  Currently §Y[?var:THIS.compliance]%§! Compliance."
  ##############
  #### IRAN ####
  ##############
@@ -897,8 +897,8 @@
  PER_imperial_events.13.desc: "Excellent news! The Shah of [PER.GetNameDef] has agreed to pay us for the transferral of Baluchistan into their control. We may have lost a small piece of our territory, but the money will help our own efforts."
  PER_imperial_events.13.a: "Fantastic!"
 
- PER_imperial_events.14.t: "[FROM.GetNameDefCap] Declares War"
- PER_imperial_events.14.desc: "I am afraid that our gamble did not pay off, as upon receiving our notice, the Shah of [PER.GetNameDef] officially declared war on our nation. Their troops prepare to storm the Indus and take what they wanted by force. This is a sad state of affairs."
+ PER_imperial_events.14.t: "[FROM.GetNameDefCap] Threatens War"
+ PER_imperial_events.14.desc: "I am afraid that our gamble did not pay off, as upon receiving our notice, the Shah of [PER.GetNameDef] officially threatened war on our nation. Their troops prepare to storm the Indus and take what they wanted by force. This is a sad state of affairs."
  PER_imperial_events.14.a: "Rally our troops!"
 
  PER_imperial_events.15.t: "[FROM.GetNameDefCap] Backs Down"

@@ -1,4 +1,4 @@
-l_russian:
+﻿l_russian:
  TRIGGER_HAS_COMBAT_MODIFIER: "Есть боевой модификатор: $MODIFIER|H$"
  TRIGGER_HAS_NOT_COMBAT_MODIFIER: "Отсутствует боевой модификатор: $MODIFIER|H$"
  TRIGGER_IS_FRONTAGE_FULL: "Линия фронта заполнена"

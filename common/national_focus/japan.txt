@@ -1047,6 +1047,74 @@
 		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_stability = 0.1
+			
+			if = {
+				limit = {
+					CHI = {
+						exists = yes
+					}
+				}
+				add_collaboration = {
+					target = CHI
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					SHX = {
+						exists = yes
+					}
+				}
+				add_collaboration = {
+					target = SHX
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					PRC = {
+						exists = yes
+					}
+				}
+				add_collaboration = {
+					target = PRC
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					XSM = {
+						exists = yes
+					}
+				}
+				add_collaboration = {
+					target = XSM
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					GXC = {
+						exists = yes
+					}
+				}
+				add_collaboration = {
+					target = GXC
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					YUN = {
+						exists = yes
+					}
+				}
+				add_collaboration = {
+					target = YUN
+					value = 1
+				}
+			}
+
 			hidden_effect = {
 				if = {
 					limit = {
@@ -1146,43 +1214,17 @@
 
 		available = { 
 			is_subject = no 
-			NOT = { has_war_with = CHI }
 		}
 
 		bypass = {
-			OR = {
-				AND = {
-					608 = {
-						NOT = {
-							is_controlled_by = CHI
-							is_controlled_by = PRC
-							is_controlled_by = SHX
-						}
-					}
-					597 = {
-						NOT = {
-							is_controlled_by = CHI
-							is_controlled_by = PRC
-							is_controlled_by = SHX
-						}
-					}
-					614 = {
-						NOT = {
-							is_controlled_by = CHI
-							is_controlled_by = PRC
-							is_controlled_by = SHX
-						}
-					}
-				}
-				has_war_with = CHI
-			}
+
 		}
 
 		will_lead_to_war_with = CHI
 		will_lead_to_war_with = SHX
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		# cancel_if_invalid = yes
+		# continue_if_invalid = no
 		available_if_capitulated = no
 
 		ai_will_do = {
@@ -1198,47 +1240,71 @@
 		completion_reward = {
 			if = {
 				limit = {
-					CHI = { #if CHI owns one of these states, they get the event
-						OR = {
-							controls_state = 608
-							controls_state = 597
-							controls_state = 614
-						}
+					CHI = {
+						exists = yes
 					}
 				}
-				CHI = {
-					country_event = china.1
+				create_wargoal = {
+					target = CHI
+					type = annex_everything
 				}
 			}
 			if = {
 				limit = {
-					PRC = { #only fires the event for PRC if they control ALL of the states (to ensure that only one of them gets it, to avoid issues when one selects to turn over the states and the other doesn't)
-						AND = {
-							controls_state = 608
-							controls_state = 597
-							controls_state = 614
-						}
+					SHX = {
+						exists = yes
 					}
 				}
-				PRC = {
-					country_event = china.1
+				create_wargoal = {
+					target = SHX
+					type = annex_everything
 				}
 			}
 			if = {
 				limit = {
-					SHX = { #only fires the event for SHX if they control ALL of the states (to ensure that only one of them gets it, to avoid issues when one selects to turn over the states and the other doesn't)
-						AND = {
-							controls_state = 608
-							controls_state = 597
-							controls_state = 614
-						}
+					PRC = {
+						exists = yes
 					}
 				}
-				SHX = {
-					country_event = china.1
+				create_wargoal = {
+					target = PRC
+					type = annex_everything
 				}
 			}
-			add_named_threat = { threat = 1 name = JAP_intervene_in_china }
+			if = {
+				limit = {
+					XSM = {
+						exists = yes
+					}
+				}
+				create_wargoal = {
+					target = XSM
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					GXC = {
+						exists = yes
+					}
+				}
+				create_wargoal = {
+					target = GXC
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					YUN = {
+						exists = yes
+					}
+				}
+				create_wargoal = {
+					target = YUN
+					type = annex_everything
+				}
+			}
+			add_named_threat = { threat = 10 name = JAP_intervene_in_china }
 			add_ideas = JAP_intervene_in_china_5
 			unlock_decision_tooltip = JAP_china_step_up_war_effort
 		}

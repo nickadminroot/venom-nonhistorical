@@ -35,9 +35,9 @@ JAP_intervene_in_china = {
 		}
 
 		days_remove = 0
-		days_re_enable = 30
+		days_re_enable = 0
 
-		cost = 25
+		cost = 10
 
 		complete_effect = {
 			if = {

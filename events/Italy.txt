@@ -9,34 +9,47 @@ country_event = {
 	picture = GFX_report_event_italian_win_africa
 	trigger = {
 		ITA = {
-			NOT = {
-				has_country_flag = Africa_total_win
-			}
+			has_idea = africa_start
 		}
 		tag = ITA
 		452 = {
 			controller = {
-				is_in_faction_with = ITA
+				OR = {
+					is_in_faction_with = ITA
+					tag = ITA
+				}
 			}
 		}
 		1018 = {
 			controller = {
-				is_in_faction_with = ITA
+				OR = {
+					is_in_faction_with = ITA
+					tag = ITA
+				}
 			}
 		}
 		907 = {
 			controller = {
-				is_in_faction_with = ITA
+				OR = {
+					is_in_faction_with = ITA
+					tag = ITA
+				}
 			}
 		}
 		447 = {
 			controller = {
-				is_in_faction_with = ITA
+				OR = {
+					is_in_faction_with = ITA
+					tag = ITA
+				}
 			}
 		}
 		446 = {
 			controller = {
-				is_in_faction_with = ITA
+				OR = {
+					is_in_faction_with = ITA
+					tag = ITA
+				}
 			}
 		}
 	}
@@ -46,6 +59,7 @@ country_event = {
 			idea = ITA_win_africa
 			days = 180
 		}
+		remove_ideas = africa_start
 		if = {
 			limit = {
 				ITA = {
@@ -59,6 +73,28 @@ country_event = {
 				add_timed_idea = {
 					idea = ITA_win_africa
 					days = 180
+				}
+				remove_ideas = africa_start
+			}
+		}
+		ENG = {
+			if = {
+				limit = {
+					has_idea = africa_start
+				}
+				remove_ideas = africa_start
+			}
+			if = {
+				limit = {
+					ENG = {
+						is_in_faction = yes
+					}
+				}
+				every_allied_country = {
+					limit = {
+						has_idea = africa_start
+					}
+					remove_ideas = africa_start
 				}
 			}
 		}

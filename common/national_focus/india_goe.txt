@@ -19317,12 +19317,6 @@ focus_tree = {
             army_experience = 30
             navy_experience = 30
             air_experience = 30
-            }
-            else = {
-                army_experience = 45
-                navy_experience = 45
-                air_experience = 45
-            }
         }
     }
     

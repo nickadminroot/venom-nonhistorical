@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -9947,7 +9947,13 @@ focus_tree = {
 					NOT = { CZE = { controls_state = 664 } }
 					NOT = { owns_state = 664 }
 				}
-				HUN = { is_friend_or_potential_friend_of_GER = no }
+				HUN = { 
+					OR = {
+						is_friend_or_potential_friend_of_GER = no
+						has_government = communism
+						has_government = democratic
+					}
+				}
 				CZE = { is_puppet_of = GER }
 				CZE = { is_in_faction_with = GER }
 			}
@@ -25262,8 +25268,8 @@ focus_tree = {
 			GER_add_or_modify_politburo = yes
 
 			add_to_variable = { GER_politburo_democratic_drift = 0.02 tooltip = democratic_drift_tt }
-			add_to_variable = { GER_politburo_modifier_party_popularity_stability_factor = 0.15 tooltip = party_popularity_stability_factor_tt }
-			add_to_variable = { GER_politburo_modifier_defensive_war_stability_factor = 0.15 tooltip = defensive_war_stability_factor_tt }
+			add_to_variable = { GER_politburo_party_popularity_stability_factor = 0.15 tooltip = party_popularity_stability_factor_tt }
+			add_to_variable = { GER_politburo_defensive_war_stability_factor = 0.15 tooltip = defensive_war_stability_factor_tt }
 		}
 	}
 
@@ -25539,6 +25545,7 @@ focus_tree = {
 		relative_position_id = GER_liberate_austria
 		cost = 5
 		available = {
+			is_subject = no
 			any_neighbor_country = {
 				capital_scope = {
 					is_on_continent = europe
@@ -28708,7 +28715,35 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
+			if = {
+				limit = {
+					num_faction_members > 1
+				}
+				for_each_scope_loop = {
+					array = ROOT.allies
+					add_to_variable = { GER.GER_rnd_programs_modifier_allies_count = 1 }
+					log = "[This.GetName] was added to the RnD Program§"
+				}
 
+				set_temp_variable = { temp_targets_index = GER_rnd_programs_modifier_allies_count }
+
+				while_loop_effect = {
+					limit = {
+						check_variable = { temp_targets_index > 0 }
+						check_variable = { 
+							var = GER_rnd_programs_modifier_research_speed_factor
+							value = 0.1
+							compare = less_than_or_equals
+						}
+					}
+					add_to_variable = { GER_rnd_programs_modifier_research_speed_factor = 0.01 }
+					subtract_from_temp_variable = { temp_targets_index = 1 }
+				}
+
+				hidden_effect = { #This is necessary since Germany is already accounted for when setting all of this up
+					subtract_from_variable = { GER.GER_rnd_programs_modifier_research_speed_factor = 0.01 }
+				}
+			}
 			add_dynamic_modifier = { modifier = GER_rnd_programs_modifier }
 			custom_effect_tooltip = GER_shared_rd_programs_ww_tt
 			
@@ -31744,7 +31779,7 @@ focus_tree = {
 		cost = 5
 		available = {
 			is_subject = no
-			num_faction_members > 0
+			num_faction_members > 1
 		}
 
 		bypass = {
@@ -31782,7 +31817,7 @@ focus_tree = {
 		available = {
 			is_subject = no
 			is_faction_leader = yes
-			num_faction_members > 0
+			num_faction_members > 1
 		}
 
 		search_filters = { FOCUS_FILTER_INTERNATIONAL_TRADE }
@@ -37967,6 +38002,12 @@ focus_tree = {
 						}
 					}
 				}
+				FRA = { 
+					OR = {
+						exists = no 
+						is_ally_with = ROOT 
+					}
+				}
 			}
 		}
 
@@ -38020,6 +38061,8 @@ focus_tree = {
 
 		bypass = {
 			OR = {
+				AND = {
+			OR = {
 				has_war_with = BEL
 				is_in_faction_with = BEL
 				BEL = { exists = no }
@@ -38028,6 +38071,14 @@ focus_tree = {
 				has_war_with = LUX
 				is_in_faction_with = LUX
 				LUX = { exists = no }
+					}
+				}
+				FRA = {
+					OR = {
+						exists = no 
+						is_ally_with = ROOT 
+					}
+				}
 			}
 		}
 
@@ -38123,13 +38174,21 @@ focus_tree = {
 		}
 
 		bypass = {
-			SWI = {
-				OR = {
-					exists = no
-					is_ally_with = ROOT
-					has_war_with = ROOT
-					is_guaranteed_by = ROOT
-					has_non_aggression_pact_with = ROOT
+			OR = {
+				SWI = {
+					OR = {
+						exists = no
+						is_ally_with = ROOT
+						has_war_with = ROOT
+						is_guaranteed_by = ROOT
+						has_non_aggression_pact_with = ROOT
+					}
+				}
+				FRA = {
+					OR = {
+						exists = no 
+						is_ally_with = ROOT 
+					}
 				}
 			}
 		}
@@ -39046,6 +39105,7 @@ focus_tree = {
 		completion_reward = {
 			
 			add_named_threat = { threat = 3 name = GER_unify_west_africa }
+			
 			every_other_country = {
 				limit = {
 					NOT = {
@@ -44309,90 +44369,4 @@ focus_tree = {
 		}
 	}
 
-
-
-######################################
-######### INNER CIRCLE DEBUG #########
-######################################
-
-#	focus = {
-#		id = GER_RESET_INNER_CIRCLE #TODO_Manu: REMOVE WHEN APPROPRIATE!!
-#		x = -2
-#		y = 0
-#		relative_position_id = GER_fuhrerprinzip
-#		cost = 0
-#		ai_will_do = {
-#			factor = 0
-#		}
-#		allow_branch = { #TODO_Manu: Enable later! (Adjust shared focuses if any)
-#			if = {
-#				limit = {
-#					has_game_rule = {
-#						rule = obsolete_focus_branches_visibility
-#						option = HIDE
-#					}
-#				}
-#				NOT = {
-#					OR = {
-#						has_completed_focus = GER_oppose_hitler
-#						has_completed_focus = GER_oppose_hitler_ww
-#					}
-#				}
-#			}
-#		}
-#		completion_reward = {
-#			custom_effect_tooltip = "DEBUG: RESTES INNER CIRCLE ADVISORS (and removes their modifiers)"
-	
-#			set_variable = { GER_ascended_advisor_1 = 0 } #Ascended Advisor Portrait
-#			set_variable = { GER_ascended_advisor_2 = 0 } #Ascended Advisor Portrait
-#			set_variable = { GER_ascended_advisor_3 = 0 } #Ascended Advisor Portrait
-#			uncomplete_national_focus = {
-#				focus = GER_ascension_of_todt
-#				uncomplete_children = yes
-#				refund_political_power = no
-#			}
-#			uncomplete_national_focus = {
-#				focus = GER_ascension_of_speer
-#				uncomplete_children = yes
-#				refund_political_power = no
-#			}
-#			uncomplete_national_focus = {
-#				focus = GER_ascension_of_goring
-#				uncomplete_children = yes
-#				refund_political_power = no
-#			}
-#			uncomplete_national_focus = {
-#				focus = GER_ascension_of_himmler
-#				uncomplete_children = yes
-#				refund_political_power = no
-#			}
-#			uncomplete_national_focus = {
-#				focus = GER_ascension_of_goebbels
-#				uncomplete_children = yes
-#				refund_political_power = no
-#			}
-#			uncomplete_national_focus = {
-#				focus = GER_party_chancellor_hess
-#				uncomplete_children = yes
-#				refund_political_power = no
-#			}
-#			uncomplete_national_focus = {
-#				focus = GER_party_chancellor_bormann
-#				uncomplete_children = yes
-#				refund_political_power = no
-#			}
-	
-#			GER_remove_todt_effects = yes
-#			GER_remove_speer_effects = yes
-#			GER_remove_goring_effects = yes
-#			GER_remove_himmler_effects = yes
-#			GER_remove_goebbels_effects = yes
-#			GER_remove_hess_effects = yes
-#			GER_remove_bormann_effects = yes
-	
-#			uncomplete_national_focus = {
-#				focus = GER_RESET_INNER_CIRCLE
-#			}
-#		}
-#	}
 }

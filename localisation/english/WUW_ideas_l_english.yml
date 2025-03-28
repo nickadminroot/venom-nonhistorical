@@ -1,8 +1,13 @@
 ﻿l_english:
-  ##### France Ideas #### 
- FRA_maginot_line_dynamic_modifier: "Maginot Line"
- JAP_public_awareness_of_war_ns: "Public Awareness of the War in China"
-  ###### AUSTRIAN NATIONAL SPIRITS (IDEAS) ###### 
+
+##### France Ideas ####
+FRA_maginot_line_dynamic_modifier: "Maginot Line"
+
+JAP_public_awareness_of_war_ns: "Public Awareness of the War in China"
+
+
+###### AUSTRIAN NATIONAL SPIRITS (IDEAS) ######
+
  AUS_widespread_unemployment: "Widespread Unemployment"
  AUS_widespread_unemployment_desc: "Following the economic crash Austria has struggled with inflation and high rates of unemployment. Resentment towards politicians is at a high level."
  AUS_employment_efforts: "Employment Efforts"
@@ -71,7 +76,10 @@
  AUS_unfriendly_neighbor: "Unfriendly Neighbor"
  AUS_nuclear_effort: "Nuclear Efforts"
  AUS_avionics_effort: "Avionics Efforts"
-  ###### AUSTRIAN DESIGNERS (IDEAS) ######### 
+ 
+
+ ###### AUSTRIAN DESIGNERS (IDEAS) #########
+
  AUS_hirtenberger_wuw: "Hirtenberger"
  AUS_ansaldo: "Ansaldo"
  AUS_steyr_arms: "Steyr Arms"
@@ -89,7 +97,9 @@
  AUS_bbo_improved: "BBÖ"
  AUS_alpen_elektrowerke_designer: "Alpen-Elektrowerke"
  AUS_kapsch: "Telefon- und Telegrafen-Fabriks-Aktiengesellschaft"
-  ###### AUSTRIAN NATIONAL SPIRITS (DYNAMIC MODIFIERS) ###### 
+
+ ###### AUSTRIAN NATIONAL SPIRITS (DYNAMIC MODIFIERS) ######
+
  AUS_austrofascism: "Austrofascism"
  AUS_austrofascism_desc: "Rejecting the western democratic parliamentarianism and operating as a corporate state, the Vaterländische Front find themselves the sole ruling party. The constitution has been recast to direct Austria towards Corporatism, Authoritarianism, and Nationalism."
  AUS_habsburg_monarchy_restored: "The Habsburg Monarchy Restored"
@@ -117,7 +127,10 @@
  AUS_navy: "Österreichische Kriegsmarine"
  AUS_compensation_for_guarantee: "Compensating for Foreign Support"
  AUS_compensation_for_guarantee_desc: "Having other countries supporting us did not come cheap. By offering to take care of some of their consumer goods production we have managed to buy their support if the worst were to happen."
-  ######  AUSTRIAN DYNAMIC MODIFIER TT INTROS   ####### 
+
+
+ ######  AUSTRIAN DYNAMIC MODIFIER TT INTROS   #######
+
  AUS_austrofascism_intro_tt: "Modify §YAustrofascism§! by:"
  AUS_habsburg_monarchy_restored_intro_tt: "Modify §YThe Habsburg Monarchy Restored§! by:"
  AUS_austrian_monarchy_restored_intro_tt: "Modify §YThe Austrian Monarchy Restored§! by:"
@@ -139,9 +152,13 @@
  AUS_army_monarchy_intro_tt: "Modify §YÖsterreichische Landwehr§! by:"
  AUS_navy_intro_tt: "Modify §YÖsterreichische Kriegsmarine§! by:"
  AUS_compensation_for_guarantee_intro_tt: "Modify §YCompensating for Guarantees§! by:"
-  ##################################### 
-  ############# HUNGARY ############### 
-  ##################################### 
+
+
+
+ #####################################
+ ############# HUNGARY ###############
+ #####################################
+
  HUN_gombos_trade_treaty: "Gömbös Trade Treaty"
  HUN_gombos_trade_treaty_desc: "The trade treaty Gyula Gömbös signed with Germany in 1934 is important for stimulating our economy and aiding in recovery from the great depression, but it also has great drawbacks. Though the agreement gives us a favorable price for sales of wheat, the money earned has to remain in an account in Germany and has to be used only to purchase German industrial goods. If this keeps up, Germany will be able to achieve economic domination over our country."
  HUN_hungarian_national_defense_association: "Hungarian National Defense Association"
@@ -241,28 +258,43 @@
  HUN_heirs_of_the_huns_idea: "True Heirs of the Huns"
  HUN_urbanization_efforts: "Urbanization Efforts"
  HUN_low_popular_support: "Low Popular Support"
-  ###################################### 
-  ######### JOINT HABSBURG ############# 
-  ###################################### 
+
+
+
+
+
+ ######################################
+ ######### JOINT HABSBURG #############
+ ######################################
+
  HABSBURG_economy_dynamic_modifier: "Economic Cooperation Policy"
  HABSBURG_modify_economy_ns_intro: "Modify §Y$HABSBURG_economy_dynamic_modifier$§! by"
+
  HABSBURG_joint_industry_modifier: "Joint Industrial Planning"
  HABSBURG_modify_joint_industry_ns_intro: "Modify §Y$HABSBURG_joint_industry_modifier$§! by"
+
  HABSBURG_army_modifier: "Gemeinsame Armeé"
  HABSBURG_modify_joint_army_ns_intro: "Modify §Y$HABSBURG_army_modifier$§! by"
+
  HABSBURG_cavalry_modifier: "The Imperial and Royal Hussars"
  HABSBURG_modify_joint_cavalry_ns_intro: "Modify §Y$HABSBURG_cavalry_modifier$§! by"
+
  HABSBURG_armor_initiative_bonus: "Danubian Armored Initiatives"
  HABSBURG_mech_initiative_bonus: "Danubian Mechanized Initiatives"
+
  HABSBURG_an_imperium_restored: "An Imperium Restored"
  HABSBURG_imperial_integration: "Popular Imperial Unification Campaigns"
+
  wuw_HUN_does_not_have_trianon_tt: "Does not have any form of the §YTreaty of Trianon§! remaining"
-  ##################################### 
-  ##################################### 
-  ############## GERMANY ############## 
-  ##################################### 
-  ##################################### 
-  #DESIGNERS (IDEAS) 
+
+
+ #####################################
+ #####################################
+ ############## GERMANY ##############
+ #####################################
+ #####################################
+
+ #DESIGNERS (IDEAS)
  GER_vereinigte_stahlwerke: "Vereinigte Stahlwerke"
  GER_deutsche_reichsbahn: "Deutsche Reichsbahn"
  GER_philipp_holzmann: "Philipp Holzmann"
@@ -277,17 +309,19 @@
  GER_deschimag: "Deschimag"
  GER_deschimag_desc: "Deutsche Schiff- und Maschinenbau"
  GER_deutsche_werke: "Deutsche Werke"
- GER_kriegsmarinewerft_wilhelmshaven: "Marinewerft Wilhelmshaven"
+ GER_kriegsmarinewerft_wilhelmshaven: "Marinewerft Wilhelmshaven" #Using Marinewerft instead of Kriegsmarinewerft since it works with all ideologies
+
  GER_alkett: "Alkett"
  GER_daimler_benz: "Daimler Benz"
- GER_reichswerke: "[GetReichsWerkeName]"
+ GER_reichswerke: "[GetReichsWerkeName]" 
  GER_reichswerke_fascist: "Reichswerke"
  GER_reichswerke_neutral: "Kaiserwerke"
  GER_reichswerke_democratic: "Bundeswerke"
  GER_reichswerke_communism: "Volkswerke"
-  #NATIONAL SPIRITS 
+
+ #NATIONAL SPIRITS
  GER_mefo_bills_modifier: "$GER_mefo_bills$"
- GER_mefo_bills_modifier_desc: "$GER_mefo_bills_desc$"
+ GER_mefo_bills_modifier_desc: "$GER_mefo_bills_desc$" #Reusing the old loc for this
  GER_economy_of_conquest_modifier: "Economy of Conquest"
  GER_economy_of_conquest_modifier_desc: "Despite the unfair stipulations of the Versailles Treaty, we rise from the ashes with unwavering determination. Through tireless rearmament, we have committed to forge an unrivaled military industry to fuel our ascent to glory. This will strain our economy, but with victory comes the opportunity to reap the spoils of conquest, channeling the wealth of other nations to strengthen our armed forces. Woe to the vanquished!"
  GER_aufrusting_modifier: "Aufrüstung"
@@ -297,11 +331,11 @@
  GER_wirtschaftswunder_modifier: "Wirtschaftswunder"
  GER_wirtschaftswunder_modifier_desc: "We have managed to turn an economy in shambles into one of the world’s leading industrial powers. This remarkable revival can only be described as a Wirtschaftswunder, an economic miracle."
  GER_kriegsproduktion_modifier: "Kriegsproduktion"
- GER_kriegsproduktion_modifier_desc: "We must mobilize our highly skilled workforce and put them on armament production in order to secure [GER.GetAdjective] independence and build up the necessary military stockpiles."
+ GER_kriegsproduktion_modifier_desc: "We must mobilize our highly skilled workforce and put them on armament production in order to secure [GER.GetAdjective] independence and build up the necessary military stockpiles." 
  GER_wunderwaffen_modifier: "Wonder Weapons"
  GER_wunderwaffen_modifier_desc: "The Wunderwaffe programs are a bold initiative aimed at forging the future of warfare through radical technological breakthroughs. Our scientists and engineers are pushing the boundaries of what is possible, developing revolutionary weapons that will secure Germany's dominance in the skies, over the seas, and on land. These innovations hold the potential to change the course of the world and deliver a decisive blow to any adversary who dares oppose us!"
  GER_wehrwirtschaft_modifier: "Wehrwirtschaft"
- GER_wehrwirtschaft_modifier_desc: "We cannot let foreign powers dictate our prosperity or future. Achieving autarky will secure [ROOT.GetNameDef]’s economic independence, reducing reliance on foreign resources and ensuring self-sufficiency for our people."
+ GER_wehrwirtschaft_modifier_desc: "We cannot let foreign powers dictate our prosperity or future. Achieving autarky will secure [ROOT.GetNameDef]’s economic independence, reducing reliance on foreign resources and ensuring self-sufficiency for our people." 
  GER_army_modifier: "Deutsches Heer"
  GER_army_modifier_desc: "[GER.GetNameDefCap] has a long and proud military history with a tradition of innovative thinking. The General Staff has sought to improve our armed forces even further since the humiliating defeat in the Great War. Armed with this expertise, our army is poised to strike against any foe who wishes to subjugate our proud people."
  GER_army_communist_modifier: "Volksarmee"
@@ -313,9 +347,9 @@
  GER_navy_imperial_modifier: "Kaiserliche Marine"
  GER_navy_imperial_modifier_desc: "Our mighty Imperial Navy will cut through the ocean waves to spearhead our global ambitions and assert our dominance across the high seas."
  GER_navy_communist_modifier: "Volksmarine"
- GER_navy_communist_modifier_desc: "The People's Navy stands ever vigilant against imperialist aggression. It will spread the Proletarion revolution across the seas and usher in a new world order."
+ GER_navy_communist_modifier_desc: "The People's Navy stands ever vigilant against imperialist aggression. It will spread the Proletarian revolution across the seas and usher in a new world order."
  GER_airforce_modifier: "Luftwaffe"
- GER_airforce_modifier_desc: "With unmatched skill and technical prowess, the Luftwaffe is poised to dominate the skies and project our might to any foes foolish enough to challenge us. With cutting-edge aircraft and expertly trained pilots, our Airforce stands ready to set the skies on fire, destroy any army, and sink every navy that opposses us."
+ GER_airforce_modifier_desc: "With unmatched skill and technical prowess, the Luftwaffe is poised to dominate the skies and project our might to any foes foolish enough to challenge us. With cutting-edge aircraft and expertly trained pilots, our Airforce stands ready to set the skies on fire, destroy any army, and sink every navy that opposes us."
  GER_airforce_communist_modifier: "Luftstreitkräfte"
  GER_airforce_communist_modifier_desc: "Our Airforce soars through the skies to safeguard the Proletarian state and the future of socialism. Every aircraft flies as a testament to our people's ingenuity and relentless spirit, ready to take on any enemy it may face."
  GER_military_modifier_tt: "[GetSubmarineMaxSpeed]"
@@ -324,9 +358,13 @@
  GER_submarine_max_speed_small_tt: "$ship_hull_submarine$ $STAT_NAVY_MAXIMUM_SPEED$: §G+5%§!"
  GER_submarine_max_speed_big_tt: "$ship_hull_submarine$ $STAT_NAVY_MAXIMUM_SPEED$: §G+10%§!"
  GER_military_modifier_fascist_desc: "[GER.GetNameDefCap] has a long and proud military history with a tradition of innovative thinking, and our General Staff has sought to improve our armed forces even further since the humiliating defeat of the Great War. Armed with this expertise, we are poised to strike against any foe who wishes to subjugate our proud people."
+
  is_controlled_by_ROOT_or_subject: "Is controlled by §Y[ROOT.GetNameDef]§! or a subject"
+ is_controlled_by_ROOT_or_subject_NOT: "Is NOT controlled by §Y[ROOT.GetNameDef]§! or a subject"
+
  GER_alfred_rosenberg_modifier: "Alfred Rosenberg"
-  #TIMED SPIRITS 
+
+ #TIMED SPIRITS
  GER_collect_scrap_metal_ns_desc: "We have launched a nationwide campaign to collect as much scrap metal as we possibly can to aid in our rearmament effort."
  GER_import_tariffs_ns_desc: "The establishment of import tariffs is a necessary evil to promote the growth of domestic manufacturing and production, but more importantly, it will save us precious money as we do not have to spend what little foreign exchange we have available."
  GER_knickebein: "Knickebein"
@@ -342,6 +380,7 @@
  GER_panzerschiff_raiders_ns_desc: "Our heavy cruisers pose a serious threat to our enemies' navies. Their guns pack quite the punch, while their speed allows them to slip away before being properly engaged."
  GER_rudeltaktik_ns: "Rudeltaktik"
  GER_rudeltaktik_ns_desc: "Our U-boat wolfpacks scour the seas, seeking new prey to hunt. Using Rudeltaktik has allowed them to better coordinate and strike at our enemies’ jugular; their dependency on the open waves."
+
  GER_german_trade_ns: "German Trade"
  GER_german_trade_offshore_tt: "([ROOT.GetFlag]§Y[ROOT.GetNameDefCap]§!) Add §G1§! offmap §Y$industrial_complex$§!."
  GER_development_of_economic_relations_ns: "Development of Economic Relations"
@@ -351,11 +390,13 @@
  GER_the_inner_circle_dm: "The Inner Circle"
  GER_the_inner_circle_dm_desc: "The Führer’s Inner Circle contains the political elite of [GER.GetNameDef], fervent loyalists ready to advance [GER.GetLeader]’s vision. Rife with ambition, they all strive to Ascend within the Inner Circle to become Reichsleiter, Reich Leader. Their influence shapes military, industrial, and political decisions alike and drives German policymaking. Their drive is also a source of tension, as ambition leads to intrigue and betrayal."
  GER_the_inner_circle_dm_tt: "Active §YInner Circle§! Advisors: \n[GetAscendedAdvisor1][GetAscendedAdvisor2][GetAscendedAdvisor3]"
- GER_the_inner_circle_tt_ascended_advisor_1: "§Y[GetAscendedAdvisorName1]§! as [GetAscendedAdvisorDesc1] \n"
+ GER_the_inner_circle_tt_ascended_advisor_1: "§Y[GetAscendedAdvisorName1]§! as [GetAscendedAdvisorDesc1] \n" #[GetAscendedAdvisorTrait1]
  GER_the_inner_circle_tt_ascended_advisor_2: "§Y[GetAscendedAdvisorName2]§! as [GetAscendedAdvisorDesc2] \n"
  GER_the_inner_circle_tt_ascended_advisor_3: "§Y[GetAscendedAdvisorName3]§! as [GetAscendedAdvisorDesc3] \n"
+
  GER_war_preparations_tt: "Next time §Y[ROOT.GetNameDef]§! is at §YWar§!:"
  GER_strengthened_supply_lines_ns: "Strengthened Supply Lines"
+
  GER_nordische_legion_ns: "Nordische Legion"
  GER_nordische_legion_ns_desc: "Many [ROOT.GetAdjective]s yearn for adventure, and wish to go fight for a good cause. To such an end we have established a legion of volunteers that will go off to aid our Nordic brethren in their wars."
  GER_fernostliche_legion_ns: "Fernöstliche Legion"
@@ -364,20 +405,27 @@
  GER_expatriated_communists_return_home_ns_desc: "Many German communists who were forced out of the nation during Nazi rule are now returning en-masse to fight against their former oppressors."
  GER_expatriated_communists_return_home_supressed_ns: "Expatriated Communists Return"
  GER_expatriated_communists_return_home_supressed_ns_desc: "Many German communists who were forced out of the nation during Nazi rule are now returning en-masse to Germany, despite the military government's open anti-communist nature."
+
  GER_bismarckjugend_idea: "Bismarckjugend"
  GER_bismarckjugend_idea_desc: "The German National People's Party has reformed the Bismarckjugend in an attempt to get more people into the army as a part of a paramilitary wing."
  GER_eiserne_front_idea: "Eiserne Front"
  GER_eiserne_front_idea_desc: "In an effort to try and overcome their foe, the German state has chosen to officially employ and promote the Iron Front, a social-democratic paramilitary organization."
+
  GER_pacific_blitzkrieg: "Pacific Blitzkrieg"
+
  GER_proud_eagle_that_ate_the_sun: "The Proud Eagle That Ate the Sun"
+
  GER_chi_ger_trade: "[CHI.GetAdjective]-[GER.GetAdjective] Trade Deal"
+
  GER_shatter_USA_hegemony: "Shatter the [USA.GetAdjective] Hegemony"
+
  GER_eben_emael_partial_success_ns: "Partially successful raid on Eben Emael"
  GER_eben_emael_partial_success_ns_desc: "$GER_eben_emael_success_ns_desc$"
+
  GER_eben_emael_success_ns: "Successful raid on Eben Emael"
  GER_eben_emael_success_ns_desc: "A carefully planned strike at the fortress in Eben Emael have rendered the [BEL.GetAdjective]s vulnerable to our attacks. Now is a great time for us to launch a large scale offensive."
  GER_battle_for_air_superiority: "Battle for Air Superiority"
-  #Democratic/Kaiserreich 
+ #Democratic/Kaiserreich
  GER_the_shield_of_democracy_idea: "The Shield of Democracy"
  GER_the_shield_of_democracy_idea_desc: "Our nation stands as the proud shield of western democratic values, and is ready to protect it's people and allies against any and all authoritarian tyranny."
  reaffirmed_the_locarno_treaty: "Reaffirmed the Locarno Treaty"
@@ -387,8 +435,8 @@
  GER_safeguard_finland_idea: "Safeguard Against Bolshevism"
  GER_safeguard_finland_idea_desc: "Finland was a part of the Russian Empire until a few decades ago, and it stands to reason the [GER.GetRussiansDemonym] may once more try to annex them. Therefore Germany has offered it's full support against the eastern threat."
  GER_boosting_fascism_in_country: "[GER.GetNameDefCap] Boosting Fascism"
- GER_boosting_communism_in_country: "[USA.GetNameDefCap] Boosting Communism"
- GER_boosting_democratic_in_country: "[USA.GetNameDefCap] Boosting Democracy"
+ GER_boosting_communism_in_country: "[USA.GetNameDefCap] Boosting Communism" #yes it is supposed to be USA
+ GER_boosting_democratic_in_country: "[USA.GetNameDefCap] Boosting Democracy" #yes it is supposed to be USA
  GER_striking_the_sleeping_bear: "Striking the Sleeping Bear"
  GER_safeguard_poland_idea: "Safeguard Poland"
  GER_joint_military_drills_idea: "Joint Military Drills"
@@ -407,13 +455,13 @@
  GER_investments_into_sino_german_research_cooperation_idea: "Investments into the Sino-German Joint Research Program"
  GER_compensation_for_transferred_colonies: "Compensation for Transferred Colonies"
  GER_supporting_independence_idea: "[GER.GetNameDefCap] Supporting Independence"
-  #Communism 
+ #Communism
  GER_communist_intel_modifier: "Intelligence Wing"
  GER_communist_intel_modifier_desc: "Having a proper Intelligence Wing will make our gathering, processing, and analyzing of information more efficient."
  GER_stasi_modifier: "Stasi"
  GER_stasi_modifier_desc: "The Ministerium für Staatssicherheit, or Stasi, will ensure that our gathering, processing, and analyzing of national security information will be efficient and quick. The Stasi will protect our state from threats from within as well as from abroad and will act as the Shield and Sword of the Party."
  GER_politburo_modifier: "Politbüro"
- GER_politburo_modifier_desc: "The Politbüro is the vanguard of our people and serves as the manifestations of the proletariat. Tasked with governing, implementing socialism and securing the Revolustion, it is the highest ruling body in [GER.GetNameDef]."
+ GER_politburo_modifier_desc: "The Politbüro is the vanguard of our people and serves as the manifestations of the proletariat. Tasked with governing, implementing socialism and securing the Revolution, it is the highest ruling body in [GER.GetNameDef]."
  GER_modify_politburo_modifier_tt: "Modify §Y$GER_politburo_modifier$§! by:"
  GER_add_politburo_modifier_tt: "Add §Y$GER_politburo_modifier$§! which grants:\n"
  GER_communist_influence: "Communist Influences from [GER.GetNameDef]"
@@ -430,29 +478,40 @@
  GER_stricter_industrial_organization: "Stricter Industrial Organization"
  GER_industrial_relocation_resources: "Industrial Relocation"
  GER_the_new_schlieffen_plan: "The New Schlieffen Plan"
-  #REICHSKOMMISSARIATS 
+ #REICHSKOMMISSARIATS
  GER_industrial_relocation_resources_modify_tt: "Modify §YIndustrial Relocation§! by:"
  GER_german_controlled_reichskommissariat: "Reichskommissariat Zivilverwaltung"
  GER_government_general_idea: "Government-General"
  GER_reichsprotectorate_idea: "Reichsprotektorat Zivilverwaltung"
+
  GER_white_russian_advisors: "White Russian Military Advisors"
+
  GER_invesments_into_minor_partners_cost: "Investments into Minor Partners"
+
  GER_purges_in_the_kriegsmarine: "Purges in the Kriegsmarine"
+
  GER_the_eastern_bulwark_ns: "The Eastern Bulwark"
+
  GER_mitteleuropa_customs_union_member: "Mitteleuropa Customs Union Member"
+
  GER_neutrality_influence: "Monarchist Influences from [GER.GetNameDef]"
  GER_democratic_influence: "Democratic Influences from [GER.GetNameDef]"
  GER_fascism_influence: "Fascist Influences from [GER.GetNameDef]"
  GER_neutrality_influence_tt: "§RA civil war will break out if §YNon-Aligned§! support goes above 45%!§!"
  GER_democratic_influence_tt: "§RA civil war will break out if §YDemocratic§! support goes above 45%!§!"
  GER_fascism_influence_tt: "§RA civil war will break out if §YFascist§! support goes above 45%!§!"
+
  GER_rnd_programs_modifier: "Shared R&D Programs"
  GER_mitteleuropa_integrated_customs_union_member_tt: "§Y[GER.GetNameDefCap]§! will be able to §RAttempt to Subjugate us Diplomatically!§!"
+
  GER_alpine_warfare_idea: "Alpine Warfare"
  GER_uncertain_future: "Uncertain Future"
  GER_uncertain_future_desc: "With the Civil War finally at an end, the German nation is slowly rebuilding, but its people are longing for stability and security. [ROOT.GetLeader] has made no effort to move forward and seems uninterested in deciding what the future of the new German state should look like. This has caused great concern in the population who are eager to move away from its broken past."
  GER_august_von_mackensen_must_retire_tt: "§Y$GER_uncertain_future$§! will be §Yremoved§! once §Y$GER_august_von_mackensen$§! has stepped down as the head of government"
-  #STATE MODIFIERS 
+
+
+
+ #STATE MODIFIERS
  GER_overburdened_state_modifier: "Overburdened State"
  GER_lokot_autonomy_modifier: "Lokot Autonomy"
  GER_blitzkrieg_modifier: "Blitzkrieg"
@@ -469,6 +528,7 @@
  GER_bewegungskrieg_modifier_lvl_3_desc: "$GER_bewegungskrieg_modifier_desc$"
  GER_bewegungskrieg_modifier_lvl_4: "$GER_bewegungskrieg_modifier$"
  GER_bewegungskrieg_modifier_lvl_4_desc: "$GER_bewegungskrieg_modifier_desc$"
+
  GER_nationalized_industries_modifier: "Nationalized Industries"
  GER_reichs_labor_initiative_modifier: "Reich Labor Service Initiative"
  GER_four_year_plan_initiative_modifier: "Four-Year Plan Initiative"
@@ -480,13 +540,14 @@
  GER_proletariat_uprising_modifier: "Proletariat Uprising"
  GER_state_supporting_resistance_modifier: "German-supported resistance"
  GER_state_supporting_resistance_modifier_desc: "[GER.GetName] is covertly supplying arms and equipment, as well as military training to the local resistance groups."
-  #### TOOLTIPS ### 
-  #INDUSTRIAL TOOLTIPS 
+
+ #### TOOLTIPS ###
+ #INDUSTRIAL TOOLTIPS
  GER_industrial_consumer_goods_factor_tt: "[GetCGLevelText] [GetCGPenaltiesText] \n\n"
- GER_increasing_cg_tt: "§Y$MODIFIER_CONSUMER_GOODS_FACTOR$§!, There will be monthly §Rувеличиваться§! On §Y[?GER.GER_monthly_consumer_goods_increase|%1]§!, until §Y100%§!. §G Odnako the monthly increase in TNP will not increase, no matter how many territories you capture §!" #NT!
+ GER_increasing_cg_tt: "§Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! will §Rincrease§! by §Y[?GER.GER_monthly_consumer_goods_increase|%1]§! each month up to §Y100.0%§!. The monthly increase will be §Rhigher§! based on the amount of §Ynon-core states§! controlled by §Y[ROOT.GetName]§!."
  GER_max_CG_tt: "§Y100.0% $MODIFIER_CONSUMER_GOODS_FACTOR$§! §Rreached§!."
- GER_CG_penalties_may_apply: "\ nesli §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! It will achieve §Y100,0%§!, additional §Rштрафы§!." #NT!
- GER_CG_penalties_warning: "If §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! It will reach §Y100,0%§!, The following will happen: \ n $MODIFIER_CONSUMER_GOODS_EXPECTED_VALUE$: §Y+10,0%§! \ n $MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: §Y[?GER.GER_expected_consumer_goods_penalty|0.1%]§! \ n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: §R-[?GER.GER_factory_output_penalty|%]§! \ N$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: §R-[?GER.GER_dockyard_output_penalty|%]§!" #NT!
+ GER_CG_penalties_may_apply: "If §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! reaches §Y100.0%§! additional §Rpenalties§! will be applied."
+ GER_CG_penalties_warning: "If §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! reaches §Y100.0%§! the following will happen:\n$MODIFIER_CONSUMER_GOODS_EXPECTED_VALUE$: §Y[?GER.GER_expected_consumer_goods_penalty|0.1%]§!\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: §R-[?GER.GER_factory_output_penalty|%]§!\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: §R-[?GER.GER_dockyard_output_penalty|%]§!"
  GER_reduce_increasing_consumer_goods_tt: "§GReduce§! the increasing §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! each month by §Y[?GER_change_monthly_CG_price_controls|%1]§!"
  GER_french_war_reparations_tt: "Receive Occupation Cost Payments from §YVichy France§!"
  GER_increase_increasing_consumer_goods_tt: "Increase §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! additionally each month by §Y+0.5%§!"
@@ -505,7 +566,7 @@
  GER_replace_economy_of_conquest_with_recovering_economy_tt: "Replace §Y$GER_economy_of_conquest_modifier$§! with §Y$GER_recovering_economy_modifier$§!, effective change:"
  GER_add_wehrwirtschaft_modifier_tt: "Add §Y$GER_wehrwirtschaft_modifier$§! which grants:"
  GER_modify_wehrwirtschaft_modifier_tt: "Modify §Y$GER_wehrwirtschaft_modifier$§! by:"
-  #MILITARY TOOLTIPS 
+ #MILITARY TOOLTIPS
  GER_modify_army_modifier_tt: "Modify §Y$GER_army_modifier$§! by:"
  GER_modify_army_communist_modifier_tt: "Modify §Y$GER_army_communist_modifier$§! by:"
  GER_modify_navy_fascist_modifier_tt: "Modify §Y$GER_navy_fascist_modifier$§! by:"
@@ -520,12 +581,15 @@
  GER_modify_bewegungskrieg_modifier_tt: "Modify §Y$GER_bewegungskrieg_modifier$§! by:"
  GER_motor_and_mech_attack_tt: "[GetMotorMechAttack]"
  GER_display_motor_and_mech_attack_tt: "$MODIFIER_MOTORIZED_ATTACK_FACTOR$: §G+5%§!\n$MODIFIER_MECHANIZED_ATTACK_FACTOR$: §G+5%§!"
-  #ALFRED ROSENBERG 
+
+ #ALFRED ROSENBERG
  GER_rk_modifiers_tt: "[GetRosenbergsModifiers]"
  GER_modify_GER_alfred_rosenberg_modifier_tt: "Improve §Y$GER_alfred_rosenberg_modifier$'s§! trait up to §Y[?ROOT.GER_max_alfred_rosenberg_upgrades|.0] times§! by:"
  GER_times_GER_alfred_rosenberg_has_been_modified_tt: "Number of times §Y$GER_alfred_rosenberg_modifier$'s§! trait can be improved: §Y[?ROOT.GER_count_down_alfred_rosenberg_upgrades|0]§!"
  GER_rk_rosenberg_tt: "§Y$GER_alfred_rosenberg_modifier$§!\n$MODIFIER_AUTONOMY_SUBJECT_GAIN$: [?ROOT.GER_alfred_rosenberg_modifier_subjects_autonomy_gain|1+] \n$MODIFIER_CONSUMER_GOODS_FACTOR$: §Y[?ROOT.GER_alfred_rosenberg_modifier_consumer_goods_factor|1%]§! \n$modifier_state_production_speed_arms_factory_factor$: [?ROOT.GER_alfred_rosenberg_modifier_production_speed_arms_factory_factor|1%+] \n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: [?ROOT.GER_alfred_rosenberg_modifier_industrial_capacity_factory|1%+]"
+
  GER_losing_rk_puppets_tt: "Losing one of the puppet states under §Y$GER_alfred_rosenberg_modifier$'s§! jurisdiction will weaken  his trait"
+
  GER_communist_intel_modifier_intro_tt: "Modify §YIntelligence Wing§! by:"
  GER_stasi_modifier_intro_tt: "Modify §YStasi§! by:"
  GER_modify_proletarian_dictatorship_modifier: "Modify §Y$GER_politburo_modifier$§! by:"
@@ -533,19 +597,23 @@
  GER_add_wunderwaffen_modifier_tt: "Add §Y$GER_wunderwaffen_modifier$§! which grants:"
  GER_modify_wunderwaffen_modifier_tt: "Modify §Y$GER_wunderwaffen_modifier$§! by:"
  GER_dimantle_faction_tt: "§RWhen §Y$soviet_german_friendship$§! is removed the §Y$the_berlin_moscow_axis$§! is dismantled§!"
-  #INTELLIGENCE 
+
+ #INTELLIGENCE
  GER_military_intelligence_service_modifier: "Military Intelligence Service"
  GER_add_military_intelligence_service_modifier_tt: "Add §Y$GER_military_intelligence_service_modifier$§! which grants:"
  GER_modify_military_intelligence_service_modifier_tt: "Modify §Y$GER_military_intelligence_service_modifier$§! by:"
-  #FAKE NATIONAL SPIRITS: 
+
+ #FAKE NATIONAL SPIRITS:
  GER_mefo_bills_1936_fake_ns_tt: "$GER_increasing_cg_tt$ $GER_CG_penalties_may_apply$\n\n $MODIFIER_CONSUMER_GOODS_FACTOR$: §Y10.0%§!\n $MODIFIER_CIVILIAN_INTEL_TO_OTHERS$: §G-25.0%§! \n $MODIFIER_ARMY_INTEL_TO_OTHERS$: §G-25.0%§!\n $MODIFIER_NAVY_INTEL_TO_OTHERS$: §G-25.0%§!\n $MODIFIER_AIRFORCE_INTEL_TO_OTHERS_FACTOR$: §G-25.0%§! \n $modifier_production_speed_arms_factory_factor$: §G+10.00%%§!\n $modifier_production_speed_dockyard_factor$: §G+10.00%§!"
  GER_mefo_bills_1939_fake_ns_tt: "$GER_increasing_cg_tt$ $GER_CG_penalties_warning$\n\n $MODIFIER_CONSUMER_GOODS_FACTOR$: §Y71.0%§!\n $MODIFIER_CIVILIAN_INTEL_TO_OTHERS$: §G-25.0%§! \n $MODIFIER_ARMY_INTEL_TO_OTHERS$: §G-25.0%§!\n $MODIFIER_NAVY_INTEL_TO_OTHERS$: §G-25.0%§!\n $MODIFIER_AIRFORCE_INTEL_TO_OTHERS_FACTOR$: §G-25.0%§! \n $modifier_production_speed_arms_factory_factor$: §G+15.00%%§!\n $modifier_production_speed_dockyard_factor$: §G+15.00%§!"
-  #OPINION MODIFIERS 
+
+ #OPINION MODIFIERS
  GER_german_trade_opinion: "German Trade Relations"
  GER_autarky_trade_opinion: "Autarkic Trade Relations"
  GER_trading_partners: "Trading Partners"
  GER_german_influence: "German Influence"
-  #INNER CIRCLE 
+
+ #INNER CIRCLE
  GER_todt_reich_engineer: "Reich Engineer"
  GER_todt_reich_minister_of_armaments: "Reich Minister of Armaments"
  GER_speer_reich_architect: "Reich Architect"
@@ -567,14 +635,22 @@
  GER_bormann_secretary_to_the_fuhrer: "Secretary to the Führer"
  GER_bormann_secretary_to_the_fuhrer_improved: "$GER_bormann_secretary_to_the_fuhrer$"
  GER_bormann_brown_eminence: "Brown Eminence"
-  ##################################### 
-  ############# BELGIUM ############### 
-  ##################################### 
-  ###### BELGIAN DESIGNERS (IDEAS) ######### 
+
+
+
+ #####################################
+ ############# BELGIUM ###############
+ #####################################
+
+
+  ###### BELGIAN DESIGNERS (IDEAS) #########
+
  BEL_cockerill_industrial: "Cockerill"
  BEL_societe_generale_de_belgique_industrial: "Société Générale de Belgique"
  BEL_distrigaz: "Distrigaz"
-  ###### BELGIAN NATIONAL SPIRITS ######### 
+
+  ###### BELGIAN NATIONAL SPIRITS #########
+
  BEL_inflation_controls_ns: "Inflation Controls"
  BEL_inflation_controls_ns_desc: "In a bid to reduce the effects of inflation we started buying in money and not issuing replacement notes for damaged currency, changing interest rates, and encouraging spending within the economy."
  BEL_language_barriers_ns: "Language Barriers"
@@ -632,7 +708,9 @@
  BEL_corruption_ns_fake_desc: "$BEL_corruption_dynamic_modifier_desc$"
  BEL_democratization_of_education_ns: "Democratization of Education"
  BEL_democratization_of_education_ns_desc: "Our society has a tradition of care to each other, best embodied by the social contract between our workers and the corporations. Similarly, the state should seek to give everyone an equality of opportunity and highlight the importance of a good education."
-  ###### BELGIAN DYNAMIC MODIFIERS ######### 
+
+ ###### BELGIAN DYNAMIC MODIFIERS #########
+
  BEL_scars_of_ww1_dynamic_modifier: "Scars of the Great War"
  BEL_scars_of_ww1_dynamic_modifier_desc: "[BEL.GetName] suffered greatly in the Great War, being much of the battlefield for the Western Front, and it still bears those scars."
  BEL_social_partners_dynamic_modifier: "Social Partners"
@@ -666,18 +744,25 @@
  BEL_european_crusade_dynamic_modifier_desc: "We stand as the beating heart of the European ideal, and with vultures circling it's borders it is up to our stalwart determination to see the barbarian threats thwarted, in whatever forms this may take."
  BEL_socialism_on_the_rise_dynamic_modifier: "Socialist Sentiments"
  BEL_socialism_on_the_rise_dynamic_modifier_desc: "Following Vandervelde's relative victory in the election socialist sentiments have been steadily increasing in [ROOT.GetNameDef]."
- BEL_academies_of_belgium_dynamic_modifier: "Academies of Belgium"
- BEL_academies_of_belgium_dynamic_modifier_desc: "The Academies of Belgium are a collective organization of the higher institutes of learning across the country, and stand at the very heart of Belgian technological breakthroughs."
-  ###### BELGIAN STATE MODIFIERS ######### 
+BEL_academies_of_belgium_dynamic_modifier: "Academies of Belgium"
+BEL_academies_of_belgium_dynamic_modifier_desc: "The Academies of Belgium are a collective organization of the higher institutes of learning across the country, and stand at the very heart of Belgian technological breakthroughs."
+
+  ###### BELGIAN STATE MODIFIERS #########
+
  BEL_belgian_resistance_state_dynamic_modifier: "Belgian Resistance"
- BEL_belgian_resistance_state_dynamic_modifier_desc: "Our people are no strangers to occupation, many having learned the lessons of civil disobedience and resistance during the last war."
+ BEL_belgian_resistance_state_dynamic_modifier_desc: "Our people are no strangers to occupation, many having learned the lessons of civil disobedience and resistance during the last war." #Note, this is countered by the Secretaries General occupation law.
  BEL_flooded_tank_barriers_dynamic_modifier: "Flooded Tank Barriers"
  BEL_flooded_tank_barriers_dynamic_modifier_desc: "This region has scattered tank barriers hidden beneath water obstacles designed to slow enemy division movement, and aid in Belgium's defense."
  BEL_secretaries_general_tt: "The §YState Controller§! will get a special §YOccupation Law§! available only in §YBelgian Core States§!"
-  ###### BELGIAN HIDDEN IDEAS ######### 
- BEL_international_stipend_ns: "International Stipend"
-  ###### TOOLTIPS ########################## 
-  #Dynamic Modifiers 
+
+  ###### BELGIAN HIDDEN IDEAS #########
+
+  BEL_international_stipend_ns: "International Stipend"
+
+
+  ###### TOOLTIPS ##########################
+ 
+ #Dynamic Modifiers
  BEL_modify_social_partners_dynamic_modifier_tt: "Modify §Y$BEL_social_partners_dynamic_modifier$§! by:"
  BEL_remove_social_partners_dynamic_modifier_tt: "Replace §Y$BEL_social_partners_dynamic_modifier$§! with §Y$BEL_engine_of_the_economy_dynamic_modifier$§!, effective change:"
  BEL_modify_engine_of_the_economy_dynamic_modifier_tt: "Effective change §Y$BEL_engine_of_the_economy_dynamic_modifier$§!:"
@@ -685,7 +770,7 @@
  BEL_modify_belgian_miracle_dynamic_modifier_tt: "Effective change §Y$BEL_belgian_miracle_dynamic_modifier$§!:"
  BEL_modify_neutrality_dynamic_modifier_tt: "Modify §Y$BEL_neutrality_dynamic_modifier$§! by:"
  BEL_modify_defensive_neutrality_dynamic_modifier_tt: "Modify §Y$BEL_defensive_neutrality_dynamic_modifier$§! by:"
- BEL_remove_defensive_neutrality_dynamic_modifier_tt: "Replace §Y$BEL_defensive_neutrality_dynamic_modifier$§! with §Y$BEL_defensive_reorganization_dynamic_modifier$§!, effective change:"
+ BEL_remove_defensive_neutrality_dynamic_modifier_tt: "Replace §Y$BEL_defensive_neutrality_dynamic_modifier$§! with §Y$BEL_defensive_reorganization_dynamic_modifier$§!, effective change:" 
  BEL_modify_defensive_reorganization_dynamic_modifier_tt: "Modify §Y$BEL_defensive_reorganization_dynamic_modifier$§! by:"
  BEL_modify_scars_of_ww1_dynamic_modifier_tt: "Reduce §Y$BEL_scars_of_ww1_dynamic_modifier$§! by:"
  BEL_modify_mobilize_the_nation_dynamic_modifier_tt: "Modify §Y$BEL_mobilize_the_nation_dynamic_modifier$§! by:"
@@ -699,16 +784,19 @@
  BEL_european_crusade_dynamic_modifier_rexist_tt: "Add §Y$BEL_european_crusade_dynamic_modifier$ (Rexist)§!:"
  BEL_european_crusade_dynamic_modifier_vnv_tt: "Add §Y$BEL_european_crusade_dynamic_modifier$ (VNV)§!:"
  BEL_academies_of_belgium_dynamic_modifier_tt: "Improve §Y$BEL_academies_of_belgium_dynamic_modifier$§! by:"
+
  BEL_modify_socialism_on_the_rise_dynamic_modifier: "Modify §Y$BEL_socialism_on_the_rise_dynamic_modifier$§! by:"
-  #Dynamic State Modifiers 
+
+ #Dynamic State Modifiers
  BEL_modify_belgian_resistance_state_dynamic_modifier_tt: "Increase §Y$BEL_belgian_resistance_state_dynamic_modifier$ (State)§! by:"
-  #National Spirits 
+
+ #National Spirits
  BEL_social_partner_to_engine_tt: "Replace §Y$BEL_social_partners_modifier$§! with §Y$BEL_engine_of_the_economy_dynamic_modifier$§!."
  BEL_engine_to_miracle_tt: "Replace §Y$BEL_engine_of_the_economy_modifier$§! with §Y$BEL_belgian_miracle_dynamic_modifier$§!."
  BEL_construction_investments: "Construction Investments"
-  #BEL_construction_investments_desc: #TODO? 
+ #BEL_construction_investments_desc: #TODO?
  BEL_industrial_investments: "Industrial Investments"
-  #BEL_industrial_investments_desc: #TODO? 
+ #BEL_industrial_investments_desc: #TODO?
  BEL_burgundian_heritage_ns: "Burgundian Heritage"
  BEL_burgundian_heritage_ns_desc: "Calling on the prosperity of tyhe Burgundian golden age, the military, political and economic potential of the nation is once again unmistakable."
  BEL_pax_belgica_ns: "Pax Belgica"
@@ -726,20 +814,26 @@
  BEL_empowered_factory_workers_unions_ns: "Empowered Factory Worker's Unions"
  BEL_emergency_measures: "Emergency Measures"
  BEL_corvette_fleet_ns: "Corvette Fleet"
-  ###### CONGO ############################# 
+
+ ###### CONGO #############################
+
  COG_colonial_maritime_company: "Compagnie Belge Maritime du Congo"
  BEL_colonial_maritime_company: "Compagnie Belge Maritime du Congo"
  COG_rawji_group: "Rawji Group"
  COG_ccci: "Compagnie du Congo pour le Commerce et l'Industrie"
  COG_forminiere: "Société Internationale Forestière et Minière du Congo"
  COG_transports_et_ports: "Société Commerciale des Transports et des Ports"
+
  COG_force_publique: "Force Publique"
  COG_force_publique_desc: "The Force Publique is the gendarmerie and military force of the Congo, established in 1877 under the Congo Free State. Its officers are entirely European, be it Belgians or Mercenaries, while the common soldiers are for the most part native to the Congo. The force is very effective at fighting when it counts, however, the inequality and poor management are points of great discontent."
+
  COG_the_invisible_roof: "The Invisible Roof"
  COG_the_invisible_roof_desc: "Though there exist no laws to officalize this, most if not all institutions and corporations in [ROOT.GetNameDef] block native Congolese citizens from rising above certain stations, and they are not allowed into higher education."
+
  COG_belgian_congo_colonial_dynamic_modifier: "The Model Colony"
  COG_belgian_congo_colonial_dynamic_modifier_desc: "[ROOT.GetNameDefCap] is the model colony of her overlord, and is thus receiving investments to match, as its overlord also gains from developing it further.\n§RThis spirit will be removed if Congo is no longer a subject of Belgium§!"
  warning_this_idea_can_be_removed_tt: "§RThis spirit will be removed if [COG.GetNameDef] is no longer a colony§!"
+
  COG_forminiere_idea: "Forminière Economic Surplus"
  COG_copper_cartridges_idea: "Copper Cartridges"
  COG_copper_cartridges_small_idea: "Copper Cartridges"
@@ -750,6 +844,7 @@
  BEL_cog_diamond_investment_into_construction: "Investments into Construction using [COG.GetAdjective] Diamonds"
  COG_redirected_resources_to_food_production: "Redirected Resources to Food Production"
  COG_colonial_resource_aqciusition: "Colonial Resource Acquisition"
+
  COG_rwandan_separatism_modifier: "Rwandan Separatism"
  COG_rwandan_separatism_modifier_desc: "This region is ripe with separatist sentiment, and is likely to attempt to form it's own state if the Congo were to become independent."
  COG_burundian_separatism_modifier: "Burundian Separatism"
@@ -767,45 +862,64 @@
  COG_short_term_massive_debt_payment: "Short-Term independence Debt"
  COG_long_term_debt_recieved: "Long-Term independence Debt Payments"
  COG_short_term_massive_debt_recieved: "Short-Term independence Debt Payments"
+
  COG_armee_nationale_congolaise_modifier: "Armée Nationale Congolaise"
  COG_armee_nationale_congolaise_modifier_desc: "The armed forces of the Congo have been reformed from the colonial garrison known as the Force Publique, and is in the process of being molded into something more useful for the Congolese state."
  ToA_river_boats_tech: "Brown Water Navy"
+
  idea_COG_river_navy: "River Navy"
  idea_COG_river_navy_desc: "We have the biggest river navy of any country in the region, delaying or even preventing enemy incursions into our lands. While it does not hold a candle to ocean going navies it is a key in keeping our country safe."
+
  COG_peacekeeping_forces_idea: "Peacekeeping Forces"
+
  COG_economic_surplus: "Economic Surplus"
  cash_crop_farms_idea: "Rich Cash Crop Farms"
  COG_ruanda_urundian_conscription_drive_idea: "Ruanda-Urundian Conscription Drive"
+
  COG_vast_decentralized_state_idea: "An Uncontrollably Vast Nation"
  COG_vast_decentralized_state_idea_desc: "Our state is larger than most, despite our lacking economics and administrative difficulties. The corners of the state are difficult for our central government to reach and control, and communications and logistics between cities can take weeks if not months."
  COG_vast_uncentralized_nation_modifier_level_down_tt: "§GLowers§! the effects of $COG_vast_decentralized_state_idea$"
+
  COG_banque_du_congo_belge_idea: "Banque du Congo Belge"
  COG_banque_du_congo_belge_idea_2: "Banque Centrale du Congo et du Ruanda-Urundi"
+
  COG_urban_area_investments_modifier: "Urban Area Investments"
  COG_urban_area_investments_modifier_desc: "The Congolese government has decided to focus investments mainly around this area, allowing for them to make more with what little they have."
+
  COG_sabena_civilian_designer: "Societé Anonyme Belge d'Exploitation de la Navigation Aérienne"
+
  COG_the_echo_of_katanga_modifier: "The Echo of Katanga"
  COG_emigration_to_katanga_idea: "Emigration to Katanga"
  COG_sabena_organization: "SABENA"
+
  COG_extensive_gold_mines: "Gold Barons"
+
  COG_nationals_going_to_the_british_commonwealth: "Congolese Nationals Going to Fight for the British Commonwealth"
  COG_american_investments_for_a_transport_hub: "American Investments into an African Transport-Hub"
  COG_in_the_sterling_area: "Part of the Sterling Area"
  COG_ready_for_action: "Prepared and Ready for Action"
+
  COG_parti_solidaire_africain: "Parti Solidaire Africain"
  COG_alliance_de_bakongo_idea: "Alliance de Bakongo"
+
  COG_unionism_idea: "Unionism"
  COG_unionism_idea_2: "Confédération Générale du Travail de Belgique"
  COG_unionism_idea_3: "Union Nationale des Travailleurs du Congo"
+
  COG_force_publique_mutinies: "Mutinies in the Force Publique"
+
  COG_currying_favors_with_katangese_separatists: "Currying Favors with Katangese Separatists"
+
  COG_anti_colonialist_propaganda_idea: "Anti-Colonialist Propaganda"
+
  COG_the_arme_populaire_de_liberation_idea: "Armée Populaire de Libération"
  nationalzied_foreign_assets_op_modifier: "Nationalized Foreign Assets!"
  COG_societe_nationale_chemins_du_congo_idea: "Société Nationale des Chemins de fer du Congo"
  COG_cooperating_with_the_congolese_churches: "Cooperating with the Congolese Churches"
  COG_strict_anti_clericalism_idea: "Strict Anti-Clericalism"
+
  COG_pooled_technical_know_how: "Pooled Technical Know-How"
+
  COG_state_supporting_resistance_modifier: "Congolese-supported resistance"
  COG_state_supporting_resistance_modifier_desc: "The Congo is covertly supplying arms and equipment, as well as military training to the local resistance groups."
  COG_resistance_support_progress_flag: "Currently training local resistance"
@@ -813,33 +927,47 @@
  COG_ethiopia_supporting_independence_idea: "[COG.GetNameDefCap] Supporting Independence"
  COG_ten_years_plan_idea: "Ten Year Plan"
  COG_women_in_the_military_idea: "Women in the Military"
+
  COG_devout_catholic_kingdom_idea: "A Devout Catholic Kingdom"
  COG_bundu_dia_kongo_idea: "Bundu dia Kongo"
  COG_royal_council_of_kongo_idea: "Ne Mbanda-Mbanda"
+
  COG_traditional_kuba_textiles: "Traditional Kuba Textiles Exports"
  COG_traditional_masks_and_armor_idea: "Kuban Armor and Masks"
  COG_children_of_woot_idea: "The Children of Woot"
+
  COG_bouvandji: "Bouvandji"
  COG_loango_royal_council: "Royal Council of Loango"
+
  COG_central_military_structure: "Centralized Military Structure"
  COG_expansionism: "Expansionism"
  COG_cattle_chiefs: "Cattle Chiefs"
  COG_tutsi_warrior_training_idea: "Tutsi Warrior Training"
+
  COG_german_colonial_administration: "German-Style Colonial Administration"
  COG_prussia_of_africa_idea: "The Prussia of Africa"
+
  COG_rich_in_uranium: "Rich in Uranium"
  COG_congolese_uranium_trade_ns: "Congolese Uranium Trade"
  COG_uranium_development_trust_member_ns: "Uranium Development Trust Member"
  COG_triga_i_project_ns: "TRIGA I Project"
+
  COG_kongo_volunteer_force_idea: "Pan-Kongo Volunteers"
+
  generic_secret_weapons_ns: "Secret Weapons Initiatives"
  generic_secret_weapons_ns_desc: "While it is tempting to expend all extra resources into developing tanks and planes, the secret to winning wars lies in whole new fields of science; electronics, rocketry and nuclear research."
-  ##### CONGO TOOLTIPS ###### 
+
+##### CONGO TOOLTIPS ######
+
  BEL_belgian_congo_colonial_returns_dynamic_modifier: "Colonial Returns"
  modify_BEL_belgian_congo_colonial_returns_dynamic_modifier_tt: "Modify §Y$BEL_belgian_congo_colonial_returns_dynamic_modifier$§! by:"
  modify_COG_belgian_congo_colonial_dynamic_modifier_tt: "Modify §Y$COG_belgian_congo_colonial_dynamic_modifier$§! by:"
  modify_COG_force_publique_tt: "Modify §Y$COG_force_publique$§! by:"
  modify_COG_COG_armee_nationale_congolaise_modifier_tt: "Modify §Y$COG_armee_nationale_congolaise_modifier$§! by:"
+
+
+
+
  special_project_consumer_costs_high: "Secret Resource Procurement"
  special_project_consumer_costs_high_desc: "Hushed voices whisper of a tremendous amount of supplies being diverted by government to seemingly innocuous locations. Some suggest that the resources are being consumed in secretive research and development projects but little concrete evidence exists to confirm this..."
  special_project_consumer_costs_medium: "Secret Resource Procurement"
@@ -850,3 +978,10 @@
  fallout_thermonuclear: "Intense Nuclear Fallout"
  sp_land_stronghold_network_collapse_workers_drafted: "Emergency Labor Draft"
  sp_land_stronghold_network_collapse_workers_drafted_desc: "A large number of workers have been redirected to rescue operations and immediate reconstruction efforts, significantly slowing down regular construction, repair activities, and resource extraction in the area."
+
+
+
+
+
+
+ 

@@ -87,8 +87,6 @@ leader_traits = {
 		political_power_factor = 0.1
 	}
 
-	
-
 	imperial_sanction = {
 		random = no
 
@@ -4017,12 +4015,6 @@ leader_traits = {
 		democratic_drift = 0.05
 	}
 
-	islamic_scholar = {
-		random = no
-		sprite = 13
-		neutrality_drift = 0.05
-	}
-
 	kautskyian_socialist = {
 		random = no
 		sprite = 13
@@ -4073,6 +4065,12 @@ leader_traits = {
 		equipment_upgrade_xp_cost = -0.1
 		industrial_capacity_factory = 0.05
 		production_lack_of_resource_penalty_factor = -0.1
+	}
+
+	islamic_scholar = {
+		random = no
+		sprite = 13
+		neutrality_drift = 0.05
 	}
 
 	################################
@@ -7776,7 +7774,7 @@ leader_traits = {
 		democratic_acceptance = 30
 		political_power_factor = 0.05
 		war_support_factor = 0.05
-		compliance_gain = -0.15
+		compliance_gain = -0.02
 		
 		ai_will_do = {
 			factor = 0
@@ -7790,7 +7788,7 @@ leader_traits = {
 		democratic_acceptance = 50
 		political_power_factor = 0.08
 		war_support_factor = 0.05
-		compliance_gain = -0.1
+		compliance_gain = -0.01
 		
 		ai_will_do = {
 			factor = 0
@@ -8639,7 +8637,6 @@ leader_traits = {
 			}
 		}
 	}
-
 
 	###
 
@@ -9559,7 +9556,6 @@ leader_traits = {
 		random = no
 
 		consumer_goods_factor = -0.05
-		#project_research_time_factor = -0.1 #TODO_Manu: Figure out syntax (no doc available)
 
 		ai_will_do = {
 			factor = 1
@@ -11714,7 +11710,7 @@ leader_traits = {
 		resistance_growth = -0.05
 		army_attack_factor = 0.05
 		army_defence_factor = 0.05
-		autonomy_gain = -0.1
+		subjects_autonomy_gain = -0.1
 	}
 
 	GER_iron_maiden = { #Braun

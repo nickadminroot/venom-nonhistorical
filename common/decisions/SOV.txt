@@ -1,7 +1,7 @@
 ####### NO STEP BACK! #######
 @DAYS_DETERMINED = 180 #Used for propaganda campaign SOV_heroes_forward -> Value should be the same as SOV_default_propaganda_campaign_duration
 
-debug_decisions = { #TODO_Manu: Comment these out
+debug_decisions = {
 	SOV_debug_show_paranoia_system = { #This is a duplicate of the decision present in the Paranoia category
 		priority = 202
 
@@ -6553,9 +6553,9 @@ SOV_diplomacy_middle_east_decision_category = {
 						transfer_state = 420 #Gilan (AZB)
 						transfer_state = 416 #Khorasan
 					}
-					give_resource_rights = { receiver = SOV state = 411 }
-					give_resource_rights = { receiver = SOV state = 412 }
-					give_resource_rights = { receiver = SOV state = 413 }
+					give_resource_rights = { receiver = FROM state = 411 }
+					give_resource_rights = { receiver = FROM state = 412 }
+					give_resource_rights = { receiver = FROM state = 413 }
 				}
 				else_if = {
 					limit = {
@@ -17941,6 +17941,7 @@ SOV_panslavic_nationalism = {
 			has_full_control_of_state = 784
 			has_full_control_of_state = 93
 			has_full_control_of_state = 87
+			has_full_control_of_state = 807
 		}
 
 		visible = {
@@ -17972,6 +17973,7 @@ SOV_panslavic_nationalism = {
 			add_state_core = 784
 			add_state_core = 93
 			add_state_core = 87
+			add_state_core = 807
 			set_country_flag = SOV_integrated_poland_flag
 		}
 

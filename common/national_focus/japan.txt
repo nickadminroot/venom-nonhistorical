@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = japan_wtt_focus
 	
 	country = {
@@ -183,15 +183,15 @@
 					id = wtt_japan.21
 					hours = 6
 				}
+				}
 				custom_effect_tooltip = JAP_if_man_accepts
 				effect_tooltip = {
-					every_character = {
+				every_army_leader = {
 						limit = {
-							OWNER = { tag = ROOT }
+						OWNER = { tag = JAP }
 							has_trait = JAP_samurai_lineage
 						}
-						set_nationality = PREV
-					}
+					set_nationality = MAN
 				}
 			}
 		}

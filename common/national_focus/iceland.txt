@@ -2847,7 +2847,7 @@ focus_tree = {
 			101 = {
 				add_claim_by = ROOT
 			}
-			random_country = {
+			random_other_country = {
 				limit = {
 					owns_state = 101
 				}

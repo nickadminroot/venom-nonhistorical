@@ -5770,6 +5770,9 @@ ENG_concessions_to_the_trade_unions = {
 
 		activation = {
 			tag = ENG
+
+			custom_trigger_tooltip = {
+				tooltip = ENG_trade_unions_demand_minister_appointment_1
 			OR = {
 				has_country_flag = ENG_trade_unions_demand_minister_appointment_1
 				has_country_flag = ENG_trade_unions_demand_minister_appointment_2
@@ -5787,11 +5790,16 @@ ENG_concessions_to_the_trade_unions = {
 				has_country_flag = ENG_trade_unions_demand_minister_appointment_14
 				has_country_flag = ENG_trade_unions_demand_minister_appointment_15
 			}
+			}
+			
+			
 			NOT = { has_country_flag = ENG_trade_unions_demand_minister_appointment }
 		}
 
 		visible = {
 			tag = ENG
+			custom_trigger_tooltip = {
+				tooltip = ENG_trade_unions_demand_minister_appointment_1
 			OR = {
 				has_country_flag = ENG_trade_unions_demand_minister_appointment_1
 				has_country_flag = ENG_trade_unions_demand_minister_appointment_2
@@ -5808,6 +5816,7 @@ ENG_concessions_to_the_trade_unions = {
 				has_country_flag = ENG_trade_unions_demand_minister_appointment_13
 				has_country_flag = ENG_trade_unions_demand_minister_appointment_14
 				has_country_flag = ENG_trade_unions_demand_minister_appointment_15
+			}
 			}
 			NOT = { has_country_flag = ENG_trade_unions_demand_minister_appointment }
 		}
@@ -8200,6 +8209,7 @@ ENG_move_to_secure_the_dominions = {
 			FROM = { 
 				has_country_flag = ENG_cannot_leave_faction
 				fascism > 0.2
+				NOT = { has_country_flag = banned_fascism_flag }
 			}
 		}
 
@@ -9351,6 +9361,8 @@ political_actions = {
 		}
 
 		cost = 50
+
+		fire_only_once = yes
 		
 		visible = {
 			tag = ENG

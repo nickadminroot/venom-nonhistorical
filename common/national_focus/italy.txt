@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -4222,6 +4222,44 @@ focus_tree = {
 						trench_warfare = 0
 						mobile_warfare = 1
 					}
+					if = {
+						limit = {
+							has_tech = grand_battle_plan
+						}
+						set_technology = {
+							grand_battle_plan = 0
+							delay = 1
+						}
+					}
+					if = {
+						limit = {
+							has_tech = prepared_defense
+						}
+						set_technology = {
+							prepared_defense = 0
+							elastic_defence = 1
+						}
+					}
+					if = {
+						limit = {
+							has_tech = grand_assault
+						}
+						set_technology = {
+							grand_assault = 0
+							infantry_offensive = 0
+							armored_operations = 0
+							infiltration_assault = 0
+							night_assault_tactics = 0
+							attritional_containment = 0
+							infiltration_in_depth = 0
+							grand_mechanized_offensive = 0
+							assault_concentration = 0
+							branch_interoperation = 0
+							assault_breakthrough = 0
+							central_planning = 0
+							c3i_theory = 0
+						}
+					}
 				}
 			}
 		}
@@ -4458,7 +4496,7 @@ focus_tree = {
 
 			division_template = { 
 				name = "Reggimento Bersaglieri" 
-				division_names_group = ITA_INF_01 #TODO_Manu: Namelist: 1º,2º... Reggimento Bersaglieri
+				division_names_group = ITA_INF_01
 				regiments = { 
 					bicycle_battalion = { x = 0 y = 0 }
 					bicycle_battalion = { x = 0 y = 1 }
@@ -7182,7 +7220,7 @@ focus_tree = {
 					create_equipment_variant = {
 						name = "Gabbiano Class"
 						type = ship_hull_light_1
-						name_group = ITA_DD_HISTORICAL #TODO_Manu: Name List
+						name_group = ITA_DD_HISTORICAL
 						parent_version = 0
 						allow_without_tech = yes #Makes no difference since ITA already has tech, but in order to keep it consistent
 						modules = {
@@ -16115,7 +16153,6 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_ideas = ITA_italian_irredentism_ns
-			#TODO_Manu: Might need to remove some/all of the claims below due to overlap with other focuses
 			add_named_threat = { threat = 4 name = ITA_italian_irredentism } #Comes from the old Claims in Yugoslavia focus
 			if = {
 				limit = {
@@ -16133,10 +16170,10 @@ focus_tree = {
 				}
 				add_state_claim = 105 #MONTENEGRO
 			}
-			add_state_claim = 268 #DJIBUTI
+			add_state_claim = 268 #DJIBUTI/FRENCH SOMALILAND
 			add_state_claim = 269 #BRITISH SOMALILAND
 			add_state_claim = 735 #SAVOY
-			add_state_claim = 856 #VAR
+			add_state_claim = 851 #VAR
 			#add_state_claim = 185 #CORFU
 			add_state_claim = 1 #CORSICA
 			add_state_claim = 116 #MALTA

@@ -2129,9 +2129,7 @@ focus_tree = {
 			factor = 0
 		}
 
-		search_filters = {
-
-		}
+		search_filters = { FOCUS_FILTER_MANPOWER }
 
 		completion_reward = {
 			custom_effect_tooltip = PER_expand_immortal_legion_tt
@@ -2488,7 +2486,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_INTERNATIONAL_TRADE
 		}
 
 		completion_reward = {
@@ -2596,9 +2594,7 @@ focus_tree = {
 			factor = 15
 		}
 
-		search_filters = {
-
-		}
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
 			custom_effect_tooltip = PER_modify_iranian_airforce_ns_intro
@@ -2739,7 +2735,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_RESEARCH
+			FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIR_XP FOCUS_FILTER_RESEARCH
 		}
 
 		completion_reward = {
@@ -2917,7 +2913,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_NAVY_XP
+			FOCUS_FILTER_NAVY_XP FOCUS_FILTER_INDUSTRY
 		}
 
 		completion_reward = {
@@ -2975,7 +2971,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_NAVY_XP
+			FOCUS_FILTER_NAVY_XP FOCUS_FILTER_MILITARY_CHARACTER
 		}
 
 		completion_reward = {
@@ -3022,7 +3018,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_NAVY_XP
+			FOCUS_FILTER_NAVY_XP FOCUS_FILTER_INDUSTRY
 		}
 
 		completion_reward = {
@@ -3056,7 +3052,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-
+			FOCUS_FILTER_INDUSTRY
 		}
 
 		completion_reward = {
@@ -3109,10 +3105,6 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 15
-		}
-
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
 		}
 
 		completion_reward = {
@@ -3238,7 +3230,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_INDUSTRY
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_INDUSTRY
 		}
 
 		completion_reward = {
@@ -3513,8 +3505,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_STABILITY
-			FOCUS_FILTER_HISTORICAL
+			FOCUS_FILTER_HISTORICAL FOCUS_FILTER_RESEARCH
 		}
 
 		completion_reward = {
@@ -5803,7 +5794,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY
 		}
 
 		completion_reward = {
@@ -5930,7 +5921,7 @@ focus_tree = {
 		}
 
 		search_filters = {
-			FOCUS_FILTER_POLITICAL
+			FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH FOCUS_FILTER_STABILITY
 		}
 
 		completion_reward = {
@@ -10467,7 +10458,7 @@ focus_tree = {
 					elections_allowed = no
 				}
 				hidden_effect = {
-					set_global_flag = PER_non_lethal_takeover
+					set_country_flag = PER_civil_war_was_bypassed
 				}
 			}
 		}
@@ -12676,10 +12667,6 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 0
-		}
-
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
 		}
 
 		completion_reward = {

@@ -284,8 +284,10 @@ ideas = {
 						}
 					}
 					ELSE = {
+						OR = {
 						has_completed_focus = wuw_HUN_secret_rearmament
 						NOT = { has_idea = HUN_treaty_of_triannon_wuw }
+						}
 					}
 				}
 
@@ -353,6 +355,17 @@ ideas = {
 							has_idea = tot_economic_mobilisation
 						}
 					}
+				}
+				
+				modifier = {
+					original_tag = SIA
+					NOT = { 
+						OR = {
+							has_idea = war_economy 
+							has_idea = tot_economic_mobilisation
+						}
+					}
+					add = 1200 #Prep for invasion
 				}
 				
 				modifier = {

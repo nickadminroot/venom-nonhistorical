@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -376,6 +376,7 @@ focus_tree = {
 			664 = { add_core_of = ROOT }
 			71 = { add_core_of = ROOT }
 			73 = { add_core_of = ROOT }
+			972 = { add_core_of = ROOT }
 			hidden_effect = {
 				news_event = { id = news.295 }
 			}
@@ -1076,6 +1077,7 @@ focus_tree = {
 
 		available = {
 			is_in_faction = no
+			is_subject = no
 		}
 
 		bypass = {

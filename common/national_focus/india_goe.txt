@@ -387,6 +387,9 @@ focus_tree = {
                     country_event = { id = GOE_RAJ.31 hours = 2  }
                 }
             }
+            custom_effect_tooltip = generic_skip_one_line_tt 
+            custom_effect_tooltip = AFG_promote_the_counter_elite_tt
+            show_ideas_tooltip = RAJ_jim_corbett
 
 
         } 
@@ -8940,9 +8943,6 @@ focus_tree = {
 
         completion_reward = {
             custom_effect_tooltip = available_political_advisor
-            show_ideas_tooltip = RAJ_jim_corbett
-            custom_effect_tooltip = generic_skip_one_line_tt
-            custom_effect_tooltip = available_political_advisor
             show_ideas_tooltip = RAJ_puran_chand_joshi
             custom_effect_tooltip = generic_skip_one_line_tt
             custom_effect_tooltip = available_political_advisor
@@ -10604,7 +10604,9 @@ focus_tree = {
                     }
                     ####### Add Tank division #######
                 }
-
+                #First check if the "other" raj has any valid state that it can possily have as a capital
+               # bose_civil_war_capital_check = yes
+               clr_country_flag = bose_opponent_has_valid_capital
                 ### Restore cores and spawn divisions ####
                 for_each_scope_loop = {
                     array =  RAJ.owned_states_at_game_start 
@@ -13983,7 +13985,7 @@ focus_tree = {
                     is_historical_focus_on = yes
                     has_game_rule = {
                         rule = RAJ_ai_behavior
-                        option = HISTORICAL
+                        option = GOE_HISTORICAL
                     }
                 }
             }
@@ -16753,8 +16755,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
 
-        search_filters = {FOCUS_FILTER_WAR_SUPPORT}
-        search_filters = {FOCUS_FILTER_POLITICAL}
+        search_filters = {FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_INDUSTRY}
 
         completion_reward = {
             add_timed_idea = { idea = idea_RAJ_military_pensions days = 400 }
@@ -16969,7 +16970,7 @@ focus_tree = {
         bypass = {
             NOT = { has_dynamic_modifier = { modifier = idea_RAJ_agrarian_society } }
         }
-        search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_MANPOWER }
+        search_filters = { FOCUS_FILTER_MANPOWER }
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -17141,7 +17142,6 @@ focus_tree = {
         bypass = {
             NOT = { has_dynamic_modifier = { modifier = idea_RAJ_agrarian_society } }
         }
-        search_filters = { FOCUS_FILTER_MANPOWER }
         cancel_if_invalid = yes
         continue_if_invalid = no
         available_if_capitulated = no
@@ -17421,7 +17421,6 @@ focus_tree = {
         available = {
             has_war_support > 0.55
         }
-        search_filters = { FOCUS_FILTER_MANPOWER }
         bypass = {
             NOT = { has_dynamic_modifier = { modifier = idea_RAJ_agrarian_society } }
         }
@@ -17629,7 +17628,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
 
-        search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_ARMY_XP }
+        search_filters = { FOCUS_FILTER_MANPOWER FOCUS_FILTER_ARMY_XP FOCUS_FILTER_WAR_SUPPORT }
         completion_reward = {
             add_ideas = idea_RAJ_lions_of_the_great_war
             army_experience = 30
@@ -18335,7 +18334,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
 
-
+        search_filters = { FOCUS_FILTER_INDUSTRY }
 
         completion_reward = {
             if = {
@@ -18384,7 +18383,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
 
-
+        search_filters = {FOCUS_FILTER_INDUSTRY}
 
         completion_reward = {
             
@@ -18442,7 +18441,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
 
-        search_filters = { FOCUS_FILTER_RESEARCH }
+        search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
 
         completion_reward = {
             if = {
@@ -18502,7 +18501,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
 
-        search_filters = {FOCUS_FILTER_RESEARCH}
+        search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY}
 
         completion_reward = {
             add_tech_bonus = {
@@ -18763,7 +18762,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
 
-
+        search_filters = {FOCUS_FILTER_AIR_XP}
 
         completion_reward = {
             custom_effect_tooltip = idea_RAJ_indian_air_force_modify_tt
@@ -19285,7 +19284,7 @@ focus_tree = {
         continue_if_invalid = no
         available_if_capitulated = no
 
-
+        search_filters = {FOCUS_FILTER_ARMY_XP FOCUS_FILTER_AIR_XP FOCUS_FILTER_NAVY_XP FOCUS_FILTER_RESEARCH}
 
         completion_reward = {
             if = {
@@ -19299,7 +19298,7 @@ focus_tree = {
             }
             if = {
                 limit = {
-                    has_dlc = "No Step Back"
+                    has_dlc = "Arms Against Tyranny"
                 }
 
                 add_doctrine_cost_reduction = {

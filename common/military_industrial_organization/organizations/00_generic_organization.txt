@@ -5291,7 +5291,7 @@ generic_cas_aircraft_organization = {
 	icon = GFX_idea_generic_air_manufacturer_1
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		always = yes # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = {

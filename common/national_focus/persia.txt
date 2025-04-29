@@ -58,7 +58,7 @@ focus_tree = {
 
 	default = no
 
-	continuous_focus_position = { x = 200 y = 2400 }
+	continuous_focus_position = { x = 200 y = 2000 }
 
 	initial_show_position = {
 		x = 25
@@ -78,6 +78,30 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 15
+		}
+
+		offset = {
+		    x = -50
+		    y = 0
+		    trigger = {
+		        has_game_rule = {
+		            rule = obsolete_focus_branches_visibility
+		            option = HIDE
+		        }
+		        has_completed_focus = PER_legacy_of_greatness
+		    }
+		}
+
+		offset = {
+		    x = -50
+		    y = 0
+		    trigger = {
+		        has_game_rule = {
+		            rule = obsolete_focus_branches_visibility
+		            option = HIDE
+		        }
+		        has_completed_focus = PER_stand_with_giants
+		    }
 		}
 
 		search_filters = {
@@ -159,7 +183,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = PER_national_museum
 		mutually_exclusive = { focus = PER_shiraz_university }
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 15
@@ -187,7 +211,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = PER_national_museum
 		mutually_exclusive = { focus = PER_university_of_isfahan }
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 15
@@ -955,7 +979,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_develop_oil_fields
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 5
@@ -1037,7 +1061,7 @@ focus_tree = {
 	focus = { #ARMY
 		id = PER_restructure_army
 		icon = GFX_focus_PER_restructure_army
-		x = 20
+		x = 32
 		y = 0
 		relative_position_id = PER_modernizing_iran
 		cost = 5
@@ -1089,6 +1113,13 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 0
+		}
+
+		available = {
+			has_government = neutrality
+			NOT = {
+				has_completed_focus = PER_islamic_revolution
+			}
 		}
 
 		search_filters = { FOCUS_FILTER_MANPOWER }
@@ -1507,7 +1538,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = PER_restructure_army
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 15
@@ -1976,9 +2007,41 @@ focus_tree = {
 				limit = {
 					has_dlc = "La Resistance"
 				}
-				upgrade_intelligence_agency = upgrade_economy_civilian 
-				upgrade_intelligence_agency = upgrade_training_centers 
+				IF = {
+					limit = { has_intelligence_agency = no }
+
+					create_intelligence_agency = yes
+				}
+
+				ELSE = {
+
+					IF = {
+						limit = {
+							NOT = {
+								has_done_agency_upgrade = upgrade_economy_civilian 
+							}
+						}
+						upgrade_intelligence_agency = upgrade_economy_civilian 
+					}
+					ELSE_IF = {
+						limit = {
+							NOT = {
+								has_done_agency_upgrade = upgrade_training_centers 
+							}
+						}
+						upgrade_intelligence_agency = upgrade_training_centers 
+					}
+					ELSE_IF = { #There are 4 of these, this is as good of a fallback as we canget without code support
+						limit = {
+							NOT = {
+								has_done_agency_upgrade =upgrade_passive_defense
+							}
+						}
+						upgrade_intelligence_agency = upgrade_passive_defense
+					}	
+				}
 			}
+
 			ELSE = {
 				add_ideas = PER_fund_state_intelligence_idea
 			}
@@ -2333,7 +2396,7 @@ focus_tree = {
 	focus = { #AIRFORCE
 		id = PER_establish_airforce
 		icon = GFX_focus_PER_establish_airforce
-		x = 43
+		x = 55
 		y = 0
 		relative_position_id = PER_modernizing_iran
 		cost = 5
@@ -2890,7 +2953,7 @@ focus_tree = {
 	focus = { #NAVY
 		id = PER_establish_the_navy
 		icon = GFX_focus_PER_establish_the_navy
-		x = 52
+		x = 63
 		y = 0
 		relative_position_id = PER_modernizing_iran
 		cost = 5
@@ -3345,9 +3408,41 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			NOT = {
-				has_completed_focus = PER_rally_the_reformers
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = PER_rally_the_reformers
+				}
 			}
+		}
+
+		offset = {
+		    x = 8
+		    y = 0
+		    trigger = {
+		        has_game_rule = {
+		            rule = obsolete_focus_branches_visibility
+		            option = HIDE
+		        }
+		        has_completed_focus = PER_legacy_of_greatness
+		    }
+		}
+
+		offset = {
+		    x = 18
+		    y = 0
+		    trigger = {
+		        has_game_rule = {
+		            rule = obsolete_focus_branches_visibility
+		            option = HIDE
+		        }
+		        has_completed_focus = PER_stand_with_giants
+		    }
 		}
 
 		ai_will_do = {
@@ -3385,6 +3480,33 @@ focus_tree = {
 
 		}
 
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = PER_legacy_of_greatness
+					has_completed_focus = PER_rally_the_reformers
+				}
+			}
+		}
+
+		offset = {
+		    x = 6
+		    y = 0
+		    trigger = {
+		        has_game_rule = {
+		            rule = obsolete_focus_branches_visibility
+		            option = HIDE
+		        }
+		        has_completed_focus = PER_stand_with_giants
+		    }
+		}
+
 		ai_will_do = {
 			factor = 80
 		}
@@ -3397,83 +3519,10 @@ focus_tree = {
 			add_dynamic_modifier = {
 				modifier = PER_stand_with_giants_modifier
 			}
-		}
-	}
-
-	focus = { #HISTORICAL
-		id = PER_saadabad_treaty
-		icon = GFX_focus_TUR_treaty_of_saadabad
-		prerequisite = { focus = PER_stand_with_giants }
-		x = 3
-		y = 1
-		relative_position_id = PER_stand_with_giants
-		cost = 5
-		
-		available = {
-			has_government = neutrality
-			AND = {
-				AFG = { exists = yes }
-				TUR = { exists = yes }
-				IRQ = { exists = yes }
-				NOT = {
-					has_global_flag = PER_saadabad_pact
-				}
-			}
-			is_subject = no
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-
-		allow_branch = {
-
-		}
-
-		ai_will_do = {
-			factor = 80
-		}
-
-		search_filters = {
-			FOCUS_FILTER_POLITICAL FOCUS_FILTER_HISTORICAL FOCUS_FILTER_WAR_SUPPORT
-		}
-
-		completion_reward = {
-			if = {
-				limit = {
-					AFG = { 
-						exists = yes
-						is_subject = no 
-					}
-				}
-				AFG = { country_event = { id = PER_imperial_events.200 }}
-			}
-			if = {
-				limit = {
-					TUR = { 
-						exists = yes
-						is_subject = no 
-					}
-				}
-				TUR = { country_event = { id = PER_imperial_events.200 }}
-			}
-			if = {
-				limit = {
-					IRQ = { 
-						exists = yes
-						is_subject = no 
-					}
-				}
-				IRQ = { country_event = { id = PER_imperial_events.200 }}
-			}
-			add_war_support = 0.05
-
 			hidden_effect = {
-				set_global_flag = PER_saadabad_pact
+				mark_focus_tree_layout_dirty = yes
 			}
-		}	
+		}
 	}
 
 	focus = { #HISTORICAL
@@ -3500,6 +3549,30 @@ focus_tree = {
 
 		}
 
+		offset = {
+		    x = -4
+		    y = 0
+		    trigger = {
+		        has_game_rule = {
+		            rule = obsolete_focus_branches_visibility
+		            option = HIDE
+		        }
+		        has_completed_focus = PER_legacy_of_greatness
+		    }
+		}
+
+		offset = {
+		    x = 5
+		    y = 0
+		    trigger = {
+		        has_game_rule = {
+		            rule = obsolete_focus_branches_visibility
+		            option = HIDE
+		        }
+		        has_completed_focus = PER_stand_with_giants
+		    }
+		}
+
 		ai_will_do = {
 			factor = 80
 		}
@@ -3523,7 +3596,7 @@ focus_tree = {
 		x = -5
 		y = 1
 		relative_position_id = PER_stand_with_giants
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = neutrality
@@ -3641,7 +3714,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = PER_stand_with_giants
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = neutrality
@@ -3841,7 +3914,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_increase_military_funding
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = neutrality
@@ -3926,6 +3999,7 @@ focus_tree = {
 			else = {
 				add_political_power = 150
 			}
+			add_war_support = 0.05
 		}
 	}
 
@@ -4524,7 +4598,7 @@ focus_tree = {
 	######## SAADABAD PACT #########
 	################################
 
-#	shared_focus = SSB_the_saadabad_pact
+	shared_focus = SSB_the_saadabad_pact
 
 	################################
 	####### DEFENCE OF IRAN ########
@@ -4554,7 +4628,7 @@ focus_tree = {
 		}
 
         offset = {
-            x = 10
+            x = 11
             y = 0
             trigger = {
                 has_game_rule = {
@@ -4566,7 +4640,7 @@ focus_tree = {
         }
 
         offset = {
-            x = 15
+            x = 13
             y = 0
             trigger = {
                 has_game_rule = {
@@ -4580,6 +4654,31 @@ focus_tree = {
                 }
             }
         }
+
+        offset = {
+            x = 15
+            y = 0
+            trigger = {
+                has_game_rule = {
+                    rule = obsolete_focus_branches_visibility
+                    option = HIDE
+                }
+                has_completed_focus = PER_legacy_of_greatness
+            }
+        }
+
+        offset = {
+            x = 23
+            y = 0
+            trigger = {
+                has_game_rule = {
+                    rule = obsolete_focus_branches_visibility
+                    option = HIDE
+                }
+                has_completed_focus = PER_stand_with_giants
+            }
+        }
+
 
 		ai_will_do = {
 			factor = 20
@@ -4620,7 +4719,28 @@ focus_tree = {
 		}
 
 		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = { has_completed_focus = PER_dig_and_defend }
+				
+			}
+		}
 
+		offset = {
+			x = 2
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = PER_force_them_back 
+			}
 		}
 
 		ai_will_do = {
@@ -4634,6 +4754,10 @@ focus_tree = {
 		completion_reward = {
 			add_dynamic_modifier = {
 				modifier = PER_offensive_tactics_modifier
+			}
+
+			hidden_effect = {
+				mark_focus_tree_layout_dirty = yes
 			}
 		}
 	}
@@ -4659,7 +4783,28 @@ focus_tree = {
 		}
 
 		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = { has_completed_focus = PER_force_them_back }
+				
+			}
+		}
 
+		offset = {
+			x = -2
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = PER_dig_and_defend
+			}
 		}
 
 		ai_will_do = {
@@ -4673,6 +4818,9 @@ focus_tree = {
 		completion_reward = {
 			add_dynamic_modifier = {
 				modifier = PER_defensive_maneuvers_modifier
+			}
+			hidden_effect = {
+				mark_focus_tree_layout_dirty = yes
 			}
 		}
 	}
@@ -4937,6 +5085,12 @@ focus_tree = {
 			custom_effect_tooltip = PER_reparations_tt
 			custom_effect_tooltip = CHL_skip_one_line_tt
 			every_enemy_country = {
+				limit = {
+					OR = {
+						is_faction_leader = yes
+						is_in_faction = no
+					}
+				}
 				IF = {
 					limit = {
 						OR = {
@@ -4947,7 +5101,6 @@ focus_tree = {
 							tag = SOU
 							tag = ENG
 						}
-						has_country_flag = PER_invading_country_flag
 					}
 					country_event = {
 						id = PER_imperial_events.160
@@ -5003,7 +5156,10 @@ focus_tree = {
 			custom_effect_tooltip = CHL_skip_one_line_tt
 			every_enemy_country = {
 				limit = {
-					has_country_flag = PER_invading_country_flag
+					OR = {
+						is_faction_leader = yes
+						is_in_faction = no
+					}
 				}
 				country_event = {
 					id = PER_imperial_events.150
@@ -5025,6 +5181,7 @@ focus_tree = {
 		
 		available = {
 			has_defensive_war = yes
+			surrender_progress > 0.15
 		}
 
 		bypass = {
@@ -5065,11 +5222,11 @@ focus_tree = {
 							 }
 						}
 						country_event = {
-						id = PER_imperial_events.180
-						hours = 12
+							id = PER_imperial_events.180
+							hours = 12
 						}
 					}
-					IF = {
+					ELSE_IF = {
 						limit = {
 							#has_country_flag = PER_operation_countenance_flag
 							has_war_with = PER
@@ -5080,7 +5237,7 @@ focus_tree = {
 							hours = 2
 						}
 					}
-					IF = {
+					ELSE_IF = {
 						limit = {
 							#has_country_flag = PER_operation_countenance_flag
 							has_war_with = PER
@@ -5091,7 +5248,7 @@ focus_tree = {
 							hours = 2
 						}
 					}
-					IF = {
+					ELSE_IF = {
 						limit = {
 							#has_country_flag = PER_operation_countenance_flag
 							has_war_with = PER
@@ -5135,7 +5292,11 @@ focus_tree = {
 		}
 
 		ai_will_do = {
-			factor = 20
+			base = 0
+			modifier = {
+				add = 20
+				surrender_progress > 0.05
+			}
 		}
 
 		search_filters = {
@@ -5146,15 +5307,16 @@ focus_tree = {
 			custom_effect_tooltip = PER_push_negotiations_tt
 			custom_effect_tooltip = CHL_skip_one_line_tt
 			every_enemy_country = {
-				IF = {
 					limit = {
-						has_country_flag = PER_invading_country_flag
+						OR = {
+							is_faction_leader = yes
+							is_in_faction = no
+						}
 					}
 					country_event = {
 						id = PER_imperial_events.190
 						hours = 1
 					}
-				}
 			}
 		}
 	}
@@ -5179,9 +5341,18 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			OR = {
-				PER = {
-					is_subject = yes
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				OR = {
+					PER = {
+						is_subject = yes
+					}
+					has_completed_focus = PER_rebuilding_iran
 				}
 			}
 		}
@@ -5242,6 +5413,53 @@ focus_tree = {
 			}
 			custom_effect_tooltip = CHL_skip_one_line_tt
 			add_ideas = PER_compliant_subject_idea
+		}
+	}
+
+	focus = { #HISTORICAL
+		id = PER_reinstate_qajars
+		icon = GFX_focus_generic_monarchy_2
+		prerequisite = { focus = PER_declare_loyalty_to_britain }
+		x = -3
+		y = 1
+		relative_position_id = PER_declare_loyalty_to_britain
+		cost = 10
+		
+		available = {
+			PER = {
+				is_subject_of = ENG
+			}
+		}
+
+		bypass = {
+
+		}
+
+		allow_branch = {
+			OR = {
+				PER = {
+					is_subject_of = ENG
+				}
+				has_completed_focus = PER_reinstate_qajars
+			}
+		}
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = PER_reinstate_qajars_tt
+			PER = {
+				country_event = {
+					id = PER_imperial_events.230
+					hours = 1
+				}
+			}
 		}
 	}
 
@@ -5377,7 +5595,16 @@ focus_tree = {
 
 		completion_reward = {
 
-			set_cosmetic_tag = PER_viceroyalty_of_iran
+			IF = {
+				limit = {
+					has_completed_focus = PER_reinstate_qajars
+				}
+				set_cosmetic_tag = PER_viceroyalty_of_persia
+			}
+			ELSE = {
+				set_cosmetic_tag = PER_viceroyalty_of_iran
+			}
+			
 			custom_effect_tooltip = CHL_skip_one_line_tt
 
 			every_character = {
@@ -5408,9 +5635,6 @@ focus_tree = {
 			NOT = {
 				has_war_with = SOU
 			}
-			PER = {
-				has_country_flag = PER_operation_countenance_happened
-			}
 		}
 
 		bypass = {
@@ -5418,12 +5642,8 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			OR = {
-				PER = {
-					has_country_flag = PER_operation_countenance_happened
-				}
-				has_completed_focus = PER_retake_north_iran
-			}
+			has_global_flag = SOV_agreed_anglo_soviet_invasion_of_iran_flag
+			has_completed_focus = PER_swear_fealty
 		}
 
 		ai_will_do = {
@@ -5710,9 +5930,6 @@ focus_tree = {
 			656 = {
 				is_owned_and_controlled_by = PER
 			}
-			PER = {
-				has_country_flag = PER_operation_countenance_happened
-			}
 		}
 
 		bypass = {
@@ -5720,12 +5937,8 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			OR = {
-				PER = {
-					has_country_flag = PER_operation_countenance_happened
-				}
-				has_completed_focus = PER_consolidate_british_territory
-			}
+			has_global_flag = SOV_agreed_anglo_soviet_invasion_of_iran_flag
+			has_completed_focus = PER_swear_fealty
 		}
 
 		ai_will_do = {
@@ -5789,6 +6002,18 @@ focus_tree = {
 			}
 		}
 
+		offset = {
+		    x = -6
+		    y = 0
+		    trigger = {
+		        has_game_rule = {
+		            rule = obsolete_focus_branches_visibility
+		            option = HIDE
+		        }
+		        has_completed_focus = PER_legacy_of_greatness
+		    }
+		}
+
 		ai_will_do = {
 			factor = 20
 		}
@@ -5800,6 +6025,9 @@ focus_tree = {
 		completion_reward = {
 			add_dynamic_modifier = {
 				modifier = PER_legacy_of_greatness_modifier
+			}
+			hidden_effect = {
+				mark_focus_tree_layout_dirty = yes
 			}
 			custom_effect_tooltip = CHL_skip_one_line_tt
 			custom_effect_tooltip = PER_civil_unrest_tt
@@ -5906,7 +6134,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_assassinate_reza_shah
-		cost = 10
+		cost = 5
 
 		allow_branch = {
 
@@ -6109,7 +6337,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_embrace_opulence
-		cost = 10
+		cost = 5
 
 		available = {
 			has_government = neutrality
@@ -6133,10 +6361,6 @@ focus_tree = {
 				266 = { 
 					create_unit = {
 					    division = "name = \"3rd Imperial Guard\" 	division_template = \"Iranian Imperial Guard\" 	start_experience_factor = 1.0 start_equipment_factor = 1"
-					    owner = ROOT
-					}
-					create_unit = {
-					    division = "name = \"4th Imperial Guard\" 	division_template = \"Iranian Imperial Guard\" 	start_experience_factor = 1.0 start_equipment_factor = 1"
 					    owner = ROOT
 					}
 				}
@@ -6169,7 +6393,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_emperor_for_people
-		cost = 10
+		cost = 5
 
 		allow_branch = {
 
@@ -6379,7 +6603,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = PER_take_regional_tour
 		mutually_exclusive = { focus = PER_limit_foreign_influence }
-		cost = 10
+		cost = 5
 
 		allow_branch = {
 
@@ -6402,7 +6626,7 @@ focus_tree = {
 			add_tech_bonus = {
 			name = PER_embrace_industrial_powers_bonus
 			bonus = 0.5
-			uses = 2
+			uses = 1
 			category = industry
 			}
 			custom_effect_tooltip = CHL_skip_one_line_tt
@@ -6610,7 +6834,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_shahanshah
-		cost = 10
+		cost = 5
 
 		available = {
 			has_government = neutrality
@@ -7754,7 +7978,6 @@ focus_tree = {
 			has_government = neutrality
 			is_subject = no
 			GRE = {
-				has_country_flag = GRE_byz_unified_flag
 				exists = yes
 			}
 			NOT = {
@@ -7766,12 +7989,6 @@ focus_tree = {
 			has_war_with = GRE
 		}
 
-		allow_branch = {
-			GRE = {
-				has_country_flag = GRE_byz_unified_flag
-			}
-		}
-
 		ai_will_do = {
 			factor = 10
 		}
@@ -7780,11 +7997,25 @@ focus_tree = {
 			FOCUS_FILTER_ANNEXATION
 		}
 
+		will_lead_to_war_with = GRE #To give Greece a headsup that PER might be about to attack
+
 		completion_reward = {
 			PER = {
 				create_wargoal = {
 					target = GRE
 					type = annex_everything
+				}
+			}
+
+			if = {
+				limit = {
+					GRE = {
+						has_country_flag = GRE_byz_unified_flag
+					}
+				}
+				add_timed_idea = {
+					idea = PER_clash_of_titans_idea
+					days = 720
 				}
 			}
 		}
@@ -8430,24 +8661,54 @@ focus_tree = {
 		completion_reward = {
 			hidden_effect = {
 				ENG = {
-					remove_resource_rights = 411
-					remove_resource_rights = 412
-					remove_resource_rights = 413
+					if = {
+						limit = {
+							ROOT = { controls_state = 413 }
+						}
+						remove_resource_rights = 413
+					}
+					if = {
+						limit = {
+							ROOT = { controls_state = 412 }
+						}
+						remove_resource_rights = 412
+					}
+					if = {
+						limit = {
+							ROOT = { controls_state = 411 }
+						}
+						remove_resource_rights = 411
+					}
 				}
 			}
 			add_war_support = 0.1
-			FROM = {
-				give_resource_rights = {
-					receiver = GER
-					state = 413
+			ROOT = {
+				if = {
+					limit = {
+						controls_state = 413
+					}
+					give_resource_rights = {
+						receiver = GER
+						state = 413
+					}
 				}
-				give_resource_rights = {
-					receiver = GER
-					state = 411
+				if = {
+					limit = {
+						controls_state = 412
+					}
+					give_resource_rights = {
+						receiver = GER
+						state = 412
+					}
 				}
-				give_resource_rights = {
-					receiver = GER
-					state = 412
+				if = {
+					limit = {
+						controls_state = 411
+					}
+					give_resource_rights = {
+						receiver = GER
+						state = 411
+					}
 				}
 			}
 		}
@@ -8554,7 +8815,7 @@ focus_tree = {
 		id = PER_rally_the_reformers
 		icon = GFX_goal_generic_national_unity
 		#prerequisite = { focus = PER_separate_crown }
-		x = -68
+		x = -70
 		y = 0
 		relative_position_id = PER_modernizing_iran
 		mutually_exclusive = { focus = PER_the_pahlavi_imperium }
@@ -8760,8 +9021,16 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			NOT = {
-				has_completed_focus = PER_the_pahlavi_imperium
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = PER_the_pahlavi_imperium
+				}
 			}
 		}
 
@@ -8804,9 +9073,18 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			NOT = {
-				has_completed_focus = PER_the_pahlavi_imperium
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = PER_the_pahlavi_imperium
+				}
 			}
+			
 		}
 
 		ai_will_do = {
@@ -8922,10 +9200,18 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			NOT = {
-				has_completed_focus = PER_united_progressive_parties
-				has_completed_focus = PER_iranian_culture
-				has_completed_focus = PER_the_pahlavi_imperium
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = PER_united_progressive_parties
+					has_completed_focus = PER_iranian_culture
+					has_completed_focus = PER_the_pahlavi_imperium
+				}
 			}
 		}
 
@@ -9127,6 +9413,10 @@ focus_tree = {
 					add_ideas = PER_constitutional_shah
 				}
 			}
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			remove_ideas = PER_azerbaijan_resistance_idea
+			remove_ideas = PER_kurdistan_resistance_idea
 		}
 	}
 
@@ -9265,7 +9555,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = PER_force_abdication
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = democratic
@@ -9441,13 +9731,13 @@ focus_tree = {
 		id = PER_royal_college_funding
 		icon = GFX_focus_research
 		prerequisite = { focus = PER_islamic_restoration focus = PER_continue_westernization }
-		x = 0
+		x = 1
 		y = 2
 		relative_position_id = PER_free_elections
 		cost = 10
 		
 		available = {
-			
+			controls_state = 266 #Tehran
 		}
 
 		bypass = {
@@ -9468,7 +9758,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_research_slot = 1 
-
+			custom_effect_tooltip = {
+				localization_key = available_scientist_one_line_tt
+				CHARACTER = PER_kazem_hasibi
+			}
 		}
 	}
 
@@ -9476,7 +9769,7 @@ focus_tree = {
 		id = PER_entice_foreign_investment
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		prerequisite = { focus = PER_continue_westernization }
-		x = 0
+		x = 1
 		y = 1
 		relative_position_id = PER_continue_westernization
 		cost = 10
@@ -9503,6 +9796,140 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = PER_invite_foreign_investors
+		}
+	}
+
+	focus = { #DEMOCRATIC
+		id = PER_increase_faculty_staffing_budget
+		icon = GFX_focus_generic_university_2
+		prerequisite = { focus = PER_royal_college_funding }
+		prerequisite = { focus = PER_entice_foreign_investment }
+		x = 1
+		y = 1
+		relative_position_id = PER_royal_college_funding
+		cost = 5
+		
+		available = {
+			has_government = democratic
+		}
+
+		bypass = {
+
+		}
+
+		allow_branch = {
+
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH
+		}
+
+		completion_reward = {
+			if = {
+				limit = {
+					NOT = { 
+						has_dynamic_modifier = {
+							modifier = PER_technological_modifier
+						}
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = PER_technological_modifier
+				}
+				log = "Added modifier"
+			}
+			else = {
+				custom_effect_tooltip = PER_increase_faculty_staffing_budget_tt
+				log = "Modifies modifier"
+			}
+
+			add_to_variable = { PER_technological_modifier_research_speed_factor = 0.03 tooltip = research_speed_factor_tt }
+			add_to_variable = { PER_technological_modifier_special_project_speed_factor = 0.05 tooltip = special_project_speed_factor_tt}
+
+
+			custom_effect_tooltip = {
+				localization_key = available_scientist_one_line_tt
+				CHARACTER = PER_ahmad_zirakzadeh
+			}
+		}
+	}
+
+	focus = { #DEMOCRATIC
+		id = PER_invest_in_univerity_facilities
+		icon = GFX_focus_research2
+		prerequisite = { focus = PER_royal_college_funding }
+		prerequisite = { focus = PER_entice_foreign_investment }
+		x = 3
+		y = 1
+		relative_position_id = PER_royal_college_funding
+		cost = 10
+		
+		available = {
+			has_government = democratic
+		}
+
+		bypass = {
+
+		}
+
+		allow_branch = {
+
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH
+		}
+
+		completion_reward = {
+
+			if = {
+				limit = {
+					NOT = { 
+						has_dynamic_modifier = {
+							modifier = PER_technological_modifier
+						}
+					}
+				}
+				add_dynamic_modifier = {
+					modifier = PER_technological_modifier
+				}
+				log = "Added modifier"
+			}
+			else = {
+				custom_effect_tooltip = PER_increase_faculty_staffing_budget_tt
+				log = "modifies modifier"
+			}
+
+			add_to_variable = { PER_technological_modifier_production_cost_air_facility_factor = 0.1 tooltip = production_speed_air_facility_factor_tt }
+			add_to_variable = { PER_technological_modifier_production_cost_land_facility_factor = 0.1 tooltip = production_speed_land_facility_factor_tt}
+			add_to_variable = { PER_technological_modifier_production_cost_naval_facility_factor = 0.1 tooltip = production_speed_naval_facility_factor_tt }
+			add_to_variable = { PER_technological_modifier_production_cost_nuclear_facility_factor = 0.1 tooltip = production_speed_nuclear_facility_factor_tt}
+
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.1
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.1
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.1
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_naval
+				value = 0.1
+			}
 		}
 	}
 
@@ -9606,8 +10033,18 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			#retire_country_leader = yes
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+				long_name = PER_islamic_council
+				name = PER_islamic_council_long
+			}
+			retire_country_leader = yes
+			
+			custom_effect_tooltip = generic_skip_one_line_tt
+			
 			PER_abol_ghasem_kashani = { 
+				promote_leader = yes 
 				add_country_leader_role = {
 					country_leader = {
 						ideology = despotism
@@ -9617,12 +10054,9 @@ focus_tree = {
 						}
 					}
 				}
-				promote_leader = yes 
-			}			
-			set_politics = {
-				ruling_party = neutrality
-				elections_allowed = no
 			}
+
+						
 			hidden_effect = {
 				retire_country_leader = yes
 				retire_country_leader = yes
@@ -9932,7 +10366,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = PER_request_membership_allies
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = democratic
@@ -9984,7 +10418,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = PER_request_membership_allies
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = democratic
@@ -10229,7 +10663,7 @@ focus_tree = {
 		x = -8
 		y = 1
 		relative_position_id = PER_stage_mass_protests
-		cost = 10
+		cost = 5
 		
 		available = {
 			
@@ -10240,10 +10674,18 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			NOT = {
-				has_completed_focus = PER_rally_behind_mosaddegh
-				has_completed_focus = PER_iranian_culture
-				has_completed_focus = PER_the_pahlavi_imperium
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = PER_rally_behind_mosaddegh
+					has_completed_focus = PER_iranian_culture
+					has_completed_focus = PER_the_pahlavi_imperium
+				}
 			}
 		}
 
@@ -10289,6 +10731,10 @@ focus_tree = {
 				value = 0
 				tooltip = fascism_drift_tt
 			}
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			show_unit_leaders_tooltip = PER_jafar_kavian
+			show_unit_leaders_tooltip = PER_ghulam_yahya_daneshian
 			hidden_effect = {
 				mark_focus_tree_layout_dirty = yes
 			}
@@ -10386,6 +10832,9 @@ focus_tree = {
 				name = PER_communism_party
 				long_name = PER_communism_party_long
 			}
+
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = PER_abdolsamad_kambakhsh
 		}
 	}
 
@@ -10472,7 +10921,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = PER_strengthen_the_tudeh
-		cost = 10
+		cost = 5
 		
 		available = {
 			is_subject = no
@@ -10482,7 +10931,15 @@ focus_tree = {
 		}
 
 		bypass = {
-			is_subject = yes
+			OR = {
+				is_subject = yes
+				is_in_faction = yes
+				SOU = {
+					NOT = {
+						has_government = communism
+					}
+				}
+			}
 		}
 
 		allow_branch = {
@@ -10501,28 +10958,72 @@ focus_tree = {
 			IF = {
 				limit = {
 					SOU = {
-						has_government = communism 
 						is_faction_leader = yes
 					}
 				}
 				SOU = {
 					country_event = { id = generic.2 hours = 4 }
 					#custom_effect_tooltip = AFG_ideology_on_the_rise_tt
+					add_ai_strategy = { 
+						type = alliance 
+						id = ROOT
+						value = 300
+					}
 				}
-				every_other_country = {
-					limit = {
-						is_major = yes
-						NOT = {
-							OR = {
-								tag = SOU
-								is_in_faction_with = SOU
-							}
+			}
+			ELSE_IF = {
+				limit = {
+					SOU = {
+						has_rule = can_join_factions
+					}
+				}
+				set_rule = {
+					can_create_factions = yes
+				}
+				create_faction = eurasian_communist_bloc
+				custom_effect_tooltip = PER_soviet_alignment_tt
+				hidden_effect = {
+					SOU = {
+						country_event = {
+							id = generic.5
+							hours = 12
 						}
 					}
+				}
+			}
+
+			ELSE = {
+				add_opinion_modifier = {
+					target = SOU
+					modifier = large_increase
+				}
+
+				SOU = {
 					add_opinion_modifier = {
 						target = ROOT
-						modifier = large_decrease
+						modifier = large_increase
 					}
+				}
+			}
+
+			add_political_power = 75
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			every_other_country = {
+				limit = {
+					is_major = yes
+					NOT = {
+						OR = {
+							tag = SOU
+							is_in_faction_with = SOU
+						}
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = large_decrease
 				}
 			}
 		}
@@ -10850,7 +11351,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = PER_the_new_economy
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = communism
@@ -10873,6 +11374,15 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						has_tech = fuel_silos
+					}
+				}
+				set_technology = { fuel_silos = 1 }
+			}
+
 			IF = {
 				limit = {
 					NOT = { has_tech = synth_oil_experiments }
@@ -11084,7 +11594,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_the_peoples_airforce
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = communism
@@ -11432,7 +11942,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_the_peoples_navy
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = communism
@@ -11564,7 +12074,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = PER_elevate_the_iran_party
-		cost = 10
+		cost = 5
 		
 		available = {
 			is_subject = no
@@ -11715,7 +12225,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = PER_international_solidarity
-		cost = 10
+		cost = 5
 		will_lead_to_war_with = AFG
 		available = {
 			is_subject = no
@@ -11925,21 +12435,35 @@ focus_tree = {
 						any_owned_state = {
 							NOT = { is_core_of = THIS }
 							OR = {
-								region = 28
-								region = 196
-								region = 238
-								region = 236
-								region = 237
+							state = 656
+							state = 859
+							state = 678
+							state = 658
+							state = 1013
+							state = 1014
+							state = 765
+							state = 294
+							state = 1015
+							state = 1016
+							state = 659
+							state = 293
 							}
 						}
 						any_subject_country = {
 							any_owned_state = {
 								OR = {
-									region = 28
-									region = 196
-									region = 238
-									region = 236
-									region = 237
+									state = 656
+									state = 859
+									state = 678
+									state = 658
+									state = 1013
+									state = 1014
+									state = 765
+									state = 294
+									state = 1015
+									state = 1016
+									state = 659
+									state = 293
 								}
 							}
 						}
@@ -11982,7 +12506,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			#custom_effect_tooltip = "TODO: decisions or wargoals to take Saudia Arabia and Yemen. Defense bonus against major powers."
-			custom_effect_tooltip = generic_ROOT_gains_wargoal_tt
+			custom_effect_tooltip = BUL_toppling_giants_wargoal_1_tt
 			every_other_country = {
 				limit = {
 					capital_scope = {
@@ -12104,6 +12628,289 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = PER_reject_foreign_dominance
+		icon = GFX_focus_ETH_callout_to_the_world
+		prerequisite = { focus = PER_communist_industrialization }
+		prerequisite = { focus = PER_iranian_industrialization }
+		y = 1
+		x = -1
+		relative_position_id = PER_iranian_industrialization
+		cost = 10
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			add_ideas = PER_idea_reject_foreign_dominance
+		}
+	}
+
+	focus = {
+		id = PER_iranian_revolutionary_vanguard
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		prerequisite = { focus = PER_elevate_the_iran_party }
+		x = 3
+		y = 1
+		relative_position_id = PER_elevate_the_iran_party
+		cost = 5
+		
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			hidden_effect = {
+				division_template = {
+					name = "Vanguard Division"
+					is_locked = no
+					template_counter=34
+					support={
+						engineer={ x=0 y=0 }
+						artillery={ x=0 y=1 }
+					}
+					regiments={
+						infantry={ x=0 y=0 }
+						infantry={ x=0 y=1 }
+						infantry={ x=0 y=2 }
+						infantry={ x=1 y=0 }
+						infantry={ x=1 y=1 }
+						infantry={ x=1 y=2 }
+						artillery_brigade={ x=2 y=0 }
+						artillery_brigade={ x=2 y=1 }
+						artillery_brigade={ x=2 y=2 }
+					}
+				}
+			}
+			custom_effect_tooltip = PER_vanguard_template_tt
+			random_owned_controlled_state = {
+				create_unit = {
+				    division = "name = \"Vanguard\" division_template = \"Vanguard Division\" start_manpower_factor = 1"
+				    owner = PER
+				    count = 3
+				    allow_spawning_on_enemy_provs = no
+				    id = 455
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = PER_one_for_all_all_for_one
+		icon = GFX_focus_generic_workers
+		prerequisite = { focus = PER_iranian_revolutionary_vanguard }
+		x = 0
+		y = 1
+		relative_position_id = PER_iranian_revolutionary_vanguard
+		cost = 5
+		
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			add_ideas = PER_idea_one_for_all_all_for_one
+		}
+	}
+
+	focus = {
+		id = PER_land_reform
+		icon = GFX_focus_generic_land_reclamation
+		prerequisite = { focus = PER_industrial_aid }
+		x = -2
+		y = 1
+		relative_position_id = PER_industrial_aid
+		cost = 5
+		
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+            random_core_state = {
+                limit = {
+                    is_controlled_by = ROOT
+                    infrastructure < 5
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                } 
+            }
+
+            random_core_state = {
+                limit = {
+                    is_controlled_by = ROOT
+                    infrastructure < 5
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                } 
+            }
+
+            random_core_state = {
+                limit = {
+                    is_controlled_by = ROOT
+                    infrastructure < 5
+                }
+                add_building_construction = {
+                    type = infrastructure
+                    level = 1
+                    instant_build = yes
+                } 
+            }
+		}
+	}
+
+	focus = {
+		id = PER_soviet_iranian_oil_collaboration
+		icon = GFX_focus_PER_increase_oil_sales
+		prerequisite = { focus = PER_industrial_aid }
+		x = 0
+		y = 1
+		relative_position_id = PER_industrial_aid
+		cost = 5
+		
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			PER = {
+				random_owned_controlled_state = {
+					prioritize = { 413 412}
+					add_resource = {
+						type = oil
+						amount = 12
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 412 413}
+					add_resource = {
+						type = oil
+						amount = 6
+					}
+				}
+			}
+			SOV = {
+				random_owned_controlled_state = {
+					prioritize = { 229 232}
+					add_resource = {
+						type = oil
+						amount = 10
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 232 229}
+					add_resource = {
+						type = oil
+						amount = 14
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = PER_comintern_research_collaboration
+		icon = GFX_focus_research2
+		prerequisite = { focus = PER_soviet_iranian_oil_collaboration }
+		prerequisite = { focus = PER_land_reform }
+		x = -1
+		y = 1
+		relative_position_id = PER_soviet_iranian_oil_collaboration
+		cost = 5
+		
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			add_ideas = PER_idea_comintern_research_collaboration
+		}
+	}
+
+	focus = {
+		id = PER_iranian_nuclear_program
+		icon = GFX_focus_generic_nuclear_development
+		prerequisite = { focus = PER_comintern_research_collaboration }
+		x = 0
+		y = 1
+		relative_position_id = PER_comintern_research_collaboration
+		cost = 10
+		
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		search_filters = {}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = PER_iranian_nuclear_program
+				bonus = 1.0
+				uses = 1
+				category = nuclear
+			}
+			add_tech_bonus = {
+				name = PER_iranian_nuclear_program
+				bonus = 1.0
+				uses = 1
+				category = rocketry
+			}
+			add_tech_bonus = {
+				name = PER_iranian_nuclear_program
+				bonus = 0.5
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+
 
 	################################
 	### 	Fascist Branch 		 ###
@@ -12128,10 +12935,18 @@ focus_tree = {
 		}
 
 		allow_branch = {
-			NOT = {
-				has_completed_focus = PER_rally_behind_mosaddegh
-				has_completed_focus = PER_united_progressive_parties
-				has_completed_focus = PER_the_pahlavi_imperium
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = PER_rally_behind_mosaddegh
+					has_completed_focus = PER_united_progressive_parties
+					has_completed_focus = PER_the_pahlavi_imperium
+				}
 			}
 		}
 		
@@ -12190,7 +13005,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_iranian_culture
-		cost = 10
+		cost = 5
 		
 		available = {
 
@@ -12285,7 +13100,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = PER_iranian_culture
-		cost = 10
+		cost = 5
 		
 		available = {
 
@@ -13213,7 +14028,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = PER_fascist_reach_out_to_germany
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = fascism
@@ -13264,7 +14079,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = PER_fascist_reach_out_to_japan
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = fascism
@@ -13385,7 +14200,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = PER_intervention_in_iraq
-		cost = 10
+		cost = 5
 		
 		available = {
 			has_government = fascism

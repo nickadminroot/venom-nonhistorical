@@ -81,7 +81,7 @@ NDefines.NAir.HOURS_DELAY_AFTER_EACH_COMBAT = 1
 NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.1
 NDefines.NAir.DISRUPTION_FACTOR = 1.0
 NDefines.NAir.COMBAT_MULTIPLANE_CAP = 2
-NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.005
+NDefines.NMilitary.LAND_AIR_COMBAT_STR_DAMAGE_MODIFIER = 0.007
 NDefines.NMilitary.LAND_AIR_COMBAT_ORG_DAMAGE_MODIFIER = 0.003
 NDefines.NMilitary.ANTI_AIR_ATTACK_TO_AMOUNT = 0.0003
 NDefines.NMilitary.MIN_DIVISION_BRIGADE_HEIGHT = 5
@@ -96,13 +96,13 @@ NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 9999;
 NDefines.NMilitary.MAX_AIR_EXPERIENCE  = 9999;
 NDefines.NMilitary.PROMOTE_LEADER_CP_COST = 0
 NDefines.NMilitary.TRAINING_ATTRITION = 0
-NDefines.NMilitary.RELIABILTY_RECOVERY = 0
-NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 1 -- vanilla 0,7
+NDefines.NMilitary.RELIABILTY_RECOVERY = 0.40
+NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.7 -- vanilla 0,7
 --NDefines.NMilitary.FUEL_CAPACITY_DEFAULT_HOURS = 96
 NDefines.NBuildings.MAX_SHARED_SLOTS = 36
 --NDefines.NMilitary.TRAINING_MAX_DAILY_COUNTRY_EXP = 0
 NDefines.NMilitary.EXPERIENCE_COMBAT_FACTOR = 0.10
-NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.042 --необходимо уменьшить чтобы скомпенсировать фикс NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 1
+NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.06 --необходимо уменьшить чтобы скомпенсировать фикс NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 1
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.04
 NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.03
 --NDefines.NMilitary.ANTI_AIR_TARGETTING_TO_CHANCE = 0.06 --TODO: need later balancing and research

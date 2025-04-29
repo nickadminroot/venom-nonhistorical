@@ -96,7 +96,9 @@ leader_traits = {
 		trait_type = personality_trait
 		
 		modifier = {
-			max_commander_army_size = -1000
+			hidden_modifier = {
+				max_commander_army_size = -1000	
+			}
 		}
 		
 		# non_shared_modifier = {

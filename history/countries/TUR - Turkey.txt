@@ -374,6 +374,34 @@ if = {
 		}
 	}
 
+	if = {
+		limit = {
+			has_dlc = "Graveyard of Empires"
+		}
+
+		complete_national_focus = SSB_the_saadabad_pact
+		set_country_flag = SSB_is_saadabad_leader
+		add_dynamic_modifier = { modifier = SSB_saadabad_pact }
+
+		diplomatic_relation = {
+			country = PER
+			relation = non_aggression_pact
+			active = yes
+		}
+
+		diplomatic_relation = {
+			country = IRQ
+			relation = non_aggression_pact
+			active = yes
+		}
+
+		diplomatic_relation = {
+			country = AFG
+			relation = non_aggression_pact
+			active = yes
+		}
+	}
+
 	set_technology = {
 		interwar_artillery = 1
 		infantry_weapons2 = 1

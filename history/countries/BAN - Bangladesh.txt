@@ -11,6 +11,14 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+if = {
+	limit = {
+		has_dlc = "Graveyard of Empires"
+	}
+	recruit_character = BAN_a_k_fazlul_huq
+}
+
+
 recruit_character = BAN_pot
 recruit_character = BAN_aco2
 recruit_character = BAN_mt
@@ -32,6 +40,12 @@ recruit_character = BAN_nt
 recruit_character = BAN_communist_guy
 recruit_character = BAN_acr
 
+if = {
+	limit = {
+		has_dlc = "Graveyard of Empires"
+	}
+	recruit_character = RAJ_huseyn_shaheed_suhrawardy
+}
 
 set_convoys = 5
 

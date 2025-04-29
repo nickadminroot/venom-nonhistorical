@@ -26,15 +26,15 @@ on_actions = {
 						NOT = {
 							has_trait = skilled_staffer
 							has_trait = ambusher
-							has_trait = infantry_expert
+							has_trait = infantry_leader
 							has_trait = panzer_leader
 							has_trait = ranger
-							has_trait = chief_engineer
+							has_trait = trait_engineer
 						}
 					}
 					add_unit_leader_trait = skilled_staffer
 					add_unit_leader_trait = ambusher
-					add_unit_leader_trait = infantry_expert
+					add_unit_leader_trait = infantry_leader
 				}
 				random_army_leader = {
 					limit = {
@@ -46,15 +46,15 @@ on_actions = {
 						NOT = {
 							has_trait = skilled_staffer
 							has_trait = ambusher
-							has_trait = infantry_expert
+							has_trait = infantry_leader
 							has_trait = panzer_leader
 							has_trait = ranger
-							has_trait = chief_engineer
+							has_trait = trait_engineer
 						}
 					}
 					add_unit_leader_trait = panzer_leader
 					add_unit_leader_trait = ranger
-					add_unit_leader_trait = chief_engineer
+					add_unit_leader_trait = trait_engineer
 				}
 				random_army_leader = {
 					limit = {
@@ -66,15 +66,15 @@ on_actions = {
 						NOT = {
 							has_trait = skilled_staffer
 							has_trait = ambusher
-							has_trait = infantry_expert
+							has_trait = infantry_leader
 							has_trait = panzer_leader
 							has_trait = ranger
-							has_trait = chief_engineer
+							has_trait = trait_engineer
 						}
 					}
 					add_unit_leader_trait = skilled_staffer
 					add_unit_leader_trait = ambusher
-					add_unit_leader_trait = infantry_expert
+					add_unit_leader_trait = infantry_leader
 				}
 				startup_events = yes
             }

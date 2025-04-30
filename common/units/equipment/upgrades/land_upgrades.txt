@@ -42,7 +42,7 @@ upgrades = {
 
 	tank_nsb_armor_upgrade = {
 		abbreviation = "arm"
-		max_level = 30 #each level represents ~10mm of armor 
+		max_level = 40 #each level represents ~10mm of armor 
 		cost = land
 
 		linear_cost = {
@@ -51,16 +51,16 @@ upgrades = {
 		}
 
 		level_requirements = {
-			5 = {
+			10 = {
 				has_tech = armor_tech_1
 			}
-			10 = {
+			20 = {
 				has_tech = armor_tech_2
 			}
-			15 = {
+			30 = {
 				has_tech = armor_tech_3
 			}
-			20 = {
+			40 = {
 				has_tech = armor_tech_4
 			}
 		}

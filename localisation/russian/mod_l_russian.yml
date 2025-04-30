@@ -34,6 +34,7 @@
  RULE_GROUP_AUTO_ANNEX:0 "Auto Annex"
  RULE_ENABLE_AUTO_ANNEX:0 "AI Auto Annex"
  annexations:0 "Аннексии"
+ GER_increasing_cg_tt:0 "§Y$MODIFIER_CONSUMER_GOODS_FACTOR$§!, будет ежемесячно §Rувеличиваться§! на §Y[?GER.GER_monthly_consumer_goods_increase|%1]§!, пока не достигнет §Y100%§!. §GОднако ежемесечный прирост ТНП не будет увеличиваться, сколько бы вы территорий не захватили§!"
  JAP_tora_tora_tora_hidden:0 "Тора! Тора! Тора!"
  JAP_tora_tora_tora_hidden_desc:0 "За первым ударом японцев следует агрессивная и стремительная военная кампания, опирающаяся на авианосцы."
  sov_market_tooltip:0 "Чтобы торговать со своими союзниками подождите 1 месяц и дух на торговлю автоматически позволит вам торговать"

@@ -1643,7 +1643,17 @@ focus_tree = {
 				uses = 1
 				technology = dispersed_industry3
 			}
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = hjalmar_schacht
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
 			custom_effect_tooltip = GER_increasing_cg_tt
+
+			custom_effect_tooltip = generic_skip_one_line_tt
 		}
 	}
 	

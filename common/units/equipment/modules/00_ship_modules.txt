@@ -1187,7 +1187,7 @@ equipment_modules = {
 			naval_heavy_gun_hit_chance_factor = 0.025
 			build_cost_ic = 130
 			surface_detection = 7
-			sub_detection = 2
+			sub_detection = 4
 		}
 		
 		can_convert_from = {
@@ -1207,7 +1207,7 @@ equipment_modules = {
 			naval_light_gun_hit_chance_factor = 0.05
 			naval_heavy_gun_hit_chance_factor = 0.05
 			surface_detection = 12
-			sub_detection = 6
+			sub_detection = 12
 			build_cost_ic = 160
 		}
 		can_convert_from = {
@@ -1433,7 +1433,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.15
 			build_cost_ic = 0.15
-			sub_visibility = -0.05
+			sub_visibility = -0.02
 		}
 		
 		can_convert_from = {
@@ -1462,7 +1462,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = 0.2
 			build_cost_ic = 0.20
-			sub_visibility = -0.1
+			sub_visibility = -0.05
 		}
 		
 		can_convert_from = {
@@ -1488,7 +1488,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_range= -0.66
 			build_cost_ic = 0.25
-			sub_visibility = -0.15
+			sub_visibility = -0.7
 			naval_speed = 0.15
 		}
 		can_convert_from = {
@@ -1514,7 +1514,7 @@ equipment_modules = {
 		multiply_stats = {
 			naval_range= -0.33
 			build_cost_ic = 0.3
-			sub_visibility = -0.17
+			sub_visibility = -0.9
 			naval_speed = 0.15
 		}
 		can_convert_from = {
@@ -1540,7 +1540,7 @@ equipment_modules = {
 		multiply_stats = {
 			#naval_range= -0.75
 			build_cost_ic = 0.35
-			sub_visibility = -0.2
+			sub_visibility = -0.1
 			naval_speed = 0.35
 		}
 		can_convert_from = {
@@ -2366,7 +2366,7 @@ equipment_modules = {
 		gfx = ship_sub_snorkel_1
 		
 		multiply_stats = {
-			sub_visibility = -0.07 
+			sub_visibility = -0.03 
 		}
 		
 		add_stats = {
@@ -2379,7 +2379,7 @@ equipment_modules = {
 		gfx = ship_sub_snorkel_2
 		parent = ship_sub_snorkel_1
 		multiply_stats = {
-			sub_visibility = -0.13
+			sub_visibility = -0.7
 		}
 		
 		add_stats = {
@@ -2404,7 +2404,7 @@ equipment_modules = {
 		category = ship_sub_coating
 		gfx = ship_sub_anechoic_tile_1
 		multiply_stats = {
-			sub_visibility = -0.2
+			sub_visibility = -0.1
 			build_cost_ic = 0.25
 		}
 		build_cost_resources = {
@@ -2452,7 +2452,7 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_detection = 7
-			sub_detection = 2.5
+			sub_detection = 5
 			build_cost_ic = 150
 		}
 		multiply_stats = {
@@ -2466,7 +2466,7 @@ equipment_modules = {
 		parent = ship_airplane_launcher_1
 		add_stats = {
 			surface_detection = 10
-			sub_detection = 3.5
+			sub_detection = 7
 			build_cost_ic = 170
 		}
 		can_convert_from = {
@@ -2593,7 +2593,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			sub_detection = 8
+			sub_detection = 16
 			build_cost_ic = 40
 		}
 	}
@@ -2605,7 +2605,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		parent = ship_sonar_1
 		add_stats = {
-			sub_detection = 12.0
+			sub_detection = 24.0
 			build_cost_ic = 60
 		}
 		can_convert_from = {

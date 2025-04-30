@@ -1,5 +1,47 @@
 ideas = {
 
+	hidden_ideas = {
+		JAP_tora_tora_tora_hidden = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_navy_carrier_bonus
+			
+			modifier = {
+				hidden_modifier = {
+					army_attack_factor = 0.15
+					army_defence_factor = 0.15
+					port_strike = 1
+					carrier_capacity_penalty_reduction = -0.5
+					naval_strike_attack_factor = 0.5
+					naval_strike_targetting_factor = 0.5
+					naval_strike_agility_factor = 0.5
+					air_power_projection_factor = 0.5
+					invasion_preparation = -0.5 
+					amphibious_invasion_defence = 1 
+					extra_marine_supply_grace = 168
+					air_mission_efficiency = 0.5
+					army_fuel_capacity_factor = 1
+					army_fuel_consumption_factor = -0.75
+					navy_fuel_consumption_factor = -0.75
+					air_fuel_consumption_factor = -0.75
+					supply_consumption_factor = -0.4
+					convoy_escort_efficiency = 1
+					convoy_retreat_speed = 3
+					screening_efficiency = 0.5
+				}
+			}
+		}
+	}
+
 	country = {
 	
 	
@@ -1290,28 +1332,6 @@ ideas = {
 			picture = generic_navy_carrier_bonus
 			
 			modifier = {
-				hidden_modifier = {
-					army_attack_factor = 0.15
-					army_defence_factor = 0.15
-					port_strike = 1
-					carrier_capacity_penalty_reduction = -0.5
-					naval_strike_attack_factor = 0.5
-					naval_strike_targetting_factor = 0.5
-					naval_strike_agility_factor = 0.5
-					air_power_projection_factor = 0.5
-					invasion_preparation = -0.5 
-					amphibious_invasion_defence = 1 
-					extra_marine_supply_grace = 168
-					air_mission_efficiency = 0.5
-					army_fuel_capacity_factor = 1
-					army_fuel_consumption_factor = -0.75
-					navy_fuel_consumption_factor = -0.75
-					air_fuel_consumption_factor = -0.75
-					supply_consumption_factor = -0.4
-					convoy_escort_efficiency = 1
-					convoy_retreat_speed = 3
-					screening_efficiency = 0.5
-				}
 				port_strike = 1
 				sortie_efficiency = 0.5
 				naval_strike_attack_factor = 0.12

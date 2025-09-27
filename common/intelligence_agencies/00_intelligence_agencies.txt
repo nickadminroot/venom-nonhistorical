@@ -586,10 +586,17 @@ intelligence_agency = {
 	
 	default = { 
 		tag = AFG 
+		OR = {
+			has_government = neutrality
+			has_government = fascism
+		}
 	} 
 	available = { 
 		original_tag = AFG 
-		has_government = neutrality
+		OR = {
+			has_government = neutrality
+			has_government = fascism
+		}
 	}
 }
 
@@ -600,6 +607,7 @@ intelligence_agency = {
 	
 	default = { 
 		tag = AFG 
+		has_government = communism
 	} 
 	available = { 
 		original_tag = AFG 
@@ -614,6 +622,7 @@ intelligence_agency = {
 	
 	default = { 
 		tag = AFG 
+		has_government = democratic
 	} 
 	available = { 
 		original_tag = AFG 
@@ -632,6 +641,46 @@ intelligence_agency = {
 	available = { 
 		original_tag = PER 
 		NOT = { has_government = communism }
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_RAJ_RAW
+	names = { "Research and Analysis Wing" } 
+	
+	default = { 
+		tag = RAJ 
+	} 
+	available = { 
+		original_tag = RAJ 
+	}
+}
+
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_PAK_ISI
+	names = { "Inter-Services Intelligence" } 
+	
+	default = { 
+		tag = PAK 
+	} 
+	available = { 
+		original_tag = PAK 
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_BAN_NSI
+	names = { "National Security Intelligence" } 
+	
+	default = { 
+		tag = BAN 
+	} 
+	available = { 
+		original_tag = BAN 
 	}
 }
 

@@ -638,6 +638,17 @@
  AFG_hazara_party: "Hazara"
  AFG_national_revolutionary_party_long: "National Revolutionary Party"
  AFG_national_revolutionary_party: "Revolutionary Party"
+ AFG_pdpa_communism_party: "PDPA"
+ AFG_pdpa_communism_party_long: "People's Democratic Party of Afghanistan"
+ AFG_rebel_party: "Islamic Movement"
+ AFG_rebel_party_long: "Traditionalist Islamic Movement"
+ AFG_manghud_party: "Manghud"
+ AFG_manghud_party_long: "Manghud Dynasty"
+ AFG_mughal_party: "House of Babur"
+ AFG_mughal_party_long: "The Imperial House of Babur"
+ AFG_khuddamul_furqan_party: "Khuddamul Furqan"
+ AFG_khuddamul_furqan_party_long: "Khuddamul Furqan"
+
  LUX_democratic_party: "PD"
  LUX_democratic_party_long: "Rietspartei"
  LUX_communism_party: "KPL"
@@ -1398,6 +1409,13 @@
  PER_upp_long: "United Progressive Parties"
  PER_ultra_nationalists: "Nationalists"
  PER_ultra_nationalists_long: "Ultra-Nationalist Movement"
+
+ PER_islamic_council: "Islamic Council"
+ PER_islamic_council_long: "Islamic Council"
+
+ PER_qajar_dynasty_party: "Qajar Dynasty"
+ PER_qajar_dynasty_party_long: "Qajar Dynasty"
+
  RAJ_eic_party_long: "East India Company JSC"
  RAJ_eic_party: "EIC"
  ASY_communism_party: "ASP"

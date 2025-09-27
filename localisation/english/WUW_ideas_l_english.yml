@@ -320,7 +320,7 @@ JAP_public_awareness_of_war_ns: "Public Awareness of the War in China"
  GER_reichswerke_communism: "Volkswerke"
 
  #NATIONAL SPIRITS
- GER_mefo_bills_modifier: "$GER_mefo_bills$"
+ GER_mefo_bills_modifier: "$GER_mefo_bills$" 
  GER_mefo_bills_modifier_desc: "$GER_mefo_bills_desc$" #Reusing the old loc for this
  GER_economy_of_conquest_modifier: "Economy of Conquest"
  GER_economy_of_conquest_modifier_desc: "Despite the unfair stipulations of the Versailles Treaty, we rise from the ashes with unwavering determination. Through tireless rearmament, we have committed to forge an unrivaled military industry to fuel our ascent to glory. This will strain our economy, but with victory comes the opportunity to reap the spoils of conquest, channeling the wealth of other nations to strengthen our armed forces. Woe to the vanquished!"
@@ -549,7 +549,7 @@ JAP_public_awareness_of_war_ns: "Public Awareness of the War in China"
  GER_CG_penalties_may_apply: "If §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! reaches §Y100.0%§! additional §Rpenalties§! will be applied."
  GER_CG_penalties_warning: "If §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! reaches §Y100.0%§! the following will happen:\n$MODIFIER_CONSUMER_GOODS_EXPECTED_VALUE$: §Y[?GER.GER_expected_consumer_goods_penalty|0.1%]§!\n$MODIFIER_INDUSTRIAL_CAPACITY_FACTOR$: §R-[?GER.GER_factory_output_penalty|%]§!\n$MODIFIER_INDUSTRIAL_CAPACITY_DOCKYARD_FACTOR$: §R-[?GER.GER_dockyard_output_penalty|%]§!"
  GER_reduce_increasing_consumer_goods_tt: "§GReduce§! the increasing §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! each month by §Y[?GER_change_monthly_CG_price_controls|%1]§!"
- GER_french_war_reparations_tt: "Receive Occupation Cost Payments from §YVichy France§!"
+ GER_french_war_reparations_tt: "Receive Occupation Cost Payments"
  GER_increase_increasing_consumer_goods_tt: "Increase §Y$MODIFIER_CONSUMER_GOODS_FACTOR$§! additionally each month by §Y+0.5%§!"
  GER_modify_mefo_bills_modifier_tt: "Modify §Y$GER_mefo_bills$§! by:"
  GER_modify_economy_of_conquest_modifier_tt: "Modify §Y$GER_economy_of_conquest_modifier$§! by:"

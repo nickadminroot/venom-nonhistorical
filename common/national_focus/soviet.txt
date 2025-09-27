@@ -2433,8 +2433,11 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -2459,8 +2462,11 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -2488,8 +2494,11 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -2575,8 +2584,11 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_increase_aircraft_production }
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -2601,8 +2613,11 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -2627,8 +2642,11 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_long_range_aircraft }
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -2661,8 +2679,11 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_ground_support }
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -2694,8 +2715,11 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -6454,8 +6478,11 @@ focus_tree = {
 		mutually_exclusive = { focus = SOV_restore_cossack_units }
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -6478,8 +6505,11 @@ focus_tree = {
 		cost = 5
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -6544,8 +6574,11 @@ focus_tree = {
 		cost = 1
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 		}
 		
@@ -7027,8 +7060,11 @@ focus_tree = {
 		}
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 			surrender_progress < 0.05
 		}
@@ -7075,8 +7111,11 @@ focus_tree = {
 		}
 
 		available = {
-			any_enemy_country = {
-				SOV_is_major_not_original_sov = yes
+			OR = {
+				any_enemy_country = {
+					SOV_is_major_not_original_sov = yes
+				}
+				date > 1941.9.1
 			}
 			surrender_progress < 0.05
 		}

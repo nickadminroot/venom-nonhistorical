@@ -1017,7 +1017,7 @@ country_event = {
 # 		USA_congress_remove_state = yes 
 # 	}
 		
-}
+# }
 
 #hidden trigger event that shows the civil war is over
 # country_event = {

@@ -1217,6 +1217,7 @@ country_event = {
 				set_autonomy = {
 				target = ROOT
 				autonomy_state = autonomy_free
+				}
 			}
 		}
 		if = {
